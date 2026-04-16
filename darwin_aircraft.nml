@@ -1,0 +1,99 @@
+/**
+ * darwin_aircraft.nml
+ *
+ * NewGRF defining the Darwin 200, 300 and 400 aircraft.
+ * Properties are based on the OpenTTD default values (engines.h / aircraft_vehicle_info).
+ * Default base-set graphics are reused — no custom sprite sheet is required.
+ * Edit properties below and run `make` to compile.
+ *
+ * Introduction dates (days since 1920-01-01 → calendar date):
+ *   Darwin 200: day 16952 → 1966-05-05
+ *   Darwin 300: day 17227 → 1967-02-05
+ *   Darwin 400: day 22371 → 1981-03-11
+ *
+ * Aircraft speed: original AVI macro uses (speed_in_8mph_units * 128) / 10 internally.
+ *   74 × 8 mph = 592 mph ≈ 953 km/h  →  used as speed in NML (km/h float).
+ */
+
+grf {
+    grfid: "CA\01\01";  /* Replace with your own unique 4-byte GRFID */
+    name: string(STR_GRF_NAME);
+    desc: string(STR_GRF_DESC);
+    version: 1;
+    min_compatible_version: 1;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Darwin 200  (default vehicle ID 227, image_index 4)               */
+/*  Original: medium twin-jet, seats 110 passengers + 15 mail bags    */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_darwin200, 227) {
+    property {
+        name:                   string(STR_DARWIN_200_NAME);
+        climates_available:     ALL_CLIMATES & ~bitmask(CLIMATE_TOYLAND);
+        introduction_date:      date(1966, 5, 5);
+        model_life:             22;   /* years */
+        vehicle_life:           25;   /* years */
+        reliability_decay:      20;
+        cost_factor:            17;
+        running_cost_factor:    155;
+        aircraft_type:          AIRCRAFT_TYPE_LARGE;
+        acceleration:           40;
+        speed:                  953 km/h;
+        passenger_capacity:     110;
+        mail_capacity:          15;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Darwin 300  (default vehicle ID 228, image_index 7)               */
+/*  Original: wide-body jet, seats 300 passengers + 50 mail bags      */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_darwin300, 228) {
+    property {
+        name:                   string(STR_DARWIN_300_NAME);
+        climates_available:     ALL_CLIMATES & ~bitmask(CLIMATE_TOYLAND);
+        introduction_date:      date(1967, 2, 5);
+        model_life:             25;   /* years */
+        vehicle_life:           30;   /* years */
+        reliability_decay:      20;
+        cost_factor:            30;
+        running_cost_factor:    253;
+        aircraft_type:          AIRCRAFT_TYPE_LARGE;
+        acceleration:           40;
+        speed:                  953 km/h;
+        passenger_capacity:     300;
+        mail_capacity:          50;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  Darwin 400  (default vehicle ID 229, image_index 4)               */
+/*  Original: large twin-jet, seats 200 passengers + 25 mail bags     */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_darwin400, 229) {
+    property {
+        name:                   string(STR_DARWIN_400_NAME);
+        climates_available:     ALL_CLIMATES & ~bitmask(CLIMATE_TOYLAND);
+        introduction_date:      date(1981, 3, 11);
+        model_life:             25;   /* years */
+        vehicle_life:           35;   /* years */
+        reliability_decay:      20;
+        cost_factor:            18;
+        running_cost_factor:    210;
+        aircraft_type:          AIRCRAFT_TYPE_LARGE;
+        acceleration:           40;
+        speed:                  953 km/h;
+        passenger_capacity:     2000;
+        mail_capacity:          250;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}

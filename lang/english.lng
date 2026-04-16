@@ -1,0 +1,9 @@
+##grflangid 0x01
+# English language file for darwin_aircraft NewGRF
+
+STR_GRF_NAME                        :Darwin Aircraft Set
+STR_GRF_DESC                        :Adds the Darwin 200, 300 and 400 aircraft based on the OpenTTD default vehicle properties. Graphics use the original base-set sprites.
+
+STR_DARWIN_200_NAME                  :Darwin 2000
+STR_DARWIN_300_NAME                  :Darwin 3000
+STR_DARWIN_400_NAME                  :Darwin 4000
