@@ -1,0 +1,2862 @@
+/**
+ * cars.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #637  Benz Patent-Motorwagen (1886)                               */
+/*  Three-wheeler (first production automobile)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_benz_patent_motorwagen, 1636) {
+    property {
+        name:                           string(STR_BENZ_PATENT_MOTORWAGEN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1886, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            13;
+        speed:                          16 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #638  Peugeot Type 3 (1891)                                       */
+/*  Vis-à-vis (early French automobile)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_peugeot_type_3, 1637) {
+    property {
+        name:                           string(STR_PEUGEOT_TYPE_3_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1891, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            14;
+        speed:                          18 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #639  Duryea Motor Wagon (1893)                                   */
+/*  Buggy (first American gasoline car)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_duryea_motor_wagon, 1638) {
+    property {
+        name:                           string(STR_DURYEA_MOTOR_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1893, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            13;
+        speed:                          12 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #640  Benz Velo (1894)                                            */
+/*  Compact (first affordable production car)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_benz_velo, 1639) {
+    property {
+        name:                           string(STR_BENZ_VELO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1894, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            14;
+        speed:                          20 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #641  Daimler Grafton Phaeton (1897)                              */
+/*  Touring (early luxury car)                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daimler_grafton_phaeton, 1640) {
+    property {
+        name:                           string(STR_DAIMLER_GRAFTON_PHAETON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1897, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            15;
+        speed:                          22 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #642  De Dion-Bouton Vis-à-Vis (1898)                             */
+/*  Vis-à-vis (popular early French car)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_de_dion_bouton_vis_vis, 1641) {
+    property {
+        name:                           string(STR_DE_DION_BOUTON_VIS_VIS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1898, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            16;
+        speed:                          30 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #643  Fiat 4 HP (1899)                                            */
+/*  Compact (first Fiat)                                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_fiat_4_hp, 1642) {
+    property {
+        name:                           string(STR_FIAT_4_HP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1899, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            17;
+        speed:                          35 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #644  Mercedes 35 HP (1901)                                       */
+/*  Touring (first "modern" car, first Mercedes)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_35_hp, 1643) {
+    property {
+        name:                           string(STR_MERCEDES_35_HP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1901, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            23;
+        speed:                          65 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #645  Oldsmobile Curved Dash (1901)                               */
+/*  Runabout (first mass-produced American car)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_oldsmobile_curved_dash, 1644) {
+    property {
+        name:                           string(STR_OLDSMOBILE_CURVED_DASH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1901, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            17;
+        speed:                          32 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #646  Ford Model A (1903) (1903)                                  */
+/*  Runabout                                                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_model_a, 1645) {
+    property {
+        name:                           string(STR_FORD_MODEL_A_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1903, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            19;
+        speed:                          45 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #647  Rolls-Royce 10 HP (1904)                                    */
+/*  Touring (first Rolls-Royce)                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_rolls_royce_10_hp, 1646) {
+    property {
+        name:                           string(STR_ROLLS_ROYCE_10_HP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1904, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            21;
+        speed:                          55 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #648  Rolls-Royce Silver Ghost (1906)                             */
+/*  Touring (luxury, "Best Car in the World")                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_rolls_royce_silver_ghost, 1647) {
+    property {
+        name:                           string(STR_ROLLS_ROYCE_SILVER_GHOST_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1906, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            27;
+        speed:                          80 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #649  Ford Model T (1908)                                         */
+/*  Touring / sedan (revolutionary mass-production)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_model_t, 1648) {
+    property {
+        name:                           string(STR_FORD_MODEL_T_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1908, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            24;
+        speed:                          65 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #650  Bugatti Type 13 (1910)                                      */
+/*  Sports (early Bugatti racing heritage)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bugatti_type_13, 1649) {
+    property {
+        name:                           string(STR_BUGATTI_TYPE_13_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1910, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            29;
+        speed:                          95 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #651  Cadillac Model 30 (1912)                                    */
+/*  Touring (first electric starter)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_cadillac_model_30, 1650) {
+    property {
+        name:                           string(STR_CADILLAC_MODEL_30_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1912, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            24;
+        speed:                          65 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #652  Citroën Type A (1919)                                       */
+/*  Sedan (first mass-produced European car)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_citron_type_a, 1651) {
+    property {
+        name:                           string(STR_CITRON_TYPE_A_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1919, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            23;
+        speed:                          65 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #653  Austin Seven (1922)                                         */
+/*  Compact (brought motoring to the British masses)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_austin_seven, 1652) {
+    property {
+        name:                           string(STR_AUSTIN_SEVEN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1922, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            23;
+        speed:                          65 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #654  Chrysler Six (B-70) (1924)                                  */
+/*  Sedan (first Chrysler, high-compression engine)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_chrysler_six, 1653) {
+    property {
+        name:                           string(STR_CHRYSLER_SIX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1924, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            28;
+        speed:                          90 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #655  Ford Model T (improved) (1925)                              */
+/*  Sedan (15 million produced by 1927)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_model_t, 1654) {
+    property {
+        name:                           string(STR_FORD_MODEL_T_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1925, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            25;
+        speed:                          72 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #656  Ford Model A (1927) (1927)                                  */
+/*  Sedan (Model T successor)                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_model_a, 1655) {
+    property {
+        name:                           string(STR_FORD_MODEL_A_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1927, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            28;
+        speed:                          90 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #657  Volvo ÖV 4 "Jakob" (1927)                                   */
+/*  Touring (first Volvo)                                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_v_4_jakob, 1656) {
+    property {
+        name:                           string(STR_VOLVO_V_4_JAKOB_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1927, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            24;
+        speed:                          70 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #658  Mercedes-Benz SSK (1928)                                    */
+/*  Sports / roadster (supercharged racing)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_ssk, 1657) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_SSK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1928, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    8;
+        running_cost_factor:            42;
+        speed:                          160 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #659  Cadillac V-16 (1930)                                        */
+/*  Luxury sedan (height of American pre-war luxury)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_cadillac_v_16, 1658) {
+    property {
+        name:                           string(STR_CADILLAC_V_16_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    7;
+        running_cost_factor:            35;
+        speed:                          120 km/h;
+        cargo_capacity:                 7;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #660  Ford Model B / V-8 (1932)                                   */
+/*  Sedan (first affordable V-8)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_model_b_v_8, 1659) {
+    property {
+        name:                           string(STR_FORD_MODEL_B_V_8_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1932, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            30;
+        speed:                          95 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #661  Citroën Traction Avant (1934)                               */
+/*  Sedan (first mass-produced front-wheel-drive)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_citron_traction_avant, 1660) {
+    property {
+        name:                           string(STR_CITRON_TRACTION_AVANT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1934, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            30;
+        speed:                          100 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #662  Chrysler Airflow (1934)                                     */
+/*  Sedan (first streamlined car)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_chrysler_airflow, 1661) {
+    property {
+        name:                           string(STR_CHRYSLER_AIRFLOW_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1934, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            34;
+        speed:                          120 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #663  Toyota Model AA (1935)                                      */
+/*  Sedan (first Toyota passenger car)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_toyota_model_aa, 1662) {
+    property {
+        name:                           string(STR_TOYOTA_MODEL_AA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            27;
+        speed:                          80 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #664  Fiat 500 "Topolino" (1936)                                  */
+/*  City car (small Italian "people's car")                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_fiat_500_topolino, 1663) {
+    property {
+        name:                           string(STR_FIAT_500_TOPOLINO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1936, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            27;
+        speed:                          85 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #665  BMW 328 (1937)                                              */
+/*  Sports roadster (motorsport legend)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bmw_328, 1664) {
+    property {
+        name:                           string(STR_BMW_328_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1937, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    8;
+        running_cost_factor:            40;
+        speed:                          150 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #666  Volkswagen Beetle (KdF-Wagen) (1938)                        */
+/*  Compact (people's car, production started post-war)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volkswagen_beetle, 1665) {
+    property {
+        name:                           string(STR_VOLKSWAGEN_BEETLE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1938, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            30;
+        speed:                          100 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #667  JEEP CJ-2A (1945)                                           */
+/*  Off-road (civilian Jeep, from WW1 legend)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_jeep_cj_2a, 1666) {
+    property {
+        name:                           string(STR_JEEP_CJ_2A_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1945, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            28;
+        speed:                          90 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #668  GAZ-M20 Pobeda (1946)                                       */
+/*  Sedan (Soviet post-war standard)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_gaz_m20_pobeda, 1667) {
+    property {
+        name:                           string(STR_GAZ_M20_POBEDA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1946, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            32;
+        speed:                          105 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #669  Citroën 2CV (1948)                                          */
+/*  Economy (French people's car)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_citron_2cv, 1668) {
+    property {
+        name:                           string(STR_CITRON_2CV_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1948, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            23;
+        speed:                          65 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #670  Land Rover Series I (1948)                                  */
+/*  Off-road / utility (British 4x4 icon)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_land_rover_series_i, 1669) {
+    property {
+        name:                           string(STR_LAND_ROVER_SERIES_I_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1948, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            26;
+        speed:                          80 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #671  Morris Minor (1948)                                         */
+/*  Compact (British best-seller)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_morris_minor, 1670) {
+    property {
+        name:                           string(STR_MORRIS_MINOR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1948, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            28;
+        speed:                          90 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #672  Tucker 48 (1948)                                            */
+/*  Sedan (innovative, only 51 produced)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_tucker_48, 1671) {
+    property {
+        name:                           string(STR_TUCKER_48_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1948, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    7;
+        running_cost_factor:            35;
+        speed:                          120 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #673  Volkswagen Beetle (mass production) (1949)                  */
+/*  Compact (became world's best-selling car)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volkswagen_beetle, 1672) {
+    property {
+        name:                           string(STR_VOLKSWAGEN_BEETLE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1949, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            31;
+        speed:                          105 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #674  Chevrolet Bel Air (1st gen) (1950)                          */
+/*  Full-size sedan (American post-war icon)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_chevrolet_bel_air, 1673) {
+    property {
+        name:                           string(STR_CHEVROLET_BEL_AIR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    8;
+        running_cost_factor:            35;
+        speed:                          120 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #675  Chevrolet Corvette (C1) (1953)                              */
+/*  Sports (first American sports car)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_chevrolet_corvette, 1674) {
+    property {
+        name:                           string(STR_CHEVROLET_CORVETTE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1953, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    10;
+        running_cost_factor:            42;
+        speed:                          160 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #676  Mercedes-Benz 300SL "Gullwing" (1954)                       */
+/*  Grand tourer (iconic gullwing doors)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_300sl_gullwing, 1675) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_300SL_GULLWING_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1954, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    14;
+        running_cost_factor:            54;
+        speed:                          220 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #677  Citroën DS (1955)                                           */
+/*  Sedan (revolutionary hydropneumatic suspension)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_citron_ds, 1676) {
+    property {
+        name:                           string(STR_CITRON_DS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    10;
+        running_cost_factor:            40;
+        speed:                          150 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #678  Fiat 500 (Nuova) (1957)                                     */
+/*  City car (Italian icon)                                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_fiat_500, 1677) {
+    property {
+        name:                           string(STR_FIAT_500_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1957, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            28;
+        speed:                          90 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #679  Trabant P50 (1957)                                          */
+/*  Compact (East German plastic-body car)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_trabant_p50, 1678) {
+    property {
+        name:                           string(STR_TRABANT_P50_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1957, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            28;
+        speed:                          90 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #680  BMC Mini (1959)                                             */
+/*  Compact (front-wheel-drive revolution)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bmc_mini, 1679) {
+    property {
+        name:                           string(STR_BMC_MINI_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1959, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    7;
+        running_cost_factor:            32;
+        speed:                          110 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #681  Chevrolet Corvair (1960)                                    */
+/*  Compact (rear-engine American)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_chevrolet_corvair, 1680) {
+    property {
+        name:                           string(STR_CHEVROLET_CORVAIR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    8;
+        running_cost_factor:            35;
+        speed:                          120 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #682  Jaguar E-Type (1961)                                        */
+/*  Sports (called "most beautiful car ever")                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_jaguar_e_type, 1681) {
+    property {
+        name:                           string(STR_JAGUAR_E_TYPE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1961, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    13;
+        running_cost_factor:            50;
+        speed:                          200 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #683  Lincoln Continental (4th gen) (1961)                        */
+/*  Luxury sedan (iconic American luxury)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_lincoln_continental, 1682) {
+    property {
+        name:                           string(STR_LINCOLN_CONTINENTAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1961, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    9;
+        running_cost_factor:            37;
+        speed:                          130 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #684  Porsche 911 (1963)                                          */
+/*  Sports (rear-engine, Porsche icon)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_porsche_911, 1683) {
+    property {
+        name:                           string(STR_PORSCHE_911_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1963, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    13;
+        running_cost_factor:            50;
+        speed:                          200 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #685  Ford Mustang (1964)                                         */
+/*  Muscle car / pony car (created a new class)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_mustang, 1684) {
+    property {
+        name:                           string(STR_FORD_MUSTANG_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1964, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    11;
+        running_cost_factor:            44;
+        speed:                          170 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #686  Renault 16 (1965)                                           */
+/*  Hatchback (first mass-market hatchback)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_renault_16, 1685) {
+    property {
+        name:                           string(STR_RENAULT_16_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    9;
+        running_cost_factor:            38;
+        speed:                          140 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #687  Toyota Corolla (1966)                                       */
+/*  Compact sedan (becomes best-selling car ever)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_toyota_corolla, 1686) {
+    property {
+        name:                           string(STR_TOYOTA_COROLLA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1966, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    9;
+        running_cost_factor:            36;
+        speed:                          130 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #688  Jensen FF (1966)                                            */
+/*  Grand tourer (first production AWD + ABS car)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_jensen_ff, 1687) {
+    property {
+        name:                           string(STR_JENSEN_FF_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1966, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    14;
+        running_cost_factor:            52;
+        speed:                          210 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #689  NSU Ro 80 (1967)                                            */
+/*  Sedan (first Wankel rotary engine in production car)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_nsu_ro_80, 1688) {
+    property {
+        name:                           string(STR_NSU_RO_80_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1967, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    11;
+        running_cost_factor:            42;
+        speed:                          160 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #690  Range Rover (1st gen) (1970)                                */
+/*  Luxury SUV (created the luxury 4x4 segment)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_range_rover, 1689) {
+    property {
+        name:                           string(STR_RANGE_ROVER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1970, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    12;
+        running_cost_factor:            40;
+        speed:                          150 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #691  Datsun 240Z (1970)                                          */
+/*  Sports (affordable Japanese sports car)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_datsun_240z, 1690) {
+    property {
+        name:                           string(STR_DATSUN_240Z_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1970, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    15;
+        running_cost_factor:            49;
+        speed:                          195 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #692  Renault 5 (1972)                                            */
+/*  Supermini (stylish French hatchback)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_renault_5, 1691) {
+    property {
+        name:                           string(STR_RENAULT_5_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1972, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            36;
+        speed:                          130 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #693  Volkswagen Golf Mk1 (1974)                                  */
+/*  Hatchback (replaced the Beetle, huge success)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volkswagen_golf_mk1, 1692) {
+    property {
+        name:                           string(STR_VOLKSWAGEN_GOLF_MK1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1974, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    11;
+        running_cost_factor:            38;
+        speed:                          140 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #694  BMW 3 Series (E21) (1975)                                   */
+/*  Compact sedan (became segment-defining)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bmw_3_series, 1693) {
+    property {
+        name:                           string(STR_BMW_3_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    14;
+        running_cost_factor:            44;
+        speed:                          170 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #695  Honda Accord (1st gen) (1976)                               */
+/*  Sedan (Japanese quality benchmark)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_honda_accord, 1694) {
+    property {
+        name:                           string(STR_HONDA_ACCORD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1976, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    11;
+        running_cost_factor:            38;
+        speed:                          140 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #696  Mercedes-Benz W123 (1977)                                   */
+/*  Sedan (legendary German reliability)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_w123, 1695) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_W123_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1977, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    13;
+        running_cost_factor:            42;
+        speed:                          160 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #697  Chrysler/Dodge Omni/Horizon (1979)                          */
+/*  Hatchback (first American front-wheel-drive compact)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_chrysler_dodge_omni_horizon, 1696) {
+    property {
+        name:                           string(STR_CHRYSLER_DODGE_OMNI_HORIZON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1979, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            36;
+        speed:                          130 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #698  DeLorean DMC-12 (1981)                                      */
+/*  Sports (stainless steel, gullwing, Back to the Future)             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_delorean_dmc_12, 1697) {
+    property {
+        name:                           string(STR_DELOREAN_DMC_12_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1981, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    13;
+        running_cost_factor:            44;
+        speed:                          170 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #699  Audi 100 (C3) (1982)                                        */
+/*  Sedan (pioneering aerodynamics, Cd 0.30)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_audi_100, 1698) {
+    property {
+        name:                           string(STR_AUDI_100_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1982, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    15;
+        running_cost_factor:            48;
+        speed:                          185 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #700  Chrysler/Dodge Minivan (Caravan) (1983)                     */
+/*  Minivan (created the modern minivan segment)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_chrysler_dodge_minivan, 1699) {
+    property {
+        name:                           string(STR_CHRYSLER_DODGE_MINIVAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1983, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    11;
+        running_cost_factor:            37;
+        speed:                          130 km/h;
+        cargo_capacity:                 7;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #701  Toyota MR2 (AW11) (1984)                                    */
+/*  Sports (mid-engine, affordable)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_toyota_mr2, 1700) {
+    property {
+        name:                           string(STR_TOYOTA_MR2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1984, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    15;
+        running_cost_factor:            49;
+        speed:                          195 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #702  Ford Taurus (1st gen) (1986)                                */
+/*  Sedan (aerodynamic American mid-size)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_taurus, 1701) {
+    property {
+        name:                           string(STR_FORD_TAURUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1986, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    13;
+        running_cost_factor:            42;
+        speed:                          160 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #703  Mazda MX-5 (NA) (1989)                                      */
+/*  Roadster (revived affordable sports car, best-selling roadster)    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mazda_mx_5, 1702) {
+    property {
+        name:                           string(STR_MAZDA_MX_5_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1989, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    14;
+        running_cost_factor:            46;
+        speed:                          180 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #704  Honda NSX (1990)                                            */
+/*  Supercar (first aluminium-body, everyday supercar)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_honda_nsx, 1703) {
+    property {
+        name:                           string(STR_HONDA_NSX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1990, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    19;
+        running_cost_factor:            61;
+        speed:                          255 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #705  Volvo 850 (1990)                                            */
+/*  Sedan/estate (side airbags first, BTCC Touring)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_850, 1704) {
+    property {
+        name:                           string(STR_VOLVO_850_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1990, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    15;
+        running_cost_factor:            48;
+        speed:                          190 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #706  Jeep Grand Cherokee (ZJ) (1993)                             */
+/*  SUV (first modern luxury SUV)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_jeep_grand_cherokee, 1705) {
+    property {
+        name:                           string(STR_JEEP_GRAND_CHEROKEE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1993, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    14;
+        running_cost_factor:            46;
+        speed:                          175 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #707  McLaren F1 (1993)                                           */
+/*  Supercar (fastest car of its era, centre-seat)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mclaren_f1, 1706) {
+    property {
+        name:                           string(STR_MCLAREN_F1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1993, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    28;
+        running_cost_factor:            84;
+        speed:                          370 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #708  Ford Mondeo (1st gen) (1994)                                */
+/*  Sedan/estate (European "World Car")                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_mondeo, 1707) {
+    property {
+        name:                           string(STR_FORD_MONDEO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1994, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    15;
+        running_cost_factor:            48;
+        speed:                          185 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #709  Toyota RAV4 (1st gen) (1996)                                */
+/*  Compact SUV (created crossover segment)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_toyota_rav4, 1708) {
+    property {
+        name:                           string(STR_TOYOTA_RAV4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1996, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    13;
+        running_cost_factor:            42;
+        speed:                          160 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #710  Toyota Prius (NHW10) (1997)                                 */
+/*  Sedan (first mass-produced hybrid)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_toyota_prius, 1709) {
+    property {
+        name:                           string(STR_TOYOTA_PRIUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1997, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    13;
+        running_cost_factor:            42;
+        speed:                          160 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #711  Smart Fortwo (1998)                                         */
+/*  Microcar (urban mobility)                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_smart_fortwo, 1710) {
+    property {
+        name:                           string(STR_SMART_FORTWO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1998, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            37;
+        speed:                          135 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #712  BMW X5 (E53) (1999)                                         */
+/*  Luxury SUV (Sports Activity Vehicle concept)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bmw_x5, 1711) {
+    property {
+        name:                           string(STR_BMW_X5_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1999, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    16;
+        running_cost_factor:            50;
+        speed:                          200 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #713  Porsche Cayenne (2003)                                      */
+/*  Luxury SUV (saved Porsche financially)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_porsche_cayenne, 1712) {
+    property {
+        name:                           string(STR_PORSCHE_CAYENNE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2003, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    24;
+        running_cost_factor:            58;
+        speed:                          235 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #714  Bugatti Veyron 16.4 (2004)                                  */
+/*  Hypercar (1,001 hp, world speed record)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bugatti_veyron_16_4, 1713) {
+    property {
+        name:                           string(STR_BUGATTI_VEYRON_16_4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2004, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    41;
+        running_cost_factor:            92;
+        speed:                          407 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #715  Tesla Roadster (1st gen) (2008)                             */
+/*  Electric sports (first highway-capable EV, lithium-ion)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_tesla_roadster, 1714) {
+    property {
+        name:                           string(STR_TESLA_ROADSTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2008, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    20;
+        running_cost_factor:            50;
+        speed:                          200 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #716  Nissan Leaf (ZE0) (2010)                                    */
+/*  Electric hatchback (first mass-market BEV)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_nissan_leaf, 1715) {
+    property {
+        name:                           string(STR_NISSAN_LEAF_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    15;
+        running_cost_factor:            38;
+        speed:                          140 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #717  Tesla Model S (2012)                                        */
+/*  Electric sedan (luxury BEV, long range, set the standard)          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_tesla_model_s, 1716) {
+    property {
+        name:                           string(STR_TESLA_MODEL_S_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2012, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    22;
+        running_cost_factor:            52;
+        speed:                          210 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #718  BMW i3 (2013)                                               */
+/*  Electric city car (carbon-fibre, urban EV)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bmw_i3, 1717) {
+    property {
+        name:                           string(STR_BMW_I3_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2013, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    16;
+        running_cost_factor:            40;
+        speed:                          150 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #719  Tesla Model X (2015)                                        */
+/*  Electric SUV (falcon-wing doors)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_tesla_model_x, 1718) {
+    property {
+        name:                           string(STR_TESLA_MODEL_X_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    22;
+        running_cost_factor:            53;
+        speed:                          210 km/h;
+        cargo_capacity:                 7;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #720  Tesla Model 3 (2017)                                        */
+/*  Electric sedan (mass-market BEV, global best-seller)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_tesla_model_3, 1719) {
+    property {
+        name:                           string(STR_TESLA_MODEL_3_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2017, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    24;
+        running_cost_factor:            56;
+        speed:                          225 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #721  Jaguar I-Pace (2018)                                        */
+/*  Electric SUV (premium BEV)                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_jaguar_i_pace, 1720) {
+    property {
+        name:                           string(STR_JAGUAR_I_PACE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2018, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    21;
+        running_cost_factor:            50;
+        speed:                          200 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #722  Porsche Taycan (2019)                                       */
+/*  Electric sports sedan (performance BEV)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_porsche_taycan, 1721) {
+    property {
+        name:                           string(STR_PORSCHE_TAYCAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2019, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    27;
+        running_cost_factor:            62;
+        speed:                          260 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #723  Volkswagen ID.3 (2020)                                      */
+/*  Electric hatchback (VW's EV platform)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volkswagen_id_3, 1722) {
+    property {
+        name:                           string(STR_VOLKSWAGEN_ID_3_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    17;
+        running_cost_factor:            42;
+        speed:                          160 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #724  Toyota Yaris GR (2020)                                      */
+/*  Hot hatch (rally-bred AWD, last ICE era gem)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_toyota_yaris_gr, 1723) {
+    property {
+        name:                           string(STR_TOYOTA_YARIS_GR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    24;
+        running_cost_factor:            56;
+        speed:                          230 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #725  Hyundai Ioniq 5 (2021)                                      */
+/*  Electric crossover (800V platform, fast-charging)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_hyundai_ioniq_5, 1724) {
+    property {
+        name:                           string(STR_HYUNDAI_IONIQ_5_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2021, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    20;
+        running_cost_factor:            48;
+        speed:                          185 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #726  Mercedes-Benz EQS (2021)                                    */
+/*  Electric luxury sedan (S-Class electric)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_eqs, 1725) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_EQS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2021, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    22;
+        running_cost_factor:            52;
+        speed:                          210 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #727  BYD Seal (2022)                                             */
+/*  Electric sedan (Chinese global BEV)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_byd_seal, 1726) {
+    property {
+        name:                           string(STR_BYD_SEAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2022, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    19;
+        running_cost_factor:            46;
+        speed:                          180 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #728  Rimac Nevera (2022)                                         */
+/*  Electric hypercar (1,914 hp, fastest EV)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_rimac_nevera, 1727) {
+    property {
+        name:                           string(STR_RIMAC_NEVERA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2022, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    42;
+        running_cost_factor:            93;
+        speed:                          412 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #729  Kia EV9 (2023)                                              */
+/*  Electric SUV (three-row family BEV)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_kia_ev9, 1728) {
+    property {
+        name:                           string(STR_KIA_EV9_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2023, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    20;
+        running_cost_factor:            48;
+        speed:                          185 km/h;
+        cargo_capacity:                 7;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #730  Volkswagen ID.7 (2023)                                      */
+/*  Electric sedan/estate (long-range BEV)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volkswagen_id_7, 1729) {
+    property {
+        name:                           string(STR_VOLKSWAGEN_ID_7_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2023, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    19;
+        running_cost_factor:            46;
+        speed:                          180 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #731  Renault 5 E-Tech (2024)                                     */
+/*  Electric supermini (retro-styled affordable BEV)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_renault_5_e_tech, 1730) {
+    property {
+        name:                           string(STR_RENAULT_5_E_TECH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2024, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    16;
+        running_cost_factor:            40;
+        speed:                          150 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #732  Tesla Cybertruck (2024)                                     */
+/*  Electric pickup (stainless steel, exoskeleton)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_tesla_cybertruck, 1731) {
+    property {
+        name:                           string(STR_TESLA_CYBERTRUCK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2024, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    19;
+        running_cost_factor:            46;
+        speed:                          180 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #733  Volkswagen ID.2all (2025)                                   */
+/*  Electric supermini (affordable European BEV)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volkswagen_id_2all, 1732) {
+    property {
+        name:                           string(STR_VOLKSWAGEN_ID_2ALL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    17;
+        running_cost_factor:            42;
+        speed:                          160 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #766  Velaris V-5 Comet (2030)                                    */
+/*  Electric sedan (1,000 km solid-state battery)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_velaris_v_5_comet, 1765) {
+    property {
+        name:                           string(STR_VELARIS_V_5_COMET_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    26;
+        running_cost_factor:            50;
+        speed:                          200 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #767  Pinnacle PN-2 Zipster (2030)                                */
+/*  Electric microcar (urban autonomous pod)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_pinnacle_pn_2_zipster, 1766) {
+    property {
+        name:                           string(STR_PINNACLE_PN_2_ZIPSTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    19;
+        running_cost_factor:            40;
+        speed:                          150 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #768  Aether AE-7 Voyager (2031)                                  */
+/*  Electric SUV (family autonomous, 1,200 km range)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aether_ae_7_voyager, 1767) {
+    property {
+        name:                           string(STR_AETHER_AE_7_VOYAGER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2031, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    26;
+        running_cost_factor:            49;
+        speed:                          190 km/h;
+        cargo_capacity:                 7;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #769  Stratos S-2 Bolt (2032)                                     */
+/*  Electric hypercar (2,500 hp, active aero)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_stratos_s_2_bolt, 1768) {
+    property {
+        name:                           string(STR_STRATOS_S_2_BOLT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2032, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    44;
+        running_cost_factor:            80;
+        speed:                          350 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #770  Meridian M-5 Glide (2033)                                   */
+/*  Electric sedan (solar-supplemented roof, quiet luxury)             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_meridian_m_5_glide, 1769) {
+    property {
+        name:                           string(STR_MERIDIAN_M_5_GLIDE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2033, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    24;
+        running_cost_factor:            46;
+        speed:                          180 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #771  Cascadia C-4 CrossTrail (2034)                              */
+/*  Electric pickup (rugged, all-terrain autonomous)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_cascadia_c_4_crosstrail, 1770) {
+    property {
+        name:                           string(STR_CASCADIA_C_4_CROSSTRAIL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2034, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    21;
+        running_cost_factor:            42;
+        speed:                          160 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #772  Zenith Z-6 Harmony (2035)                                   */
+/*  Electric MPV (lounge seating, Level 5)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_zenith_z_6_harmony, 1771) {
+    property {
+        name:                           string(STR_ZENITH_Z_6_HARMONY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2035, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    26;
+        running_cost_factor:            51;
+        speed:                          200 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #773  Volterra V-4 Sprint (2036)                                  */
+/*  Electric sports sedan (next-gen solid-state)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volterra_v_4_sprint, 1772) {
+    property {
+        name:                           string(STR_VOLTERRA_V_4_SPRINT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2036, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    38;
+        running_cost_factor:            70;
+        speed:                          300 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #774  Apex A-5 Nomad (2037)                                       */
+/*  Electric crossover (adventure, 1,500 km range)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_apex_a_5_nomad, 1773) {
+    property {
+        name:                           string(STR_APEX_A_5_NOMAD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2037, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    22;
+        running_cost_factor:            44;
+        speed:                          170 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #775  Halcyon H-2 Phantom (2038)                                  */
+/*  Electric hypercar (3,000 hp, graphene battery)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_halcyon_h_2_phantom, 1774) {
+    property {
+        name:                           string(STR_HALCYON_H_2_PHANTOM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2038, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    50;
+        running_cost_factor:            90;
+        speed:                          400 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #776  Aurora AU-4 Cocoon (2039)                                   */
+/*  Autonomous pod (no steering wheel, lounge interior)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aurora_au_4_cocoon, 1775) {
+    property {
+        name:                           string(STR_AURORA_AU_4_COCOON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2039, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    24;
+        running_cost_factor:            46;
+        speed:                          180 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #777  Nexus NX-6 FamilyMax (2040)                                 */
+/*  Electric minivan (Level 5, modular interior)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_nexus_nx_6_familymax, 1776) {
+    property {
+        name:                           string(STR_NEXUS_NX_6_FAMILYMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    26;
+        running_cost_factor:            51;
+        speed:                          200 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #778  Titan T-5 Pathfinder (2041)                                 */
+/*  Electric pickup/SUV (hydrogen range extender)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_titan_t_5_pathfinder, 1777) {
+    property {
+        name:                           string(STR_TITAN_T_5_PATHFINDER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2041, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    23;
+        running_cost_factor:            46;
+        speed:                          175 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #779  Velaris V-2 Apex (2042)                                     */
+/*  Electric hypercar (4,000 hp, quantum battery)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_velaris_v_2_apex, 1778) {
+    property {
+        name:                           string(STR_VELARIS_V_2_APEX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2042, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    53;
+        running_cost_factor:            94;
+        speed:                          420 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #780  Pinnacle PN-8 GrandTour (2043)                              */
+/*  Electric luxury saloon (autonomous, air suspension)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_pinnacle_pn_8_grandtour, 1779) {
+    property {
+        name:                           string(STR_PINNACLE_PN_8_GRANDTOUR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2043, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    30;
+        running_cost_factor:            55;
+        speed:                          220 km/h;
+        cargo_capacity:                 8;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #781  Stratos S-4 SkyRunner (2045)                                */
+/*  Electric grand tourer (ultra-aero, 2,000 km range)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_stratos_s_4_skyrunner, 1780) {
+    property {
+        name:                           string(STR_STRATOS_S_4_SKYRUNNER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2045, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    45;
+        running_cost_factor:            80;
+        speed:                          350 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #782  Meridian M-1 SoloPod (2046)                                 */
+/*  Autonomous single-seat commuter pod                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_meridian_m_1_solopod, 1781) {
+    property {
+        name:                           string(STR_MERIDIAN_M_1_SOLOPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2046, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    20;
+        running_cost_factor:            42;
+        speed:                          160 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #783  Cascadia C-6 Horizon (2048)                                 */
+/*  Electric estate (wireless charging at speed)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_cascadia_c_6_horizon, 1782) {
+    property {
+        name:                           string(STR_CASCADIA_C_6_HORIZON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2048, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    33;
+        running_cost_factor:            61;
+        speed:                          250 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #784  Halcyon H-6 Serenity (2050)                                 */
+/*  Autonomous luxury sedan (Level 6, zero-intervention)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_halcyon_h_6_serenity, 1783) {
+    property {
+        name:                           string(STR_HALCYON_H_6_SERENITY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    33;
+        running_cost_factor:            61;
+        speed:                          250 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #785  Nexus NX-2 FlashBolt (2052)                                 */
+/*  Electric hypercar (5,000 hp, closed-circuit capable)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_nexus_nx_2_flashbolt, 1784) {
+    property {
+        name:                           string(STR_NEXUS_NX_2_FLASHBOLT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2052, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    63;
+        running_cost_factor:            110;
+        speed:                          500 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #786  Aurora AU-8 CruiseLiner (2055)                              */
+/*  Autonomous luxury MPV (sleeper configuration)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aurora_au_8_cruiseliner, 1785) {
+    property {
+        name:                           string(STR_AURORA_AU_8_CRUISELINER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2055, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    37;
+        running_cost_factor:            67;
+        speed:                          280 km/h;
+        cargo_capacity:                 8;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #787  Quantum QT-4 Teleport (2060)                                */
+/*  Autonomous GT (dedicated high-speed lanes)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_quantum_qt_4_teleport, 1786) {
+    property {
+        name:                           string(STR_QUANTUM_QT_4_TELEPORT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    51;
+        running_cost_factor:            90;
+        speed:                          400 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}

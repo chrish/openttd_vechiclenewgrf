@@ -1,0 +1,1437 @@
+/**
+ * diesel.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1206  Diesel-mechanical railcar (1912)                           */
+/*  Diesel railcar (first diesel rail vehicle)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_diesel_mechanical_railcar, 2205) {
+    property {
+        name:                           string(STR_DIESEL_MECHANICAL_RAILCAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1912, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            17;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          60 km/h;
+        power:                          95 hp;
+        weight:                         44 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1207  ALCO/GE/Ingersoll-Rand #1000 (1925)                        */
+/*  Bo-Bo diesel-electric (first commercially successful)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alco_ge_ingersoll_rand_1000, 2206) {
+    property {
+        name:                           string(STR_ALCO_GE_INGERSOLL_RAND_1000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1925, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            22;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          48 km/h;
+        power:                          300 hp;
+        weight:                         52 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1208  Canadian National 9000 (1929)                              */
+/*  2-Do-1 diesel-electric (largest pre-war diesel)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_canadian_national_9000, 2207) {
+    property {
+        name:                           string(STR_CANADIAN_NATIONAL_9000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1929, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    27;
+        running_cost_factor:            82;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          2660 hp;
+        weight:                         146 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1209  Flying Hamburger (SVT 877) (1932)                          */
+/*  DMU (Berlin–Hamburg express, diesel-electric)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_flying_hamburger, 2208) {
+    property {
+        name:                           string(STR_FLYING_HAMBURGER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1932, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    8;
+        running_cost_factor:            36;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          820 hp;
+        weight:                         73 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1210  Burlington Zephyr (Pioneer) (1934)                         */
+/*  Streamlined DMU (stainless steel, record Denver run)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_burlington_zephyr, 2209) {
+    property {
+        name:                           string(STR_BURLINGTON_ZEPHYR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1934, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            30;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          145 km/h;
+        power:                          600 hp;
+        weight:                         64 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1211  GWR AEC Railcar (1935)                                     */
+/*  Diesel railcar (British streamlined)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gwr_aec_railcar, 2210) {
+    property {
+        name:                           string(STR_GWR_AEC_RAILCAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            18;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          80 km/h;
+        power:                          121 hp;
+        weight:                         45 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1212  EMC E1 A-unit (1937)                                       */
+/*  A1A-A1A diesel-electric (American streamliner power)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emc_e1_a_unit, 2211) {
+    property {
+        name:                           string(STR_EMC_E1_A_UNIT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1937, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    18;
+        running_cost_factor:            60;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          137 km/h;
+        power:                          1800 hp;
+        weight:                         112 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1213  EMD FT (1939)                                              */
+/*  Bo-Bo diesel-electric (proved diesel could replace steam)          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_ft, 2212) {
+    property {
+        name:                           string(STR_EMD_FT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1939, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    14;
+        running_cost_factor:            49;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          1350 hp;
+        weight:                         94 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1214  EMD F3 (1945)                                              */
+/*  Bo-Bo diesel-electric (iconic "bulldog" cab)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_f3, 2213) {
+    property {
+        name:                           string(STR_EMD_F3_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1945, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    15;
+        running_cost_factor:            52;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          1500 hp;
+        weight:                         100 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1215  ALCO PA-1 (1946)                                           */
+/*  A1A-A1A diesel-electric (handsome American passenger)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alco_pa_1, 2214) {
+    property {
+        name:                           string(STR_ALCO_PA_1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1946, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    20;
+        running_cost_factor:            65;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          2000 hp;
+        weight:                         120 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1216  EMD F7 (1949)                                              */
+/*  Bo-Bo diesel-electric (most successful 1st-gen, 3,849 built)       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_f7, 2215) {
+    property {
+        name:                           string(STR_EMD_F7_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1949, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    15;
+        running_cost_factor:            52;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          1500 hp;
+        weight:                         100 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1217  EMD GP7 (1949)                                             */
+/*  Bo-Bo road-switcher (first successful "Geep")                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_gp7, 2216) {
+    property {
+        name:                           string(STR_EMD_GP7_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1949, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    15;
+        running_cost_factor:            52;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          1500 hp;
+        weight:                         100 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1218  LMS 10000/10001 → BR Class D16/1 (1951)                    */
+/*  Co-Co diesel-electric (first British mainline diesel)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_lms_10000_10001_br_class_d16_1, 2217) {
+    property {
+        name:                           string(STR_LMS_10000_10001_BR_CLASS_D16_1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1951, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    20;
+        running_cost_factor:            55;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          1600 hp;
+        weight:                         104 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1219  ALCO RS-3 (1953)                                           */
+/*  Bo-Bo road-switcher (versatile American)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alco_rs_3, 2218) {
+    property {
+        name:                           string(STR_ALCO_RS_3_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1953, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    20;
+        running_cost_factor:            55;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          95 km/h;
+        power:                          1600 hp;
+        weight:                         104 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1220  BR Class 40 (English Electric Type 4) (1955)               */
+/*  1Co-Co1 diesel-electric (British first-gen mainline)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_40, 2219) {
+    property {
+        name:                           string(STR_BR_CLASS_40_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    25;
+        running_cost_factor:            65;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          2000 hp;
+        weight:                         120 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1221  EMD SD9 (1957)                                             */
+/*  Co-Co diesel-electric (six-axle freight)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_sd9, 2220) {
+    property {
+        name:                           string(STR_EMD_SD9_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1957, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    22;
+        running_cost_factor:            59;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          1750 hp;
+        weight:                         110 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1222  BR Class 55 Deltic (1958)                                  */
+/*  Co-Co Napier Deltic diesel (ECML express, iconic)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_55_deltic, 2221) {
+    property {
+        name:                           string(STR_BR_CLASS_55_DELTIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1958, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    41;
+        running_cost_factor:            98;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          3300 hp;
+        weight:                         172 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1223  EMD GP20 (1959)                                            */
+/*  Bo-Bo turbocharged (first turbo Geep)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_gp20, 2222) {
+    property {
+        name:                           string(STR_EMD_GP20_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1959, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    25;
+        running_cost_factor:            65;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          2000 hp;
+        weight:                         120 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1224  BR Class 47 (1960)                                         */
+/*  Co-Co diesel-electric (512 built, British workhorse)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_47, 2223) {
+    property {
+        name:                           string(STR_BR_CLASS_47_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    34;
+        running_cost_factor:            84;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          150 km/h;
+        power:                          2750 hp;
+        weight:                         150 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1225  V200 (DB Class 220) (1961)                                 */
+/*  B-B diesel-hydraulic (German express)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_v200, 2224) {
+    property {
+        name:                           string(STR_V200_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1961, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    28;
+        running_cost_factor:            70;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          2200 hp;
+        weight:                         128 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1226  ALCO Century 628 (1962)                                    */
+/*  Co-Co diesel-electric (high-horsepower American)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alco_century_628, 2225) {
+    property {
+        name:                           string(STR_ALCO_CENTURY_628_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1962, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    34;
+        running_cost_factor:            84;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          110 km/h;
+        power:                          2750 hp;
+        weight:                         150 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1227  BR Class 52 Western (1963)                                 */
+/*  C-C diesel-hydraulic (GWR successor, iconic)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_52_western, 2226) {
+    property {
+        name:                           string(STR_BR_CLASS_52_WESTERN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1963, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    34;
+        running_cost_factor:            82;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          145 km/h;
+        power:                          2700 hp;
+        weight:                         148 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1228  EMD SD40 (1965)                                            */
+/*  Co-Co diesel-electric (landmark American freight loco)             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_sd40, 2227) {
+    property {
+        name:                           string(STR_EMD_SD40_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    38;
+        running_cost_factor:            90;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          3000 hp;
+        weight:                         160 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1229  EMD SD40-2 (1966)                                          */
+/*  Co-Co diesel-electric (most successful American loco, 3,982 buil   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_sd40_2, 2228) {
+    property {
+        name:                           string(STR_EMD_SD40_2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1966, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    38;
+        running_cost_factor:            90;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          3000 hp;
+        weight:                         160 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1230  BR Class 50 (1968)                                         */
+/*  Co-Co diesel-electric (WCML/WR express)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_50, 2229) {
+    property {
+        name:                           string(STR_BR_CLASS_50_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1968, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    34;
+        running_cost_factor:            82;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          2700 hp;
+        weight:                         148 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1231  GE U30C (1968)                                             */
+/*  Co-Co diesel-electric (GE competing with EMD)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ge_u30c, 2230) {
+    property {
+        name:                           string(STR_GE_U30C_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1968, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    38;
+        running_cost_factor:            90;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          3000 hp;
+        weight:                         160 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1232  DB Class 218 (1969)                                        */
+/*  B-B diesel-hydraulic (German standard mixed-traffic)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_db_class_218, 2231) {
+    property {
+        name:                           string(STR_DB_CLASS_218_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1969, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    31;
+        running_cost_factor:            78;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          2500 hp;
+        weight:                         140 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1233  EMD F40PH (1971)                                           */
+/*  Bo-Bo diesel-electric (Amtrak standard, iconic)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_f40ph, 2232) {
+    property {
+        name:                           string(STR_EMD_F40PH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1971, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    45;
+        running_cost_factor:            90;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          166 km/h;
+        power:                          3000 hp;
+        weight:                         160 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1234  BR Class 56 (1972)                                         */
+/*  Co-Co diesel-electric (British heavy freight)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_56, 2233) {
+    property {
+        name:                           string(STR_BR_CLASS_56_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1972, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    49;
+        running_cost_factor:            96;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          3250 hp;
+        weight:                         170 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1235  GE Dash 7 (B36-7, C36-7) (1976)                            */
+/*  Bo-Bo/Co-Co diesel-electric (GE Dash 7 series)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ge_dash_7, 2234) {
+    property {
+        name:                           string(STR_GE_DASH_7_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1976, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    54;
+        running_cost_factor:            105;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          3600 hp;
+        weight:                         184 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1236  BR Class 58 (1978)                                         */
+/*  Co-Co diesel-electric (British heavy freight)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_58, 2235) {
+    property {
+        name:                           string(STR_BR_CLASS_58_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1978, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    50;
+        running_cost_factor:            98;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          3300 hp;
+        weight:                         172 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1237  EMD SD50 (1980)                                            */
+/*  Co-Co diesel-electric (increased power)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_sd50, 2236) {
+    property {
+        name:                           string(STR_EMD_SD50_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1980, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    52;
+        running_cost_factor:            102;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          3500 hp;
+        weight:                         180 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1238  EMD SD60 (1984)                                            */
+/*  Co-Co diesel-electric (microprocessor-controlled)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_sd60, 2237) {
+    property {
+        name:                           string(STR_EMD_SD60_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1984, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    57;
+        running_cost_factor:            110;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          113 km/h;
+        power:                          3800 hp;
+        weight:                         192 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1239  GE Dash 8 (C39-8, Dash 8-40C) (1984)                       */
+/*  Co-Co diesel-electric (GE takes market lead)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ge_dash_8, 2238) {
+    property {
+        name:                           string(STR_GE_DASH_8_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1984, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    58;
+        running_cost_factor:            112;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          113 km/h;
+        power:                          3900 hp;
+        weight:                         196 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1240  BR Class 59 (1985)                                         */
+/*  Co-Co diesel-electric (first US-built UK heavy freight)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_59, 2239) {
+    property {
+        name:                           string(STR_BR_CLASS_59_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    50;
+        running_cost_factor:            98;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          3300 hp;
+        weight:                         172 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1241  EMD GP60 (1987)                                            */
+/*  Bo-Bo diesel-electric (last classic Geep design)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_gp60, 2240) {
+    property {
+        name:                           string(STR_EMD_GP60_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1987, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    57;
+        running_cost_factor:            110;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          113 km/h;
+        power:                          3800 hp;
+        weight:                         192 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1242  BR Class 60 (1989)                                         */
+/*  Co-Co diesel-electric (British heavy freight)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_60, 2241) {
+    property {
+        name:                           string(STR_BR_CLASS_60_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1989, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    46;
+        running_cost_factor:            92;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          3100 hp;
+        weight:                         164 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1243  GE AC4400CW (1993)                                         */
+/*  Co-Co AC diesel-electric (first mass-market AC traction)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ge_ac4400cw, 2242) {
+    property {
+        name:                           string(STR_GE_AC4400CW_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1993, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    66;
+        running_cost_factor:            125;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          113 km/h;
+        power:                          4400 hp;
+        weight:                         216 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1244  EMD SD70MAC (1994)                                         */
+/*  Co-Co AC diesel-electric (EMD response to GE AC)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_sd70mac, 2243) {
+    property {
+        name:                           string(STR_EMD_SD70MAC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1994, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    60;
+        running_cost_factor:            115;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          113 km/h;
+        power:                          4000 hp;
+        weight:                         200 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1245  BR Class 66 (1996)                                         */
+/*  Co-Co diesel-electric (ubiquitous European freight)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_66, 2244) {
+    property {
+        name:                           string(STR_BR_CLASS_66_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1996, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    50;
+        running_cost_factor:            98;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          120 km/h;
+        power:                          3300 hp;
+        weight:                         172 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1246  GE AC6000CW (1998)                                         */
+/*  Co-Co AC diesel-electric (highest HP single-engine)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ge_ac6000cw, 2245) {
+    property {
+        name:                           string(STR_GE_AC6000CW_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1998, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    90;
+        running_cost_factor:            165;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          113 km/h;
+        power:                          6000 hp;
+        weight:                         280 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1247  BR Class 67 (2001)                                         */
+/*  Bo-Bo diesel-electric (British express freight/passenger)          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_67, 2246) {
+    property {
+        name:                           string(STR_BR_CLASS_67_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2001, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    64;
+        running_cost_factor:            95;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          200 km/h;
+        power:                          3200 hp;
+        weight:                         168 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1248  EMD SD70ACe (2004)                                         */
+/*  Co-Co AC diesel-electric (EPA Tier 2 compliant)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_sd70ace, 2247) {
+    property {
+        name:                           string(STR_EMD_SD70ACE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2004, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    86;
+        running_cost_factor:            122;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          113 km/h;
+        power:                          4300 hp;
+        weight:                         212 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1249  GE ES44AC (GEVO) (2005)                                    */
+/*  Co-Co AC diesel-electric (most produced modern US loco)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ge_es44ac, 2248) {
+    property {
+        name:                           string(STR_GE_ES44AC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2005, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    88;
+        running_cost_factor:            125;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          113 km/h;
+        power:                          4400 hp;
+        weight:                         216 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1250  Vossloh/Stadler Euro 4000 (2007)                           */
+/*  Co-Co diesel-electric (European heavy freight)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_vossloh_stadler_euro_4000, 2249) {
+    property {
+        name:                           string(STR_VOSSLOH_STADLER_EURO_4000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2007, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    80;
+        running_cost_factor:            115;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          150 km/h;
+        power:                          4000 hp;
+        weight:                         200 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1251  Siemens ER20 Eurorunner (2009)                             */
+/*  Bo-Bo diesel-electric (European multi-system)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_er20_eurorunner, 2250) {
+    property {
+        name:                           string(STR_SIEMENS_ER20_EURORUNNER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2009, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    54;
+        running_cost_factor:            82;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          2700 hp;
+        weight:                         148 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1252  GE ET44AC (Tier 4) (2010)                                  */
+/*  Co-Co AC diesel-electric (EPA Tier 4 clean diesel)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ge_et44ac, 2251) {
+    property {
+        name:                           string(STR_GE_ET44AC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    88;
+        running_cost_factor:            125;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          113 km/h;
+        power:                          4400 hp;
+        weight:                         216 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1253  EMD SD70ACe-T4 (2012)                                      */
+/*  Co-Co AC diesel-electric (Tier 4)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_emd_sd70ace_t4, 2252) {
+    property {
+        name:                           string(STR_EMD_SD70ACE_T4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2012, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    90;
+        running_cost_factor:            128;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          113 km/h;
+        power:                          4500 hp;
+        weight:                         220 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1254  Stadler Euro Dual (2015)                                   */
+/*  Bo-Bo bi-mode (diesel + 25 kV electric)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stadler_euro_dual, 2253) {
+    property {
+        name:                           string(STR_STADLER_EURO_DUAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    56;
+        running_cost_factor:            85;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          2800 hp;
+        weight:                         152 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1255  BR Class 68 (2018)                                         */
+/*  Bo-Bo diesel-electric (British modern express)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_68, 2254) {
+    property {
+        name:                           string(STR_BR_CLASS_68_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2018, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    76;
+        running_cost_factor:            110;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          3800 hp;
+        weight:                         192 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1256  Wabtec FLXdrive (battery hybrid) (2020)                    */
+/*  Co-Co battery-hybrid (first mainline battery loco)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_wabtec_flxdrive, 2255) {
+    property {
+        name:                           string(STR_WABTEC_FLXDRIVE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    88;
+        running_cost_factor:            125;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          113 km/h;
+        power:                          4400 hp;
+        weight:                         216 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1257  Stadler FLIRT H₂ (hydrogen) (2023)                         */
+/*  Bo-Bo hydrogen fuel cell DMU (zero-emission)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stadler_flirt_h, 2256) {
+    property {
+        name:                           string(STR_STADLER_FLIRT_H_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2023, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    11;
+        running_cost_factor:            28;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          536 hp;
+        weight:                         61 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1258  Siemens Mireo Plus H (2024)                                */
+/*  Hydrogen fuel cell EMU (German regional service)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_mireo_plus_h, 2257) {
+    property {
+        name:                           string(STR_SIEMENS_MIREO_PLUS_H_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2024, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    13;
+        running_cost_factor:            32;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          670 hp;
+        weight:                         67 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}

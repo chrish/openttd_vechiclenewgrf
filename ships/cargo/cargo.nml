@@ -1,0 +1,2106 @@
+/**
+ * cargo.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #985  Whitby Collier Brig (1800)                                  */
+/*  Sailing brig (coal trade, North Sea)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_whitby_collier_brig, 1984) {
+    property {
+        name:                           string(STR_WHITBY_COLLIER_BRIG_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1800, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            38;
+        speed:                          13 km/h;
+        cargo_capacity:                 200;
+        loading_speed:                  8;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #986  East Indiaman (late era) (1820)                             */
+/*  Sailing ship (tea, spices, long-distance trade)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_east_indiaman, 1985) {
+    property {
+        name:                           string(STR_EAST_INDIAMAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1820, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    12;
+        running_cost_factor:            50;
+        speed:                          16 km/h;
+        cargo_capacity:                 800;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #987  Iron Sailing Barque (1843)                                  */
+/*  Iron sailing vessel (bulk cargo, worldwide)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_iron_sailing_barque, 1986) {
+    property {
+        name:                           string(STR_IRON_SAILING_BARQUE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1843, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    8;
+        running_cost_factor:            49;
+        speed:                          17 km/h;
+        cargo_capacity:                 500;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #988  Clipper Ship (e.g. Cutty Sark) (1850)                       */
+/*  Sailing clipper (tea/wool trade, fastest sailing ships)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_clipper_ship, 1987) {
+    property {
+        name:                           string(STR_CLIPPER_SHIP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1850, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    11;
+        running_cost_factor:            76;
+        speed:                          30 km/h;
+        cargo_capacity:                 600;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #989  Iron Screw Steamer (1860)                                   */
+/*  Steam cargo (coal/iron trade, replacing sail)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_iron_screw_steamer, 1988) {
+    property {
+        name:                           string(STR_IRON_SCREW_STEAMER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1860, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    20;
+        running_cost_factor:            57;
+        speed:                          16 km/h;
+        cargo_capacity:                 1500;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #990  SS Tramp Steamer (1870)                                     */
+/*  Steam cargo (tramping, no fixed route)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ss_tramp_steamer, 1989) {
+    property {
+        name:                           string(STR_SS_TRAMP_STEAMER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1870, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    32;
+        running_cost_factor:            65;
+        speed:                          15 km/h;
+        cargo_capacity:                 2500;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #991  SS Glückauf (1886)                                          */
+/*  Oil tanker (first purpose-built modern tanker)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ss_glckauf, 1990) {
+    property {
+        name:                           string(STR_SS_GLCKAUF_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1886, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    38;
+        running_cost_factor:            76;
+        speed:                          18 km/h;
+        cargo_capacity:                 3000;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #992  SS Turret Steamer (1890)                                    */
+/*  Bulk carrier (turret design, self-trimming)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ss_turret_steamer, 1991) {
+    property {
+        name:                           string(STR_SS_TURRET_STEAMER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1890, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    50;
+        running_cost_factor:            82;
+        speed:                          16 km/h;
+        cargo_capacity:                 4000;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #993  Three-Island Tramp (1900)                                   */
+/*  General cargo (standard British tramp steamer)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_three_island_tramp, 1992) {
+    property {
+        name:                           string(STR_THREE_ISLAND_TRAMP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1900, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    62;
+        running_cost_factor:            94;
+        speed:                          17 km/h;
+        cargo_capacity:                 5000;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #994  SS Suevic (1902)                                            */
+/*  Refrigerated cargo/passenger (frozen meat trade)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ss_suevic, 1993) {
+    property {
+        name:                           string(STR_SS_SUEVIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1902, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    99;
+        running_cost_factor:            138;
+        speed:                          24 km/h;
+        cargo_capacity:                 8000;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #995  SS Iroquois (1906)                                          */
+/*  Oil tanker (early American tanker)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ss_iroquois, 1994) {
+    property {
+        name:                           string(STR_SS_IROQUOIS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1906, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    74;
+        running_cost_factor:            110;
+        speed:                          20 km/h;
+        cargo_capacity:                 6000;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #996  SS Standard Tramp (1910)                                    */
+/*  General cargo (pre-war standard design)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ss_standard_tramp, 1995) {
+    property {
+        name:                           string(STR_SS_STANDARD_TRAMP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1910, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    74;
+        running_cost_factor:            104;
+        speed:                          17 km/h;
+        cargo_capacity:                 6000;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #997  Collier/Coaster (wartime) (1914)                            */
+/*  Coastal cargo (coal supply, U-boat targets)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_collier_coaster, 1996) {
+    property {
+        name:                           string(STR_COLLIER_COASTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1914, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    38;
+        running_cost_factor:            70;
+        speed:                          15 km/h;
+        cargo_capacity:                 3000;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #998  Fabricated Steel Steamer (WWI emergency) (1917)             */
+/*  General cargo (wartime mass-production)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_fabricated_steel_steamer, 1997) {
+    property {
+        name:                           string(STR_FABRICATED_STEEL_STEAMER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1917, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    62;
+        running_cost_factor:            94;
+        speed:                          17 km/h;
+        cargo_capacity:                 5000;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #999  "Hog Islander" (Design 1022) (1919)                         */
+/*  General cargo (US wartime emergency, many surplus)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_hog_islander, 1998) {
+    property {
+        name:                           string(STR_HOG_ISLANDER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1919, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    92;
+        running_cost_factor:            125;
+        speed:                          20 km/h;
+        cargo_capacity:                 7500;
+        loading_speed:                  10;
+        cargo_age_period:               139;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1000  Motor Vessel (early diesel) (1920)                         */
+/*  General cargo (first diesel-powered cargo ships)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_motor_vessel, 1999) {
+    property {
+        name:                           string(STR_MOTOR_VESSEL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    84;
+        running_cost_factor:            86;
+        speed:                          18 km/h;
+        cargo_capacity:                 4000;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1001  MV Grena (1925)                                            */
+/*  General cargo (Danish diesel-powered)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_grena, 2000) {
+    property {
+        name:                           string(STR_MV_GRENA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1925, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    104;
+        running_cost_factor:            100;
+        speed:                          20 km/h;
+        cargo_capacity:                 5000;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1002  Turbo-Electric Tanker (1928)                               */
+/*  Oil tanker (turbo-electric propulsion)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_turbo_electric_tanker, 2001) {
+    property {
+        name:                           string(STR_TURBO_ELECTRIC_TANKER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1928, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    204;
+        running_cost_factor:            154;
+        speed:                          22 km/h;
+        cargo_capacity:                 10000;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1003  SD14 predecessor designs (1930)                            */
+/*  General cargo (British standard tramp)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_sd14_predecessor_designs, 2002) {
+    property {
+        name:                           string(STR_SD14_PREDECESSOR_DESIGNS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    164;
+        running_cost_factor:            130;
+        speed:                          20 km/h;
+        cargo_capacity:                 8000;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1004  T2 Tanker (prototype design) (1935)                        */
+/*  Oil tanker (pre-war design, mass-produced in WW2)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_t2_tanker, 2003) {
+    property {
+        name:                           string(STR_T2_TANKER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    255;
+        running_cost_factor:            229;
+        speed:                          27 km/h;
+        cargo_capacity:                 16500;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1005  Reefer Ship (inter-war) (1938)                             */
+/*  Refrigerated cargo (fruit/meat trade)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_reefer_ship, 2004) {
+    property {
+        name:                           string(STR_REEFER_SHIP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1938, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    105;
+        running_cost_factor:            112;
+        speed:                          26 km/h;
+        cargo_capacity:                 5000;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1006  Liberty Ship (EC2-S-C1) (1941)                             */
+/*  General cargo (2,710 built, most-produced ship ever)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_liberty_ship, 2005) {
+    property {
+        name:                           string(STR_LIBERTY_SHIP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1941, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    214;
+        running_cost_factor:            155;
+        speed:                          20 km/h;
+        cargo_capacity:                 10500;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1007  Victory Ship (VC2) (1943)                                  */
+/*  General cargo (faster Liberty replacement)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_victory_ship, 2006) {
+    property {
+        name:                           string(STR_VICTORY_SHIP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1943, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    216;
+        running_cost_factor:            171;
+        speed:                          28 km/h;
+        cargo_capacity:                 10500;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1008  T2 Tanker (1943)                                           */
+/*  Oil tanker (533 built, WW2 standard)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_t2_tanker, 2007) {
+    property {
+        name:                           string(STR_T2_TANKER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1943, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    255;
+        running_cost_factor:            229;
+        speed:                          27 km/h;
+        cargo_capacity:                 16500;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1009  LST (Landing Ship, Tank) (1944)                            */
+/*  Landing ship (many converted post-war to cargo ferries)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_lst, 2008) {
+    property {
+        name:                           string(STR_LST_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1944, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    46;
+        running_cost_factor:            69;
+        speed:                          19 km/h;
+        cargo_capacity:                 2100;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1010  Shelter-Deck Tramp (1947)                                  */
+/*  General cargo (post-war British standard)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_shelter_deck_tramp, 2009) {
+    property {
+        name:                           string(STR_SHELTER_DECK_TRAMP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1947, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    164;
+        running_cost_factor:            134;
+        speed:                          22 km/h;
+        cargo_capacity:                 8000;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1011  T2 Supertanker conversions (1950)                          */
+/*  Oil tanker (jumboised T2 conversions)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_t2_supertanker_conversions, 2010) {
+    property {
+        name:                           string(STR_T2_SUPERTANKER_CONVERSIONS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          26 km/h;
+        cargo_capacity:                 25000;
+        loading_speed:                  20;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1012  MV Dorington Court (1952)                                  */
+/*  General cargo (British standard post-war tramp)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_dorington_court, 2011) {
+    property {
+        name:                           string(STR_MV_DORINGTON_COURT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1952, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    255;
+        running_cost_factor:            158;
+        speed:                          24 km/h;
+        cargo_capacity:                 10000;
+        loading_speed:                  20;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1013  Ore Carrier (post-war) (1955)                              */
+/*  Bulk carrier (dedicated iron ore transport)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ore_carrier, 2012) {
+    property {
+        name:                           string(STR_ORE_CARRIER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          26 km/h;
+        cargo_capacity:                 25000;
+        loading_speed:                  20;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1014  SS Ideal X (first container voyage) (1956)                 */
+/*  Container ship (first container ship, Sea-Land)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ss_ideal_x, 2013) {
+    property {
+        name:                           string(STR_SS_IDEAL_X_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1956, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    7;
+        running_cost_factor:            55;
+        speed:                          22 km/h;
+        cargo_capacity:                 58;
+        loading_speed:                  12;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1015  NS Savannah (1958)                                         */
+/*  Nuclear cargo/passenger (first nuclear merchant ship)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ns_savannah, 2014) {
+    property {
+        name:                           string(STR_NS_SAVANNAH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1958, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    234;
+        running_cost_factor:            174;
+        speed:                          37 km/h;
+        cargo_capacity:                 9000;
+        loading_speed:                  20;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1016  MV Kooringa (1959)                                         */
+/*  Container ship (early dedicated cellular container ship)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_kooringa, 2015) {
+    property {
+        name:                           string(STR_MV_KOORINGA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1959, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    20;
+        running_cost_factor:            71;
+        speed:                          28 km/h;
+        cargo_capacity:                 500;
+        loading_speed:                  20;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1017  SD14 (1960)                                                */
+/*  General cargo (British standard, 200+ built)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_sd14, 2016) {
+    property {
+        name:                           string(STR_SD14_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    255;
+        running_cost_factor:            202;
+        speed:                          26 km/h;
+        cargo_capacity:                 14000;
+        loading_speed:                  20;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1018  MV Fairland (1962)                                         */
+/*  Container ship (early converted container vessel)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_fairland, 2017) {
+    property {
+        name:                           string(STR_MV_FAIRLAND_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1962, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    13;
+        running_cost_factor:            68;
+        speed:                          28 km/h;
+        cargo_capacity:                 226;
+        loading_speed:                  15;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1019  MV Encounter Bay (1965)                                    */
+/*  Container ship (first purpose-built cellular containership)        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_encounter_bay, 2018) {
+    property {
+        name:                           string(STR_MV_ENCOUNTER_BAY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    48;
+        running_cost_factor:            99;
+        speed:                          37 km/h;
+        cargo_capacity:                 1530;
+        loading_speed:                  20;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1020  SS Manhattan (1966)                                        */
+/*  Supertanker (first VLCC, later icebreaking tanker)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ss_manhattan, 2019) {
+    property {
+        name:                           string(STR_SS_MANHATTAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1966, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          30 km/h;
+        cargo_capacity:                 115000;
+        loading_speed:                  20;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1021  MV Hakone Maru (1968)                                      */
+/*  Container ship (fast Japanese container ship)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_hakone_maru, 2020) {
+    property {
+        name:                           string(STR_MV_HAKONE_MARU_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1968, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    29;
+        running_cost_factor:            100;
+        speed:                          41 km/h;
+        cargo_capacity:                 752;
+        loading_speed:                  20;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1022  SS Universe Ireland (1969)                                 */
+/*  ULCC supertanker (ultra-large crude carrier)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ss_universe_ireland, 2021) {
+    property {
+        name:                           string(STR_SS_UNIVERSE_IRELAND_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1969, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          28 km/h;
+        cargo_capacity:                 312000;
+        loading_speed:                  20;
+        cargo_age_period:               231;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1023  MV Tokyo Bay (1971)                                        */
+/*  Container ship (second-generation Panamax)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_tokyo_bay, 2022) {
+    property {
+        name:                           string(STR_MV_TOKYO_BAY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1971, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    71;
+        running_cost_factor:            104;
+        speed:                          37 km/h;
+        cargo_capacity:                 2000;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1024  Jahre Viking (Seawise Giant) (1975)                        */
+/*  ULCC (largest ship ever built, later Knock Nevis)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_jahre_viking, 2023) {
+    property {
+        name:                           string(STR_JAHRE_VIKING_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          24 km/h;
+        cargo_capacity:                 564000;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1025  MV Elbe Express (1976)                                     */
+/*  Container ship (third-generation, post-Panamax proto)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_elbe_express, 2024) {
+    property {
+        name:                           string(STR_MV_ELBE_EXPRESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1976, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    101;
+        running_cost_factor:            114;
+        speed:                          37 km/h;
+        cargo_capacity:                 3000;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1026  MV Frankfurt Express (1978)                                */
+/*  Container ship (third-generation)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_frankfurt_express, 2025) {
+    property {
+        name:                           string(STR_MV_FRANKFURT_EXPRESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1978, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    113;
+        running_cost_factor:            118;
+        speed:                          37 km/h;
+        cargo_capacity:                 3400;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1027  MV American New York (1980)                                */
+/*  Container ship (Econship design, fuel-efficient)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_american_new_york, 2026) {
+    property {
+        name:                           string(STR_MV_AMERICAN_NEW_YORK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1980, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    138;
+        running_cost_factor:            119;
+        speed:                          33 km/h;
+        cargo_capacity:                 4258;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1028  MV ACT 7 (4th gen) (1984)                                  */
+/*  Container ship (fourth-generation Panamax)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_act_7, 2027) {
+    property {
+        name:                           string(STR_MV_ACT_7_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1984, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    143;
+        running_cost_factor:            128;
+        speed:                          37 km/h;
+        cargo_capacity:                 4400;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1029  MV President Truman (1988)                                 */
+/*  Container ship (APL C10 class, fast Panamax)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_president_truman, 2028) {
+    property {
+        name:                           string(STR_MV_PRESIDENT_TRUMAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1988, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    142;
+        running_cost_factor:            139;
+        speed:                          43 km/h;
+        cargo_capacity:                 4300;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1030  MV Regina Maersk (1991)                                    */
+/*  Container ship (first post-Panamax, Maersk)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_regina_maersk, 2029) {
+    property {
+        name:                           string(STR_MV_REGINA_MAERSK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1991, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    194;
+        running_cost_factor:            162;
+        speed:                          46 km/h;
+        cargo_capacity:                 6000;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1031  MV Sovereign Maersk (1995)                                 */
+/*  Container ship (S-Class, largest at time)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_sovereign_maersk, 2030) {
+    property {
+        name:                           string(STR_MV_SOVEREIGN_MAERSK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1995, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    254;
+        running_cost_factor:            182;
+        speed:                          46 km/h;
+        cargo_capacity:                 8000;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1032  Capesize Bulk Carrier (1990s) (1996)                       */
+/*  Bulk carrier (coal/iron ore, Cape route)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_capesize_bulk_carrier, 2031) {
+    property {
+        name:                           string(STR_CAPESIZE_BULK_CARRIER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1996, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          26 km/h;
+        cargo_capacity:                 180000;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1033  MV Susan Maersk (1997)                                     */
+/*  Container ship (S-Class improved)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_susan_maersk, 2032) {
+    property {
+        name:                           string(STR_MV_SUSAN_MAERSK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1997, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    255;
+        running_cost_factor:            189;
+        speed:                          46 km/h;
+        cargo_capacity:                 8680;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1034  Suezmax Tanker (1990s standard) (1999)                     */
+/*  Oil tanker (maximum Suez Canal transit, laden)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_suezmax_tanker, 2033) {
+    property {
+        name:                           string(STR_SUEZMAX_TANKER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1999, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          28 km/h;
+        cargo_capacity:                 160000;
+        loading_speed:                  30;
+        cargo_age_period:               278;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1035  Very Large Ore Carrier (2000)                              */
+/*  Bulk carrier (dedicated iron ore, Brazil–China)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_very_large_ore_carrier, 2034) {
+    property {
+        name:                           string(STR_VERY_LARGE_ORE_CARRIER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          26 km/h;
+        cargo_capacity:                 250000;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1036  MV Axel Maersk (2003)                                      */
+/*  Container ship (Maersk A-Class)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_axel_maersk, 2035) {
+    property {
+        name:                           string(STR_MV_AXEL_MAERSK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2003, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            201;
+        speed:                          48 km/h;
+        cargo_capacity:                 9500;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1037  MV Emma Maersk (2006)                                      */
+/*  Container ship (E-Class, largest at launch, 397m)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_emma_maersk, 2036) {
+    property {
+        name:                           string(STR_MV_EMMA_MAERSK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2006, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            214;
+        speed:                          47 km/h;
+        cargo_capacity:                 11000;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1038  MS Berge Stahl (2008)                                      */
+/*  VLOC (Very Large Ore Carrier)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ms_berge_stahl, 2037) {
+    property {
+        name:                           string(STR_MS_BERGE_STAHL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2008, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          26 km/h;
+        cargo_capacity:                 365000;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1039  Vale Beijing (2010)                                        */
+/*  Valemax (largest bulk carrier class, iron ore)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_vale_beijing, 2038) {
+    property {
+        name:                           string(STR_VALE_BEIJING_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          28 km/h;
+        cargo_capacity:                 400000;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1040  CMA CGM Marco Polo (2012)                                  */
+/*  Container ship (Explorer class)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_cma_cgm_marco_polo, 2039) {
+    property {
+        name:                           string(STR_CMA_CGM_MARCO_POLO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2012, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          46 km/h;
+        cargo_capacity:                 16020;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1041  MV Maersk Mc-Kinney Møller (2013)                          */
+/*  Container ship (Triple-E class, slow-steaming efficient)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_maersk_mc_kinney_mller, 2040) {
+    property {
+        name:                           string(STR_MV_MAERSK_MC_KINNEY_MLLER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2013, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 18270;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1042  MSC Oscar (2014)                                           */
+/*  Container ship (Oscar class, record-breaker)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_msc_oscar, 2041) {
+    property {
+        name:                           string(STR_MSC_OSCAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2014, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 19224;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1043  CSCL Globe (2015)                                          */
+/*  Container ship (China Shipping mega vessel)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_cscl_globe, 2042) {
+    property {
+        name:                           string(STR_CSCL_GLOBE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 19100;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1044  OOCL Hong Kong (2017)                                      */
+/*  Container ship (first over 21,000 TEU)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_oocl_hong_kong, 2043) {
+    property {
+        name:                           string(STR_OOCL_HONG_KONG_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2017, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 21413;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1045  CMA CGM Antoine de Saint Exupéry (2018)                    */
+/*  Container ship (LNG-ready)                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_cma_cgm_antoine_de_saint_exupry, 2044) {
+    property {
+        name:                           string(STR_CMA_CGM_ANTOINE_DE_SAINT_EXUPRY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2018, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 20954;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1046  MSC Gülsün (2019)                                          */
+/*  Container ship (Gülsün-class, record at launch)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_msc_glsn, 2045) {
+    property {
+        name:                           string(STR_MSC_GLSN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2019, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 23756;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1047  HMM Algeciras (2020)                                       */
+/*  Container ship (Megamax-24 class)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_hmm_algeciras, 2046) {
+    property {
+        name:                           string(STR_HMM_ALGECIRAS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 23964;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1048  Ever Ace (2021)                                            */
+/*  Container ship (Evergreen A-class)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_ever_ace, 2047) {
+    property {
+        name:                           string(STR_EVER_ACE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2021, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 23992;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1049  MSC Irina (2022)                                           */
+/*  Container ship (largest in world at delivery)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_msc_irina, 2048) {
+    property {
+        name:                           string(STR_MSC_IRINA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2022, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 24346;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1050  CMA CGM Jacques Saadé (2023)                               */
+/*  Container ship (LNG-powered, CMA CGM flagship)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_cma_cgm_jacques_saad, 2049) {
+    property {
+        name:                           string(STR_CMA_CGM_JACQUES_SAAD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2023, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 23000;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1051  MSC (24,000+ TEU new-builds) (2024)                        */
+/*  Container ship (continued mega-vessel trend)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_msc, 2050) {
+    property {
+        name:                           string(STR_MSC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2024, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 24500;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1052  LNG Carrier Q-Max (Mozah class) (2024)                     */
+/*  LNG carrier (largest LNG carriers, Qatar)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_lng_carrier_q_max, 2051) {
+    property {
+        name:                           string(STR_LNG_CARRIER_Q_MAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2024, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          35 km/h;
+        cargo_capacity:                 266000;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1053  Methanol/Ammonia dual-fuel container (2025)                */
+/*  Container ship (green fuel transition vessels)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_methanol_ammonia_dual_fuel_container, 2052) {
+    property {
+        name:                           string(STR_METHANOL_AMMONIA_DUAL_FUEL_CONTAINER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            244;
+        speed:                          37 km/h;
+        cargo_capacity:                 16000;
+        loading_speed:                  40;
+        cargo_age_period:               324;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1105  MV Volterra GreenFreight (2030)                            */
+/*  Container ship (ammonia dual-fuel, autonomous bridge)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_volterra_greenfreight, 2104) {
+    property {
+        name:                           string(STR_MV_VOLTERRA_GREENFREIGHT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          39 km/h;
+        cargo_capacity:                 26000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1106  MV Titan BulkMax (2031)                                    */
+/*  VLOC (hydrogen fuel cell, Brazil–China ore route)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_titan_bulkmax, 2105) {
+    property {
+        name:                           string(STR_MV_TITAN_BULKMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2031, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          28 km/h;
+        cargo_capacity:                 500000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1107  MV Apex AutoSail (2032)                                    */
+/*  Container ship (rigid wing sails + battery, wind-assist)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_apex_autosail, 2106) {
+    property {
+        name:                           string(STR_MV_APEX_AUTOSAIL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2032, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            146;
+        speed:                          28 km/h;
+        cargo_capacity:                 8000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1108  MV Colossus MegaBox (2033)                                 */
+/*  Container ship (nuclear-electric, 450m hull)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_colossus_megabox, 2107) {
+    property {
+        name:                           string(STR_MV_COLOSSUS_MEGABOX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2033, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 30000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1109  MV Meridian Arctic (2035)                                  */
+/*  Container ship (ice-class, Northern Sea Route, LNG)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_meridian_arctic, 2108) {
+    property {
+        name:                           string(STR_MV_MERIDIAN_ARCTIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2035, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          37 km/h;
+        cargo_capacity:                 20000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1110  MV Stratos SolarWind (2036)                                */
+/*  Container ship (solar + wind sails, near-zero-emission)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_stratos_solarwind, 2109) {
+    property {
+        name:                           string(STR_MV_STRATOS_SOLARWIND_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2036, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            196;
+        speed:                          33 km/h;
+        cargo_capacity:                 12000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1111  MV Aurora DeepMiner (2037)                                 */
+/*  Mining support vessel (deep-sea mining, autonomous)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_aurora_deepminer, 2110) {
+    property {
+        name:                           string(STR_MV_AURORA_DEEPMINER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2037, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          24 km/h;
+        cargo_capacity:                 50000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1112  MV Halcyon HydroCarrier (2038)                             */
+/*  Hydrogen carrier (liquid hydrogen tanker, green fuel trade)        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_halcyon_hydrocarrier, 2111) {
+    property {
+        name:                           string(STR_MV_HALCYON_HYDROCARRIER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2038, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          33 km/h;
+        cargo_capacity:                 200000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1113  MV Nexus UltraMax (2040)                                   */
+/*  Container ship (fusion-electric, 500m hull, fully autonomous)      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_nexus_ultramax, 2112) {
+    property {
+        name:                           string(STR_MV_NEXUS_ULTRAMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          44 km/h;
+        cargo_capacity:                 40000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1114  MV Cascadia RoboFleet (2042)                               */
+/*  Container ship (AI fleet coordination, zero-crew)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_cascadia_robofleet, 2113) {
+    property {
+        name:                           string(STR_MV_CASCADIA_ROBOFLEET_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2042, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          37 km/h;
+        cargo_capacity:                 18000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1115  MV Zenith OceanTrain (2045)                                */
+/*  Mega-container-ship (articulated hull, 600m, fusion-electric)      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_zenith_oceantrain, 2114) {
+    property {
+        name:                           string(STR_MV_ZENITH_OCEANTRAIN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2045, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          37 km/h;
+        cargo_capacity:                 60000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1116  MV Volterra PolarExpress (2048)                            */
+/*  Container ship (icebreaking hull, transpolar route)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_volterra_polarexpress, 2115) {
+    property {
+        name:                           string(STR_MV_VOLTERRA_POLAREXPRESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2048, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          44 km/h;
+        cargo_capacity:                 35000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1117  MV Colossus Leviathan (2050)                               */
+/*  Ultra-container-ship (modular hull, 800m, fusion-electric)         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_colossus_leviathan, 2116) {
+    property {
+        name:                           string(STR_MV_COLOSSUS_LEVIATHAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          42 km/h;
+        cargo_capacity:                 80000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1118  MV Titan OceanGrid (2055)                                  */
+/*  Mega-container-ship (1km hull, modular detachable sections)        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_titan_oceangrid, 2117) {
+    property {
+        name:                           string(STR_MV_TITAN_OCEANGRID_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2055, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          46 km/h;
+        cargo_capacity:                 100000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1119  MV Quantum Infinity (2060)                                 */
+/*  Ultra-mega-container (floating logistics hub, permanent circulat   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_SHIPS, item_mv_quantum_infinity, 2118) {
+    property {
+        name:                           string(STR_MV_QUANTUM_INFINITY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          48 km/h;
+        cargo_capacity:                 150000;
+        loading_speed:                  60;
+        cargo_age_period:               462;
+        is_refittable:                  1;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_PIECE_GOODS, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}

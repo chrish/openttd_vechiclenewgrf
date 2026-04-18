@@ -1,0 +1,843 @@
+/**
+ * metro.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1403  Metropolitan Railway (steam) (1863)                        */
+/*  Steam underground (first underground railway, London)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_metropolitan_railway, 2402) {
+    property {
+        name:                           string(STR_METROPOLITAN_RAILWAY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1863, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            11;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          32 km/h;
+        power:                          70 hp;
+        weight:                         32 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1404  City & South London Railway (1890)                         */
+/*  Electric tube (first deep-tube electric metro)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_city_and_south_london_railway, 2403) {
+    property {
+        name:                           string(STR_CITY_AND_SOUTH_LONDON_RAILWAY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1890, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            13;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          22 km/h;
+        power:                          150 hp;
+        weight:                         34 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1405  Paris Métro Sprague stock (1900)                           */
+/*  Metro EMU (first Paris Métro trains)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_paris_mtro_sprague_stock, 2404) {
+    property {
+        name:                           string(STR_PARIS_MTRO_SPRAGUE_STOCK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1900, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            16;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          32 km/h;
+        power:                          300 hp;
+        weight:                         39 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1406  New York IRT Composite (1904)                              */
+/*  Metro EMU (first NYC subway)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_new_york_irt_composite, 2405) {
+    property {
+        name:                           string(STR_NEW_YORK_IRT_COMPOSITE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1904, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            18;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          35 km/h;
+        power:                          400 hp;
+        weight:                         42 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1407  New York R1 Subway Car (1927)                              */
+/*  Metro EMU (BMT/IND Standard Car)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_new_york_r1_subway_car, 2406) {
+    property {
+        name:                           string(STR_NEW_YORK_R1_SUBWAY_CAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1927, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            14;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          55 km/h;
+        power:                          200 hp;
+        weight:                         36 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1408  Moscow Metro Type-A (1935)                                 */
+/*  Metro EMU (Moscow Metro opening stock)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_moscow_metro_type_a, 2407) {
+    property {
+        name:                           string(STR_MOSCOW_METRO_TYPE_A_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            22;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          48 km/h;
+        power:                          600 hp;
+        weight:                         48 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1409  London Underground 1938 Stock (1938)                       */
+/*  Tube EMU (iconic streamlined, lasted to 1988)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_london_underground_1938_stock, 2408) {
+    property {
+        name:                           string(STR_LONDON_UNDERGROUND_1938_STOCK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1938, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    7;
+        running_cost_factor:            25;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          48 km/h;
+        power:                          748 hp;
+        weight:                         52 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1410  NYC R-10 Subway Car (1948)                                 */
+/*  Metro EMU (post-war standard)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_nyc_r_10_subway_car, 2409) {
+    property {
+        name:                           string(STR_NYC_R_10_SUBWAY_CAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1948, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            14;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          55 km/h;
+        power:                          200 hp;
+        weight:                         36 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1411  Montreal Métro MR-63 (1960)                                */
+/*  Metro EMU (rubber-tyred, Montreal opening stock)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_montreal_mtro_mr_63, 2410) {
+    property {
+        name:                           string(STR_MONTREAL_MTRO_MR_63_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    4;
+        running_cost_factor:            16;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          56 km/h;
+        power:                          280 hp;
+        weight:                         38 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1412  London Underground 1967 Stock (1967)                       */
+/*  Tube EMU (Victoria line, first ATO underground)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_london_underground_1967_stock, 2411) {
+    property {
+        name:                           string(STR_LONDON_UNDERGROUND_1967_STOCK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1967, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    11;
+        running_cost_factor:            28;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          56 km/h;
+        power:                          900 hp;
+        weight:                         57 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1413  BART A-car (1972)                                          */
+/*  Metro EMU (San Francisco, wide gauge, futuristic)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bart_a_car, 2412) {
+    property {
+        name:                           string(STR_BART_A_CAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1972, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    18;
+        running_cost_factor:            34;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          128 km/h;
+        power:                          1200 hp;
+        weight:                         66 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1414  Washington Metro Breda/Rohr (1976)                         */
+/*  Metro EMU (DC Metro opening stock)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_washington_metro_breda_rohr, 2413) {
+    property {
+        name:                           string(STR_WASHINGTON_METRO_BREDA_ROHR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1976, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            14;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          95 km/h;
+        power:                          200 hp;
+        weight:                         36 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1415  Hong Kong MTR M-Stock (1981)                               */
+/*  Metro EMU (Tsuen Wan line)                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_hong_kong_mtr_m_stock, 2414) {
+    property {
+        name:                           string(STR_HONG_KONG_MTR_M_STOCK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1981, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    4;
+        running_cost_factor:            15;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          80 km/h;
+        power:                          270 hp;
+        weight:                         38 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1416  VAL 206 (Lille) (1983)                                     */
+/*  Automated metro (first fully automated metro, Lille)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_val_206, 2415) {
+    property {
+        name:                           string(STR_VAL_206_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1983, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            14;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          60 km/h;
+        power:                          200 hp;
+        weight:                         36 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1417  London Underground 1992 Stock (1988)                       */
+/*  Tube EMU (Central line)                                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_london_underground_1992_stock, 2416) {
+    property {
+        name:                           string(STR_LONDON_UNDERGROUND_1992_STOCK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1988, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    13;
+        running_cost_factor:            27;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          80 km/h;
+        power:                          840 hp;
+        weight:                         55 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1418  Siemens Inspiro (proto) / C20 (1998)                       */
+/*  Metro EMU (modern European standard)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_inspiro_c20, 2417) {
+    property {
+        name:                           string(STR_SIEMENS_INSPIRO_C20_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1998, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    4;
+        running_cost_factor:            15;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          90 km/h;
+        power:                          270 hp;
+        weight:                         38 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1419  Alstom Metropolis (2003)                                   */
+/*  Metro EMU (global automated metro platform)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alstom_metropolis, 2418) {
+    property {
+        name:                           string(STR_ALSTOM_METROPOLIS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2003, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    6;
+        running_cost_factor:            16;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          90 km/h;
+        power:                          300 hp;
+        weight:                         39 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1420  London Underground S-Stock (S7/S8) (2009)                  */
+/*  Metro EMU (Metropolitan/District lines, walk-through)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_london_underground_s_stock, 2419) {
+    property {
+        name:                           string(STR_LONDON_UNDERGROUND_S_STOCK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2009, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    42;
+        running_cost_factor:            52;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          80 km/h;
+        power:                          2100 hp;
+        weight:                         93 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1421  CRRC Type-A Metro (2013)                                   */
+/*  Metro EMU (Chinese standard A-type, mass-produced)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_crrc_type_a_metro, 2420) {
+    property {
+        name:                           string(STR_CRRC_TYPE_A_METRO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2013, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    60;
+        running_cost_factor:            70;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          80 km/h;
+        power:                          3000 hp;
+        weight:                         120 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1422  Siemens Inspiro (2020)                                     */
+/*  Metro EMU (modern automated, Riyadh/Kuala Lumpur)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_inspiro, 2421) {
+    property {
+        name:                           string(STR_SIEMENS_INSPIRO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    48;
+        running_cost_factor:            58;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          90 km/h;
+        power:                          2400 hp;
+        weight:                         102 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1423  London Underground Piccadilly Line (New Tube) (2024)       */
+/*  Tube EMU (walk-through, full-width, ATO)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_london_underground_piccadilly_line, 2422) {
+    property {
+        name:                           string(STR_LONDON_UNDERGROUND_PICCADILLY_LINE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2024, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    54;
+        running_cost_factor:            64;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          80 km/h;
+        power:                          2700 hp;
+        weight:                         111 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1448  Stratos S-200 RegioStar (2030)                             */
+/*  Battery-EMU (solid-state, 400 km range, non-electrified lines)     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stratos_s_200_regiostar, 2447) {
+    property {
+        name:                           string(STR_STRATOS_S_200_REGIOSTAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    50;
+        running_cost_factor:            50;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          2000 hp;
+        weight:                         90 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1449  Meridian M-120 HydroPulse (2031)                           */
+/*  Hydrogen DMU (rural branch lines, zero-emission)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_meridian_m_120_hydropulse, 2448) {
+    property {
+        name:                           string(STR_MERIDIAN_M_120_HYDROPULSE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2031, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    20;
+        running_cost_factor:            26;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          800 hp;
+        weight:                         54 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1450  Aurora AU-Metro 3000 (2032)                                */
+/*  Automated metro EMU (AI-optimised, 60-second headway)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_aurora_au_metro_3000, 2449) {
+    property {
+        name:                           string(STR_AURORA_AU_METRO_3000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2032, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    100;
+        running_cost_factor:            90;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          100 km/h;
+        power:                          4000 hp;
+        weight:                         150 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1451  Pinnacle PN-50 PeopleMover (2034)                          */
+/*  Autonomous light metro (on-demand routing, network pod)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_pinnacle_pn_50_peoplemover, 2450) {
+    property {
+        name:                           string(STR_PINNACLE_PN_50_PEOPLEMOVER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2034, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    10;
+        running_cost_factor:            18;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          100 km/h;
+        power:                          400 hp;
+        weight:                         42 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1452  Cascadia C-500 SuburbanMax (2035)                          */
+/*  Suburban EMU (ultra-capacity, standing + seated)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_cascadia_c_500_suburbanmax, 2451) {
+    property {
+        name:                           string(STR_CASCADIA_C_500_SUBURBANMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2035, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    75;
+        running_cost_factor:            70;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          3000 hp;
+        weight:                         120 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1453  Halcyon H-350 InterRegion (2037)                           */
+/*  Regional express EMU (driverless, tilting, fast regional)          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_halcyon_h_350_interregion, 2452) {
+    property {
+        name:                           string(STR_HALCYON_H_350_INTERREGION_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2037, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    112;
+        running_cost_factor:            100;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          250 km/h;
+        power:                          4500 hp;
+        weight:                         165 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1454  Nexus NX-Metro 5000 (2040)                                 */
+/*  Mega-metro EMU (ultra-high-capacity, 30-second headway)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_nexus_nx_metro_5000, 2453) {
+    property {
+        name:                           string(STR_NEXUS_NX_METRO_5000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    150;
+        running_cost_factor:            130;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          120 km/h;
+        power:                          6000 hp;
+        weight:                         210 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1455  Apex A-100 UltraLight (2045)                               */
+/*  Autonomous light rail (elevated, on-demand, solar-charged)         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_apex_a_100_ultralight, 2454) {
+    property {
+        name:                           string(STR_APEX_A_100_ULTRALIGHT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2045, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    20;
+        running_cost_factor:            26;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          800 hp;
+        weight:                         54 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1456  Solaris Sol-Metro 8000 (2050)                              */
+/*  Mega-metro EMU (mega-city capacity, 15-second headway)             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_solaris_sol_metro_8000, 2455) {
+    property {
+        name:                           string(STR_SOLARIS_SOL_METRO_8000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    250;
+        running_cost_factor:            210;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          130 km/h;
+        power:                          10000 hp;
+        weight:                         330 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1457  Titan T-Metro Pod (2055)                                   */
+/*  Personal rapid transit pod (automated, networked, on-demand)       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_titan_t_metro_pod, 2456) {
+    property {
+        name:                           string(STR_TITAN_T_METRO_POD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2055, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    5;
+        running_cost_factor:            14;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          150 km/h;
+        power:                          200 hp;
+        weight:                         36 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}

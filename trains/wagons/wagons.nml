@@ -1,0 +1,3150 @@
+/**
+ * wagons.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1477  Wooden 4-wheel Coach (1850)                                */
+/*  Open platform, gas-lit, unheated                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_wooden_4_wheel_coach, 2476) {
+    property {
+        name:                           string(STR_WOODEN_4_WHEEL_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1850, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 20;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1478  Victorian 6-wheel Coach (1870)                             */
+/*  Compartment style, oil-lit                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_victorian_6_wheel_coach, 2477) {
+    property {
+        name:                           string(STR_VICTORIAN_6_WHEEL_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1870, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 28;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1479  Bogie Clerestory Coach (1895)                              */
+/*  Clerestory roof, corridor, steam-heated                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bogie_clerestory_coach, 2478) {
+    property {
+        name:                           string(STR_BOGIE_CLERESTORY_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1895, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    7;
+        running_cost_factor:            6;
+        cargo_capacity:                 36;
+        loading_speed:                  4;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1480  Gresley Teak Coach (1920)                                  */
+/*  Side-corridor, steam-heated, dining option                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gresley_teak_coach, 2479) {
+    property {
+        name:                           string(STR_GRESLEY_TEAK_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    9;
+        running_cost_factor:            6;
+        cargo_capacity:                 44;
+        loading_speed:                  5;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1481  BR Mk1 Coach (1945)                                        */
+/*  Standard British post-war, widespread                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_mk1_coach, 2480) {
+    property {
+        name:                           string(STR_BR_MK1_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1945, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 48;
+        loading_speed:                  5;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1482  BR Mk2 Coach (1965)                                        */
+/*  Air-conditioned, improved ride                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_mk2_coach, 2481) {
+    property {
+        name:                           string(STR_BR_MK2_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    11;
+        running_cost_factor:            8;
+        cargo_capacity:                 56;
+        loading_speed:                  6;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1483  Corail / UIC-Z Coach (1975)                                */
+/*  European standard intercity                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_corail_uic_z_coach, 2482) {
+    property {
+        name:                           string(STR_CORAIL_UIC_Z_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    12;
+        running_cost_factor:            8;
+        cargo_capacity:                 60;
+        loading_speed:                  6;
+        cargo_age_period:               416;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1484  BR Mk3 / Mk4 Coach (1985)                                  */
+/*  200 km/h capable, air-conditioned                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_mk3_mk4_coach, 2483) {
+    property {
+        name:                           string(STR_BR_MK3_MK4_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    13;
+        running_cost_factor:            8;
+        cargo_capacity:                 64;
+        loading_speed:                  7;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1485  Modern IC Coach (2000)                                     */
+/*  Double-deck capable, climate control                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_ic_coach, 2484) {
+    property {
+        name:                           string(STR_MODERN_IC_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            9;
+        cargo_capacity:                 72;
+        loading_speed:                  8;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1486  Next-Gen IC Coach (2015)                                   */
+/*  WiFi, power outlets, crash-optimised                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_next_gen_ic_coach, 2485) {
+    property {
+        name:                           string(STR_NEXT_GEN_IC_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    16;
+        running_cost_factor:            10;
+        cargo_capacity:                 80;
+        loading_speed:                  9;
+        cargo_age_period:               648;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1487  Volterra Vi-Lux Coach (2035)                               */
+/*  Smart climate, self-cleaning, modular interior                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_volterra_vi_lux_coach, 2486) {
+    property {
+        name:                           string(STR_VOLTERRA_VI_LUX_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2035, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    18;
+        running_cost_factor:            11;
+        cargo_capacity:                 90;
+        loading_speed:                  10;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1488  Aurora AU-Comfort Pod (2060)                               */
+/*  AI concierge, adaptive seating, zero-vibration                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_aurora_au_comfort_pod, 2487) {
+    property {
+        name:                           string(STR_AURORA_AU_COMFORT_POD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    20;
+        running_cost_factor:            12;
+        cargo_capacity:                 100;
+        loading_speed:                  12;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1489  Quantum QR-TransitPod (2085)                               */
+/*  Holographic entertainment, inertia-dampened                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_quantum_qr_transitpod, 2488) {
+    property {
+        name:                           string(STR_QUANTUM_QR_TRANSITPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2085, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    24;
+        running_cost_factor:            14;
+        cargo_capacity:                 120;
+        loading_speed:                  15;
+        cargo_age_period:               1110;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1490  Wooden Sorting Van (1860)                                  */
+/*  Manual sort en-route, 4-wheel                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_wooden_sorting_van, 2489) {
+    property {
+        name:                           string(STR_WOODEN_SORTING_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1860, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 15;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1491  Victorian Mail Van (1895)                                  */
+/*  Bogie vehicle, pigeon-hole sorting                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_victorian_mail_van, 2490) {
+    property {
+        name:                           string(STR_VICTORIAN_MAIL_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1895, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 20;
+        loading_speed:                  4;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1492  GWR/LMS TPO Van (1930)                                     */
+/*  Trackside pickup apparatus                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gwr_lms_tpo_van, 2491) {
+    property {
+        name:                           string(STR_GWR_LMS_TPO_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            4;
+        cargo_capacity:                 25;
+        loading_speed:                  5;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1493  BR Mail Van (1955)                                         */
+/*  Standard post-war sorting van                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_mail_van, 2492) {
+    property {
+        name:                           string(STR_BR_MAIL_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 30;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1494  BR Mk1 TPO / PCV (1980)                                    */
+/*  160 km/h capable, high-security                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_mk1_tpo_pcv, 2493) {
+    property {
+        name:                           string(STR_BR_MK1_TPO_PCV_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1980, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    7;
+        running_cost_factor:            6;
+        cargo_capacity:                 35;
+        loading_speed:                  7;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1495  Modern Mail Container Van (2000)                           */
+/*  Containerised, quick-swap, tracked                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_mail_container_van, 2494) {
+    property {
+        name:                           string(STR_MODERN_MAIL_CONTAINER_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 40;
+        loading_speed:                  8;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1496  Automated Parcel Van (2025)                                */
+/*  Robotic sorting, e-commerce optimised                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_automated_parcel_van, 2495) {
+    property {
+        name:                           string(STR_AUTOMATED_PARCEL_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    9;
+        running_cost_factor:            6;
+        cargo_capacity:                 45;
+        loading_speed:                  10;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1497  Nexus NX-MailStream (2050)                                 */
+/*  Autonomous drone-to-van loading                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_nexus_nx_mailstream, 2496) {
+    property {
+        name:                           string(STR_NEXUS_NX_MAILSTREAM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    11;
+        running_cost_factor:            8;
+        cargo_capacity:                 55;
+        loading_speed:                  12;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1498  Quantum QR-ParcelPod (2080)                                */
+/*  Instant sorting, destination-tagged                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_quantum_qr_parcelpod, 2497) {
+    property {
+        name:                           string(STR_QUANTUM_QR_PARCELPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    14;
+        running_cost_factor:            9;
+        cargo_capacity:                 70;
+        loading_speed:                  15;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1499  Iron-plated Strongbox Van (1870)                           */
+/*  Heavy iron safe, guard's lookout                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_iron_plated_strongbox_van, 2498) {
+    property {
+        name:                           string(STR_IRON_PLATED_STRONGBOX_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1870, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1500  Edwardian Armoured Van (1910)                              */
+/*  Improved locks, armed escort                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_edwardian_armoured_van, 2499) {
+    property {
+        name:                           string(STR_EDWARDIAN_ARMOURED_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1910, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            3;
+        cargo_capacity:                 14;
+        loading_speed:                  2;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1501  Post-War Security Van (1945)                               */
+/*  Reinforced steel, alarm system                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_post_war_security_van, 2500) {
+    property {
+        name:                           string(STR_POST_WAR_SECURITY_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1945, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 18;
+        loading_speed:                  3;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1502  BR Bullion Van (1970)                                      */
+/*  Tamper-proof, tracked consignment                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_bullion_van, 2501) {
+    property {
+        name:                           string(STR_BR_BULLION_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1970, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  3;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1503  Modern High-Security Van (2000)                            */
+/*  Electronic locks, GPS-tracked, CCTV                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_high_security_van, 2502) {
+    property {
+        name:                           string(STR_MODERN_HIGH_SECURITY_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    5;
+        running_cost_factor:            5;
+        cargo_capacity:                 26;
+        loading_speed:                  4;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1504  Titan T-Vault Van (2030)                                   */
+/*  Biometric seal, AI threat detection                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_titan_t_vault_van, 2503) {
+    property {
+        name:                           string(STR_TITAN_T_VAULT_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 30;
+        loading_speed:                  5;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1505  Apex A-SecureTransit (2060)                                */
+/*  Quantum-encrypted, drone-guarded                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_apex_a_securetransit, 2504) {
+    property {
+        name:                           string(STR_APEX_A_SECURETRANSIT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    7;
+        running_cost_factor:            6;
+        cargo_capacity:                 36;
+        loading_speed:                  6;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1506  Quantum QR-VaultPod (2090)                                 */
+/*  Tamper-proof force-field, self-destruct                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_quantum_qr_vaultpod, 2505) {
+    property {
+        name:                           string(STR_QUANTUM_QR_VAULTPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2090, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    9;
+        running_cost_factor:            6;
+        cargo_capacity:                 44;
+        loading_speed:                  8;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1507  Open Grain Sack Wagon (1860)                               */
+/*  Sack-loaded, tarpaulin cover                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_open_grain_sack_wagon, 2506) {
+    property {
+        name:                           string(STR_OPEN_GRAIN_SACK_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1860, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 15;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1508  Covered Grain Van (1890)                                   */
+/*  Enclosed, side-door loading                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_covered_grain_van, 2507) {
+    property {
+        name:                           string(STR_COVERED_GRAIN_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1890, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 20;
+        loading_speed:                  4;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1509  Early Hopper Wagon (1920)                                  */
+/*  Bottom-discharge, faster unloading                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_early_hopper_wagon, 2508) {
+    property {
+        name:                           string(STR_EARLY_HOPPER_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            4;
+        cargo_capacity:                 25;
+        loading_speed:                  5;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1510  BR 21T Hopper (1950)                                       */
+/*  Standard post-war grain hopper                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_21t_hopper, 2509) {
+    property {
+        name:                           string(STR_BR_21T_HOPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 30;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1511  Covered Hopper (100T family) (1975)                        */
+/*  Air-tight, moisture-proof                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_covered_hopper, 2510) {
+    property {
+        name:                           string(STR_COVERED_HOPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 40;
+        loading_speed:                  7;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1512  Modern Covered Hopper (2000)                               */
+/*  Pressurised discharge, cleaned in-transit                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_covered_hopper, 2511) {
+    property {
+        name:                           string(STR_MODERN_COVERED_HOPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 50;
+        loading_speed:                  8;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1513  Smart Grain Hopper (2025)                                  */
+/*  Humidity-controlled, GPS-tracked                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_smart_grain_hopper, 2512) {
+    property {
+        name:                           string(STR_SMART_GRAIN_HOPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    11;
+        running_cost_factor:            8;
+        cargo_capacity:                 55;
+        loading_speed:                  10;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1514  Volterra VE-GrainMax (2050)                                */
+/*  Climate-sealed, automated load/unload                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_volterra_ve_grainmax, 2513) {
+    property {
+        name:                           string(STR_VOLTERRA_VE_GRAINMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    13;
+        running_cost_factor:            8;
+        cargo_capacity:                 65;
+        loading_speed:                  12;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1515  Titan T-HarvestStream (2080)                               */
+/*  Self-cleaning, preservation field                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_titan_t_harveststream, 2514) {
+    property {
+        name:                           string(STR_TITAN_T_HARVESTSTREAM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    16;
+        running_cost_factor:            10;
+        cargo_capacity:                 80;
+        loading_speed:                  15;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1516  Open Cattle Truck (1860)                                   */
+/*  Open slats, basic ventilation, poor welfare                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_open_cattle_truck, 2515) {
+    property {
+        name:                           string(STR_OPEN_CATTLE_TRUCK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1860, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1517  Ventilated Cattle Van (1890)                               */
+/*  Improved ventilation, water troughs                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ventilated_cattle_van, 2516) {
+    property {
+        name:                           string(STR_VENTILATED_CATTLE_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1890, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            3;
+        cargo_capacity:                 14;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1518  Bogie Livestock Van (1920)                                 */
+/*  Larger, better ride quality                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bogie_livestock_van, 2517) {
+    property {
+        name:                           string(STR_BOGIE_LIVESTOCK_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 18;
+        loading_speed:                  4;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1519  BR Cattle Van (1950)                                       */
+/*  Feeding racks, improved welfare                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_cattle_van, 2518) {
+    property {
+        name:                           string(STR_BR_CATTLE_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1520  Modern Livestock Carrier (1975)                            */
+/*  Climate-controlled, veterinary standards                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_livestock_carrier, 2519) {
+    property {
+        name:                           string(STR_MODERN_LIVESTOCK_CARRIER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 28;
+        loading_speed:                  5;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1521  Welfare-Compliant Carrier (2000)                           */
+/*  EU-compliant, watering systems, CCTV                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_welfare_compliant_carrier, 2520) {
+    property {
+        name:                           string(STR_WELFARE_COMPLIANT_CARRIER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    7;
+        running_cost_factor:            5;
+        cargo_capacity:                 34;
+        loading_speed:                  6;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1522  Stratos S-LiveHaul (2030)                                  */
+/*  AI welfare monitoring, feed automation                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stratos_s_livehaul, 2521) {
+    property {
+        name:                           string(STR_STRATOS_S_LIVEHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 40;
+        loading_speed:                  7;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1523  Meridian M-BioTransit (2060)                               */
+/*  Stress-free environment, bio-monitoring                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_meridian_m_biotransit, 2522) {
+    property {
+        name:                           string(STR_MERIDIAN_M_BIOTRANSIT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 50;
+        loading_speed:                  9;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1524  Aurora AU-LifePod (2090)                                   */
+/*  Stasis-transport, zero-stress                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_aurora_au_lifepod, 2523) {
+    property {
+        name:                           string(STR_AURORA_AU_LIFEPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2090, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    12;
+        running_cost_factor:            8;
+        cargo_capacity:                 60;
+        loading_speed:                  12;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1525  Chaldron Wagon (4-wheel) (1840)                            */
+/*  Traditional coal wagon, gravity rail                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_chaldron_wagon, 2524) {
+    property {
+        name:                           string(STR_CHALDRON_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1840, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1526  7-Plank Open Wagon (1870)                                  */
+/*  Standard Victorian coal wagon                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_7_plank_open_wagon, 2525) {
+    property {
+        name:                           string(STR_7_PLANK_OPEN_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1870, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            3;
+        cargo_capacity:                 14;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1527  12T Mineral Wagon (1900)                                   */
+/*  Steel body, side-door discharge                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_12t_mineral_wagon, 2526) {
+    property {
+        name:                           string(STR_12T_MINERAL_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1900, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 18;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1528  16T Mineral Wagon (RCH) (1930)                             */
+/*  Railway Clearing House standard                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_16t_mineral_wagon, 2527) {
+    property {
+        name:                           string(STR_16T_MINERAL_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1529  BR 21T Mineral Wagon (1955)                                */
+/*  Welded steel, bottom-door discharge                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_21t_mineral_wagon, 2528) {
+    property {
+        name:                           string(STR_BR_21T_MINERAL_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 28;
+        loading_speed:                  6;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1530  HAA/HBA Merry-Go-Round (1975)                              */
+/*  Continuous loading/unloading, power station circuit                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_haa_hba_merry_go_round, 2529) {
+    property {
+        name:                           string(STR_HAA_HBA_MERRY_GO_ROUND_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    7;
+        running_cost_factor:            6;
+        cargo_capacity:                 36;
+        loading_speed:                  8;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1531  HTA Bogie Coal Hopper (2000)                               */
+/*  102T gross, rapid discharge                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_hta_bogie_coal_hopper, 2530) {
+    property {
+        name:                           string(STR_HTA_BOGIE_COAL_HOPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 50;
+        loading_speed:                  10;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1532  Modern Bogie Coal Hopper (2020)                            */
+/*  Last-generation coal, declining use                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_bogie_coal_hopper, 2531) {
+    property {
+        name:                           string(STR_MODERN_BOGIE_COAL_HOPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    12;
+        running_cost_factor:            8;
+        cargo_capacity:                 60;
+        loading_speed:                  12;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1533  Titan T-BulkCarrier (legacy fuel) (2040)                   */
+/*  Automated, sealed for dust control                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_titan_t_bulkcarrier, 2532) {
+    property {
+        name:                           string(STR_TITAN_T_BULKCARRIER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    14;
+        running_cost_factor:            9;
+        cargo_capacity:                 70;
+        loading_speed:                  14;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1534  Colossus C-MineralPod (2070)                               */
+/*  Universal bulk mineral, self-loading                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_colossus_c_mineralpod, 2533) {
+    property {
+        name:                           string(STR_COLOSSUS_C_MINERALPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    18;
+        running_cost_factor:            11;
+        cargo_capacity:                 90;
+        loading_speed:                  16;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1535  Open Ore Tippler (1870)                                    */
+/*  End-tipping, small 4-wheel                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_open_ore_tippler, 2534) {
+    property {
+        name:                           string(STR_OPEN_ORE_TIPPLER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1870, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 12;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1536  Bogie Ore Wagon (1900)                                     */
+/*  Heavier-duty, side-dump                                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bogie_ore_wagon, 2535) {
+    property {
+        name:                           string(STR_BOGIE_ORE_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1900, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 18;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1537  Heavy Ore Hopper (1935)                                    */
+/*  Bottom-discharge, reinforced                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_heavy_ore_hopper, 2536) {
+    property {
+        name:                           string(STR_HEAVY_ORE_HOPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            4;
+        cargo_capacity:                 25;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1538  BR Ore Tippler (1960)                                      */
+/*  Rotary tippler-compatible                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_ore_tippler, 2537) {
+    property {
+        name:                           string(STR_BR_ORE_TIPPLER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 32;
+        loading_speed:                  6;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1539  Modern Ore Hopper (1985)                                   */
+/*  100T gross, rapid circuit working                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_ore_hopper, 2538) {
+    property {
+        name:                           string(STR_MODERN_ORE_HOPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    9;
+        running_cost_factor:            6;
+        cargo_capacity:                 45;
+        loading_speed:                  8;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1540  Heavy-Haul Ore Wagon (2010)                                */
+/*  130T gross, automated coupling                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_heavy_haul_ore_wagon, 2539) {
+    property {
+        name:                           string(STR_HEAVY_HAUL_ORE_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    12;
+        running_cost_factor:            8;
+        cargo_capacity:                 60;
+        loading_speed:                  10;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1541  Nexus NX-OreHaul (2040)                                    */
+/*  Self-loading, AI-routed                                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_nexus_nx_orehaul, 2540) {
+    property {
+        name:                           string(STR_NEXUS_NX_OREHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    15;
+        running_cost_factor:            10;
+        cargo_capacity:                 75;
+        loading_speed:                  14;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1542  Titan T-OrePod (2070)                                      */
+/*  Magnetic ore separation in-transit                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_titan_t_orepod, 2541) {
+    property {
+        name:                           string(STR_TITAN_T_OREPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    20;
+        running_cost_factor:            12;
+        cargo_capacity:                 100;
+        loading_speed:                  16;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1543  Flat Bolster Wagon (1880)                                  */
+/*  Open flat, rope-secured steel coils                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_flat_bolster_wagon, 2542) {
+    property {
+        name:                           string(STR_FLAT_BOLSTER_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1880, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 12;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1544  Plate Wagon (1910)                                         */
+/*  Low-sided, steel plate transport                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_plate_wagon, 2543) {
+    property {
+        name:                           string(STR_PLATE_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1910, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1545  Bogie Bolster Wagon (1940)                                 */
+/*  Long steel, girder transport                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bogie_bolster_wagon, 2544) {
+    property {
+        name:                           string(STR_BOGIE_BOLSTER_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1940, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1546  Coil Carrier (BDA) (1965)                                  */
+/*  Covered coil cradle, weather-proof                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_coil_carrier, 2545) {
+    property {
+        name:                           string(STR_COIL_CARRIER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1547  Modern Steel Coil Wagon (1990)                             */
+/*  Fully covered, anti-corrosion                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_steel_coil_wagon, 2546) {
+    property {
+        name:                           string(STR_MODERN_STEEL_COIL_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1990, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 40;
+        loading_speed:                  6;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1548  Covered Steel Carrier (2015)                               */
+/*  Climate-controlled, scratch-proof                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_covered_steel_carrier, 2547) {
+    property {
+        name:                           string(STR_COVERED_STEEL_CARRIER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 50;
+        loading_speed:                  8;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1549  Stratos S-MetalMax (2040)                                  */
+/*  Smart coating protection, automated                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stratos_s_metalmax, 2548) {
+    property {
+        name:                           string(STR_STRATOS_S_METALMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    12;
+        running_cost_factor:            8;
+        cargo_capacity:                 60;
+        loading_speed:                  10;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1550  Apex A-AlloyTransit (2070)                                 */
+/*  Inert-atmosphere sealed                                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_apex_a_alloytransit, 2549) {
+    property {
+        name:                           string(STR_APEX_A_ALLOYTRANSIT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    16;
+        running_cost_factor:            10;
+        cargo_capacity:                 80;
+        loading_speed:                  14;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1551  Wooden Oil Barrel Wagon (1865)                             */
+/*  Barrel-loaded flat wagon                                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_wooden_oil_barrel_wagon, 2550) {
+    property {
+        name:                           string(STR_WOODEN_OIL_BARREL_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1865, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1552  Early Tank Wagon (4-wheel) (1890)                          */
+/*  Riveted iron tank, gravity discharge                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_early_tank_wagon, 2551) {
+    property {
+        name:                           string(STR_EARLY_TANK_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1890, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            3;
+        cargo_capacity:                 14;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1553  14T Tank Wagon (1920)                                      */
+/*  Welded steel, improved valves                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_14t_tank_wagon, 2552) {
+    property {
+        name:                           string(STR_14T_TANK_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 20;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1554  BR 35T Tank Wagon (Class A) (1950)                         */
+/*  Petroleum spirit, vacuum braked                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_35t_tank_wagon, 2553) {
+    property {
+        name:                           string(STR_BR_35T_TANK_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 30;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1555  100T Bogie Tank Wagon (TTA) (1975)                         */
+/*  Two-axle bogie, 60,000L capacity                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_100t_bogie_tank_wagon, 2554) {
+    property {
+        name:                           string(STR_100T_BOGIE_TANK_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    9;
+        running_cost_factor:            6;
+        cargo_capacity:                 45;
+        loading_speed:                  7;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1556  Modern Bogie Tank Wagon (TEA) (2000)                       */
+/*  100T gross, rapid discharge, double-skinned                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_bogie_tank_wagon, 2555) {
+    property {
+        name:                           string(STR_MODERN_BOGIE_TANK_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    11;
+        running_cost_factor:            8;
+        cargo_capacity:                 56;
+        loading_speed:                  9;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1557  Smart Tank Wagon (2025)                                    */
+/*  Leak detection, GPS-tracked                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_smart_tank_wagon, 2556) {
+    property {
+        name:                           string(STR_SMART_TANK_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    13;
+        running_cost_factor:            8;
+        cargo_capacity:                 65;
+        loading_speed:                  11;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1558  Volterra VE-LiquidMax (2050)                               */
+/*  Self-sealing, automated valve control                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_volterra_ve_liquidmax, 2557) {
+    property {
+        name:                           string(STR_VOLTERRA_VE_LIQUIDMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    15;
+        running_cost_factor:            10;
+        cargo_capacity:                 75;
+        loading_speed:                  14;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1559  Meridian M-FluidPod (2080)                                 */
+/*  Universal liquid, nano-coating interior                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_meridian_m_fluidpod, 2558) {
+    property {
+        name:                           string(STR_MERIDIAN_M_FLUIDPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    18;
+        running_cost_factor:            11;
+        cargo_capacity:                 90;
+        loading_speed:                  16;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1560  Timber Bolster Truck (1860)                                */
+/*  Simple bolster stakes, rope-lashed                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_timber_bolster_truck, 2559) {
+    property {
+        name:                           string(STR_TIMBER_BOLSTER_TRUCK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1860, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1561  Bogie Timber Wagon (1895)                                  */
+/*  Longer loads, improved bolsters                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bogie_timber_wagon, 2560) {
+    property {
+        name:                           string(STR_BOGIE_TIMBER_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1895, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1562  Steel Bolster Wagon (1930)                                 */
+/*  Steel construction, chain securing                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_steel_bolster_wagon, 2561) {
+    property {
+        name:                           string(STR_STEEL_BOLSTER_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1563  BR Bogie Timber Wagon (1960)                               */
+/*  Standard length, ratchet straps                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_bogie_timber_wagon, 2562) {
+    property {
+        name:                           string(STR_BR_BOGIE_TIMBER_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 30;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1564  Modern Log Wagon (1985)                                    */
+/*  Hydraulic clamp stakes                                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_log_wagon, 2563) {
+    property {
+        name:                           string(STR_MODERN_LOG_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 40;
+        loading_speed:                  7;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1565  Container-Flat Timber (2010)                               */
+/*  Intermodal-compatible, quick-release                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_container_flat_timber, 2564) {
+    property {
+        name:                           string(STR_CONTAINER_FLAT_TIMBER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 50;
+        loading_speed:                  9;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1566  Stratos S-TimberHaul (2040)                                */
+/*  Automated clamping, weather-sealed                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stratos_s_timberhaul, 2565) {
+    property {
+        name:                           string(STR_STRATOS_S_TIMBERHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    12;
+        running_cost_factor:            8;
+        cargo_capacity:                 60;
+        loading_speed:                  12;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1567  Colossus C-BioMass Pod (2070)                              */
+/*  Universal biomass, self-stacking                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_colossus_c_biomass_pod, 2566) {
+    property {
+        name:                           string(STR_COLOSSUS_C_BIOMASS_POD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    16;
+        running_cost_factor:            10;
+        cargo_capacity:                 80;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1568  Wooden Box Van (4-wheel) (1855)                            */
+/*  Side-door, hand-loaded                                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_wooden_box_van, 2567) {
+    property {
+        name:                           string(STR_WOODEN_BOX_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1855, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1569  Victorian Goods Van (1885)                                 */
+/*  Covered, ventilated, sliding doors                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_victorian_goods_van, 2568) {
+    property {
+        name:                           string(STR_VICTORIAN_GOODS_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1885, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            3;
+        cargo_capacity:                 14;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1570  RCH Standard Van (1915)                                    */
+/*  Railway Clearing House standard 12T                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_rch_standard_van, 2569) {
+    property {
+        name:                           string(STR_RCH_STANDARD_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1915, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 18;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1571  BR Vanwide (1945)                                          */
+/*  Wider doors, palletised loading                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_vanwide, 2570) {
+    property {
+        name:                           string(STR_BR_VANWIDE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1945, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            4;
+        cargo_capacity:                 24;
+        loading_speed:                  5;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1572  BR VGA/VDA Van (1970)                                      */
+/*  Air-braked, modern sliding doors                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_vga_vda_van, 2571) {
+    property {
+        name:                           string(STR_BR_VGA_VDA_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1970, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 30;
+        loading_speed:                  6;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1573  Intermodal Container Flat (1990)                           */
+/*  40ft container, crane-loaded                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_intermodal_container_flat, 2572) {
+    property {
+        name:                           string(STR_INTERMODAL_CONTAINER_FLAT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1990, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 40;
+        loading_speed:                  8;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1574  Modern Intermodal (FEA/FLA) (2010)                         */
+/*  Twin-container, well-wagon design                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_intermodal, 2573) {
+    property {
+        name:                           string(STR_MODERN_INTERMODAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 50;
+        loading_speed:                  10;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1575  Nexus NX-CargoFlex (2030)                                  */
+/*  Modular container, automated crane                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_nexus_nx_cargoflex, 2574) {
+    property {
+        name:                           string(STR_NEXUS_NX_CARGOFLEX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    12;
+        running_cost_factor:            8;
+        cargo_capacity:                 60;
+        loading_speed:                  12;
+        cargo_age_period:               648;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1576  Pinnacle PN-FreightPod (2060)                              */
+/*  Universal pod, any-cargo adaptable                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_pinnacle_pn_freightpod, 2575) {
+    property {
+        name:                           string(STR_PINNACLE_PN_FREIGHTPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    15;
+        running_cost_factor:            10;
+        cargo_capacity:                 75;
+        loading_speed:                  14;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1577  Quantum QR-CargoStream (2090)                              */
+/*  Self-routing container, AI logistics                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_quantum_qr_cargostream, 2576) {
+    property {
+        name:                           string(STR_QUANTUM_QR_CARGOSTREAM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2090, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    20;
+        running_cost_factor:            12;
+        cargo_capacity:                 100;
+        loading_speed:                  16;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1578  Ice-Cooled Meat Van (1880)                                 */
+/*  Block-ice cooling, insulated wood                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ice_cooled_meat_van, 2577) {
+    property {
+        name:                           string(STR_ICE_COOLED_MEAT_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1880, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1579  Improved Ventilated Van (1910)                             */
+/*  Better insulation, ice bunkers                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_improved_ventilated_van, 2578) {
+    property {
+        name:                           string(STR_IMPROVED_VENTILATED_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1910, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            3;
+        cargo_capacity:                 14;
+        loading_speed:                  3;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1580  Insulated Meat Van (1935)                                  */
+/*  Charcoal insulation, brine-ice                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_insulated_meat_van, 2579) {
+    property {
+        name:                           string(STR_INSULATED_MEAT_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 18;
+        loading_speed:                  4;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1581  BR Insulfruit / Insulfish (1955)                           */
+/*  Mechanically refrigerated                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_insulfruit_insulfish, 2580) {
+    property {
+        name:                           string(STR_BR_INSULFRUIT_INSULFISH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            4;
+        cargo_capacity:                 24;
+        loading_speed:                  5;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1582  Modern Refrigerated Van (1975)                             */
+/*  Diesel-powered refrigeration unit                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_refrigerated_van, 2581) {
+    property {
+        name:                           string(STR_MODERN_REFRIGERATED_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 32;
+        loading_speed:                  6;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1583  Intermodal Reefer Container (2000)                         */
+/*  40ft refrigerated container, electric                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_intermodal_reefer_container, 2582) {
+    property {
+        name:                           string(STR_INTERMODAL_REEFER_CONTAINER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 42;
+        loading_speed:                  8;
+        cargo_age_period:               648;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1584  Smart Cold-Chain Wagon (2025)                              */
+/*  IoT-monitored, multi-zone temperature                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_smart_cold_chain_wagon, 2583) {
+    property {
+        name:                           string(STR_SMART_COLD_CHAIN_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 50;
+        loading_speed:                  10;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1585  Meridian M-FreshMax (2050)                                 */
+/*  Cryogenic preservation, zero waste                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_meridian_m_freshmax, 2584) {
+    property {
+        name:                           string(STR_MERIDIAN_M_FRESHMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    12;
+        running_cost_factor:            8;
+        cargo_capacity:                 60;
+        loading_speed:                  12;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1586  Aurora AU-BioKeep (2080)                                   */
+/*  Stasis-field preservation, indefinite shelf life                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_aurora_au_biokeep, 2585) {
+    property {
+        name:                           string(STR_AURORA_AU_BIOKEEP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    15;
+        running_cost_factor:            10;
+        cargo_capacity:                 75;
+        loading_speed:                  15;
+        cargo_age_period:               1110;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1587  Covered Paper Van (1890)                                   */
+/*  Basic weatherproofing, side-door                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_covered_paper_van, 2586) {
+    property {
+        name:                           string(STR_COVERED_PAPER_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1890, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 12;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1588  Ventilated Covered Van (1925)                              */
+/*  Better moisture protection                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ventilated_covered_van, 2587) {
+    property {
+        name:                           string(STR_VENTILATED_COVERED_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1925, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 18;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1589  BR Covered Cargo Van (1960)                                */
+/*  Palletised, dry cargo                                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_covered_cargo_van, 2588) {
+    property {
+        name:                           string(STR_BR_COVERED_CARGO_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            5;
+        cargo_capacity:                 26;
+        loading_speed:                  5;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1590  Modern Covered Wagon (1990)                                */
+/*  Humidity-controlled, roll-on loading                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_covered_wagon, 2589) {
+    property {
+        name:                           string(STR_MODERN_COVERED_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1990, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    7;
+        running_cost_factor:            6;
+        cargo_capacity:                 36;
+        loading_speed:                  7;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1591  Containerised Paper Flat (2020)                            */
+/*  Weatherproof container, intermodal                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_containerised_paper_flat, 2590) {
+    property {
+        name:                           string(STR_CONTAINERISED_PAPER_FLAT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 48;
+        loading_speed:                  9;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1592  Pinnacle PN-DryPod (2050)                                  */
+/*  Climate-sealed, anti-static                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_pinnacle_pn_drypod, 2591) {
+    property {
+        name:                           string(STR_PINNACLE_PN_DRYPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    12;
+        running_cost_factor:            8;
+        cargo_capacity:                 60;
+        loading_speed:                  12;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1593  Halcyon H-MaterialPod (2080)                               */
+/*  Universal dry goods, self-loading                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_halcyon_h_materialpod, 2592) {
+    property {
+        name:                           string(STR_HALCYON_H_MATERIALPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    16;
+        running_cost_factor:            10;
+        cargo_capacity:                 80;
+        loading_speed:                  15;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1594  Open Tropical Wagon (1890)                                 */
+/*  Basic flatbed, tarpaulin                                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_open_tropical_wagon, 2593) {
+    property {
+        name:                           string(STR_OPEN_TROPICAL_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1890, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1595  Ventilated Fruit Van (1920)                                */
+/*  Louvred sides, natural ventilation                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ventilated_fruit_van, 2594) {
+    property {
+        name:                           string(STR_VENTILATED_FRUIT_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1596  Improved Tropical Van (1950)                               */
+/*  Insulated, forced ventilation                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_improved_tropical_van, 2595) {
+    property {
+        name:                           string(STR_IMPROVED_TROPICAL_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  5;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1597  Refrigerated Fruit Wagon (1980)                            */
+/*  Mechanical cooling for tropical fruit                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_refrigerated_fruit_wagon, 2596) {
+    property {
+        name:                           string(STR_REFRIGERATED_FRUIT_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1980, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 32;
+        loading_speed:                  6;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1598  Reefer Container (Tropical) (2010)                         */
+/*  Multi-temperature zone, humidity control                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_reefer_container, 2597) {
+    property {
+        name:                           string(STR_REEFER_CONTAINER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    9;
+        running_cost_factor:            6;
+        cargo_capacity:                 44;
+        loading_speed:                  8;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1599  Cascadia C-TropiFresh (2040)                               */
+/*  Ethylene-scrubbing, ripeness management                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_cascadia_c_tropifresh, 2598) {
+    property {
+        name:                           string(STR_CASCADIA_C_TROPIFRESH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    11;
+        running_cost_factor:            8;
+        cargo_capacity:                 55;
+        loading_speed:                  11;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1600  Solaris Sol-HarvestPod (2070)                              */
+/*  Bio-stasis preservation, any climate                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_solaris_sol_harvestpod, 2599) {
+    property {
+        name:                           string(STR_SOLARIS_SOL_HARVESTPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    14;
+        running_cost_factor:            9;
+        cargo_capacity:                 70;
+        loading_speed:                  14;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1601  Open Mineral Wagon (1875)                                  */
+/*  Side-tipping, basic 4-wheel                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_open_mineral_wagon, 2600) {
+    property {
+        name:                           string(STR_OPEN_MINERAL_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1875, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 12;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1602  Bogie Mineral Hopper (1910)                                */
+/*  Bottom-discharge                                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bogie_mineral_hopper, 2601) {
+    property {
+        name:                           string(STR_BOGIE_MINERAL_HOPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1910, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 18;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1603  BR Mineral Wagon / Tank (1945)                             */
+/*  Multi-purpose bulk/liquid                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_mineral_wagon_tank, 2602) {
+    property {
+        name:                           string(STR_BR_MINERAL_WAGON_TANK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1945, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            4;
+        cargo_capacity:                 25;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1604  Modern Bulk Hopper (1975)                                  */
+/*  Covered, pressurised discharge                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_modern_bulk_hopper, 2603) {
+    property {
+        name:                           string(STR_MODERN_BULK_HOPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 38;
+        loading_speed:                  7;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1605  Heavy-Haul Bulk Wagon (2010)                               */
+/*  130T gross, automated                                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_heavy_haul_bulk_wagon, 2604) {
+    property {
+        name:                           string(STR_HEAVY_HAUL_BULK_WAGON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    11;
+        running_cost_factor:            8;
+        cargo_capacity:                 55;
+        loading_speed:                  10;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1606  Volterra VE-BulkStream (2040)                              */
+/*  Universal bulk mineral, self-cleaning                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_volterra_ve_bulkstream, 2605) {
+    property {
+        name:                           string(STR_VOLTERRA_VE_BULKSTREAM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    14;
+        running_cost_factor:            9;
+        cargo_capacity:                 70;
+        loading_speed:                  13;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1607  Titan T-BulkPod (2070)                                     */
+/*  Any-mineral adaptable, AI-routed                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_titan_t_bulkpod, 2606) {
+    property {
+        name:                           string(STR_TITAN_T_BULKPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    18;
+        running_cost_factor:            11;
+        cargo_capacity:                 90;
+        loading_speed:                  16;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+        track_type:                     RAIL;
+    }
+}

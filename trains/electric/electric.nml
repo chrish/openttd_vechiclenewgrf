@@ -1,0 +1,2301 @@
+/**
+ * electric.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1259  Siemens & Halske Demonstration (1879)                      */
+/*  Electric (first electric railway, Berlin Trade Fair)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_and_halske_demonstration, 2258) {
+    property {
+        name:                           string(STR_SIEMENS_AND_HALSKE_DEMONSTRATION_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1879, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            10;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          13 km/h;
+        power:                          3 hp;
+        weight:                         30 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1260  Gross-Lichterfelde Tramway (1881)                          */
+/*  Electric tram (first electric tramway in regular service)          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gross_lichterfelde_tramway, 2259) {
+    property {
+        name:                           string(STR_GROSS_LICHTERFELDE_TRAMWAY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1881, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            10;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          20 km/h;
+        power:                          8 hp;
+        weight:                         30 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1261  City & South London Railway (1890)                         */
+/*  Bo electric (first deep-tube underground, London)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_city_and_south_london_railway, 2260) {
+    property {
+        name:                           string(STR_CITY_AND_SOUTH_LONDON_RAILWAY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1890, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            11;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          22 km/h;
+        power:                          50 hp;
+        weight:                         32 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1262  Baltimore Belt Line (B&O) (1895)                           */
+/*  Bo-Bo-Bo electric (first mainline electric, Howard St tunnel)      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_baltimore_belt_line, 2261) {
+    property {
+        name:                           string(STR_BALTIMORE_BELT_LINE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1895, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    6;
+        running_cost_factor:            32;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          48 km/h;
+        power:                          1080 hp;
+        weight:                         62 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1263  Siemens Studiengesellschaft (1901)                         */
+/*  Test car (world speed record, Marienfelde–Zossen)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_studiengesellschaft, 2262) {
+    property {
+        name:                           string(STR_SIEMENS_STUDIENGESELLSCHAFT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1901, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    6;
+        running_cost_factor:            30;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          210 km/h;
+        power:                          1000 hp;
+        weight:                         60 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1264  AEG Drehstrom Triebwagen (1903)                            */
+/*  Test car (three-phase AC, 210 km/h speed record)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_aeg_drehstrom_triebwagen, 2263) {
+    property {
+        name:                           string(STR_AEG_DREHSTROM_TRIEBWAGEN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1903, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    6;
+        running_cost_factor:            30;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          210 km/h;
+        power:                          1000 hp;
+        weight:                         60 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1265  New York Central S-Motor (1906)                            */
+/*  Bo-Bo+Bo-Bo electric (Grand Central Terminal, first major mainli   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_new_york_central_s_motor, 2264) {
+    property {
+        name:                           string(STR_NEW_YORK_CENTRAL_S_MOTOR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1906, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    13;
+        running_cost_factor:            54;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          80 km/h;
+        power:                          2200 hp;
+        weight:                         96 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1266  SBB Ae 3/5 (prototype era) (1910)                          */
+/*  Various (early Swiss mountain electrification)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sbb_ae_3_5, 2265) {
+    property {
+        name:                           string(STR_SBB_AE_3_5_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1910, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            24;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          75 km/h;
+        power:                          700 hp;
+        weight:                         51 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1267  Norfolk & Western LC-1 (1912)                              */
+/*  1-B-B-1+1-B-B-1 electric (coal-hauling, Elkhorn tunnel)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_norfolk_and_western_lc_1, 2266) {
+    property {
+        name:                           string(STR_NORFOLK_AND_WESTERN_LC_1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1912, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    43;
+        running_cost_factor:            152;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          22 km/h;
+        power:                          7125 hp;
+        weight:                         244 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1268  Swiss Ce 6/8 "Crocodile" (1919)                            */
+/*  (1C)(C1) electric (iconic Swiss mountain freight, Gotthard)        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_swiss_ce_6_8_crocodile, 2267) {
+    property {
+        name:                           string(STR_SWISS_CE_6_8_CROCODILE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1919, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    16;
+        running_cost_factor:            64;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          75 km/h;
+        power:                          2700 hp;
+        weight:                         111 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1269  Milwaukee Road EP-2 "Bipolar" (1920)                       */
+/*  1-B-D-D-B-1 electric (iconic gearless, Rocky Mountain crossing)    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_milwaukee_road_ep_2_bipolar, 2268) {
+    property {
+        name:                           string(STR_MILWAUKEE_ROAD_EP_2_BIPOLAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    34;
+        running_cost_factor:            79;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          110 km/h;
+        power:                          3440 hp;
+        weight:                         133 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1270  PRR P5a (1924)                                             */
+/*  2-C-2 electric (Pennsylvania Railroad NE Corridor)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_prr_p5a, 2269) {
+    property {
+        name:                           string(STR_PRR_P5A_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1924, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    38;
+        running_cost_factor:            85;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          145 km/h;
+        power:                          3750 hp;
+        weight:                         142 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1271  Swiss Ae 4/7 (1927)                                        */
+/*  2-Do-1 electric (Swiss mainline workhorse, lasted to 1996)         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_swiss_ae_4_7, 2270) {
+    property {
+        name:                           string(STR_SWISS_AE_4_7_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1927, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    30;
+        running_cost_factor:            70;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          100 km/h;
+        power:                          3000 hp;
+        weight:                         120 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1272  Italian FS E.626 (1930)                                    */
+/*  Bo-Bo-Bo electric (first Italian mass-produced electric)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_italian_fs_e_626, 2271) {
+    property {
+        name:                           string(STR_ITALIAN_FS_E_626_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    21;
+        running_cost_factor:            53;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          95 km/h;
+        power:                          2130 hp;
+        weight:                         94 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1273  French 2D2 9100 (1932)                                     */
+/*  2-D-2 electric (PLM, French mainline express)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_french_2d2_9100, 2272) {
+    property {
+        name:                           string(STR_FRENCH_2D2_9100_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1932, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    40;
+        running_cost_factor:            90;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          140 km/h;
+        power:                          4000 hp;
+        weight:                         150 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1274  PRR GG1 (1934)                                             */
+/*  2-C+C-2 electric (iconic American, Raymond Loewy styled, NE Corr   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_prr_gg1, 2273) {
+    property {
+        name:                           string(STR_PRR_GG1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1934, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    46;
+        running_cost_factor:            102;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          4620 hp;
+        weight:                         169 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1275  SBB Ae 8/14 (1935)                                         */
+/*  (1A)Bo(A1)+(1A)Bo(A1) electric (double locomotive, Gotthard heav   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sbb_ae_8_14, 2274) {
+    property {
+        name:                           string(STR_SBB_AE_8_14_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    82;
+        running_cost_factor:            174;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          100 km/h;
+        power:                          8200 hp;
+        weight:                         276 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1276  Italian FS E.636 (1940)                                    */
+/*  Bo-Bo-Bo electric (Italian standard, 469 built)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_italian_fs_e_636, 2275) {
+    property {
+        name:                           string(STR_ITALIAN_FS_E_636_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1940, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    27;
+        running_cost_factor:            64;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          120 km/h;
+        power:                          2700 hp;
+        weight:                         111 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1277  SBB Re 4/4 I (1946)                                        */
+/*  Bo-Bo electric (first bogie Swiss express, lightweight)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sbb_re_4_4_i, 2276) {
+    property {
+        name:                           string(STR_SBB_RE_4_4_I_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1946, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    30;
+        running_cost_factor:            70;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          125 km/h;
+        power:                          3000 hp;
+        weight:                         120 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1278  French BB 9004 (1950)                                      */
+/*  Bo-Bo electric (French speed record 1955)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_french_bb_9004, 2277) {
+    property {
+        name:                           string(STR_FRENCH_BB_9004_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    50;
+        running_cost_factor:            90;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          331 km/h;
+        power:                          4000 hp;
+        weight:                         150 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1279  SNCF CC 7107 (1951)                                        */
+/*  CC electric (French heavy express, speed record 1955)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sncf_cc_7107, 2278) {
+    property {
+        name:                           string(STR_SNCF_CC_7107_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1951, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    60;
+        running_cost_factor:            106;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          150 km/h;
+        power:                          4800 hp;
+        weight:                         174 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1280  Soviet VL22m (1952)                                        */
+/*  Co-Co electric (Soviet DC freight standard)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_soviet_vl22m, 2279) {
+    property {
+        name:                           string(STR_SOVIET_VL22M_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1952, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    30;
+        running_cost_factor:            58;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          75 km/h;
+        power:                          2400 hp;
+        weight:                         102 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1281  ÖBB Class 1042 (1953)                                      */
+/*  Bo-Bo electric (Austrian main-line)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bb_class_1042, 2280) {
+    property {
+        name:                           string(STR_BB_CLASS_1042_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1953, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    50;
+        running_cost_factor:            90;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          150 km/h;
+        power:                          4000 hp;
+        weight:                         150 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1282  SBB Re 4/4 II (1955)                                       */
+/*  Bo-Bo electric (Swiss universal workhorse, 276 built)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sbb_re_4_4_ii, 2281) {
+    property {
+        name:                           string(STR_SBB_RE_4_4_II_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    79;
+        running_cost_factor:            136;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          140 km/h;
+        power:                          6320 hp;
+        weight:                         220 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1283  Soviet VL60 (1957)                                         */
+/*  Co-Co electric AC (Soviet single-phase freight)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_soviet_vl60, 2282) {
+    property {
+        name:                           string(STR_SOVIET_VL60_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1957, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    64;
+        running_cost_factor:            112;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          100 km/h;
+        power:                          5100 hp;
+        weight:                         183 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1284  DB Class E 03 (later 103) (1960)                           */
+/*  Co-Co electric (German InterCity express, iconic)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_db_class_e_03, 2283) {
+    property {
+        name:                           string(STR_DB_CLASS_E_03_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    97;
+        running_cost_factor:            166;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          7780 hp;
+        weight:                         263 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1285  SNCF BB 16500 (1963)                                       */
+/*  Bo-Bo electric (French 25 kV AC, mass-produced)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sncf_bb_16500, 2284) {
+    property {
+        name:                           string(STR_SNCF_BB_16500_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1963, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    44;
+        running_cost_factor:            81;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          3540 hp;
+        weight:                         136 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1286  Soviet VL80 (1964)                                         */
+/*  Bo-Bo+Bo-Bo electric AC (Soviet heavy freight twin)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_soviet_vl80, 2285) {
+    property {
+        name:                           string(STR_SOVIET_VL80_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1964, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    106;
+        running_cost_factor:            180;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          110 km/h;
+        power:                          8500 hp;
+        weight:                         285 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1287  DB Class 111 prototype era (E 10) (1965)                   */
+/*  Bo-Bo electric (German push-pull standard)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_db_class_111_prototype_era, 2286) {
+    property {
+        name:                           string(STR_DB_CLASS_111_PROTOTYPE_ERA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    62;
+        running_cost_factor:            110;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          5000 hp;
+        weight:                         180 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1288  Amtrak GG1 (continued) → E60 (1967)                        */
+/*  Co-Co electric (NE Corridor replacement attempt)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_amtrak_gg1_e60, 2287) {
+    property {
+        name:                           string(STR_AMTRAK_GG1_E60_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1967, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    75;
+        running_cost_factor:            130;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          190 km/h;
+        power:                          6000 hp;
+        weight:                         210 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1289  SBB Re 6/6 (1969)                                          */
+/*  Bo-Bo-Bo electric (most powerful single-unit Swiss, Gotthard)      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sbb_re_6_6, 2288) {
+    property {
+        name:                           string(STR_SBB_RE_6_6_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1969, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    132;
+        running_cost_factor:            222;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          140 km/h;
+        power:                          10600 hp;
+        weight:                         348 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1290  SNCF CC 6500 (1971)                                        */
+/*  CC electric (French dual-voltage heavy express)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sncf_cc_6500, 2289) {
+    property {
+        name:                           string(STR_SNCF_CC_6500_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1971, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    118;
+        running_cost_factor:            168;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          7900 hp;
+        weight:                         267 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1291  SNCF BB 15000 (1972)                                       */
+/*  Bo-Bo electric (French thyristor-controlled)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sncf_bb_15000, 2290) {
+    property {
+        name:                           string(STR_SNCF_BB_15000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1972, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    91;
+        running_cost_factor:            131;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          6050 hp;
+        weight:                         212 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1292  BR Class 87 (1975)                                         */
+/*  Bo-Bo electric (WCML 25 kV AC, British express)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_87, 2291) {
+    property {
+        name:                           string(STR_BR_CLASS_87_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    75;
+        running_cost_factor:            110;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          177 km/h;
+        power:                          5000 hp;
+        weight:                         180 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1293  Swedish Rc4 (1978)                                         */
+/*  Bo-Bo electric (thyristor, hugely influential design worldwide)    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_swedish_rc4, 2292) {
+    property {
+        name:                           string(STR_SWEDISH_RC4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1978, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    81;
+        running_cost_factor:            118;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          5400 hp;
+        weight:                         192 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1294  Soviet VL85 (1980)                                         */
+/*  Bo-Bo-Bo+Bo-Bo-Bo electric (heavy Siberian freight)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_soviet_vl85, 2293) {
+    property {
+        name:                           string(STR_SOVIET_VL85_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1980, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    160;
+        running_cost_factor:            224;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          110 km/h;
+        power:                          10700 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1295  SNCF BB 7200 (1981)                                        */
+/*  Bo-Bo electric (French DC express workhorse)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sncf_bb_7200, 2294) {
+    property {
+        name:                           string(STR_SNCF_BB_7200_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1981, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    91;
+        running_cost_factor:            131;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          6050 hp;
+        weight:                         212 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1296  DB Class 120 (1984)                                        */
+/*  Bo-Bo electric (first mass-produced 3-phase AC drive)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_db_class_120, 2295) {
+    property {
+        name:                           string(STR_DB_CLASS_120_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1984, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    96;
+        running_cost_factor:            138;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          6400 hp;
+        weight:                         222 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1297  SNCF BB 26000 "Sybic" (1989)                               */
+/*  Bo-Bo electric (French dual-voltage, Sybic control)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sncf_bb_26000_sybic, 2296) {
+    property {
+        name:                           string(STR_SNCF_BB_26000_SYBIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1989, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    111;
+        running_cost_factor:            158;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          7400 hp;
+        weight:                         252 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1298  Amtrak AEM-7 → ALP-44 (1992)                               */
+/*  Bo-Bo electric (NE Corridor, Rc4-derived)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_amtrak_aem_7_alp_44, 2297) {
+    property {
+        name:                           string(STR_AMTRAK_AEM_7_ALP_44_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1992, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    105;
+        running_cost_factor:            150;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          7000 hp;
+        weight:                         240 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1299  DB Class 101 (1994)                                        */
+/*  Bo-Bo electric (German IC/ICE express standard)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_db_class_101, 2298) {
+    property {
+        name:                           string(STR_DB_CLASS_101_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1994, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    96;
+        running_cost_factor:            138;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          220 km/h;
+        power:                          6400 hp;
+        weight:                         222 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1300  Siemens EuroSprinter (ES64F) (1996)                        */
+/*  Bo-Bo electric (European multi-system family)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_eurosprinter, 2299) {
+    property {
+        name:                           string(STR_SIEMENS_EUROSPRINTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1996, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    129;
+        running_cost_factor:            182;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          230 km/h;
+        power:                          8600 hp;
+        weight:                         288 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1301  ABB/Adtranz Re 460 (1996)                                  */
+/*  Bo-Bo electric (Swiss express, "Lok 2000")                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_abb_adtranz_re_460, 2300) {
+    property {
+        name:                           string(STR_ABB_ADTRANZ_RE_460_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1996, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    122;
+        running_cost_factor:            172;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          8100 hp;
+        weight:                         273 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1302  Alstom Prima (BB 27000) (1998)                             */
+/*  Bo-Bo electric (French freight/passenger family)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alstom_prima, 2301) {
+    property {
+        name:                           string(STR_ALSTOM_PRIMA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1998, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    84;
+        running_cost_factor:            122;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          5600 hp;
+        weight:                         198 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1303  Siemens Taurus (ÖBB 1016/1116) (2000)                      */
+/*  Bo-Bo electric (Austrian/European multi-system)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_taurus, 2302) {
+    property {
+        name:                           string(STR_SIEMENS_TAURUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    172;
+        running_cost_factor:            182;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          230 km/h;
+        power:                          8600 hp;
+        weight:                         288 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1304  Bombardier TRAXX F140 (2003)                               */
+/*  Bo-Bo electric (European modular freight platform)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bombardier_traxx_f140, 2303) {
+    property {
+        name:                           string(STR_BOMBARDIER_TRAXX_F140_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2003, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    142;
+        running_cost_factor:            152;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          7100 hp;
+        weight:                         243 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1305  Amtrak ACS-64 Sprinter (2005)                              */
+/*  Bo-Bo electric (NE Corridor, Amtrak "Cities Sprinter")             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_amtrak_acs_64_sprinter, 2304) {
+    property {
+        name:                           string(STR_AMTRAK_ACS_64_SPRINTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2005, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    172;
+        running_cost_factor:            182;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          8600 hp;
+        weight:                         288 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1306  Siemens Vectron (2007)                                     */
+/*  Bo-Bo electric (European modular multi-system)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_vectron, 2305) {
+    property {
+        name:                           string(STR_SIEMENS_VECTRON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2007, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    162;
+        running_cost_factor:            172;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          8100 hp;
+        weight:                         273 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1307  Alstom Prima II (2008)                                     */
+/*  Bo-Bo electric (European/global express freight)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alstom_prima_ii, 2306) {
+    property {
+        name:                           string(STR_ALSTOM_PRIMA_II_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2008, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    172;
+        running_cost_factor:            182;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          8600 hp;
+        weight:                         288 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1308  Bombardier TRAXX AC3 Last Mile (2010)                      */
+/*  Bo-Bo bi-mode (electric + diesel shunting)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bombardier_traxx_ac3_last_mile, 2307) {
+    property {
+        name:                           string(STR_BOMBARDIER_TRAXX_AC3_LAST_MILE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    142;
+        running_cost_factor:            152;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          7100 hp;
+        weight:                         243 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1309  CRRC HXD1 (Harmony) (2013)                                 */
+/*  Co-Co+Co-Co electric (Chinese heavy freight twin, 25 kV)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_crrc_hxd1, 2308) {
+    property {
+        name:                           string(STR_CRRC_HXD1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2013, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          120 km/h;
+        power:                          13410 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1310  Siemens Vectron MS (2015)                                  */
+/*  Bo-Bo multi-system (15 kV/25 kV/3 kV/1.5 kV capable)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_vectron_ms, 2309) {
+    property {
+        name:                           string(STR_SIEMENS_VECTRON_MS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    162;
+        running_cost_factor:            172;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          8100 hp;
+        weight:                         273 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1311  Alstom Traxx Universal (MS3) (2018)                        */
+/*  Bo-Bo multi-system (European freight standard)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alstom_traxx_universal, 2310) {
+    property {
+        name:                           string(STR_ALSTOM_TRAXX_UNIVERSAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2018, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    142;
+        running_cost_factor:            152;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          7100 hp;
+        weight:                         243 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1312  CRRC HXD2 (Shen24) (2020)                                  */
+/*  Co-Co+Co-Co electric (Chinese heavy coal freight)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_crrc_hxd2, 2311) {
+    property {
+        name:                           string(STR_CRRC_HXD2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          120 km/h;
+        power:                          14000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1313  Stadler EURO9000 (2022)                                    */
+/*  Co-Co multi-system (most powerful European loco)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stadler_euro9000, 2312) {
+    property {
+        name:                           string(STR_STADLER_EURO9000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2022, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    242;
+        running_cost_factor:            252;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          12100 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1314  Siemens Vectron Dual Mode (DM) (2024)                      */
+/*  Bo-Bo bi-mode (seamless electric-diesel transition)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_vectron_dual_mode, 2313) {
+    property {
+        name:                           string(STR_SIEMENS_VECTRON_DUAL_MODE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2024, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    64;
+        running_cost_factor:            74;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          3200 hp;
+        weight:                         126 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1424  Titan T-9000 FreightMaster (2030)                          */
+/*  Co-Co battery-electric freight (solid-state, 500 km range)         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_titan_t_9000_freightmaster, 2423) {
+    property {
+        name:                           string(STR_TITAN_T_9000_FREIGHTMASTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    225;
+        running_cost_factor:            190;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          9000 hp;
+        weight:                         300 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1425  Volterra VE-6000 GreenHaul (2031)                          */
+/*  Bo-Bo hydrogen fuel cell freight (zero-emission)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_volterra_ve_6000_greenhaul, 2424) {
+    property {
+        name:                           string(STR_VOLTERRA_VE_6000_GREENHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2031, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    150;
+        running_cost_factor:            130;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          140 km/h;
+        power:                          6000 hp;
+        weight:                         210 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1426  Siemens Vectron Neo-X (2032)                               */
+/*  Bo-Bo multi-system electric (next-gen European express)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_vectron_neo_x, 2425) {
+    property {
+        name:                           string(STR_SIEMENS_VECTRON_NEO_X_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2032, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    250;
+        running_cost_factor:            210;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          230 km/h;
+        power:                          10000 hp;
+        weight:                         330 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1427  Colossus C-15000 HeavyMax (2033)                           */
+/*  Co-Co+Co-Co electric (ultra-heavy freight twin, mining)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_colossus_c_15000_heavymax, 2426) {
+    property {
+        name:                           string(STR_COLOSSUS_C_15000_HEAVYMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2033, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          120 km/h;
+        power:                          15000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1428  Apex A-12000 TransContinental (2035)                       */
+/*  Co-Co electric (long-haul fast freight, autonomous)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_apex_a_12000_transcontinental, 2427) {
+    property {
+        name:                           string(STR_APEX_A_12000_TRANSCONTINENTAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2035, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            250;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          12000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1429  Meridian M-8000 LastMile (2037)                            */
+/*  Bo-Bo tri-mode (electric/hydrogen/battery)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_meridian_m_8000_lastmile, 2428) {
+    property {
+        name:                           string(STR_MERIDIAN_M_8000_LASTMILE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2037, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    200;
+        running_cost_factor:            170;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          8000 hp;
+        weight:                         270 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1430  Nexus NX-20000 MegaHauler (2040)                           */
+/*  Bo-Bo-Bo+Bo-Bo-Bo electric (dedicated freight corridor)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_nexus_nx_20000_megahauler, 2429) {
+    property {
+        name:                           string(STR_NEXUS_NX_20000_MEGAHAULER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          140 km/h;
+        power:                          20000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1431  Stratos S-25000 PowerUnit (2045)                           */
+/*  Fusion-electric freight (compact fusion reactor, unlimited range   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stratos_s_25000_powerunit, 2430) {
+    property {
+        name:                           string(STR_STRATOS_S_25000_POWERUNIT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2045, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          25000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1432  Titan T-50000 ContinentHauler (2050)                       */
+/*  Fusion-electric mega-loco (transcontinental automated freight)     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_titan_t_50000_continenthauler, 2431) {
+    property {
+        name:                           string(STR_TITAN_T_50000_CONTINENTHAULER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          50000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1433  Quantum QR-100000 OmniPower (2060)                         */
+/*  Fusion-electric (most powerful locomotive, dedicated corridor)     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_quantum_qr_100000_omnipower, 2432) {
+    property {
+        name:                           string(STR_QUANTUM_QR_100000_OMNIPOWER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          250 km/h;
+        power:                          100000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1458  Volterra VE-AutoTrain 300 (2030)                           */
+/*  Autonomous electric freight (AI-managed, fully automated)          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_volterra_ve_autotrain_300, 2457) {
+    property {
+        name:                           string(STR_VOLTERRA_VE_AUTOTRAIN_300_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            250;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          120 km/h;
+        power:                          12000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1459  Colossus C-MegaTrain 500 (2032)                            */
+/*  Autonomous electric mega-freight (mining corridor)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_colossus_c_megatrain_500, 2458) {
+    property {
+        name:                           string(STR_COLOSSUS_C_MEGATRAIN_500_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2032, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          100 km/h;
+        power:                          30000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1460  Apex A-InterModal Express (2035)                           */
+/*  Fast container freight train (port-to-hub express)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_apex_a_intermodal_express, 2459) {
+    property {
+        name:                           string(STR_APEX_A_INTERMODAL_EXPRESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2035, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          160 km/h;
+        power:                          20000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1461  Meridian M-ColdChain Rail (2038)                           */
+/*  Autonomous refrigerated freight (food logistics)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_meridian_m_coldchain_rail, 2460) {
+    property {
+        name:                           string(STR_MERIDIAN_M_COLDCHAIN_RAIL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2038, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    200;
+        running_cost_factor:            170;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          140 km/h;
+        power:                          8000 hp;
+        weight:                         270 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1462  Stratos S-HyperFreight (2040)                              */
+/*  Fusion-electric mega-freight (dedicated corridor)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stratos_s_hyperfreight, 2461) {
+    property {
+        name:                           string(STR_STRATOS_S_HYPERFREIGHT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          120 km/h;
+        power:                          60000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1463  Nexus NX-OreExpress (2045)                                 */
+/*  Mega-freight train (automated mining-to-port)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_nexus_nx_oreexpress, 2462) {
+    property {
+        name:                           string(STR_NEXUS_NX_OREEXPRESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2045, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          100 km/h;
+        power:                          100000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1464  Titan T-ContainerPipe (2050)                               */
+/*  Fast container express (vacuum-tube-compatible freight)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_titan_t_containerpipe, 2463) {
+    property {
+        name:                           string(STR_TITAN_T_CONTAINERPIPE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          200 km/h;
+        power:                          40000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1465  Colossus C-GlobalFreight (2055)                            */
+/*  Transcontinental mega-freight (fusion-electric, 5 km train)        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_colossus_c_globalfreight, 2464) {
+    property {
+        name:                           string(STR_COLOSSUS_C_GLOBALFREIGHT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2055, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     ELRL;
+        speed:                          120 km/h;
+        power:                          150000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1466  Velaris V-MagLev City (2060)                               */
+/*  Maglev express (urban-to-urban, elevated vacuum tube)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_velaris_v_maglev_city, 2465) {
+    property {
+        name:                           string(STR_VELARIS_V_MAGLEV_CITY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     MGLV;
+        speed:                          800 km/h;
+        power:                          80000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1467  Aurora AU-SubOceanic (2065)                                */
+/*  Subsea maglev (transatlantic tunnel, fusion-electric)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_aurora_au_suboceanic, 2466) {
+    property {
+        name:                           string(STR_AURORA_AU_SUBOCEANIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2065, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     MGLV;
+        speed:                          600 km/h;
+        power:                          60000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1468  Nexus NX-HyperLoop Max (2070)                              */
+/*  Vacuum-tube maglev (near-vacuum, continental express)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_nexus_nx_hyperloop_max, 2467) {
+    property {
+        name:                           string(STR_NEXUS_NX_HYPERLOOP_MAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     MGLV;
+        speed:                          1200 km/h;
+        power:                          40000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1469  Titan T-MegaOre 500k (2070)                                */
+/*  Automated mega-freight (10 km train, mining corridor)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_titan_t_megaore_500k, 2468) {
+    property {
+        name:                           string(STR_TITAN_T_MEGAORE_500K_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     MGLV;
+        speed:                          120 km/h;
+        power:                          250000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1470  Quantum QR-Express 2000 (2075)                             */
+/*  Vacuum-tube maglev (transcontinental, 1-hour any city pair)        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_quantum_qr_express_2000, 2469) {
+    property {
+        name:                           string(STR_QUANTUM_QR_EXPRESS_2000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2075, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     MGLV;
+        speed:                          1500 km/h;
+        power:                          100000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1471  Solaris Sol-Freight Global (2075)                          */
+/*  Continuous freight conveyor-train (permanent circulation)          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_solaris_sol_freight_global, 2470) {
+    property {
+        name:                           string(STR_SOLARIS_SOL_FREIGHT_GLOBAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2075, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     MGLV;
+        speed:                          150 km/h;
+        power:                          500000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1472  Halcyon H-Metro Infinity (2080)                            */
+/*  Mega-metro (mega-city spine, continuous pod flow)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_halcyon_h_metro_infinity, 2471) {
+    property {
+        name:                           string(STR_HALCYON_H_METRO_INFINITY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     MGLV;
+        speed:                          200 km/h;
+        power:                          30000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1473  Cascadia C-TransPacific (2085)                             */
+/*  Vacuum-tube maglev (trans-Pacific subsea tunnel)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_cascadia_c_transpacific, 2472) {
+    property {
+        name:                           string(STR_CASCADIA_C_TRANSPACIFIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2085, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     MGLV;
+        speed:                          2000 km/h;
+        power:                          150000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1474  Stratos S-OrbitalLink (2090)                               */
+/*  Vacuum-tube ultra-express (any-to-any global, 1 hour)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stratos_s_orbitallink, 2473) {
+    property {
+        name:                           string(STR_STRATOS_S_ORBITALLINK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2090, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     MGLV;
+        speed:                          3000 km/h;
+        power:                          200000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1475  Apex A-ContainerStream (2095)                              */
+/*  Continuous freight stream (permanent global circulation)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_apex_a_containerstream, 2474) {
+    property {
+        name:                           string(STR_APEX_A_CONTAINERSTREAM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2095, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     MGLV;
+        speed:                          200 km/h;
+        power:                          1000000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1476  Quantum QR-Singularity Express (2100)                      */
+/*  Vacuum-tube ultra-express (global backbone, any city < 30 min)     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_quantum_qr_singularity_express, 2475) {
+    property {
+        name:                           string(STR_QUANTUM_QR_SINGULARITY_EXPRESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2100, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        running_cost_base:              RUNNING_COST_ELECTRIC;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        track_type:                     MGLV;
+        speed:                          5000 km/h;
+        power:                          500000 hp;
+        weight:                         350 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+    }
+}

@@ -1,0 +1,2283 @@
+/**
+ * trailers.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #807  Open Charabanc Trailer (1920)                               */
+/*  Towed open-top trailer, excursion use                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_open_charabanc_trailer, 1806) {
+    property {
+        name:                           string(STR_OPEN_CHARABANC_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #808  Articulated Bus Section (1950)                              */
+/*  Early bendy-bus rear section                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_articulated_bus_section, 1807) {
+    property {
+        name:                           string(STR_ARTICULATED_BUS_SECTION_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            4;
+        cargo_capacity:                 24;
+        loading_speed:                  4;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #809  Modern Artic Section (1975)                                 */
+/*  Air-conditioned, low-floor                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_modern_artic_section, 1808) {
+    property {
+        name:                           string(STR_MODERN_ARTIC_SECTION_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    7;
+        running_cost_factor:            6;
+        cargo_capacity:                 36;
+        loading_speed:                  5;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #810  Low-Floor Artic Section (2000)                              */
+/*  Accessibility-compliant, CCTV                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_low_floor_artic_section, 1809) {
+    property {
+        name:                           string(STR_LOW_FLOOR_ARTIC_SECTION_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    9;
+        running_cost_factor:            6;
+        cargo_capacity:                 44;
+        loading_speed:                  6;
+        cargo_age_period:               416;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #811  BRT Bi-Artic Section (2020)                                 */
+/*  Bus rapid transit, double-artic                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_brt_bi_artic_section, 1810) {
+    property {
+        name:                           string(STR_BRT_BI_ARTIC_SECTION_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 52;
+        loading_speed:                  7;
+        cargo_age_period:               509;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #812  Stratos S-PaxPod (2040)                                     */
+/*  Autonomous, modular, detachable                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_stratos_s_paxpod, 1811) {
+    property {
+        name:                           string(STR_STRATOS_S_PAXPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    12;
+        running_cost_factor:            8;
+        cargo_capacity:                 60;
+        loading_speed:                  9;
+        cargo_age_period:               648;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #813  Quantum QR-TransitPod (2070)                                */
+/*  AI-routed, zero-vibration                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_quantum_qr_transitpod, 1812) {
+    property {
+        name:                           string(STR_QUANTUM_QR_TRANSITPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    16;
+        running_cost_factor:            10;
+        cargo_capacity:                 80;
+        loading_speed:                  12;
+        cargo_age_period:               832;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #814  Horse-drawn Mail Cart (1910)                                */
+/*  Basic covered cart                                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_horse_drawn_mail_cart, 1813) {
+    property {
+        name:                           string(STR_HORSE_DRAWN_MAIL_CART_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1910, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 8;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #815  Post Office Van Body (1940)                                 */
+/*  Enclosed, sorted racks                                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_post_office_van_body, 1814) {
+    property {
+        name:                           string(STR_POST_OFFICE_VAN_BODY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1940, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 12;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #816  GPO Parcel Trailer (1965)                                   */
+/*  Articulated parcel unit                                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_gpo_parcel_trailer, 1815) {
+    property {
+        name:                           string(STR_GPO_PARCEL_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #817  Royal Mail Box Trailer (1990)                               */
+/*  Containerised, high-security                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_royal_mail_box_trailer, 1816) {
+    property {
+        name:                           string(STR_ROYAL_MAIL_BOX_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1990, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  5;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #818  E-Commerce Parcel Trailer (2015)                            */
+/*  Multi-drop sorted, GPS-tracked                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_e_commerce_parcel_trailer, 1817) {
+    property {
+        name:                           string(STR_E_COMMERCE_PARCEL_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 28;
+        loading_speed:                  7;
+        cargo_age_period:               509;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #819  Nexus NX-MailPod (2040)                                     */
+/*  Autonomous drone-dispatch trailer                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_nexus_nx_mailpod, 1818) {
+    property {
+        name:                           string(STR_NEXUS_NX_MAILPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    7;
+        running_cost_factor:            6;
+        cargo_capacity:                 36;
+        loading_speed:                  9;
+        cargo_age_period:               648;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #820  Aurora AU-ParcelStream (2070)                               */
+/*  Self-routing, instant sort                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aurora_au_parcelstream, 1819) {
+    property {
+        name:                           string(STR_AURORA_AU_PARCELSTREAM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 48;
+        loading_speed:                  12;
+        cargo_age_period:               832;
+        refittable_cargo_classes:       bitmask(CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #821  Iron-plated Strongbox Trailer (1920)                        */
+/*  Heavy padlock, armed guard                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_iron_plated_strongbox_trailer, 1820) {
+    property {
+        name:                           string(STR_IRON_PLATED_STRONGBOX_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            3;
+        cargo_capacity:                 6;
+        loading_speed:                  1;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #822  Reinforced Security Trailer (1955)                          */
+/*  Steel vault, alarm system                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_reinforced_security_trailer, 1821) {
+    property {
+        name:                           string(STR_REINFORCED_SECURITY_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 8;
+        loading_speed:                  2;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #823  Modern Armoured Trailer (1985)                              */
+/*  Electronic locks, CCTV                                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_modern_armoured_trailer, 1822) {
+    property {
+        name:                           string(STR_MODERN_ARMOURED_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 12;
+        loading_speed:                  3;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #824  High-Security Vault Trailer (2010)                          */
+/*  GPS, biometric, tamper-proof                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_high_security_vault_trailer, 1823) {
+    property {
+        name:                           string(STR_HIGH_SECURITY_VAULT_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  4;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #825  Titan T-VaultPod (2040)                                     */
+/*  AI threat detection, drone escort                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_titan_t_vaultpod, 1824) {
+    property {
+        name:                           string(STR_TITAN_T_VAULTPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 20;
+        loading_speed:                  5;
+        cargo_age_period:               648;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #826  Apex A-SecureHaul (2070)                                    */
+/*  Quantum-encrypted, force-field                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_apex_a_securehaul, 1825) {
+    property {
+        name:                           string(STR_APEX_A_SECUREHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    5;
+        running_cost_factor:            5;
+        cargo_capacity:                 26;
+        loading_speed:                  7;
+        cargo_age_period:               832;
+        refittable_cargo_classes:       bitmask(CC_ARMOURED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #827  Open Sack Trailer (1920)                                    */
+/*  Tarpaulin-covered, manual loading                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_open_sack_trailer, 1826) {
+    property {
+        name:                           string(STR_OPEN_SACK_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            3;
+        cargo_capacity:                 6;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #828  Covered Grain Trailer (1950)                                */
+/*  Enclosed, moisture-proof                                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_covered_grain_trailer, 1827) {
+    property {
+        name:                           string(STR_COVERED_GRAIN_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 8;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #829  Tipping Grain Trailer (1975)                                */
+/*  Hydraulic tipping, weatherproof                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_tipping_grain_trailer, 1828) {
+    property {
+        name:                           string(STR_TIPPING_GRAIN_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 12;
+        loading_speed:                  4;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #830  Walking-Floor Grain Trailer (2000)                          */
+/*  Self-discharging, sealed                                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_walking_floor_grain_trailer, 1829) {
+    property {
+        name:                           string(STR_WALKING_FLOOR_GRAIN_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 18;
+        loading_speed:                  6;
+        cargo_age_period:               416;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #831  Smart Grain Trailer (2020)                                  */
+/*  Humidity-controlled, GPS                                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_smart_grain_trailer, 1830) {
+    property {
+        name:                           string(STR_SMART_GRAIN_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  7;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #832  Volterra VE-GrainHaul (2045)                                */
+/*  Climate-sealed, automated                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volterra_ve_grainhaul, 1831) {
+    property {
+        name:                           string(STR_VOLTERRA_VE_GRAINHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2045, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 28;
+        loading_speed:                  9;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #833  Titan T-HarvestPod (2075)                                   */
+/*  Preservation field, self-loading                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_titan_t_harvestpod, 1832) {
+    property {
+        name:                           string(STR_TITAN_T_HARVESTPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2075, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    7;
+        running_cost_factor:            6;
+        cargo_capacity:                 36;
+        loading_speed:                  12;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #834  Open Cattle Trailer (1920)                                  */
+/*  Slatted sides, poor welfare                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_open_cattle_trailer, 1833) {
+    property {
+        name:                           string(STR_OPEN_CATTLE_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            2;
+        cargo_capacity:                 4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #835  Ventilated Stock Trailer (1950)                             */
+/*  Improved ventilation                                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ventilated_stock_trailer, 1834) {
+    property {
+        name:                           string(STR_VENTILATED_STOCK_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    1;
+        running_cost_factor:            3;
+        cargo_capacity:                 6;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #836  Multi-Deck Livestock Trailer (1975)                         */
+/*  Hydraulic decks, watering system                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_multi_deck_livestock_trailer, 1835) {
+    property {
+        name:                           string(STR_MULTI_DECK_LIVESTOCK_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #837  Climate-Controlled Stock Trailer (2000)                     */
+/*  EU-compliant, CCTV monitored                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_climate_controlled_stock_trailer, 1836) {
+    property {
+        name:                           string(STR_CLIMATE_CONTROLLED_STOCK_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    3;
+        running_cost_factor:            3;
+        cargo_capacity:                 14;
+        loading_speed:                  5;
+        cargo_age_period:               416;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #838  Welfare-Plus Livestock Trailer (2025)                       */
+/*  AI stress monitoring, auto-feed                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_welfare_plus_livestock_trailer, 1837) {
+    property {
+        name:                           string(STR_WELFARE_PLUS_LIVESTOCK_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 18;
+        loading_speed:                  6;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #839  Meridian M-LiveHaul (2050)                                  */
+/*  Bio-monitored, comfort-optimised                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_meridian_m_livehaul, 1838) {
+    property {
+        name:                           string(STR_MERIDIAN_M_LIVEHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  8;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #840  Aurora AU-LifePod (2080)                                    */
+/*  Stasis transport, zero-stress                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aurora_au_lifepod, 1839) {
+    property {
+        name:                           string(STR_AURORA_AU_LIFEPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 28;
+        loading_speed:                  10;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #841  Open Coal Truck Body (1920)                                 */
+/*  Hand-shovelled, open top                                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_open_coal_truck_body, 1840) {
+    property {
+        name:                           string(STR_OPEN_COAL_TRUCK_BODY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            2;
+        cargo_capacity:                 5;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #842  Tipping Coal Trailer (1950)                                 */
+/*  Hydraulic rear-tip                                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_tipping_coal_trailer, 1841) {
+    property {
+        name:                           string(STR_TIPPING_COAL_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 8;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #843  Modern Tipper Trailer (1975)                                */
+/*  Large-capacity, steel body                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_modern_tipper_trailer, 1842) {
+    property {
+        name:                           string(STR_MODERN_TIPPER_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            3;
+        cargo_capacity:                 14;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #844  Aggregate Tipper (Artic) (2000)                             */
+/*  Articulated, highway-legal max                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aggregate_tipper, 1843) {
+    property {
+        name:                           string(STR_AGGREGATE_TIPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 20;
+        loading_speed:                  7;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #845  Automated Bulk Tipper (2025)                                */
+/*  Self-sheeting, GPS-tracked                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_automated_bulk_tipper, 1844) {
+    property {
+        name:                           string(STR_AUTOMATED_BULK_TIPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    5;
+        running_cost_factor:            5;
+        cargo_capacity:                 26;
+        loading_speed:                  9;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #846  Colossus C-BulkHaul (2050)                                  */
+/*  Autonomous, sealed, self-tipping                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_colossus_c_bulkhaul, 1845) {
+    property {
+        name:                           string(STR_COLOSSUS_C_BULKHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    7;
+        running_cost_factor:            5;
+        cargo_capacity:                 34;
+        loading_speed:                  12;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #847  Titan T-MineralPod (2080)                                   */
+/*  Any-bulk adaptable, self-loading                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_titan_t_mineralpod, 1846) {
+    property {
+        name:                           string(STR_TITAN_T_MINERALPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    9;
+        running_cost_factor:            6;
+        cargo_capacity:                 44;
+        loading_speed:                  15;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #848  Heavy-Duty Mining Trailer (1930)                            */
+/*  Reinforced, mine-to-works                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_heavy_duty_mining_trailer, 1847) {
+    property {
+        name:                           string(STR_HEAVY_DUTY_MINING_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            3;
+        cargo_capacity:                 6;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #849  Off-Road Ore Dumper (1960)                                  */
+/*  Side-dump, quarry/mine use                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_off_road_ore_dumper, 1848) {
+    property {
+        name:                           string(STR_OFF_ROAD_ORE_DUMPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #850  Heavy Tipper Trailer (1985)                                 */
+/*  Articulated, reinforced bed                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_heavy_tipper_trailer, 1849) {
+    property {
+        name:                           string(STR_HEAVY_TIPPER_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #851  Ultra-Heavy Ore Trailer (2010)                              */
+/*  60T gross road-train capable                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ultra_heavy_ore_trailer, 1850) {
+    property {
+        name:                           string(STR_ULTRA_HEAVY_ORE_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    5;
+        running_cost_factor:            4;
+        cargo_capacity:                 24;
+        loading_speed:                  7;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #852  Nexus NX-OreHaul (2040)                                     */
+/*  Autonomous, self-loading                                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_nexus_nx_orehaul, 1851) {
+    property {
+        name:                           string(STR_NEXUS_NX_OREHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 32;
+        loading_speed:                  10;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #853  Colossus C-OrePod (2070)                                    */
+/*  Magnetic separation in-transit                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_colossus_c_orepod, 1852) {
+    property {
+        name:                           string(STR_COLOSSUS_C_OREPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    9;
+        running_cost_factor:            6;
+        cargo_capacity:                 44;
+        loading_speed:                  14;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #854  Flat Bolster Trailer (1930)                                 */
+/*  Rope-lashed, steel bars/plates                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_flat_bolster_trailer, 1853) {
+    property {
+        name:                           string(STR_FLAT_BOLSTER_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            2;
+        cargo_capacity:                 5;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #855  Low-Loader Flatbed (1960)                                   */
+/*  Coil cradle, chain-secured                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_low_loader_flatbed, 1854) {
+    property {
+        name:                           string(STR_LOW_LOADER_FLATBED_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #856  Curtainside Steel Trailer (1985)                            */
+/*  Weather-proof curtain, coil wells                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_curtainside_steel_trailer, 1855) {
+    property {
+        name:                           string(STR_CURTAINSIDE_STEEL_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  4;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #857  Modern Coil Carrier (2010)                                  */
+/*  Anti-corrosion, padded cradles                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_modern_coil_carrier, 1856) {
+    property {
+        name:                           string(STR_MODERN_COIL_CARRIER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  6;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #858  Stratos S-MetalHaul (2040)                                  */
+/*  Climate-sealed, scratch-proof                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_stratos_s_metalhaul, 1857) {
+    property {
+        name:                           string(STR_STRATOS_S_METALHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 30;
+        loading_speed:                  8;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #859  Apex A-AlloyPod (2070)                                      */
+/*  Inert-atmosphere, automated                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_apex_a_alloypod, 1858) {
+    property {
+        name:                           string(STR_APEX_A_ALLOYPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 40;
+        loading_speed:                  12;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #860  Riveted Tank Trailer (1920)                                 */
+/*  Small iron tank, gravity discharge                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_riveted_tank_trailer, 1859) {
+    property {
+        name:                           string(STR_RIVETED_TANK_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            2;
+        cargo_capacity:                 4;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #861  Welded Tank Trailer (1950)                                  */
+/*  Improved valves, compartmented                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_welded_tank_trailer, 1860) {
+    property {
+        name:                           string(STR_WELDED_TANK_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 8;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #862  Multi-Compartment Tanker (1975)                             */
+/*  ADR-compliant, multi-product                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_multi_compartment_tanker, 1861) {
+    property {
+        name:                           string(STR_MULTI_COMPARTMENT_TANKER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            3;
+        cargo_capacity:                 14;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #863  Modern Road Tanker (Artic) (2000)                           */
+/*  Double-skinned, 36,000L capacity                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_modern_road_tanker, 1862) {
+    property {
+        name:                           string(STR_MODERN_ROAD_TANKER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  6;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #864  Smart Tanker (2025)                                         */
+/*  Leak detection, GPS, auto-valve                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_smart_tanker, 1863) {
+    property {
+        name:                           string(STR_SMART_TANKER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 28;
+        loading_speed:                  8;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #865  Volterra VE-LiquidMax (2050)                                */
+/*  Self-sealing, nano-lined interior                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volterra_ve_liquidmax, 1864) {
+    property {
+        name:                           string(STR_VOLTERRA_VE_LIQUIDMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    7;
+        running_cost_factor:            6;
+        cargo_capacity:                 36;
+        loading_speed:                  11;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #866  Meridian M-FluidPod (2080)                                  */
+/*  Universal liquid, self-cleaning                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_meridian_m_fluidpod, 1865) {
+    property {
+        name:                           string(STR_MERIDIAN_M_FLUIDPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    9;
+        running_cost_factor:            7;
+        cargo_capacity:                 46;
+        loading_speed:                  14;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #867  Bolster Timber Trailer (1930)                               */
+/*  Simple stakes, chain-lashed                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bolster_timber_trailer, 1866) {
+    property {
+        name:                           string(STR_BOLSTER_TIMBER_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            2;
+        cargo_capacity:                 5;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #868  Logging Pole Trailer (1960)                                 */
+/*  Forestry spec, rough terrain                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_logging_pole_trailer, 1867) {
+    property {
+        name:                           string(STR_LOGGING_POLE_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #869  Modern Timber Trailer (1985)                                */
+/*  Hydraulic grapple, ratchet straps                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_modern_timber_trailer, 1868) {
+    property {
+        name:                           string(STR_MODERN_TIMBER_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #870  Short-Log Trailer (2010)                                    */
+/*  Self-loading crane, highway-legal                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_short_log_trailer, 1869) {
+    property {
+        name:                           string(STR_SHORT_LOG_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  7;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #871  Cascadia C-TimberHaul (2040)                                */
+/*  Automated clamping, self-load                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_cascadia_c_timberhaul, 1870) {
+    property {
+        name:                           string(STR_CASCADIA_C_TIMBERHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 30;
+        loading_speed:                  10;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #872  Colossus C-BioMass Pod (2070)                               */
+/*  Universal biomass, self-stacking                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_colossus_c_biomass_pod, 1871) {
+    property {
+        name:                           string(STR_COLOSSUS_C_BIOMASS_POD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 40;
+        loading_speed:                  14;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_OVERSIZED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #873  Canvas-Topped Box Trailer (1920)                            */
+/*  Hand-loaded, tarpaulin roof                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_canvas_topped_box_trailer, 1872) {
+    property {
+        name:                           string(STR_CANVAS_TOPPED_BOX_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            2;
+        cargo_capacity:                 4;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #874  Enclosed Box Trailer (1945)                                 */
+/*  Solid sides, rear doors                                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_enclosed_box_trailer, 1873) {
+    property {
+        name:                           string(STR_ENCLOSED_BOX_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1945, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            3;
+        cargo_capacity:                 6;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #875  Luton Box Trailer (1965)                                    */
+/*  Tail-lift, palletised                                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_luton_box_trailer, 1874) {
+    property {
+        name:                           string(STR_LUTON_BOX_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #876  Curtainside Artic Trailer (1985)                            */
+/*  Quick side-access, pallet-wide                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_curtainside_artic_trailer, 1875) {
+    property {
+        name:                           string(STR_CURTAINSIDE_ARTIC_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  5;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #877  Modern Box Trailer (Artic) (2005)                           */
+/*  13.6m, double-deck capable                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_modern_box_trailer, 1876) {
+    property {
+        name:                           string(STR_MODERN_BOX_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2005, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  7;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #878  Smart Container Trailer (2025)                              */
+/*  Intermodal, crane-liftable body                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_smart_container_trailer, 1877) {
+    property {
+        name:                           string(STR_SMART_CONTAINER_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 28;
+        loading_speed:                  9;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #879  Pinnacle PN-CargoPod (2050)                                 */
+/*  Modular, any-cargo adaptable                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_pinnacle_pn_cargopod, 1878) {
+    property {
+        name:                           string(STR_PINNACLE_PN_CARGOPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    7;
+        running_cost_factor:            6;
+        cargo_capacity:                 36;
+        loading_speed:                  12;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #880  Quantum QR-FreightPod (2080)                                */
+/*  Self-routing, AI logistics                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_quantum_qr_freightpod, 1879) {
+    property {
+        name:                           string(STR_QUANTUM_QR_FREIGHTPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    10;
+        running_cost_factor:            7;
+        cargo_capacity:                 48;
+        loading_speed:                  15;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED, CC_EXPRESS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #881  Ice-Box Trailer (1930)                                      */
+/*  Block-ice cooling, insulated wood                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ice_box_trailer, 1880) {
+    property {
+        name:                           string(STR_ICE_BOX_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            2;
+        cargo_capacity:                 4;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #882  Insulated Meat Trailer (1955)                               */
+/*  Charcoal insulation, brine-ice                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_insulated_meat_trailer, 1881) {
+    property {
+        name:                           string(STR_INSULATED_MEAT_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    1;
+        running_cost_factor:            3;
+        cargo_capacity:                 6;
+        loading_speed:                  3;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #883  Diesel Refrigerated Trailer (1975)                          */
+/*  Thermo King / Carrier reefer unit                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_diesel_refrigerated_trailer, 1882) {
+    property {
+        name:                           string(STR_DIESEL_REFRIGERATED_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 12;
+        loading_speed:                  4;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #884  Modern Reefer Trailer (Artic) (2000)                        */
+/*  Multi-temp zone, 13.6m                                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_modern_reefer_trailer, 1883) {
+    property {
+        name:                           string(STR_MODERN_REEFER_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 18;
+        loading_speed:                  6;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #885  Smart Cold-Chain Trailer (2020)                             */
+/*  IoT-monitored, multi-zone                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_smart_cold_chain_trailer, 1884) {
+    property {
+        name:                           string(STR_SMART_COLD_CHAIN_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    5;
+        running_cost_factor:            4;
+        cargo_capacity:                 24;
+        loading_speed:                  8;
+        cargo_age_period:               648;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #886  Meridian M-FreshMax (2045)                                  */
+/*  Cryogenic, zero food waste                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_meridian_m_freshmax, 1885) {
+    property {
+        name:                           string(STR_MERIDIAN_M_FRESHMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2045, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 32;
+        loading_speed:                  10;
+        cargo_age_period:               832;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #887  Aurora AU-BioKeep (2075)                                    */
+/*  Stasis-field, indefinite shelf life                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aurora_au_biokeep, 1886) {
+    property {
+        name:                           string(STR_AURORA_AU_BIOKEEP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2075, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 42;
+        loading_speed:                  14;
+        cargo_age_period:               1110;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #888  Canvas-Covered Flat Trailer (1935)                          */
+/*  Basic weather protection                                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_canvas_covered_flat_trailer, 1887) {
+    property {
+        name:                           string(STR_CANVAS_COVERED_FLAT_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            2;
+        cargo_capacity:                 5;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #889  Enclosed Dry-Cargo Trailer (1965)                           */
+/*  Moisture-proof sides                                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_enclosed_dry_cargo_trailer, 1888) {
+    property {
+        name:                           string(STR_ENCLOSED_DRY_CARGO_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  3;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #890  Curtainside Dry Trailer (1990)                              */
+/*  Quick-access, weatherproof                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_curtainside_dry_trailer, 1889) {
+    property {
+        name:                           string(STR_CURTAINSIDE_DRY_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1990, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  5;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #891  Mega-Cube Box Trailer (2015)                                */
+/*  15.65m, high-volume                                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mega_cube_box_trailer, 1890) {
+    property {
+        name:                           string(STR_MEGA_CUBE_BOX_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 22;
+        loading_speed:                  7;
+        cargo_age_period:               509;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #892  Pinnacle PN-DryPod (2040)                                   */
+/*  Climate-sealed, anti-static                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_pinnacle_pn_drypod, 1891) {
+    property {
+        name:                           string(STR_PINNACLE_PN_DRYPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 30;
+        loading_speed:                  9;
+        cargo_age_period:               648;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #893  Halcyon H-MaterialPod (2070)                                */
+/*  Universal dry goods, self-loading                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_halcyon_h_materialpod, 1892) {
+    property {
+        name:                           string(STR_HALCYON_H_MATERIALPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 40;
+        loading_speed:                  12;
+        cargo_age_period:               832;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_COVERED);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #894  Ventilated Fruit Trailer (1935)                             */
+/*  Louvred sides, natural airflow                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ventilated_fruit_trailer, 1893) {
+    property {
+        name:                           string(STR_VENTILATED_FRUIT_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            2;
+        cargo_capacity:                 4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #895  Improved Ventilated Trailer (1960)                          */
+/*  Forced ventilation                                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_improved_ventilated_trailer, 1894) {
+    property {
+        name:                           string(STR_IMPROVED_VENTILATED_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 8;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #896  Refrigerated Fruit Trailer (1985)                           */
+/*  Temperature-controlled                                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_refrigerated_fruit_trailer, 1895) {
+    property {
+        name:                           string(STR_REFRIGERATED_FRUIT_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            3;
+        cargo_capacity:                 14;
+        loading_speed:                  5;
+        cargo_age_period:               370;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #897  Multi-Temp Reefer Trailer (2010)                            */
+/*  Humidity + ethylene control                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_multi_temp_reefer_trailer, 1896) {
+    property {
+        name:                           string(STR_MULTI_TEMP_REEFER_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            4;
+        cargo_capacity:                 20;
+        loading_speed:                  7;
+        cargo_age_period:               555;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #898  Cascadia C-TropiFresh (2040)                                */
+/*  Ripeness management, AI-monitored                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_cascadia_c_tropifresh, 1897) {
+    property {
+        name:                           string(STR_CASCADIA_C_TROPIFRESH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 28;
+        loading_speed:                  9;
+        cargo_age_period:               740;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #899  Solaris Sol-HarvestPod (2070)                               */
+/*  Bio-stasis, any climate                                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_solaris_sol_harvestpod, 1898) {
+    property {
+        name:                           string(STR_SOLARIS_SOL_HARVESTPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    8;
+        running_cost_factor:            6;
+        cargo_capacity:                 38;
+        loading_speed:                  12;
+        cargo_age_period:               925;
+        refittable_cargo_classes:       bitmask(CC_REFRIGERATED, CC_PIECE_GOODS);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #900  Open Tipper Trailer (1930)                                  */
+/*  Rear-tipping, mine/quarry use                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_open_tipper_trailer, 1899) {
+    property {
+        name:                           string(STR_OPEN_TIPPER_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            2;
+        cargo_capacity:                 5;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #901  Bulk Tipper Trailer (1960)                                  */
+/*  Steel body, hydraulic tip                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bulk_tipper_trailer, 1900) {
+    property {
+        name:                           string(STR_BULK_TIPPER_TRAILER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            3;
+        cargo_capacity:                 10;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #902  Road-Train Bulk Tipper (1985)                               */
+/*  Multi-trailer configuration                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_road_train_bulk_tipper, 1901) {
+    property {
+        name:                           string(STR_ROAD_TRAIN_BULK_TIPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            4;
+        cargo_capacity:                 16;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #903  Modern Bulk Tanker/Tipper (2010)                            */
+/*  Dual-use: dry bulk or water                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_modern_bulk_tanker_tipper, 1902) {
+    property {
+        name:                           string(STR_MODERN_BULK_TANKER_TIPPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    5;
+        running_cost_factor:            4;
+        cargo_capacity:                 24;
+        loading_speed:                  7;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #904  Volterra VE-BulkPod (2040)                                  */
+/*  Universal mineral, self-clean                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volterra_ve_bulkpod, 1903) {
+    property {
+        name:                           string(STR_VOLTERRA_VE_BULKPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    6;
+        running_cost_factor:            5;
+        cargo_capacity:                 32;
+        loading_speed:                  10;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #905  Titan T-BulkStream (2070)                                   */
+/*  Any-mineral adaptable, AI-routed                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_titan_t_bulkstream, 1904) {
+    property {
+        name:                           string(STR_TITAN_T_BULKSTREAM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    9;
+        running_cost_factor:            6;
+        cargo_capacity:                 44;
+        loading_speed:                  14;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_BULK, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}

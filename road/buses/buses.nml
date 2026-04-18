@@ -1,0 +1,3822 @@
+/**
+ * buses.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #388  Benz Omnibus (1895)                                         */
+/*  Single-deck (first motor bus service, Siegerland)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_benz_omnibus, 1387) {
+    property {
+        name:                           string(STR_BENZ_OMNIBUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1895, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            14;
+        speed:                          15 km/h;
+        cargo_capacity:                 8;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #389  Daimler Motor Bus (1898)                                    */
+/*  Single-deck (early horse-bus replacement)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daimler_motor_bus, 1388) {
+    property {
+        name:                           string(STR_DAIMLER_MOTOR_BUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1898, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            15;
+        speed:                          18 km/h;
+        cargo_capacity:                 12;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #390  Fischer Omnibus (1899)                                      */
+/*  Single-deck (early Swiss motor bus)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_fischer_omnibus, 1389) {
+    property {
+        name:                           string(STR_FISCHER_OMNIBUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1899, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            14;
+        speed:                          15 km/h;
+        cargo_capacity:                 10;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #391  Milnes-Daimler Double-Decker (1902)                         */
+/*  Double-deck (early London motorbus)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_milnes_daimler_double_decker, 1390) {
+    property {
+        name:                           string(STR_MILNES_DAIMLER_DOUBLE_DECKER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1902, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            17;
+        speed:                          19 km/h;
+        cargo_capacity:                 34;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #392  Büssing Omnibus (1904)                                      */
+/*  Single-deck (early German city bus)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bssing_omnibus, 1391) {
+    property {
+        name:                           string(STR_BSSING_OMNIBUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1904, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            16;
+        speed:                          20 km/h;
+        cargo_capacity:                 18;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #393  De Dion-Bouton Omnibus (1905)                               */
+/*  Single-deck (French motor bus)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_de_dion_bouton_omnibus, 1392) {
+    property {
+        name:                           string(STR_DE_DION_BOUTON_OMNIBUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1905, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            15;
+        speed:                          20 km/h;
+        cargo_capacity:                 14;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #394  Berliet CAT (1906)                                          */
+/*  Single-deck (Paris omnibus)                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_berliet_cat, 1393) {
+    property {
+        name:                           string(STR_BERLIET_CAT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1906, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            16;
+        speed:                          20 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #395  Leyland S-type (1908)                                       */
+/*  Single-deck (early British motor bus)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_s_type, 1394) {
+    property {
+        name:                           string(STR_LEYLAND_S_TYPE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1908, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            17;
+        speed:                          20 km/h;
+        cargo_capacity:                 34;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #396  AEC B-type (1910)                                           */
+/*  Double-deck (iconic London General Omnibus, also WW1 transport)    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_b_type, 1395) {
+    property {
+        name:                           string(STR_AEC_B_TYPE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1910, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            19;
+        speed:                          26 km/h;
+        cargo_capacity:                 34;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #397  Mack AB (1913)                                              */
+/*  Single-deck (early American city bus)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mack_ab, 1396) {
+    property {
+        name:                           string(STR_MACK_AB_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1913, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            17;
+        speed:                          24 km/h;
+        cargo_capacity:                 25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #398  Saurer Omnibus (1914)                                       */
+/*  Single-deck (Swiss/Austrian city bus)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_saurer_omnibus, 1397) {
+    property {
+        name:                           string(STR_SAURER_OMNIBUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1914, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            17;
+        speed:                          25 km/h;
+        cargo_capacity:                 22;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #399  Fageol Safety Coach (1916)                                  */
+/*  Single-deck (early low-floor concept)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_fageol_safety_coach, 1398) {
+    property {
+        name:                           string(STR_FAGEOL_SAFETY_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1916, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            18;
+        speed:                          30 km/h;
+        cargo_capacity:                 22;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #400  Leyland N-type (1920)                                       */
+/*  Single-deck (post-WW1 British bus)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_n_type, 1399) {
+    property {
+        name:                           string(STR_LEYLAND_N_TYPE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            19;
+        speed:                          30 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #401  AEC S-type (1921)                                           */
+/*  Double-deck (London General)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_s_type, 1400) {
+    property {
+        name:                           string(STR_AEC_S_TYPE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1921, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            20;
+        speed:                          28 km/h;
+        cargo_capacity:                 46;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #402  Fageol Safety Coach (1922)                                  */
+/*  Single-deck (improved intercity coach)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_fageol_safety_coach, 1401) {
+    property {
+        name:                           string(STR_FAGEOL_SAFETY_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1922, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            21;
+        speed:                          40 km/h;
+        cargo_capacity:                 29;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #403  Leyland SG7 (1923)                                          */
+/*  Single-deck (British long-distance)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_sg7, 1402) {
+    property {
+        name:                           string(STR_LEYLAND_SG7_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1923, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            20;
+        speed:                          35 km/h;
+        cargo_capacity:                 32;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #404  Fageol Twin Coach (1925)                                    */
+/*  Single-deck (twin-engine, American transit)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_fageol_twin_coach, 1403) {
+    property {
+        name:                           string(STR_FAGEOL_TWIN_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1925, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            22;
+        speed:                          40 km/h;
+        cargo_capacity:                 40;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #405  AEC NS-type (1926)                                          */
+/*  Double-deck (covered-top London bus)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_ns_type, 1404) {
+    property {
+        name:                           string(STR_AEC_NS_TYPE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1926, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    7;
+        running_cost_factor:            21;
+        speed:                          28 km/h;
+        cargo_capacity:                 52;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #406  Yellow Coach Z (1927)                                       */
+/*  Single-deck (early Greyhound-type coach)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_yellow_coach_z, 1405) {
+    property {
+        name:                           string(STR_YELLOW_COACH_Z_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1927, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            22;
+        speed:                          48 km/h;
+        cargo_capacity:                 29;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #407  Büssing D2U (1928)                                          */
+/*  Double-deck (first German double-decker bus)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bssing_d2u, 1406) {
+    property {
+        name:                           string(STR_BSSING_D2U_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1928, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    9;
+        running_cost_factor:            24;
+        speed:                          35 km/h;
+        cargo_capacity:                 68;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #408  AEC Regent (1929)                                           */
+/*  Double-deck (iconic British double-decker)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_regent, 1407) {
+    property {
+        name:                           string(STR_AEC_REGENT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1929, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    8;
+        running_cost_factor:            23;
+        speed:                          38 km/h;
+        cargo_capacity:                 56;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #409  Leyland Titan TD1 (1929)                                    */
+/*  Double-deck (British standard)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_titan_td1, 1408) {
+    property {
+        name:                           string(STR_LEYLAND_TITAN_TD1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1929, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    7;
+        running_cost_factor:            23;
+        speed:                          40 km/h;
+        cargo_capacity:                 52;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #410  Mercedes-Benz Lo 3500 (1930)                                */
+/*  Single-deck (intercity coach)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_lo_3500, 1409) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_LO_3500_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            24;
+        speed:                          55 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #411  Mack 6-BK (1930)                                            */
+/*  Single-deck (American city/intercity)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mack_6_bk, 1410) {
+    property {
+        name:                           string(STR_MACK_6_BK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            23;
+        speed:                          48 km/h;
+        cargo_capacity:                 33;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #412  AEC Regal (1931)                                            */
+/*  Single-deck (British coach)                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_regal, 1411) {
+    property {
+        name:                           string(STR_AEC_REGAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1931, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            24;
+        speed:                          50 km/h;
+        cargo_capacity:                 35;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #413  Pickwick Nite Coach (1931)                                  */
+/*  Single-deck (American sleeper coach)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_pickwick_nite_coach, 1412) {
+    property {
+        name:                           string(STR_PICKWICK_NITE_COACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1931, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            24;
+        speed:                          55 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #414  Bedford WLB (1932)                                          */
+/*  Single-deck (small British bus)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bedford_wlb, 1413) {
+    property {
+        name:                           string(STR_BEDFORD_WLB_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1932, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            22;
+        speed:                          48 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #415  Citroën T45 (1932)                                          */
+/*  Single-deck (French city bus)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_citron_t45, 1414) {
+    property {
+        name:                           string(STR_CITRON_T45_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1932, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            22;
+        speed:                          50 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #416  Yellow Coach 719 (1934)                                     */
+/*  Single-deck (American transit/Greyhound)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_yellow_coach_719, 1415) {
+    property {
+        name:                           string(STR_YELLOW_COACH_719_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1934, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            25;
+        speed:                          56 km/h;
+        cargo_capacity:                 37;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #417  AEC Q-type (1935)                                           */
+/*  Single-deck (forward-control, British)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_q_type, 1416) {
+    property {
+        name:                           string(STR_AEC_Q_TYPE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            23;
+        speed:                          45 km/h;
+        cargo_capacity:                 37;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #418  Mercedes-Benz O 10000 (1936)                                */
+/*  Single-deck (German long-distance express)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_o_10000, 1417) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_O_10000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1936, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    7;
+        running_cost_factor:            26;
+        speed:                          60 km/h;
+        cargo_capacity:                 40;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #419  GM Yellow Coach TG-3201 (1937)                              */
+/*  Single-deck (streamlined Greyhound Silversides prototype)          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_gm_yellow_coach_tg_3201, 1418) {
+    property {
+        name:                           string(STR_GM_YELLOW_COACH_TG_3201_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1937, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    7;
+        running_cost_factor:            27;
+        speed:                          65 km/h;
+        cargo_capacity:                 37;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #420  AEC Regent III (1938)                                       */
+/*  Double-deck (London STL-type)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_regent_iii, 1419) {
+    property {
+        name:                           string(STR_AEC_REGENT_III_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1938, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    8;
+        running_cost_factor:            24;
+        speed:                          42 km/h;
+        cargo_capacity:                 56;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #421  GM PD-3751 Silversides (1939)                               */
+/*  Single-deck (iconic Greyhound intercity)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_gm_pd_3751_silversides, 1420) {
+    property {
+        name:                           string(STR_GM_PD_3751_SILVERSIDES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1939, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    7;
+        running_cost_factor:            28;
+        speed:                          72 km/h;
+        cargo_capacity:                 37;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #422  Guy Arab (1940)                                             */
+/*  Double-deck (British wartime utility bus)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_guy_arab, 1421) {
+    property {
+        name:                           string(STR_GUY_ARAB_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1940, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    8;
+        running_cost_factor:            23;
+        speed:                          38 km/h;
+        cargo_capacity:                 56;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #423  Bristol K-type (1940)                                       */
+/*  Double-deck (British wartime/post-war standard)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bristol_k_type, 1422) {
+    property {
+        name:                           string(STR_BRISTOL_K_TYPE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1940, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    8;
+        running_cost_factor:            24;
+        speed:                          40 km/h;
+        cargo_capacity:                 56;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #424  Ford Transit Bus (military) (1942)                          */
+/*  Single-deck (wartime transport)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_transit_bus, 1423) {
+    property {
+        name:                           string(STR_FORD_TRANSIT_BUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1942, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            25;
+        speed:                          60 km/h;
+        cargo_capacity:                 29;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #425  Leyland Titan PD2 (1946)                                    */
+/*  Double-deck (post-war British standard)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_titan_pd2, 1424) {
+    property {
+        name:                           string(STR_LEYLAND_TITAN_PD2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1946, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    8;
+        running_cost_factor:            25;
+        speed:                          45 km/h;
+        cargo_capacity:                 56;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #426  AEC Regent III (RT) (1946)                                  */
+/*  Double-deck (London RT-type, iconic red bus)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_regent_iii, 1425) {
+    property {
+        name:                           string(STR_AEC_REGENT_III_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1946, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    8;
+        running_cost_factor:            25;
+        speed:                          45 km/h;
+        cargo_capacity:                 56;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #427  GM TDH-3610 "Old Look" (1947)                               */
+/*  Single-deck (American transit standard)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_gm_tdh_3610_old_look, 1426) {
+    property {
+        name:                           string(STR_GM_TDH_3610_OLD_LOOK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1947, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    7;
+        running_cost_factor:            25;
+        speed:                          55 km/h;
+        cargo_capacity:                 44;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #428  Büssing D2U (1948)                                          */
+/*  Double-deck (post-war Berlin double-decker)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bssing_d2u, 1427) {
+    property {
+        name:                           string(STR_BSSING_D2U_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1948, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    9;
+        running_cost_factor:            25;
+        speed:                          40 km/h;
+        cargo_capacity:                 72;
+        loading_speed:                  5;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #429  ACF-Brill IC-41 (1949)                                      */
+/*  Single-deck (American intercity coach)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_acf_brill_ic_41, 1428) {
+    property {
+        name:                           string(STR_ACF_BRILL_IC_41_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1949, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    7;
+        running_cost_factor:            28;
+        speed:                          72 km/h;
+        cargo_capacity:                 37;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #430  Mercedes-Benz O 3500 (1950)                                 */
+/*  Single-deck (German post-war coach)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_o_3500, 1429) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_O_3500_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    9;
+        running_cost_factor:            28;
+        speed:                          70 km/h;
+        cargo_capacity:                 36;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #431  Ikarus 30 (1951)                                            */
+/*  Single-deck (Hungarian city bus)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ikarus_30, 1430) {
+    property {
+        name:                           string(STR_IKARUS_30_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1951, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    7;
+        running_cost_factor:            25;
+        speed:                          60 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #432  Saurer Alpenwagen (1952)                                    */
+/*  Single-deck (Swiss alpine postbus)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_saurer_alpenwagen, 1431) {
+    property {
+        name:                           string(STR_SAURER_ALPENWAGEN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1952, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    8;
+        running_cost_factor:            25;
+        speed:                          55 km/h;
+        cargo_capacity:                 38;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #433  Leyland Royal Tiger (1953)                                  */
+/*  Single-deck (British express coach)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_royal_tiger, 1432) {
+    property {
+        name:                           string(STR_LEYLAND_ROYAL_TIGER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1953, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    9;
+        running_cost_factor:            27;
+        speed:                          65 km/h;
+        cargo_capacity:                 41;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #434  GM TDH-5106 "New Look" (Fishbowl) (1954)                    */
+/*  Single-deck (iconic American transit bus)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_gm_tdh_5106_new_look, 1433) {
+    property {
+        name:                           string(STR_GM_TDH_5106_NEW_LOOK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1954, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    10;
+        running_cost_factor:            26;
+        speed:                          55 km/h;
+        cargo_capacity:                 50;
+        loading_speed:                  6;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #435  Mercedes-Benz O 321 (1954)                                  */
+/*  Single-deck (German touring coach)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_o_321, 1434) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_O_321_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1954, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          80 km/h;
+        cargo_capacity:                 42;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #436  AEC Routemaster (1956)                                      */
+/*  Double-deck (iconic London bus, 1956–2005)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_routemaster, 1435) {
+    property {
+        name:                           string(STR_AEC_ROUTEMASTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1956, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    11;
+        running_cost_factor:            25;
+        speed:                          45 km/h;
+        cargo_capacity:                 64;
+        loading_speed:                  6;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #437  GM PD-4501 Scenicruiser (1957)                              */
+/*  Double-deck coach (Greyhound intercity)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_gm_pd_4501_scenicruiser, 1436) {
+    property {
+        name:                           string(STR_GM_PD_4501_SCENICRUISER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1957, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    11;
+        running_cost_factor:            33;
+        speed:                          95 km/h;
+        cargo_capacity:                 43;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #438  Ikarus 55 (1958)                                            */
+/*  Single-deck (Hungarian export coach, "Facelift")                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ikarus_55, 1437) {
+    property {
+        name:                           string(STR_IKARUS_55_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1958, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    9;
+        running_cost_factor:            30;
+        speed:                          85 km/h;
+        cargo_capacity:                 32;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #439  MAN MKN 26 (1959)                                           */
+/*  Single-deck (German city bus)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_mkn_26, 1438) {
+    property {
+        name:                           string(STR_MAN_MKN_26_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1959, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    9;
+        running_cost_factor:            27;
+        speed:                          65 km/h;
+        cargo_capacity:                 40;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #440  Ikarus 180 (1960)                                           */
+/*  Articulated (first mass-produced artic bus)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ikarus_180, 1439) {
+    property {
+        name:                           string(STR_IKARUS_180_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    19;
+        running_cost_factor:            34;
+        speed:                          60 km/h;
+        cargo_capacity:                 120;
+        loading_speed:                  6;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #441  Leyland Atlantean (1961)                                    */
+/*  Double-deck (first rear-engine double-decker)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_atlantean, 1440) {
+    property {
+        name:                           string(STR_LEYLAND_ATLANTEAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1961, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    13;
+        running_cost_factor:            29;
+        speed:                          55 km/h;
+        cargo_capacity:                 78;
+        loading_speed:                  6;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #442  Mercedes-Benz O 302 (1962)                                  */
+/*  Single-deck (touring coach, very successful)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_o_302, 1441) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_O_302_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1962, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    12;
+        running_cost_factor:            35;
+        speed:                          100 km/h;
+        cargo_capacity:                 49;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #443  Daimler Fleetline (1963)                                    */
+/*  Double-deck (rear-engine British double-decker)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daimler_fleetline, 1442) {
+    property {
+        name:                           string(STR_DAIMLER_FLEETLINE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1963, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    13;
+        running_cost_factor:            29;
+        speed:                          55 km/h;
+        cargo_capacity:                 78;
+        loading_speed:                  6;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #444  MAN 750 HO (1964)                                           */
+/*  Single-deck (German standard city bus)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_750_ho, 1443) {
+    property {
+        name:                           string(STR_MAN_750_HO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1964, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    10;
+        running_cost_factor:            28;
+        speed:                          70 km/h;
+        cargo_capacity:                 45;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #445  GM "New Look" TDH-5303 (1965)                               */
+/*  Single-deck (improved Fishbowl transit)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_gm_new_look_tdh_5303, 1444) {
+    property {
+        name:                           string(STR_GM_NEW_LOOK_TDH_5303_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    10;
+        running_cost_factor:            27;
+        speed:                          60 km/h;
+        cargo_capacity:                 53;
+        loading_speed:                  6;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #446  Ikarus 556 (1966)                                           */
+/*  Single-deck (Hungarian city bus)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ikarus_556, 1445) {
+    property {
+        name:                           string(STR_IKARUS_556_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1966, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    13;
+        running_cost_factor:            29;
+        speed:                          55 km/h;
+        cargo_capacity:                 80;
+        loading_speed:                  6;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #447  Mercedes-Benz O 305 (1967)                                  */
+/*  Single-deck (VÖV standard city bus)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_o_305, 1446) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_O_305_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1967, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    10;
+        running_cost_factor:            29;
+        speed:                          70 km/h;
+        cargo_capacity:                 46;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #448  Bedford VAL (1967)                                          */
+/*  Single-deck (British lightweight coach)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bedford_val, 1447) {
+    property {
+        name:                           string(STR_BEDFORD_VAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1967, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    12;
+        running_cost_factor:            31;
+        speed:                          80 km/h;
+        cargo_capacity:                 52;
+        loading_speed:                  6;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #449  Scania CR76 (1968)                                          */
+/*  Single-deck (Swedish city bus)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_cr76, 1448) {
+    property {
+        name:                           string(STR_SCANIA_CR76_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1968, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    10;
+        running_cost_factor:            29;
+        speed:                          75 km/h;
+        cargo_capacity:                 42;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #450  Bristol VR (1969)                                           */
+/*  Double-deck (rear-engine British)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bristol_vr, 1449) {
+    property {
+        name:                           string(STR_BRISTOL_VR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1969, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    13;
+        running_cost_factor:            29;
+        speed:                          55 km/h;
+        cargo_capacity:                 78;
+        loading_speed:                  6;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #451  Ikarus 260/280 (1970)                                       */
+/*  Single-deck / articulated (Eastern Bloc standard)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ikarus_260_280, 1450) {
+    property {
+        name:                           string(STR_IKARUS_260_280_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1970, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    29;
+        running_cost_factor:            39;
+        speed:                          65 km/h;
+        cargo_capacity:                 160;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #452  Neoplan Skyliner N 122 (1971)                               */
+/*  Double-deck coach (first modern three-axle coach)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_neoplan_skyliner_n_122, 1451) {
+    property {
+        name:                           string(STR_NEOPLAN_SKYLINER_N_122_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1971, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    20;
+        running_cost_factor:            38;
+        speed:                          100 km/h;
+        cargo_capacity:                 80;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #453  MCI MC-8 (1972)                                             */
+/*  Single-deck (North American intercity coach)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mci_mc_8, 1452) {
+    property {
+        name:                           string(STR_MCI_MC_8_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1972, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    15;
+        running_cost_factor:            35;
+        speed:                          100 km/h;
+        cargo_capacity:                 47;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #454  Leyland National (1973)                                     */
+/*  Single-deck (integral British city bus)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_national, 1453) {
+    property {
+        name:                           string(STR_LEYLAND_NATIONAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1973, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    13;
+        running_cost_factor:            28;
+        speed:                          65 km/h;
+        cargo_capacity:                 52;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #455  MAN SL 200 (1974)                                           */
+/*  Single-deck (German standard city bus)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_sl_200, 1454) {
+    property {
+        name:                           string(STR_MAN_SL_200_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1974, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    12;
+        running_cost_factor:            29;
+        speed:                          70 km/h;
+        cargo_capacity:                 47;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #456  Mercedes-Benz O 305G (1975)                                 */
+/*  Articulated (German standard articulated bus)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_o_305g, 1455) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_O_305G_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    20;
+        running_cost_factor:            33;
+        speed:                          65 km/h;
+        cargo_capacity:                 100;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #457  Van Hool T815 Acron (1975)                                  */
+/*  Single-deck (Belgian touring coach)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_van_hool_t815_acron, 1456) {
+    property {
+        name:                           string(STR_VAN_HOOL_T815_ACRON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    15;
+        running_cost_factor:            35;
+        speed:                          100 km/h;
+        cargo_capacity:                 49;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #458  Volvo B58 / Ailsa B55 (1976)                                */
+/*  Single-deck / double-deck (Swedish chassis)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_b58_ailsa_b55, 1457) {
+    property {
+        name:                           string(STR_VOLVO_B58_AILSA_B55_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1976, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    17;
+        running_cost_factor:            32;
+        speed:                          70 km/h;
+        cargo_capacity:                 78;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #459  Grumman 870 Flxible (1977)                                  */
+/*  Single-deck (American transit)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_grumman_870_flxible, 1458) {
+    property {
+        name:                           string(STR_GRUMMAN_870_FLXIBLE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1977, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    12;
+        running_cost_factor:            27;
+        speed:                          60 km/h;
+        cargo_capacity:                 53;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #460  AM General Metropolitan (1978)                              */
+/*  Single-deck (American transit)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_am_general_metropolitan, 1459) {
+    property {
+        name:                           string(STR_AM_GENERAL_METROPOLITAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1978, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    12;
+        running_cost_factor:            27;
+        speed:                          60 km/h;
+        cargo_capacity:                 47;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #461  MCW Metrobus (1980)                                         */
+/*  Double-deck (standard British double-decker)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mcw_metrobus, 1460) {
+    property {
+        name:                           string(STR_MCW_METROBUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1980, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    16;
+        running_cost_factor:            30;
+        speed:                          60 km/h;
+        cargo_capacity:                 78;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #462  Neoplan Jumbocruiser N 138 (1981)                           */
+/*  Double-deck articulated coach (largest bus ever)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_neoplan_jumbocruiser_n_138, 1461) {
+    property {
+        name:                           string(STR_NEOPLAN_JUMBOCRUISER_N_138_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1981, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    23;
+        running_cost_factor:            40;
+        speed:                          100 km/h;
+        cargo_capacity:                 103;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #463  Mercedes-Benz O 303 (1982)                                  */
+/*  Single-deck (touring/express coach)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_o_303, 1462) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_O_303_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1982, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    16;
+        running_cost_factor:            37;
+        speed:                          110 km/h;
+        cargo_capacity:                 49;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #464  Ikarus 415/435 (1982)                                       */
+/*  Single-deck / articulated (updated Eastern Bloc standard)          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ikarus_415_435, 1463) {
+    property {
+        name:                           string(STR_IKARUS_415_435_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1982, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    29;
+        running_cost_factor:            39;
+        speed:                          65 km/h;
+        cargo_capacity:                 160;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #465  MAN SG 240 (1983)                                           */
+/*  Articulated (German standard artic bus)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_sg_240, 1464) {
+    property {
+        name:                           string(STR_MAN_SG_240_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1983, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    20;
+        running_cost_factor:            33;
+        speed:                          65 km/h;
+        cargo_capacity:                 100;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #466  Leyland Olympian (1984)                                     */
+/*  Double-deck (British/Hong Kong double-decker)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_olympian, 1465) {
+    property {
+        name:                           string(STR_LEYLAND_OLYMPIAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1984, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    17;
+        running_cost_factor:            31;
+        speed:                          60 km/h;
+        cargo_capacity:                 86;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #467  Volvo Olympian / Citybus (1985)                             */
+/*  Double-deck (British/Asian cities)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_olympian_citybus, 1466) {
+    property {
+        name:                           string(STR_VOLVO_OLYMPIAN_CITYBUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    17;
+        running_cost_factor:            31;
+        speed:                          60 km/h;
+        cargo_capacity:                 86;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #468  Dennis Dart (1986)                                          */
+/*  Single-deck (British midibus)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_dennis_dart, 1467) {
+    property {
+        name:                           string(STR_DENNIS_DART_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1986, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    11;
+        running_cost_factor:            27;
+        speed:                          65 km/h;
+        cargo_capacity:                 40;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #469  Mercedes-Benz O 405 (1987)                                  */
+/*  Single-deck (German standard city bus)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_o_405, 1468) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_O_405_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1987, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    12;
+        running_cost_factor:            29;
+        speed:                          70 km/h;
+        cargo_capacity:                 47;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #470  MCI 102-DL3 (1988)                                          */
+/*  Single-deck (North American intercity)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mci_102_dl3, 1469) {
+    property {
+        name:                           string(STR_MCI_102_DL3_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1988, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    16;
+        running_cost_factor:            36;
+        speed:                          105 km/h;
+        cargo_capacity:                 55;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #471  Van Hool AG300 (1989)                                       */
+/*  Articulated (European city artic)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_van_hool_ag300, 1470) {
+    property {
+        name:                           string(STR_VAN_HOOL_AG300_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1989, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    21;
+        running_cost_factor:            34;
+        speed:                          65 km/h;
+        cargo_capacity:                 110;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #472  Mercedes-Benz O 405G (1990)                                 */
+/*  Articulated (German standard artic)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_o_405g, 1471) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_O_405G_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1990, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    21;
+        running_cost_factor:            34;
+        speed:                          65 km/h;
+        cargo_capacity:                 110;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #473  New Flyer D40LF (1991)                                      */
+/*  Single-deck (first North American low-floor)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_new_flyer_d40lf, 1472) {
+    property {
+        name:                           string(STR_NEW_FLYER_D40LF_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1991, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    14;
+        running_cost_factor:            29;
+        speed:                          65 km/h;
+        cargo_capacity:                 60;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #474  Scania L113 / OmniCity (1992)                               */
+/*  Single-deck (Scandinavian city bus)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_l113_omnicity, 1473) {
+    property {
+        name:                           string(STR_SCANIA_L113_OMNICITY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1992, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    13;
+        running_cost_factor:            29;
+        speed:                          70 km/h;
+        cargo_capacity:                 50;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #475  Dennis Trident (1993)                                       */
+/*  Double-deck (Hong Kong / UK)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_dennis_trident, 1474) {
+    property {
+        name:                           string(STR_DENNIS_TRIDENT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1993, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    17;
+        running_cost_factor:            31;
+        speed:                          60 km/h;
+        cargo_capacity:                 86;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #476  Neoplan Starliner N 516 (1994)                              */
+/*  Single-deck (luxury touring coach)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_neoplan_starliner_n_516, 1475) {
+    property {
+        name:                           string(STR_NEOPLAN_STARLINER_N_516_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1994, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    16;
+        running_cost_factor:            39;
+        speed:                          120 km/h;
+        cargo_capacity:                 49;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #477  Mercedes-Benz Citaro (O 530) (1995)                         */
+/*  Single-deck (most successful European city bus)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_citaro, 1476) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_CITARO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1995, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    13;
+        running_cost_factor:            31;
+        speed:                          80 km/h;
+        cargo_capacity:                 48;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #478  DAF SB220 / VDL Ambassador (1996)                           */
+/*  Single-deck (Dutch city bus)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daf_sb220_vdl_ambassador, 1477) {
+    property {
+        name:                           string(STR_DAF_SB220_VDL_AMBASSADOR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1996, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    12;
+        running_cost_factor:            28;
+        speed:                          70 km/h;
+        cargo_capacity:                 45;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #479  Volvo B7TL (1997)                                           */
+/*  Double-deck (British/Asian double-decker)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_b7tl, 1478) {
+    property {
+        name:                           string(STR_VOLVO_B7TL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1997, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    17;
+        running_cost_factor:            31;
+        speed:                          60 km/h;
+        cargo_capacity:                 86;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #480  Irisbus Agora (1997)                                        */
+/*  Single-deck (French standard city bus)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_irisbus_agora, 1479) {
+    property {
+        name:                           string(STR_IRISBUS_AGORA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1997, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    13;
+        running_cost_factor:            29;
+        speed:                          70 km/h;
+        cargo_capacity:                 50;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #481  MAN Lion's City (A21) (1998)                                */
+/*  Single-deck (European standard city bus)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_lions_city, 1480) {
+    property {
+        name:                           string(STR_MAN_LIONS_CITY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1998, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          80 km/h;
+        cargo_capacity:                 50;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #482  Alexander Dennis Enviro400 (prototype) (1999)               */
+/*  Double-deck (British next-gen)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_alexander_dennis_enviro400, 1481) {
+    property {
+        name:                           string(STR_ALEXANDER_DENNIS_ENVIRO400_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1999, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    17;
+        running_cost_factor:            31;
+        speed:                          60 km/h;
+        cargo_capacity:                 86;
+        loading_speed:                  9;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #483  Setra S 431 DT TopClass (2000)                              */
+/*  Double-deck coach (luxury touring)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_setra_s_431_dt_topclass, 1482) {
+    property {
+        name:                           string(STR_SETRA_S_431_DT_TOPCLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    28;
+        running_cost_factor:            39;
+        speed:                          100 km/h;
+        cargo_capacity:                 91;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #484  Irisbus Citelis (2001)                                      */
+/*  Single-deck (French city bus)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_irisbus_citelis, 1483) {
+    property {
+        name:                           string(STR_IRISBUS_CITELIS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2001, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    17;
+        running_cost_factor:            29;
+        speed:                          70 km/h;
+        cargo_capacity:                 50;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #485  MCI J4500 (2002)                                            */
+/*  Single-deck (North American intercity coach)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mci_j4500, 1484) {
+    property {
+        name:                           string(STR_MCI_J4500_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2002, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    22;
+        running_cost_factor:            38;
+        speed:                          110 km/h;
+        cargo_capacity:                 56;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #486  Alexander Dennis Enviro200 (2003)                           */
+/*  Single-deck (British midibus)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_alexander_dennis_enviro200, 1485) {
+    property {
+        name:                           string(STR_ALEXANDER_DENNIS_ENVIRO200_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2003, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    16;
+        running_cost_factor:            28;
+        speed:                          70 km/h;
+        cargo_capacity:                 44;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #487  Mercedes-Benz CapaCity (2004)                               */
+/*  Bi-articulated (super-capacity urban bus)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_capacity, 1486) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_CAPACITY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2004, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    46;
+        running_cost_factor:            43;
+        speed:                          70 km/h;
+        cargo_capacity:                 193;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #488  Volvo 9700 (2005)                                           */
+/*  Single-deck (touring/express coach)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_9700, 1487) {
+    property {
+        name:                           string(STR_VOLVO_9700_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2005, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    21;
+        running_cost_factor:            35;
+        speed:                          100 km/h;
+        cargo_capacity:                 53;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #489  New Flyer Xcelsior (2005)                                   */
+/*  Single-deck (North American transit)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_new_flyer_xcelsior, 1488) {
+    property {
+        name:                           string(STR_NEW_FLYER_XCELSIOR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2005, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    19;
+        running_cost_factor:            30;
+        speed:                          70 km/h;
+        cargo_capacity:                 62;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #490  Alexander Dennis Enviro400 (2006)                           */
+/*  Double-deck (British standard)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_alexander_dennis_enviro400, 1489) {
+    property {
+        name:                           string(STR_ALEXANDER_DENNIS_ENVIRO400_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2006, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    24;
+        running_cost_factor:            32;
+        speed:                          65 km/h;
+        cargo_capacity:                 86;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #491  Van Hool AGG300 (2007)                                      */
+/*  Bi-articulated (super-capacity, BRT)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_van_hool_agg300, 1490) {
+    property {
+        name:                           string(STR_VAN_HOOL_AGG300_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2007, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    37;
+        running_cost_factor:            39;
+        speed:                          70 km/h;
+        cargo_capacity:                 150;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #492  Scania OmniExpress (2007)                                   */
+/*  Single-deck (Scandinavian express coach)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_omniexpress, 1491) {
+    property {
+        name:                           string(STR_SCANIA_OMNIEXPRESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2007, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    21;
+        running_cost_factor:            35;
+        speed:                          100 km/h;
+        cargo_capacity:                 53;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #493  Marcopolo Viale BRT (2008)                                  */
+/*  Bi-articulated (Brazilian BRT)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_marcopolo_viale_brt, 1492) {
+    property {
+        name:                           string(STR_MARCOPOLO_VIALE_BRT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2008, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    39;
+        running_cost_factor:            40;
+        speed:                          70 km/h;
+        cargo_capacity:                 160;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #494  Wright StreetVite / Electrocity (2009)                      */
+/*  Single-deck (hybrid/electric British)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_wright_streetvite_electrocity, 1493) {
+    property {
+        name:                           string(STR_WRIGHT_STREETVITE_ELECTROCITY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2009, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    15;
+        running_cost_factor:            27;
+        speed:                          65 km/h;
+        cargo_capacity:                 44;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #495  Yutong ZK6125CHEVPG (2010)                                  */
+/*  Single-deck (Chinese hybrid city bus)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_yutong_zk6125chevpg, 1494) {
+    property {
+        name:                           string(STR_YUTONG_ZK6125CHEVPG_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    23;
+        running_cost_factor:            32;
+        speed:                          70 km/h;
+        cargo_capacity:                 80;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #496  New Routemaster (Borismaster) (2011)                        */
+/*  Double-deck (London hybrid, iconic)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_new_routemaster, 1495) {
+    property {
+        name:                           string(STR_NEW_ROUTEMASTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2011, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    23;
+        running_cost_factor:            31;
+        speed:                          60 km/h;
+        cargo_capacity:                 87;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #497  BYD K9 / ebus (2012)                                        */
+/*  Single-deck (Chinese electric city bus, global export)             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_byd_k9_ebus, 1496) {
+    property {
+        name:                           string(STR_BYD_K9_EBUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2012, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    19;
+        running_cost_factor:            30;
+        speed:                          70 km/h;
+        cargo_capacity:                 60;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #498  Alexander Dennis Enviro400H (2013)                          */
+/*  Double-deck (hybrid British)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_alexander_dennis_enviro400h, 1497) {
+    property {
+        name:                           string(STR_ALEXANDER_DENNIS_ENVIRO400H_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2013, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    24;
+        running_cost_factor:            32;
+        speed:                          65 km/h;
+        cargo_capacity:                 86;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #499  Mercedes-Benz eCitaro (concept) (2014)                      */
+/*  Single-deck (battery-electric city bus)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_ecitaro, 1498) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_ECITARO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2014, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    17;
+        running_cost_factor:            29;
+        speed:                          70 km/h;
+        cargo_capacity:                 48;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #500  Solaris Urbino 18 Electric (2014)                           */
+/*  Articulated (Polish electric artic)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_solaris_urbino_18_electric, 1499) {
+    property {
+        name:                           string(STR_SOLARIS_URBINO_18_ELECTRIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2014, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    28;
+        running_cost_factor:            34;
+        speed:                          65 km/h;
+        cargo_capacity:                 110;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #501  Volvo 7900 Electric (2015)                                  */
+/*  Single-deck (European electric city bus)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_7900_electric, 1500) {
+    property {
+        name:                           string(STR_VOLVO_7900_ELECTRIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    17;
+        running_cost_factor:            29;
+        speed:                          70 km/h;
+        cargo_capacity:                 50;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #502  Van Hool Exqui.City 24 (2016)                               */
+/*  Bi-articulated (electric/trolleybus BRT)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_van_hool_exqui_city_24, 1501) {
+    property {
+        name:                           string(STR_VAN_HOOL_EXQUI_CITY_24_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2016, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    37;
+        running_cost_factor:            39;
+        speed:                          70 km/h;
+        cargo_capacity:                 150;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #503  Proterra Catalyst E2 (2017)                                 */
+/*  Single-deck (American battery-electric transit)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_proterra_catalyst_e2, 1502) {
+    property {
+        name:                           string(STR_PROTERRA_CATALYST_E2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2017, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    15;
+        running_cost_factor:            28;
+        speed:                          72 km/h;
+        cargo_capacity:                 40;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #504  Mercedes-Benz eCitaro (2018)                                */
+/*  Single-deck (production battery-electric)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_ecitaro, 1503) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_ECITARO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2018, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    17;
+        running_cost_factor:            29;
+        speed:                          70 km/h;
+        cargo_capacity:                 48;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #505  Alexander Dennis Enviro400EV (2019)                         */
+/*  Double-deck (battery-electric British)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_alexander_dennis_enviro400ev, 1504) {
+    property {
+        name:                           string(STR_ALEXANDER_DENNIS_ENVIRO400EV_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2019, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    24;
+        running_cost_factor:            32;
+        speed:                          65 km/h;
+        cargo_capacity:                 86;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #506  Irizar ie tram (2020)                                       */
+/*  Articulated (Spanish electric tram-bus)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_irizar_ie_tram, 1505) {
+    property {
+        name:                           string(STR_IRIZAR_IE_TRAM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    36;
+        running_cost_factor:            38;
+        speed:                          70 km/h;
+        cargo_capacity:                 145;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #507  MAN Lion's City 18 E (2021)                                 */
+/*  Articulated (German electric artic)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_lions_city_18_e, 1506) {
+    property {
+        name:                           string(STR_MAN_LIONS_CITY_18_E_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2021, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    31;
+        running_cost_factor:            36;
+        speed:                          70 km/h;
+        cargo_capacity:                 120;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #508  Solaris Urbino 15 LE Electric (2022)                        */
+/*  Single-deck (midibus-length electric)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_solaris_urbino_15_le_electric, 1507) {
+    property {
+        name:                           string(STR_SOLARIS_URBINO_15_LE_ELECTRIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2022, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    27;
+        running_cost_factor:            34;
+        speed:                          70 km/h;
+        cargo_capacity:                 100;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #509  Yutong U12 (2023)                                           */
+/*  Single-deck (Chinese autonomous-ready electric)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_yutong_u12, 1508) {
+    property {
+        name:                           string(STR_YUTONG_U12_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2023, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    22;
+        running_cost_factor:            32;
+        speed:                          70 km/h;
+        cargo_capacity:                 75;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #510  BYD eBus 18m (2024)                                         */
+/*  Articulated (Chinese electric artic, global)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_byd_ebus_18m, 1509) {
+    property {
+        name:                           string(STR_BYD_EBUS_18M_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2024, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    31;
+        running_cost_factor:            36;
+        speed:                          70 km/h;
+        cargo_capacity:                 120;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #511  Arrival Bus (2025)                                          */
+/*  Single-deck (skateboard-platform electric bus)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_arrival_bus, 1510) {
+    property {
+        name:                           string(STR_ARRIVAL_BUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    17;
+        running_cost_factor:            29;
+        speed:                          70 km/h;
+        cargo_capacity:                 50;
+        loading_speed:                  12;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #734  Volterra V-120 CityPulse (2030)                             */
+/*  Single-deck electric (solid-state battery, fast-charge)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volterra_v_120_citypulse, 1733) {
+    property {
+        name:                           string(STR_VOLTERRA_V_120_CITYPULSE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    40;
+        running_cost_factor:            38;
+        speed:                          80 km/h;
+        cargo_capacity:                 120;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #735  Meridian M-180 MetroLink (2031)                             */
+/*  Articulated electric (inductive road charging)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_meridian_m_180_metrolink, 1734) {
+    property {
+        name:                           string(STR_MERIDIAN_M_180_METROLINK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2031, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    54;
+        running_cost_factor:            43;
+        speed:                          75 km/h;
+        cargo_capacity:                 180;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #736  Horizon H-60 Shuttle (2032)                                 */
+/*  Single-deck autonomous (Level 5 self-driving)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_horizon_h_60_shuttle, 1735) {
+    property {
+        name:                           string(STR_HORIZON_H_60_SHUTTLE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2032, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    26;
+        running_cost_factor:            34;
+        speed:                          90 km/h;
+        cargo_capacity:                 60;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #737  Cascadia C-250 BRT Express (2033)                           */
+/*  Bi-articulated electric (dedicated BRT corridor)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_cascadia_c_250_brt_express, 1736) {
+    property {
+        name:                           string(STR_CASCADIA_C_250_BRT_EXPRESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2033, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    73;
+        running_cost_factor:            52;
+        speed:                          85 km/h;
+        cargo_capacity:                 250;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #738  Zenith Z-90 InterCity (2034)                                */
+/*  Double-deck electric coach (motorway express)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_zenith_z_90_intercity, 1737) {
+    property {
+        name:                           string(STR_ZENITH_Z_90_INTERCITY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2034, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    40;
+        running_cost_factor:            47;
+        speed:                          140 km/h;
+        cargo_capacity:                 90;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #739  Volterra V-300 MegaMover (2035)                             */
+/*  Tri-articulated electric (ultra-capacity urban)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volterra_v_300_megamover, 1738) {
+    property {
+        name:                           string(STR_VOLTERRA_V_300_MEGAMOVER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2035, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    84;
+        running_cost_factor:            54;
+        speed:                          70 km/h;
+        cargo_capacity:                 300;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #740  Aether AE-80 HydroBus (2036)                                */
+/*  Single-deck hydrogen fuel cell (long-range rural)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aether_ae_80_hydrobus, 1739) {
+    property {
+        name:                           string(STR_AETHER_AE_80_HYDROBUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2036, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    32;
+        running_cost_factor:            38;
+        speed:                          100 km/h;
+        cargo_capacity:                 80;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #741  Stratos S-160 SkyBridge (2037)                              */
+/*  Articulated autonomous (elevated guideway compatible)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_stratos_s_160_skybridge, 1740) {
+    property {
+        name:                           string(STR_STRATOS_S_160_SKYBRIDGE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2037, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    51;
+        running_cost_factor:            43;
+        speed:                          85 km/h;
+        cargo_capacity:                 160;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #742  Pinnacle PN-45 RapidPod (2038)                              */
+/*  Short autonomous shuttle (last-mile + express)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_pinnacle_pn_45_rapidpod, 1741) {
+    property {
+        name:                           string(STR_PINNACLE_PN_45_RAPIDPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2038, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    26;
+        running_cost_factor:            38;
+        speed:                          120 km/h;
+        cargo_capacity:                 45;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #743  Cascadia C-400 Superliner (2040)                            */
+/*  Bi-articulated double-deck (mega-capacity BRT)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_cascadia_c_400_superliner, 1742) {
+    property {
+        name:                           string(STR_CASCADIA_C_400_SUPERLINER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    110;
+        running_cost_factor:            66;
+        speed:                          80 km/h;
+        cargo_capacity:                 400;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #744  Velaris V-200 CoachElite (2042)                             */
+/*  Double-deck autonomous coach (intercity luxury)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_velaris_v_200_coachelite, 1743) {
+    property {
+        name:                           string(STR_VELARIS_V_200_COACHELITE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2042, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    70;
+        running_cost_factor:            62;
+        speed:                          160 km/h;
+        cargo_capacity:                 200;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #745  Aurora AU-500 UrbanSpine (2045)                             */
+/*  Road-train articulated (4 modules, urban trunk route)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aurora_au_500_urbanspine, 1744) {
+    property {
+        name:                           string(STR_AURORA_AU_500_URBANSPINE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2045, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    134;
+        running_cost_factor:            75;
+        speed:                          75 km/h;
+        cargo_capacity:                 500;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #746  Halcyon H-100 AeroCoach (2048)                              */
+/*  Streamlined autonomous coach (dedicated motorway lanes)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_halcyon_h_100_aerocoach, 1745) {
+    property {
+        name:                           string(STR_HALCYON_H_100_AEROCOACH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2048, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    48;
+        running_cost_factor:            56;
+        speed:                          180 km/h;
+        cargo_capacity:                 100;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #747  Nexus NX-350 MegaPlex (2050)                                */
+/*  Tri-articulated autonomous (supercapacitor rapid-charge)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_nexus_nx_350_megaplex, 1746) {
+    property {
+        name:                           string(STR_NEXUS_NX_350_MEGAPLEX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    99;
+        running_cost_factor:            63;
+        speed:                          90 km/h;
+        cargo_capacity:                 350;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #748  Solaris Sol-600 CityWorm (2055)                             */
+/*  Modular road-train (6 detachable pods, urban trunk)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_solaris_sol_600_cityworm, 1747) {
+    property {
+        name:                           string(STR_SOLARIS_SOL_600_CITYWORM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2055, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    159;
+        running_cost_factor:            84;
+        speed:                          70 km/h;
+        cargo_capacity:                 600;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #749  Quantum QT-120 HyperBus (2060)                              */
+/*  Closed-guideway electric (dedicated hyperbus lanes)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_quantum_qt_120_hyperbus, 1748) {
+    property {
+        name:                           string(STR_QUANTUM_QT_120_HYPERBUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    61;
+        running_cost_factor:            72;
+        speed:                          250 km/h;
+        cargo_capacity:                 120;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #788  Solaris Sol-Bus 800 (2062)                                  */
+/*  Mega-bus road-train (8 double-deck modules)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_solaris_sol_bus_800, 1787) {
+    property {
+        name:                           string(STR_SOLARIS_SOL_BUS_800_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2062, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    212;
+        running_cost_factor:            110;
+        speed:                          100 km/h;
+        cargo_capacity:                 800;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #789  Titan T-1000 OreCarrier (2065)                              */
+/*  Autonomous mega-hauler (dedicated mining corridor)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_titan_t_1000_orecarrier, 1788) {
+    property {
+        name:                           string(STR_TITAN_T_1000_ORECARRIER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2065, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            125;
+        speed:                          75 km/h;
+        cargo_capacity:                 1000;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #790  Velaris V-6 Aura (2065)                                     */
+/*  Autonomous car (ambient AI, self-healing materials)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_velaris_v_6_aura, 1789) {
+    property {
+        name:                           string(STR_VELARIS_V_6_AURA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2065, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    39;
+        running_cost_factor:            71;
+        speed:                          300 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #791  Apex A-600 CityTrain (2068)                                 */
+/*  Modular autonomous bus-train (detachable at stops)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_apex_a_600_citytrain, 1790) {
+    property {
+        name:                           string(STR_APEX_A_600_CITYTRAIN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2068, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    161;
+        running_cost_factor:            88;
+        speed:                          90 km/h;
+        cargo_capacity:                 600;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #792  Stratos S-2 Thunderbolt (2070)                              */
+/*  Hypercar (magnetic road assist, track-day legal)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_stratos_s_2_thunderbolt, 1791) {
+    property {
+        name:                           string(STR_STRATOS_S_2_THUNDERBOLT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    76;
+        running_cost_factor:            130;
+        speed:                          600 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #793  Nexus NX-400 MegaMover (2070)                               */
+/*  Road-train (electromagnetic-assist highway)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_nexus_nx_400_megamover, 1792) {
+    property {
+        name:                           string(STR_NEXUS_NX_400_MEGAMOVER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2070, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    115;
+        running_cost_factor:            74;
+        speed:                          120 km/h;
+        cargo_capacity:                 400;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #794  Halcyon H-10 Odyssey (2072)                                 */
+/*  Autonomous luxury liner (mobile living room)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_halcyon_h_10_odyssey, 1793) {
+    property {
+        name:                           string(STR_HALCYON_H_10_ODYSSEY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2072, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    46;
+        running_cost_factor:            81;
+        speed:                          350 km/h;
+        cargo_capacity:                 10;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #795  Quantum QT-1000 FreightNet (2075)                           */
+/*  Autonomous mega-freight (modular, dedicated corridor)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_quantum_qt_1000_freightnet, 1794) {
+    property {
+        name:                           string(STR_QUANTUM_QT_1000_FREIGHTNET_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2075, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            130;
+        speed:                          100 km/h;
+        cargo_capacity:                 1000;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #796  Cascadia C-150 ExpressLine (2075)                           */
+/*  Autonomous express bus (dedicated highway lane)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_cascadia_c_150_expressline, 1795) {
+    property {
+        name:                           string(STR_CASCADIA_C_150_EXPRESSLINE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2075, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    75;
+        running_cost_factor:            85;
+        speed:                          300 km/h;
+        cargo_capacity:                 150;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #797  Aurora AU-2 LightSpeed (2078)                               */
+/*  Hypercar (enclosed aerodynamic shell, magnetic road)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aurora_au_2_lightspeed, 1796) {
+    property {
+        name:                           string(STR_AURORA_AU_2_LIGHTSPEED_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2078, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    88;
+        running_cost_factor:            150;
+        speed:                          700 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #798  Solaris Sol-200 SkyBus (2080)                               */
+/*  Automated express coach (vacuum-tube compatible)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_solaris_sol_200_skybus, 1797) {
+    property {
+        name:                           string(STR_SOLARIS_SOL_200_SKYBUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    94;
+        running_cost_factor:            100;
+        speed:                          350 km/h;
+        cargo_capacity:                 200;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #799  Titan T-2000 GlobalHaul (2080)                              */
+/*  Mega-train autonomous (transcontinental freight corridor)          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_titan_t_2000_globalhaul, 1798) {
+    property {
+        name:                           string(STR_TITAN_T_2000_GLOBALHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2080, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            226;
+        speed:                          80 km/h;
+        cargo_capacity:                 2000;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #800  Pinnacle PN-4 ZenPod (2085)                                 */
+/*  Autonomous pod (personalized AI, any-terrain)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_pinnacle_pn_4_zenpod, 1799) {
+    property {
+        name:                           string(STR_PINNACLE_PN_4_ZENPOD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2085, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    51;
+        running_cost_factor:            90;
+        speed:                          400 km/h;
+        cargo_capacity:                 4;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #801  Colossus C-5000 Leviathan (2085)                            */
+/*  Industrial mega-hauler (continental mining, guided corridor)       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_colossus_c_5000_leviathan, 1800) {
+    property {
+        name:                           string(STR_COLOSSUS_C_5000_LEVIATHAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2085, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          60 km/h;
+        cargo_capacity:                 5000;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #802  Nexus NX-1 Whisper (2090)                                   */
+/*  Personal autonomous pod (weightless suspension feel)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_nexus_nx_1_whisper, 1801) {
+    property {
+        name:                           string(STR_NEXUS_NX_1_WHISPER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2090, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    63;
+        running_cost_factor:            110;
+        speed:                          500 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #803  Meridian M-Bus 1000 (2090)                                  */
+/*  Mega-bus (10-module, intercity corridor)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_meridian_m_bus_1000, 1802) {
+    property {
+        name:                           string(STR_MERIDIAN_M_BUS_1000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2090, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            134;
+        speed:                          120 km/h;
+        cargo_capacity:                 1000;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #804  Velaris V-1 Flicker (2095)                                  */
+/*  Personal hypercar (vacuum-tube hybrid, urban-to-city)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_velaris_v_1_flicker, 1803) {
+    property {
+        name:                           string(STR_VELARIS_V_1_FLICKER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2095, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    100;
+        running_cost_factor:            170;
+        speed:                          800 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #805  Quantum QT-X Infinity (2100)                                */
+/*  Autonomous luxury (zero energy cost, ambient harvesting)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_quantum_qt_x_infinity, 1804) {
+    property {
+        name:                           string(STR_QUANTUM_QT_X_INFINITY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2100, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    76;
+        running_cost_factor:            131;
+        speed:                          600 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #806  Aurora AU-10000 WorldFreight (2100)                         */
+/*  Global mega-freight-train (automated transcontinental corridor)    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aurora_au_10000_worldfreight, 1805) {
+    property {
+        name:                           string(STR_AURORA_AU_10000_WORLDFREIGHT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2100, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        speed:                          100 km/h;
+        cargo_capacity:                 10000;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}

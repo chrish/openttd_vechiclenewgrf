@@ -1,0 +1,1410 @@
+/**
+ * airships.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #202  Giffard Airship (1852)                                      */
+/*  Non-rigid (first powered airship)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_giffard_airship, 1201) {
+    property {
+        name:                           string(STR_GIFFARD_AIRSHIP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1852, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            67;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   20;
+        speed:                          10 km/h;
+        passenger_capacity:             1;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #203  La France (1884)                                            */
+/*  Non-rigid (first fully controllable airship)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_la_france, 1202) {
+    property {
+        name:                           string(STR_LA_FRANCE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1884, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            69;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   20;
+        speed:                          24 km/h;
+        passenger_capacity:             2;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #204  Schwarz Aluminium Airship (1897)                            */
+/*  Rigid (first metal-skinned airship)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_schwarz_aluminium_airship, 1203) {
+    property {
+        name:                           string(STR_SCHWARZ_ALUMINIUM_AIRSHIP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1897, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            69;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   20;
+        speed:                          25 km/h;
+        passenger_capacity:             1;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #205  Zeppelin LZ 1 (1900)                                        */
+/*  Rigid (first Zeppelin)                                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_zeppelin_lz_1, 1204) {
+    property {
+        name:                           string(STR_ZEPPELIN_LZ_1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1900, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            70;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   20;
+        speed:                          28 km/h;
+        passenger_capacity:             5;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #206  Lebaudy Morning Post (1906)                                 */
+/*  Semi-rigid                                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_lebaudy_morning_post, 1205) {
+    property {
+        name:                           string(STR_LEBAUDY_MORNING_POST_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1906, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            72;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   20;
+        speed:                          40 km/h;
+        passenger_capacity:             6;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #207  Zeppelin LZ 6 (1909)                                        */
+/*  Rigid (first used for DELAG airline)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_zeppelin_lz_6, 1206) {
+    property {
+        name:                           string(STR_ZEPPELIN_LZ_6_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1909, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            78;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          58 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #208  Zeppelin LZ 7 Deutschland (1910)                            */
+/*  Rigid (first commercial Zeppelin)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_zeppelin_lz_7_deutschland, 1207) {
+    property {
+        name:                           string(STR_ZEPPELIN_LZ_7_DEUTSCHLAND_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1910, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            78;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          60 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #209  Zeppelin LZ 10 Schwaben (1911)                              */
+/*  Rigid (DELAG passenger service)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_zeppelin_lz_10_schwaben, 1208) {
+    property {
+        name:                           string(STR_ZEPPELIN_LZ_10_SCHWABEN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1911, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            79;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          68 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #210  Zeppelin LZ 11 Viktoria Luise (1912)                        */
+/*  Rigid (DELAG passenger service)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_zeppelin_lz_11_viktoria_luise, 1209) {
+    property {
+        name:                           string(STR_ZEPPELIN_LZ_11_VIKTORIA_LUISE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1912, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            80;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          72 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #211  Zeppelin LZ 13 Hansa (1912)                                 */
+/*  Rigid (DELAG, first airship over sea route)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_zeppelin_lz_13_hansa, 1210) {
+    property {
+        name:                           string(STR_ZEPPELIN_LZ_13_HANSA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1912, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            80;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          78 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #212  Zeppelin LZ 17 Sachsen (1913)                               */
+/*  Rigid (DELAG passenger service)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_zeppelin_lz_17_sachsen, 1211) {
+    property {
+        name:                           string(STR_ZEPPELIN_LZ_17_SACHSEN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1913, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            81;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          80 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #213  Schütte-Lanz SL series (1914)                               */
+/*  Rigid (wooden frame, military bombers)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_schtte_lanz_sl_series, 1212) {
+    property {
+        name:                           string(STR_SCHTTE_LANZ_SL_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1914, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            76;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          85 km/h;
+        passenger_capacity:             1;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #214  Zeppelin "Super Zeppelin" (LZ 62+) (1915)                   */
+/*  Rigid (WW1 bombers, strategic reconnaissance)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_zeppelin_super_zeppelin, 1213) {
+    property {
+        name:                           string(STR_ZEPPELIN_SUPER_ZEPPELIN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1915, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            78;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          100 km/h;
+        passenger_capacity:             1;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #215  SS (Sea Scout) class (1917)                                 */
+/*  Non-rigid blimp (anti-submarine patrol)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_ss_class, 1214) {
+    property {
+        name:                           string(STR_SS_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1917, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            76;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          80 km/h;
+        passenger_capacity:             3;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #216  NS (North Sea) class (1918)                                 */
+/*  Non-rigid blimp (long-range patrol)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_ns_class, 1215) {
+    property {
+        name:                           string(STR_NS_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1918, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            79;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          90 km/h;
+        passenger_capacity:             10;
+        mail_capacity:                  2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #217  British R.33 (1919)                                         */
+/*  Rigid (experimental/training)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_british_r_33, 1216) {
+    property {
+        name:                           string(STR_BRITISH_R_33_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1919, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            86;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          100 km/h;
+        passenger_capacity:             30;
+        mail_capacity:                  6;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #218  British R.34 (1919)                                         */
+/*  Rigid (first transatlantic airship crossing)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_british_r_34, 1217) {
+    property {
+        name:                           string(STR_BRITISH_R_34_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1919, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            85;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          97 km/h;
+        passenger_capacity:             30;
+        mail_capacity:                  6;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #219  Roma (T-34) (1921)                                          */
+/*  Semi-rigid (Italian-built, US operated)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_roma, 1218) {
+    property {
+        name:                           string(STR_ROMA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1921, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            80;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          110 km/h;
+        passenger_capacity:             45;
+        mail_capacity:                  9;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #220  USS Shenandoah (ZR-1) (1923)                                */
+/*  Rigid (first US helium rigid airship)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_uss_shenandoah, 1219) {
+    property {
+        name:                           string(STR_USS_SHENANDOAH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1923, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            79;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          105 km/h;
+        passenger_capacity:             40;
+        mail_capacity:                  8;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #221  Zeppelin LZ 126 / USS Los Angeles (ZR-3) (1924)             */
+/*  Rigid (war reparation, US Navy)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_zeppelin_lz_126_uss_los_angeles, 1220) {
+    property {
+        name:                           string(STR_ZEPPELIN_LZ_126_USS_LOS_ANGELES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1924, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            78;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          117 km/h;
+        passenger_capacity:             30;
+        mail_capacity:                  6;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #222  Norge (N-1) (1926)                                          */
+/*  Semi-rigid (first aircraft over North Pole)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_norge, 1221) {
+    property {
+        name:                           string(STR_NORGE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1926, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            73;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          100 km/h;
+        passenger_capacity:             16;
+        mail_capacity:                  3;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #223  Italia (N-4) (1928)                                         */
+/*  Semi-rigid (Nobile polar expedition)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_italia, 1222) {
+    property {
+        name:                           string(STR_ITALIA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1928, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            73;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          100 km/h;
+        passenger_capacity:             16;
+        mail_capacity:                  3;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #224  Graf Zeppelin (LZ 127) (1928)                               */
+/*  Rigid (first round-the-world airship, luxury transatlantic)        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_graf_zeppelin, 1223) {
+    property {
+        name:                           string(STR_GRAF_ZEPPELIN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1928, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            76;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          117 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #225  British R.100 (1929)                                        */
+/*  Rigid (transatlantic passenger)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_british_r_100, 1224) {
+    property {
+        name:                           string(STR_BRITISH_R_100_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1929, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            95;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          130 km/h;
+        passenger_capacity:             100;
+        mail_capacity:                  20;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #226  British R.101 (1930)                                        */
+/*  Rigid (crashed at Beauvais, ended UK programme)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_british_r_101, 1225) {
+    property {
+        name:                           string(STR_BRITISH_R_101_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            93;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          113 km/h;
+        passenger_capacity:             100;
+        mail_capacity:                  20;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #227  USS Akron (ZRS-4) (1931)                                    */
+/*  Rigid (flying aircraft carrier)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_uss_akron, 1226) {
+    property {
+        name:                           string(STR_USS_AKRON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1931, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            85;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          120 km/h;
+        passenger_capacity:             60;
+        mail_capacity:                  12;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #228  USS Macon (ZRS-5) (1933)                                    */
+/*  Rigid (flying aircraft carrier)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_uss_macon, 1227) {
+    property {
+        name:                           string(STR_USS_MACON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1933, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            85;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          120 km/h;
+        passenger_capacity:             60;
+        mail_capacity:                  12;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #229  Hindenburg (LZ 129) (1936)                                  */
+/*  Rigid (largest ever, hydrogen; 1937 disaster)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_hindenburg, 1228) {
+    property {
+        name:                           string(STR_HINDENBURG_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1936, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            89;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          126 km/h;
+        passenger_capacity:             72;
+        mail_capacity:                  14;
+        loading_speed:                  3;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #230  Graf Zeppelin II (LZ 130) (1938)                            */
+/*  Rigid (last great rigid airship, never entered service)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_graf_zeppelin_ii, 1229) {
+    property {
+        name:                           string(STR_GRAF_ZEPPELIN_II_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1938, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            82;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          131 km/h;
+        passenger_capacity:             40;
+        mail_capacity:                  8;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #231  Goodyear K-class (1942)                                     */
+/*  Non-rigid blimp (US Navy anti-submarine patrol)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_goodyear_k_class, 1230) {
+    property {
+        name:                           string(STR_GOODYEAR_K_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1942, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            70;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          93 km/h;
+        passenger_capacity:             10;
+        mail_capacity:                  2;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #232  Goodyear L-class (1943)                                     */
+/*  Non-rigid blimp (training/coastal patrol)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_goodyear_l_class, 1231) {
+    property {
+        name:                           string(STR_GOODYEAR_L_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1943, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            68;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          80 km/h;
+        passenger_capacity:             5;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #233  Goodyear M-class (1944)                                     */
+/*  Non-rigid blimp (largest US WW2 blimp)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_goodyear_m_class, 1232) {
+    property {
+        name:                           string(STR_GOODYEAR_M_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1944, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            74;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          117 km/h;
+        passenger_capacity:             12;
+        mail_capacity:                  2;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #234  Goodyear ZPG-2 (N-class) (1952)                             */
+/*  Non-rigid blimp (radar picket/patrol, set endurance records)       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_goodyear_zpg_2, 1233) {
+    property {
+        name:                           string(STR_GOODYEAR_ZPG_2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1952, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            67;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          130 km/h;
+        passenger_capacity:             22;
+        mail_capacity:                  4;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #235  Goodyear ZPG-3W (1955)                                      */
+/*  Non-rigid blimp (largest non-rigid ever built, AEW)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_goodyear_zpg_3w, 1234) {
+    property {
+        name:                           string(STR_GOODYEAR_ZPG_3W_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            68;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          139 km/h;
+        passenger_capacity:             21;
+        mail_capacity:                  4;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #236  Goodyear GZ-19 Europa (1969)                                */
+/*  Non-rigid blimp (advertising/sightseeing)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_goodyear_gz_19_europa, 1235) {
+    property {
+        name:                           string(STR_GOODYEAR_GZ_19_EUROPA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1969, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    1;
+        running_cost_factor:            59;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          80 km/h;
+        passenger_capacity:             6;
+        mail_capacity:                  1;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #237  Goodyear GZ-20 America / Columbia / Eagle (1969)            */
+/*  Non-rigid blimp (iconic advertising fleet)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_goodyear_gz_20_america_columbia_eagle, 1236) {
+    property {
+        name:                           string(STR_GOODYEAR_GZ_20_AMERICA_COLUMBIA_EAGLE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1969, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    1;
+        running_cost_factor:            59;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          80 km/h;
+        passenger_capacity:             6;
+        mail_capacity:                  1;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #238  WDL 1b (1991)                                               */
+/*  Non-rigid blimp (advertising/tourism)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_wdl_1b, 1237) {
+    property {
+        name:                           string(STR_WDL_1B_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1991, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    2;
+        running_cost_factor:            61;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          90 km/h;
+        passenger_capacity:             12;
+        mail_capacity:                  2;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #239  Zeppelin NT (LZ N07) (1997)                                 */
+/*  Semi-rigid (modern Zeppelin, tourism/surveillance)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_zeppelin_nt, 1238) {
+    property {
+        name:                           string(STR_ZEPPELIN_NT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1997, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            64;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          115 km/h;
+        passenger_capacity:             14;
+        mail_capacity:                  3;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #240  American Blimp A-60+ (1999)                                 */
+/*  Non-rigid blimp (advertising)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_american_blimp_a_60, 1239) {
+    property {
+        name:                           string(STR_AMERICAN_BLIMP_A_60_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1999, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    2;
+        running_cost_factor:            60;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          85 km/h;
+        passenger_capacity:             10;
+        mail_capacity:                  2;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #241  Goodyear Blimp (GZ-20A) (2006)                              */
+/*  Non-rigid blimp (advertising/TV coverage)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_goodyear_blimp, 1240) {
+    property {
+        name:                           string(STR_GOODYEAR_BLIMP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2006, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    2;
+        running_cost_factor:            60;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          80 km/h;
+        passenger_capacity:             9;
+        mail_capacity:                  2;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #242  Goodyear Blimp (Wingfoot) (2014)                            */
+/*  Semi-rigid (Zeppelin NT, new Goodyear fleet)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_goodyear_blimp, 1241) {
+    property {
+        name:                           string(STR_GOODYEAR_BLIMP_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2014, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    4;
+        running_cost_factor:            64;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          115 km/h;
+        passenger_capacity:             12;
+        mail_capacity:                  2;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #243  Airlander 10 (2016)                                         */
+/*  Hybrid (helium + aerodynamic lift)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_airlander_10, 1242) {
+    property {
+        name:                           string(STR_AIRLANDER_10_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2016, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    8;
+        running_cost_factor:            74;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          148 km/h;
+        passenger_capacity:             48;
+        mail_capacity:                  10;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #244  Pathfinder 1 (2100)                                         */
+/*  Rigid (modern helium airship, cargo/passenger)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_pathfinder_1, 1243) {
+    property {
+        name:                           string(STR_PATHFINDER_1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2100, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    5;
+        running_cost_factor:            65;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          120 km/h;
+        passenger_capacity:             14;
+        mail_capacity:                  3;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #245  Flying Whales LCA60T (2100)                                 */
+/*  Semi-rigid (heavy-lift cargo airship)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_flying_whales_lca60t, 1244) {
+    property {
+        name:                           string(STR_FLYING_WHALES_LCA60T_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2100, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    10;
+        running_cost_factor:            72;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   21;
+        speed:                          100 km/h;
+        passenger_capacity:             60;
+        mail_capacity:                  12;
+        loading_speed:                  11;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #380  Nimbus NS-40 Cloudwalker (2035)                             */
+/*  Hybrid rigid airship (helium + solar-electric)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_nimbus_ns_40_cloudwalker, 1379) {
+    property {
+        name:                           string(STR_NIMBUS_NS_40_CLOUDWALKER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2035, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    8;
+        running_cost_factor:            71;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          130 km/h;
+        passenger_capacity:             40;
+        mail_capacity:                  8;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #381  Cirrus CA-200 Stratodrifter (2037)                          */
+/*  Rigid airship (hydrogen cells, cruise liner)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_cirrus_ca_200_stratodrifter, 1380) {
+    property {
+        name:                           string(STR_CIRRUS_CA_200_STRATODRIFTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2037, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    29;
+        running_cost_factor:            105;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          150 km/h;
+        passenger_capacity:             200;
+        mail_capacity:                  40;
+        loading_speed:                  14;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #382  Nimbus NS-500 Leviathan (2040)                              */
+/*  Mega rigid airship (hydrogen lift, luxury cruise)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_nimbus_ns_500_leviathan, 1381) {
+    property {
+        name:                           string(STR_NIMBUS_NS_500_LEVIATHAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    67;
+        running_cost_factor:            168;
+        aircraft_type:                  AIRCRAFT_TYPE_LARGE;
+        acceleration:                   20;
+        speed:                          175 km/h;
+        passenger_capacity:             500;
+        mail_capacity:                  100;
+        loading_speed:                  18;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #383  Zephyr ZA-80 Tradewind (2042)                               */
+/*  Cargo airship (helium, heavy-lift freight)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_zephyr_za_80_tradewind, 1382) {
+    property {
+        name:                           string(STR_ZEPHYR_ZA_80_TRADEWIND_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2042, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    14;
+        running_cost_factor:            82;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          160 km/h;
+        passenger_capacity:             80;
+        mail_capacity:                  16;
+        loading_speed:                  11;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #384  Condor CA-100 Strato (2045)                                 */
+/*  High-altitude airship (solar-helium, stratospheric)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_condor_ca_100_strato, 1383) {
+    property {
+        name:                           string(STR_CONDOR_CA_100_STRATO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2045, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    18;
+        running_cost_factor:            90;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   22;
+        speed:                          200 km/h;
+        passenger_capacity:             100;
+        mail_capacity:                  20;
+        loading_speed:                  11;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #385  Nimbus NS-1200 Olympia (2050)                               */
+/*  Sky-liner (rigid, flying hotel, circumnavigation)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_nimbus_ns_1200_olympia, 1384) {
+    property {
+        name:                           string(STR_NIMBUS_NS_1200_OLYMPIA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    154;
+        running_cost_factor:            255;
+        aircraft_type:                  AIRCRAFT_TYPE_LARGE;
+        acceleration:                   20;
+        speed:                          180 km/h;
+        passenger_capacity:             1200;
+        mail_capacity:                  240;
+        loading_speed:                  18;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #386  Aether AA-60 Drifter (2055)                                 */
+/*  Fast hybrid airship (helium + jet assist)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_aether_aa_60_drifter, 1385) {
+    property {
+        name:                           string(STR_AETHER_AA_60_DRIFTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2055, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    13;
+        running_cost_factor:            84;
+        aircraft_type:                  AIRCRAFT_TYPE_SMALL;
+        acceleration:                   23;
+        speed:                          220 km/h;
+        passenger_capacity:             60;
+        mail_capacity:                  12;
+        loading_speed:                  11;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #387  Halcyon HA-2000 Empyrean (2060)                             */
+/*  Mega airship (floating city, perpetual flight)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_halcyon_ha_2000_empyrean, 1386) {
+    property {
+        name:                           string(STR_HALCYON_HA_2000_EMPYREAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    255;
+        running_cost_factor:            255;
+        aircraft_type:                  AIRCRAFT_TYPE_LARGE;
+        acceleration:                   20;
+        speed:                          200 km/h;
+        passenger_capacity:             2000;
+        mail_capacity:                  255;
+        loading_speed:                  18;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}

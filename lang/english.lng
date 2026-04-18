@@ -7,3 +7,1613 @@ STR_GRF_DESC                        :Adds the Darwin 200, 300 and 400 aircraft b
 STR_DARWIN_200_NAME                  :Darwin 2000
 STR_DARWIN_300_NAME                  :Darwin 3000
 STR_DARWIN_400_NAME                  :Darwin 4000
+
+# Early Airliners (1914–1919)
+STR_BENOIST_XIV_NAME                 :Benoist XIV
+STR_SIKORSKY_ILYA_MUROMETS_NAME      :Sikorsky Ilya Muromets
+STR_ZEPPELIN_STAAKEN_RVI_NAME        :Zeppelin-Staaken R.VI
+STR_AIRCO_DH4A_NAME                  :Airco DH.4A
+STR_AIRCO_DH9C_NAME                  :Airco DH.9C
+STR_BREGUET_14T_NAME                 :Breguet 14T
+STR_FARMAN_F60_GOLIATH_NAME          :Farman F.60 Goliath
+STR_HANDLEY_PAGE_TYPE_O_NAME         :Handley Page Type O
+STR_VICKERS_VIMY_COMMERCIAL_NAME     :Vickers Vimy Commercial
+STR_CAPRONI_CA48_NAME                :Caproni Ca.48
+# Auto-generated vehicle names
+STR_BLACKBURN_KANGAROO_NAME              :Blackburn Kangaroo
+STR_SABLATNIG_P_I_NAME                   :Sablatnig P.I
+STR_FRIEDRICHSHAFEN_FF_45_NAME           :Friedrichshafen FF.45
+STR_RUMPLER_5A_2_NAME                    :Rumpler 5A 2
+STR_LVG_C_VI_NAME                        :LVG C.VI
+STR_SALMSON_2_NAME                       :Salmson 2
+STR_CURTISS_JN_4_JENNY_NAME              :Curtiss JN-4 "Jenny"
+STR_AVRO_504_NAME                        :Avro 504
+STR_SOPWITH_WALLABY_NAME                 :Sopwith Wallaby
+STR_BAT_F_K_26_NAME                      :BAT F.K.26
+STR_AIRCO_DH_16_NAME                     :Airco DH.16
+STR_JUNKERS_F_13_NAME                    :Junkers F.13
+STR_AEROMARINE_75_NAME                   :Aeromarine 75
+STR_DE_HAVILLAND_DH_18_NAME              :de Havilland DH.18
+STR_BLRIOT_SPAD_S_33_NAME                :Blériot-SPAD S.33
+STR_HANDLEY_PAGE_W_8_NAME                :Handley Page W.8
+STR_DE_HAVILLAND_DH_34_NAME              :de Havilland DH.34
+STR_FOKKER_F_II_NAME                     :Fokker F.II
+STR_FOKKER_F_III_NAME                    :Fokker F.III
+STR_BREGUET_26T_NAME                     :Breguet 26T
+STR_LIOR_ET_OLIVIER_LEO_21_NAME          :Lioré et Olivier LeO 21
+STR_DORNIER_DO_J_WAL_NAME                :Dornier Do J Wal
+STR_LATCORE_17_NAME                      :Latécoère 17
+STR_FOKKER_F_VII_NAME                    :Fokker F.VII
+STR_DE_HAVILLAND_DH_50_NAME              :de Havilland DH.50
+STR_ARMSTRONG_WHITWORTH_ARGOSY_NAME      :Armstrong Whitworth Argosy
+STR_DE_HAVILLAND_DH_66_HERCULES_NAME     :de Havilland DH.66 Hercules
+STR_FORD_4_AT_TRIMOTOR_NAME              :Ford 4-AT Trimotor
+STR_JUNKERS_G_24_NAME                    :Junkers G.24
+STR_DORNIER_DO_B_MERKUR_NAME             :Dornier Do B Merkur
+STR_STINSON_SM_DETROITER_NAME            :Stinson SM Detroiter
+STR_LOCKHEED_VEGA_NAME                   :Lockheed Vega
+STR_BOEING_MODEL_40_NAME                 :Boeing Model 40
+STR_BOEING_MODEL_80_NAME                 :Boeing Model 80
+STR_FOKKER_F_VIIB_3M_NAME                :Fokker F.VIIB/3m
+STR_JUNKERS_G_31_NAME                    :Junkers G.31
+STR_CONSOLIDATED_COMMODORE_NAME          :Consolidated Commodore
+STR_DORNIER_DO_X_NAME                    :Dornier Do X
+STR_SHORT_S_8_CALCUTTA_NAME              :Short S.8 Calcutta
+STR_CURTISS_CONDOR_18_NAME               :Curtiss Condor 18
+STR_FOKKER_F_XII_NAME                    :Fokker F.XII
+STR_TUPOLEV_ANT_9_NAME                   :Tupolev ANT-9
+STR_HANDLEY_PAGE_H_P_42_NAME             :Handley Page H.P.42
+STR_JUNKERS_JU_52_NAME                   :Junkers Ju 52
+STR_STINSON_SM_6000_NAME                 :Stinson SM-6000
+STR_SHORT_L_17_SCYLLA_NAME               :Short L.17 Scylla
+STR_SAVOIA_MARCHETTI_SM_71_NAME          :Savoia-Marchetti SM.71
+STR_HEINKEL_HE_70_NAME                   :Heinkel He 70
+STR_SAVOIA_MARCHETTI_SM_73_NAME          :Savoia-Marchetti SM.73
+STR_BOEING_247_NAME                      :Boeing 247
+STR_DOUGLAS_DC_1_NAME                    :Douglas DC-1
+STR_LOCKHEED_MODEL_10_ELECTRA_NAME       :Lockheed Model 10 Electra
+STR_HEINKEL_HE_111_NAME                  :Heinkel He 111
+STR_WIBAULT_283_NAME                     :Wibault 283
+STR_DOUGLAS_DC_2_NAME                    :Douglas DC-2
+STR_DE_HAVILLAND_DH_84_DRAGON_NAME       :de Havilland DH.84 Dragon
+STR_DE_HAVILLAND_DH_86_EXPRESS_NAME      :de Havilland DH.86 Express
+STR_DE_HAVILLAND_DH_89_DRAGON_RAPIDE_NAME :de Havilland DH.89 Dragon Rapide
+STR_CURTISS_T_32_CONDOR_II_NAME          :Curtiss T-32 Condor II
+STR_SHORT_S_17_KENT_NAME                 :Short S.17 Kent
+STR_BLOCH_MB_220_NAME                    :Bloch MB.220
+STR_DOUGLAS_DC_3_C_47_SKYTRAIN_NAME      :Douglas DC-3 / C-47 Skytrain
+STR_LOCKHEED_MODEL_12_ELECTRA_JUNIOR_NAME :Lockheed Model 12 Electra Junior
+STR_MARTIN_M_130_NAME                    :Martin M-130
+STR_SAVOIA_MARCHETTI_SM_75_NAME          :Savoia-Marchetti SM.75
+STR_SHORT_S_23_EMPIRE_NAME               :Short S.23 Empire
+STR_JUNKERS_JU_86_NAME                   :Junkers Ju 86
+STR_JUNKERS_JU_90_NAME                   :Junkers Ju 90
+STR_LOCKHEED_MODEL_14_SUPER_ELECTRA_NAME :Lockheed Model 14 Super Electra
+STR_DEWOITINE_D_338_NAME                 :Dewoitine D.338
+STR_BOEING_307_STRATOLINER_NAME          :Boeing 307 Stratoliner
+STR_DE_HAVILLAND_DH_91_ALBATROSS_NAME    :de Havilland DH.91 Albatross
+STR_ARMSTRONG_WHITWORTH_ENSIGN_NAME      :Armstrong Whitworth Ensign
+STR_FOCKE_WULF_FW_200_CONDOR_NAME        :Focke-Wulf Fw 200 Condor
+STR_SHORT_S_26_G_CLASS_NAME              :Short S.26 G-Class
+STR_BOEING_314_CLIPPER_NAME              :Boeing 314 Clipper
+STR_ARMSTRONG_WHITWORTH_ATALANTA_NAME    :Armstrong Whitworth Atalanta
+STR_FOCKE_WULF_FW_200_CONDOR_NAME        :Focke-Wulf Fw 200 Condor
+STR_CURTISS_CW_20_C_46_COMMANDO_NAME     :Curtiss CW-20 / C-46 Commando
+STR_FIAT_G_12_NAME                       :Fiat G.12
+STR_CONSOLIDATED_B_24_LIBERATOR_NAME     :Consolidated B-24 Liberator (Liner)
+STR_DOUGLAS_C_47_SKYTRAIN_DAKOTA_NAME    :Douglas C-47 Skytrain / Dakota
+STR_AVRO_LANCASTER_NAME                  :Avro Lancaster (Lancastrian)
+STR_AVRO_YORK_NAME                       :Avro York
+STR_DOUGLAS_DC_4_C_54_SKYMASTER_NAME     :Douglas DC-4 / C-54 Skymaster
+STR_LOCKHEED_C_69_L_049_CONSTELLATION_NAME :Lockheed C-69 / L-049 Constellation
+STR_BOEING_C_97_377_STRATOCRUISER_NAME   :Boeing C-97 / 377 Stratocruiser
+STR_HANDLEY_PAGE_HALTON_NAME             :Handley Page Halton
+STR_SHORT_SANDRINGHAM_NAME               :Short Sandringham
+STR_SHORT_SOLENT_NAME                    :Short Solent
+STR_CONSOLIDATED_PBY_CATALINA_NAME       :Consolidated PBY Catalina
+STR_CONVAIR_CV_240_METROPOLITAN_NAME     :Convair CV-240 Metropolitan
+STR_DOUGLAS_DC_6_NAME                    :Douglas DC-6
+STR_MARTIN_2_0_2_NAME                    :Martin 2-0-2
+STR_VICKERS_VC_1_VIKING_NAME             :Vickers VC.1 Viking
+STR_ILYUSHIN_IL_12_NAME                  :Ilyushin Il-12
+STR_SAAB_90_SCANDIA_NAME                 :Saab 90 Scandia
+STR_BOEING_377_STRATOCRUISER_NAME        :Boeing 377 Stratocruiser
+STR_LOCKHEED_L_649_L_749_CONSTELLATION_NAME :Lockheed L-649/L-749 Constellation
+STR_HANDLEY_PAGE_HERMES_NAME             :Handley Page Hermes
+STR_CANADAIR_NORTH_STAR_C_4_NAME         :Canadair North Star / C-4
+STR_BREGUET_763_DEUX_PONTS_NAME          :Breguet 763 Deux-Ponts
+STR_CONVAIR_CV_340_440_NAME              :Convair CV-340/440
+STR_AIRSPEED_AMBASSADOR_NAME             :Airspeed Ambassador
+STR_AVRO_TUDOR_NAME                      :Avro Tudor
+STR_ILYUSHIN_IL_14_NAME                  :Ilyushin Il-14
+STR_LOCKHEED_L_1049_SUPER_CONSTELLATION_NAME :Lockheed L-1049 Super Constellation
+STR_DOUGLAS_DC_7_NAME                    :Douglas DC-7
+STR_BRISTOL_BRITANNIA_NAME               :Bristol Britannia
+STR_VICKERS_VISCOUNT_NAME                :Vickers Viscount
+STR_LOCKHEED_L_1649_STARLINER_NAME       :Lockheed L-1649 Starliner
+STR_DE_HAVILLAND_DH_114_HERON_NAME       :de Havilland DH.114 Heron
+STR_FOKKER_F27_FRIENDSHIP_NAME           :Fokker F27 Friendship
+STR_ILYUSHIN_IL_18_NAME                  :Ilyushin Il-18
+STR_ANTONOV_AN_10_NAME                   :Antonov An-10
+STR_ANTONOV_AN_24_NAME                   :Antonov An-24
+STR_HANDLEY_PAGE_HERALD_NAME             :Handley Page Herald
+STR_LOCKHEED_L_188_ELECTRA_NAME          :Lockheed L-188 Electra
+STR_AVRO_748_NAME                        :Avro 748 (HS 748)
+STR_DE_HAVILLAND_DH_106_COMET_1_NAME     :de Havilland DH.106 Comet 1
+STR_TUPOLEV_TU_104_NAME                  :Tupolev Tu-104
+STR_BOEING_707_NAME                      :Boeing 707
+STR_DE_HAVILLAND_COMET_4_NAME            :de Havilland Comet 4
+STR_DOUGLAS_DC_8_NAME                    :Douglas DC-8
+STR_SUD_AVIATION_CARAVELLE_NAME          :Sud Aviation Caravelle
+STR_CONVAIR_CV_880_NAME                  :Convair CV-880
+STR_CONVAIR_CV_990_NAME                  :Convair CV-990
+STR_TUPOLEV_TU_124_NAME                  :Tupolev Tu-124
+STR_VICKERS_VC10_NAME                    :Vickers VC10
+STR_HAWKER_SIDDELEY_TRIDENT_NAME         :Hawker Siddeley Trident
+STR_BOEING_727_NAME                      :Boeing 727
+STR_BAC_ONE_ELEVEN_NAME                  :BAC One-Eleven
+STR_ILYUSHIN_IL_62_NAME                  :Ilyushin Il-62
+STR_TUPOLEV_TU_134_NAME                  :Tupolev Tu-134
+STR_DOUGLAS_DC_9_NAME                    :Douglas DC-9
+STR_BOEING_737_100_200_NAME              :Boeing 737-100/200
+STR_FOKKER_F28_FELLOWSHIP_NAME           :Fokker F28 Fellowship
+STR_TUPOLEV_TU_154_NAME                  :Tupolev Tu-154
+STR_YAKOVLEV_YAK_40_NAME                 :Yakovlev Yak-40
+STR_BAC_AROSPATIALE_CONCORDE_NAME        :BAC/Aérospatiale Concorde
+STR_TUPOLEV_TU_144_NAME                  :Tupolev Tu-144
+STR_VFW_FOKKER_614_NAME                  :VFW-Fokker 614
+STR_YAKOVLEV_YAK_42_NAME                 :Yakovlev Yak-42
+STR_BOEING_747_100_NAME                  :Boeing 747-100
+STR_MCDONNELL_DOUGLAS_DC_10_NAME         :McDonnell Douglas DC-10
+STR_LOCKHEED_L_1011_TRISTAR_NAME         :Lockheed L-1011 TriStar
+STR_AIRBUS_A300_NAME                     :Airbus A300
+STR_BOEING_767_NAME                      :Boeing 767
+STR_BOEING_757_NAME                      :Boeing 757
+STR_AIRBUS_A310_NAME                     :Airbus A310
+STR_BAE_146_AVRO_RJ_NAME                 :BAe 146 / Avro RJ
+STR_ATR_42_NAME                          :ATR 42
+STR_MCDONNELL_DOUGLAS_MD_80_NAME         :McDonnell Douglas MD-80
+STR_FOKKER_50_NAME                       :Fokker 50
+STR_ATR_72_NAME                          :ATR 72
+STR_BOEING_737_300_400_500_NAME          :Boeing 737-300/400/500 (Classic)
+STR_FOKKER_100_NAME                      :Fokker 100
+STR_AIRBUS_A320_NAME                     :Airbus A320
+STR_BOEING_747_400_NAME                  :Boeing 747-400
+STR_BOMBARDIER_CRJ100_200_NAME           :Bombardier CRJ100/200
+STR_MCDONNELL_DOUGLAS_MD_11_NAME         :McDonnell Douglas MD-11
+STR_ILYUSHIN_IL_96_NAME                  :Ilyushin Il-96
+STR_DE_HAVILLAND_CANADA_DASH_8_Q400_NAME :de Havilland Canada Dash 8 Q400
+STR_AIRBUS_A330_NAME                     :Airbus A330
+STR_AIRBUS_A340_NAME                     :Airbus A340
+STR_BOEING_777_200_NAME                  :Boeing 777-200
+STR_SAAB_2000_NAME                       :Saab 2000
+STR_EMBRAER_ERJ_145_NAME                 :Embraer ERJ 145
+STR_MCDONNELL_DOUGLAS_MD_90_NAME         :McDonnell Douglas MD-90
+STR_BOEING_737_NG_NAME                   :Boeing 737 NG (-600/700/800/900)
+STR_AIRBUS_A318_A319_NAME                :Airbus A318/A319
+STR_BOEING_717_NAME                      :Boeing 717
+STR_EMBRAER_ERJ_135_140_NAME             :Embraer ERJ 135/140
+STR_EMBRAER_E170_E175_NAME               :Embraer E170/E175
+STR_EMBRAER_E190_E195_NAME               :Embraer E190/E195
+STR_AIRBUS_A380_NAME                     :Airbus A380
+STR_BOEING_787_DREAMLINER_NAME           :Boeing 787 Dreamliner
+STR_BOMBARDIER_CRJ700_900_1000_NAME      :Bombardier CRJ700/900/1000
+STR_SUKHOI_SUPERJET_100_NAME             :Sukhoi Superjet 100
+STR_AIRBUS_A320NEO_NAME                  :Airbus A320neo
+STR_BOEING_747_8_NAME                    :Boeing 747-8
+STR_BOMBARDIER_CSERIES_NAME              :Bombardier CSeries (Airbus A220)
+STR_ATR_42_72_600_NAME                   :ATR 42/72-600
+STR_EMBRAER_E175_E2_E190_E2_E195_E2_NAME :Embraer E175-E2/E190-E2/E195-E2
+STR_BOEING_737_MAX_NAME                  :Boeing 737 MAX (-7/8/9/10)
+STR_BOEING_777X_NAME                     :Boeing 777X (-8/9)
+STR_AIRBUS_A330NEO_NAME                  :Airbus A330neo
+STR_AIRBUS_A350_XWB_NAME                 :Airbus A350 XWB
+STR_COMAC_C919_NAME                      :COMAC C919
+STR_IRKUT_MC_21_NAME                     :Irkut MC-21
+STR_BOOM_OVERTURE_NAME                   :Boom Overture
+STR_GIFFARD_AIRSHIP_NAME                 :Giffard Airship
+STR_LA_FRANCE_NAME                       :La France
+STR_SCHWARZ_ALUMINIUM_AIRSHIP_NAME       :Schwarz Aluminium Airship
+STR_ZEPPELIN_LZ_1_NAME                   :Zeppelin LZ 1
+STR_LEBAUDY_MORNING_POST_NAME            :Lebaudy Morning Post
+STR_ZEPPELIN_LZ_6_NAME                   :Zeppelin LZ 6
+STR_ZEPPELIN_LZ_7_DEUTSCHLAND_NAME       :Zeppelin LZ 7 Deutschland
+STR_ZEPPELIN_LZ_10_SCHWABEN_NAME         :Zeppelin LZ 10 Schwaben
+STR_ZEPPELIN_LZ_11_VIKTORIA_LUISE_NAME   :Zeppelin LZ 11 Viktoria Luise
+STR_ZEPPELIN_LZ_13_HANSA_NAME            :Zeppelin LZ 13 Hansa
+STR_ZEPPELIN_LZ_17_SACHSEN_NAME          :Zeppelin LZ 17 Sachsen
+STR_SCHTTE_LANZ_SL_SERIES_NAME           :Schütte-Lanz SL series
+STR_ZEPPELIN_SUPER_ZEPPELIN_NAME         :Zeppelin "Super Zeppelin" (LZ 62+)
+STR_SS_CLASS_NAME                        :SS (Sea Scout) class
+STR_NS_CLASS_NAME                        :NS (North Sea) class
+STR_BRITISH_R_33_NAME                    :British R.33
+STR_BRITISH_R_34_NAME                    :British R.34
+STR_ROMA_NAME                            :Roma (T-34)
+STR_USS_SHENANDOAH_NAME                  :USS Shenandoah (ZR-1)
+STR_ZEPPELIN_LZ_126_USS_LOS_ANGELES_NAME :Zeppelin LZ 126 / USS Los Angeles (ZR-3)
+STR_NORGE_NAME                           :Norge (N-1)
+STR_ITALIA_NAME                          :Italia (N-4)
+STR_GRAF_ZEPPELIN_NAME                   :Graf Zeppelin (LZ 127)
+STR_BRITISH_R_100_NAME                   :British R.100
+STR_BRITISH_R_101_NAME                   :British R.101
+STR_USS_AKRON_NAME                       :USS Akron (ZRS-4)
+STR_USS_MACON_NAME                       :USS Macon (ZRS-5)
+STR_HINDENBURG_NAME                      :Hindenburg (LZ 129)
+STR_GRAF_ZEPPELIN_II_NAME                :Graf Zeppelin II (LZ 130)
+STR_GOODYEAR_K_CLASS_NAME                :Goodyear K-class
+STR_GOODYEAR_L_CLASS_NAME                :Goodyear L-class
+STR_GOODYEAR_M_CLASS_NAME                :Goodyear M-class
+STR_GOODYEAR_ZPG_2_NAME                  :Goodyear ZPG-2 (N-class)
+STR_GOODYEAR_ZPG_3W_NAME                 :Goodyear ZPG-3W
+STR_GOODYEAR_GZ_19_EUROPA_NAME           :Goodyear GZ-19 Europa
+STR_GOODYEAR_GZ_20_AMERICA_COLUMBIA_EAGLE_NAME :Goodyear GZ-20 America / Columbia / Eagle
+STR_WDL_1B_NAME                          :WDL 1b
+STR_ZEPPELIN_NT_NAME                     :Zeppelin NT (LZ N07)
+STR_AMERICAN_BLIMP_A_60_NAME             :American Blimp A-60+
+STR_GOODYEAR_BLIMP_NAME                  :Goodyear Blimp (GZ-20A)
+STR_GOODYEAR_BLIMP_NAME                  :Goodyear Blimp (Wingfoot)
+STR_AIRLANDER_10_NAME                    :Airlander 10
+STR_PATHFINDER_1_NAME                    :Pathfinder 1
+STR_FLYING_WHALES_LCA60T_NAME            :Flying Whales LCA60T
+STR_FOCKE_WULF_FW_61_NAME                :Focke-Wulf Fw 61
+STR_FLETTNER_FL_282_KOLIBRI_NAME         :Flettner Fl 282 Kolibri
+STR_VOUGHT_SIKORSKY_VS_300_NAME          :Vought-Sikorsky VS-300
+STR_SIKORSKY_R_4_HOVERFLY_NAME           :Sikorsky R-4 / Hoverfly
+STR_SIKORSKY_R_5_S_51_NAME               :Sikorsky R-5 / S-51
+STR_KELLETT_XR_8_MCCULLOCH_MC_4_NAME     :Kellett XR-8 / McCulloch MC-4
+STR_FOCKE_ACHGELIS_FA_223_DRACHE_NAME    :Focke-Achgelis Fa 223 Drache
+STR_BELL_47_NAME                         :Bell 47
+STR_BRISTOL_SYCAMORE_NAME                :Bristol Sycamore
+STR_PIASECKI_HRP_RESCUER_FLYING_BANANA_NAME :Piasecki HRP Rescuer "Flying Banana"
+STR_WESTLAND_SIKORSKY_WS_51_DRAGONFLY_NAME :Westland-Sikorsky WS-51 Dragonfly
+STR_SIKORSKY_S_55_H_19_CHICKASAW_NAME    :Sikorsky S-55 / H-19 Chickasaw
+STR_PIASECKI_H_21_WORKHORSE_NAME         :Piasecki H-21 Workhorse
+STR_KAMAN_HH_43_HUSKIE_NAME              :Kaman HH-43 Huskie
+STR_SIKORSKY_S_56_CH_37_MOJAVE_NAME      :Sikorsky S-56 / CH-37 Mojave
+STR_SIKORSKY_S_58_H_34_CHOCTAW_NAME      :Sikorsky S-58 / H-34 Choctaw
+STR_MIL_MI_4_NAME                        :Mil Mi-4
+STR_SUD_OUEST_SO_1221_DJINN_NAME         :Sud-Ouest SO.1221 Djinn
+STR_AROSPATIALE_ALOUETTE_II_NAME         :Aérospatiale Alouette II (SE.3130)
+STR_BELL_204_UH_1_IROQUOIS_HUEY_NAME     :Bell 204 / UH-1 Iroquois "Huey"
+STR_BOEING_VERTOL_CH_46_SEA_KNIGHT_NAME  :Boeing Vertol CH-46 Sea Knight
+STR_MIL_MI_6_NAME                        :Mil Mi-6
+STR_AROSPATIALE_ALOUETTE_III_NAME        :Aérospatiale Alouette III (SA 316)
+STR_SIKORSKY_S_61_SH_3_SEA_KING_NAME     :Sikorsky S-61 / SH-3 Sea King
+STR_MIL_MI_8_MI_17_NAME                  :Mil Mi-8 / Mi-17
+STR_BOEING_CH_47_CHINOOK_NAME            :Boeing CH-47 Chinook
+STR_AUGUSTA_BELL_AB_204_205_NAME         :Augusta-Bell AB 204/205
+STR_BELL_206_JETRANGER_NAME              :Bell 206 JetRanger
+STR_SIKORSKY_S_64_SKYCRANE_CH_54_TARHE_NAME :Sikorsky S-64 Skycrane / CH-54 Tarhe
+STR_BELL_205_UH_1H_NAME                  :Bell 205 / UH-1H
+STR_AROSPATIALE_SA_330_PUMA_NAME         :Aérospatiale SA 330 Puma
+STR_MBB_BO_105_NAME                      :MBB Bo 105
+STR_WESTLAND_LYNX_NAME                   :Westland Lynx
+STR_MIL_MI_24_HIND_NAME                  :Mil Mi-24 Hind
+STR_AROSPATIALE_SA_341_342_GAZELLE_NAME  :Aérospatiale SA 341/342 Gazelle
+STR_AROSPATIALE_AS_350_CUREUIL_ASTAR_NAME :Aérospatiale AS 350 Écureuil / AStar
+STR_SIKORSKY_S_70_UH_60_BLACK_HAWK_NAME  :Sikorsky S-70 / UH-60 Black Hawk
+STR_MIL_MI_26_NAME                       :Mil Mi-26
+STR_BELL_222_NAME                        :Bell 222
+STR_AROSPATIALE_AS_332_SUPER_PUMA_NAME   :Aérospatiale AS 332 Super Puma
+STR_SIKORSKY_S_76_SPIRIT_NAME            :Sikorsky S-76 Spirit
+STR_AGUSTA_A109_NAME                     :Agusta A109
+STR_MBB_KAWASAKI_BK_117_NAME             :MBB/Kawasaki BK 117
+STR_KAMOV_KA_32_NAME                     :Kamov Ka-32
+STR_ROBINSON_R22_NAME                    :Robinson R22
+STR_BELL_412_NAME                        :Bell 412
+STR_ROBINSON_R44_NAME                    :Robinson R44
+STR_EUROCOPTER_TIGER_TIGRE_NAME          :Eurocopter (now Airbus) Tiger / Tigre
+STR_NH90_NAME                            :NH90
+STR_EUROCOPTER_EC_135_NAME               :Eurocopter EC 135
+STR_AGUSTAWESTLAND_EH101_AW101_MERLIN_NAME :AgustaWestland EH101 / AW101 Merlin
+STR_BELL_427_NAME                        :Bell 427
+STR_ROBINSON_R66_TURBINE_NAME            :Robinson R66 Turbine
+STR_EUROCOPTER_EC_145_AIRBUS_H145_NAME   :Eurocopter EC 145 / Airbus H145
+STR_AGUSTAWESTLAND_AW139_NAME            :AgustaWestland AW139
+STR_SIKORSKY_S_92_NAME                   :Sikorsky S-92
+STR_BELL_429_NAME                        :Bell 429
+STR_AGUSTAWESTLAND_AW169_NAME            :AgustaWestland AW169
+STR_AGUSTAWESTLAND_AW189_NAME            :AgustaWestland AW189
+STR_AIRBUS_H160_NAME                     :Airbus H160
+STR_BELL_505_JET_RANGER_X_NAME           :Bell 505 Jet Ranger X
+STR_BELL_525_RELENTLESS_NAME             :Bell 525 Relentless
+STR_AIRBUS_CITYAIRBUS_NEXTGEN_NAME       :Airbus CityAirbus NextGen
+STR_JOBY_S4_NAME                         :Joby S4
+STR_LILIUM_JET_NAME                      :Lilium Jet
+STR_ZEPHYR_Z_200_NAME                    :Zephyr Z-200
+STR_CONDOR_C_9_WHISPERJET_NAME           :Condor C-9 Whisperjet
+STR_PACIFICA_PA_80_COASTLINER_NAME       :Pacifica PA-80 Coastliner
+STR_MERIDIAN_M_320_NAME                  :Meridian M-320
+STR_HALCYON_H_800_STRATOS_NAME           :Halcyon H-800 Stratos
+STR_AETHER_AE_500_HORIZON_NAME           :Aether AE-500 Horizon
+STR_PINNACLE_PN_160_SPARROW_NAME         :Pinnacle PN-160 Sparrow
+STR_CONDOR_C_15_ALBATROSS_NAME           :Condor C-15 Albatross
+STR_VELARIS_V_220_LUMINA_NAME            :Velaris V-220 Lumina
+STR_AURORA_AU_900_BOREALIS_NAME          :Aurora AU-900 Borealis
+STR_ZENITH_ZN_45_DART_NAME               :Zenith ZN-45 Dart
+STR_SOLSTICE_SL_100_SUNDANCER_NAME       :Solstice SL-100 Sundancer
+STR_TEMPEST_TP_600_GALEFORCE_NAME        :Tempest TP-600 Galeforce
+STR_HALCYON_H_1200_LEVIATHAN_NAME        :Halcyon H-1200 Leviathan
+STR_CIRRUS_CX_70_NIMBUS_NAME             :Cirrus CX-70 Nimbus
+STR_MERIDIAN_M_500_EQUINOX_NAME          :Meridian M-500 Equinox
+STR_ZEPHYR_Z_400_TRADEWIND_NAME          :Zephyr Z-400 Tradewind
+STR_AETHER_AE_1500_COLOSSUS_NAME         :Aether AE-1500 Colossus
+STR_VELARIS_V_90_FIREFLY_NAME            :Velaris V-90 Firefly
+STR_PACIFICA_PA_350_MAGELLAN_NAME        :Pacifica PA-350 Magellan
+STR_CONDOR_C_22_PEREGRINE_NAME           :Condor C-22 Peregrine
+STR_PINNACLE_PN_850_SUMMIT_NAME          :Pinnacle PN-850 Summit
+STR_AURORA_AU_60_POLARIS_NAME            :Aurora AU-60 Polaris
+STR_SOLSTICE_SL_300_EQUATOR_NAME         :Solstice SL-300 Equator
+STR_TEMPEST_TP_1800_TITAN_NAME           :Tempest TP-1800 Titan
+STR_VANGUARD_VG_5_MACH_ARROW_NAME        :Vanguard VG-5 Mach Arrow
+STR_APEX_AX_400_THUNDERBOLT_NAME         :Apex AX-400 Thunderbolt
+STR_VANGUARD_VG_10_STORMRIDER_NAME       :Vanguard VG-10 Stormrider
+STR_APEX_AX_700_SKYBOLT_NAME             :Apex AX-700 Skybolt
+STR_EMPYREAN_EM_200_FLASHPOINT_NAME      :Empyrean EM-200 Flashpoint
+STR_EMPYREAN_EM_350_STARFIRE_NAME        :Empyrean EM-350 Starfire
+STR_ZENITH_ZN_APEX_WAVERIDER_NAME        :Zenith ZN-Apex Waverider
+STR_TEMPEST_TP_MACH_INFINITY_NAME        :Tempest TP-Mach Infinity
+STR_ROTORCRAFT_RW_6_KESTREL_NAME         :Rotorcraft RW-6 Kestrel
+STR_SKYLINE_SK_15_PEREGRINE_NAME         :Skyline SK-15 Peregrine
+STR_APEX_AH_4_SPARROWHAWK_NAME           :Apex AH-4 Sparrowhawk
+STR_VELARIS_VH_8_COMET_NAME              :Velaris VH-8 Comet
+STR_ROTORCRAFT_RW_30_CONDOR_NAME         :Rotorcraft RW-30 Condor
+STR_MERIDIAN_MH_60_VALKYRIE_NAME         :Meridian MH-60 Valkyrie
+STR_SKYLINE_SK_100_ATLAS_NAME            :Skyline SK-100 Atlas
+STR_APEX_AH_12_MANTIS_NAME               :Apex AH-12 Mantis
+STR_CONDOR_CH_45_HURRICANE_NAME          :Condor CH-45 Hurricane
+STR_HALCYON_HH_20_STORMBIRD_NAME         :Halcyon HH-20 Stormbird
+STR_ROTORCRAFT_RW_200_HERCULES_NAME      :Rotorcraft RW-200 Hercules
+STR_VELARIS_VH_25_GHOST_NAME             :Velaris VH-25 Ghost
+STR_SKYLINE_SK_50_THUNDERHAWK_NAME       :Skyline SK-50 Thunderhawk
+STR_MERIDIAN_MH_15_WRAITH_NAME           :Meridian MH-15 Wraith
+STR_TEMPEST_TH_120_COLOSSUS_NAME         :Tempest TH-120 Colossus
+STR_PACIFICA_PV_4_SKYLARK_NAME           :Pacifica PV-4 Skylark
+STR_SOLSTICE_SV_2_LIGHTHOPPER_NAME       :Solstice SV-2 Lighthopper
+STR_ZENITH_ZV_6_ARROW_NAME               :Zenith ZV-6 Arrow
+STR_PINNACLE_PV_8_PEGASUS_NAME           :Pinnacle PV-8 Pegasus
+STR_AURORA_AV_10_RAPTOR_NAME             :Aurora AV-10 Raptor
+STR_VELARIS_VV_12_FALCON_NAME            :Velaris VV-12 Falcon
+STR_CIRRUS_CV_6_ZEPHYR_NAME              :Cirrus CV-6 Zephyr
+STR_CONDOR_CV_20_ALBATROSS_NAME          :Condor CV-20 Albatross
+STR_PACIFICA_PV_30_MARINER_NAME          :Pacifica PV-30 Mariner
+STR_AETHER_AV_50_STRATOS_NAME            :Aether AV-50 Stratos
+STR_HALCYON_HV_4_FIREBIRD_NAME           :Halcyon HV-4 Firebird
+STR_ZEPHYR_ZV_14_WINDRUNNER_NAME         :Zephyr ZV-14 Windrunner
+STR_MERIDIAN_MV_80_ORCA_NAME             :Meridian MV-80 Orca
+STR_SOLSTICE_SV_100_PHOENIX_NAME         :Solstice SV-100 Phoenix
+STR_AURORA_AV_40_HARRIER_II_NAME         :Aurora AV-40 Harrier II
+STR_PINNACLE_PV_200_CONDOR_NAME          :Pinnacle PV-200 Condor
+STR_TEMPEST_TV_6_BOLT_NAME               :Tempest TV-6 Bolt
+STR_EMPYREAN_EV_150_ASCENDANT_NAME       :Empyrean EV-150 Ascendant
+STR_ZENITH_ZV_300_OLYMPUS_NAME           :Zenith ZV-300 Olympus
+STR_AETHER_AV_500_CELESTIAL_NAME         :Aether AV-500 Celestial
+STR_HALCYON_HV_1000_PANTHEON_NAME        :Halcyon HV-1000 Pantheon
+STR_NIMBUS_NS_40_CLOUDWALKER_NAME        :Nimbus NS-40 Cloudwalker
+STR_CIRRUS_CA_200_STRATODRIFTER_NAME     :Cirrus CA-200 Stratodrifter
+STR_NIMBUS_NS_500_LEVIATHAN_NAME         :Nimbus NS-500 Leviathan
+STR_ZEPHYR_ZA_80_TRADEWIND_NAME          :Zephyr ZA-80 Tradewind
+STR_CONDOR_CA_100_STRATO_NAME            :Condor CA-100 Strato
+STR_NIMBUS_NS_1200_OLYMPIA_NAME          :Nimbus NS-1200 Olympia
+STR_AETHER_AA_60_DRIFTER_NAME            :Aether AA-60 Drifter
+STR_HALCYON_HA_2000_EMPYREAN_NAME        :Halcyon HA-2000 Empyrean
+STR_BENZ_OMNIBUS_NAME                    :Benz Omnibus
+STR_DAIMLER_MOTOR_BUS_NAME               :Daimler Motor Bus
+STR_FISCHER_OMNIBUS_NAME                 :Fischer Omnibus
+STR_MILNES_DAIMLER_DOUBLE_DECKER_NAME    :Milnes-Daimler Double-Decker
+STR_BSSING_OMNIBUS_NAME                  :Büssing Omnibus
+STR_DE_DION_BOUTON_OMNIBUS_NAME          :De Dion-Bouton Omnibus
+STR_BERLIET_CAT_NAME                     :Berliet CAT
+STR_LEYLAND_S_TYPE_NAME                  :Leyland S-type
+STR_AEC_B_TYPE_NAME                      :AEC B-type
+STR_MACK_AB_NAME                         :Mack AB
+STR_SAURER_OMNIBUS_NAME                  :Saurer Omnibus
+STR_FAGEOL_SAFETY_COACH_NAME             :Fageol Safety Coach
+STR_LEYLAND_N_TYPE_NAME                  :Leyland N-type
+STR_AEC_S_TYPE_NAME                      :AEC S-type
+STR_FAGEOL_SAFETY_COACH_NAME             :Fageol Safety Coach
+STR_LEYLAND_SG7_NAME                     :Leyland SG7
+STR_FAGEOL_TWIN_COACH_NAME               :Fageol Twin Coach
+STR_AEC_NS_TYPE_NAME                     :AEC NS-type
+STR_YELLOW_COACH_Z_NAME                  :Yellow Coach Z
+STR_BSSING_D2U_NAME                      :Büssing D2U
+STR_AEC_REGENT_NAME                      :AEC Regent
+STR_LEYLAND_TITAN_TD1_NAME               :Leyland Titan TD1
+STR_MERCEDES_BENZ_LO_3500_NAME           :Mercedes-Benz Lo 3500
+STR_MACK_6_BK_NAME                       :Mack 6-BK
+STR_AEC_REGAL_NAME                       :AEC Regal
+STR_PICKWICK_NITE_COACH_NAME             :Pickwick Nite Coach
+STR_BEDFORD_WLB_NAME                     :Bedford WLB
+STR_CITRON_T45_NAME                      :Citroën T45
+STR_YELLOW_COACH_719_NAME                :Yellow Coach 719
+STR_AEC_Q_TYPE_NAME                      :AEC Q-type
+STR_MERCEDES_BENZ_O_10000_NAME           :Mercedes-Benz O 10000
+STR_GM_YELLOW_COACH_TG_3201_NAME         :GM Yellow Coach TG-3201
+STR_AEC_REGENT_III_NAME                  :AEC Regent III
+STR_GM_PD_3751_SILVERSIDES_NAME          :GM PD-3751 Silversides
+STR_GUY_ARAB_NAME                        :Guy Arab
+STR_BRISTOL_K_TYPE_NAME                  :Bristol K-type
+STR_FORD_TRANSIT_BUS_NAME                :Ford Transit Bus (military)
+STR_LEYLAND_TITAN_PD2_NAME               :Leyland Titan PD2
+STR_AEC_REGENT_III_NAME                  :AEC Regent III (RT)
+STR_GM_TDH_3610_OLD_LOOK_NAME            :GM TDH-3610 "Old Look"
+STR_BSSING_D2U_NAME                      :Büssing D2U
+STR_ACF_BRILL_IC_41_NAME                 :ACF-Brill IC-41
+STR_MERCEDES_BENZ_O_3500_NAME            :Mercedes-Benz O 3500
+STR_IKARUS_30_NAME                       :Ikarus 30
+STR_SAURER_ALPENWAGEN_NAME               :Saurer Alpenwagen
+STR_LEYLAND_ROYAL_TIGER_NAME             :Leyland Royal Tiger
+STR_GM_TDH_5106_NEW_LOOK_NAME            :GM TDH-5106 "New Look" (Fishbowl)
+STR_MERCEDES_BENZ_O_321_NAME             :Mercedes-Benz O 321
+STR_AEC_ROUTEMASTER_NAME                 :AEC Routemaster
+STR_GM_PD_4501_SCENICRUISER_NAME         :GM PD-4501 Scenicruiser
+STR_IKARUS_55_NAME                       :Ikarus 55
+STR_MAN_MKN_26_NAME                      :MAN MKN 26
+STR_IKARUS_180_NAME                      :Ikarus 180
+STR_LEYLAND_ATLANTEAN_NAME               :Leyland Atlantean
+STR_MERCEDES_BENZ_O_302_NAME             :Mercedes-Benz O 302
+STR_DAIMLER_FLEETLINE_NAME               :Daimler Fleetline
+STR_MAN_750_HO_NAME                      :MAN 750 HO
+STR_GM_NEW_LOOK_TDH_5303_NAME            :GM "New Look" TDH-5303
+STR_IKARUS_556_NAME                      :Ikarus 556
+STR_MERCEDES_BENZ_O_305_NAME             :Mercedes-Benz O 305
+STR_BEDFORD_VAL_NAME                     :Bedford VAL
+STR_SCANIA_CR76_NAME                     :Scania CR76
+STR_BRISTOL_VR_NAME                      :Bristol VR
+STR_IKARUS_260_280_NAME                  :Ikarus 260/280
+STR_NEOPLAN_SKYLINER_N_122_NAME          :Neoplan Skyliner N 122
+STR_MCI_MC_8_NAME                        :MCI MC-8
+STR_LEYLAND_NATIONAL_NAME                :Leyland National
+STR_MAN_SL_200_NAME                      :MAN SL 200
+STR_MERCEDES_BENZ_O_305G_NAME            :Mercedes-Benz O 305G
+STR_VAN_HOOL_T815_ACRON_NAME             :Van Hool T815 Acron
+STR_VOLVO_B58_AILSA_B55_NAME             :Volvo B58 / Ailsa B55
+STR_GRUMMAN_870_FLXIBLE_NAME             :Grumman 870 Flxible
+STR_AM_GENERAL_METROPOLITAN_NAME         :AM General Metropolitan
+STR_MCW_METROBUS_NAME                    :MCW Metrobus
+STR_NEOPLAN_JUMBOCRUISER_N_138_NAME      :Neoplan Jumbocruiser N 138
+STR_MERCEDES_BENZ_O_303_NAME             :Mercedes-Benz O 303
+STR_IKARUS_415_435_NAME                  :Ikarus 415/435
+STR_MAN_SG_240_NAME                      :MAN SG 240
+STR_LEYLAND_OLYMPIAN_NAME                :Leyland Olympian
+STR_VOLVO_OLYMPIAN_CITYBUS_NAME          :Volvo Olympian / Citybus
+STR_DENNIS_DART_NAME                     :Dennis Dart
+STR_MERCEDES_BENZ_O_405_NAME             :Mercedes-Benz O 405
+STR_MCI_102_DL3_NAME                     :MCI 102-DL3
+STR_VAN_HOOL_AG300_NAME                  :Van Hool AG300
+STR_MERCEDES_BENZ_O_405G_NAME            :Mercedes-Benz O 405G
+STR_NEW_FLYER_D40LF_NAME                 :New Flyer D40LF
+STR_SCANIA_L113_OMNICITY_NAME            :Scania L113 / OmniCity
+STR_DENNIS_TRIDENT_NAME                  :Dennis Trident
+STR_NEOPLAN_STARLINER_N_516_NAME         :Neoplan Starliner N 516
+STR_MERCEDES_BENZ_CITARO_NAME            :Mercedes-Benz Citaro (O 530)
+STR_DAF_SB220_VDL_AMBASSADOR_NAME        :DAF SB220 / VDL Ambassador
+STR_VOLVO_B7TL_NAME                      :Volvo B7TL
+STR_IRISBUS_AGORA_NAME                   :Irisbus Agora
+STR_MAN_LIONS_CITY_NAME                  :MAN Lion's City (A21)
+STR_ALEXANDER_DENNIS_ENVIRO400_NAME      :Alexander Dennis Enviro400 (prototype)
+STR_SETRA_S_431_DT_TOPCLASS_NAME         :Setra S 431 DT TopClass
+STR_IRISBUS_CITELIS_NAME                 :Irisbus Citelis
+STR_MCI_J4500_NAME                       :MCI J4500
+STR_ALEXANDER_DENNIS_ENVIRO200_NAME      :Alexander Dennis Enviro200
+STR_MERCEDES_BENZ_CAPACITY_NAME          :Mercedes-Benz CapaCity
+STR_VOLVO_9700_NAME                      :Volvo 9700
+STR_NEW_FLYER_XCELSIOR_NAME              :New Flyer Xcelsior
+STR_ALEXANDER_DENNIS_ENVIRO400_NAME      :Alexander Dennis Enviro400
+STR_VAN_HOOL_AGG300_NAME                 :Van Hool AGG300
+STR_SCANIA_OMNIEXPRESS_NAME              :Scania OmniExpress
+STR_MARCOPOLO_VIALE_BRT_NAME             :Marcopolo Viale BRT
+STR_WRIGHT_STREETVITE_ELECTROCITY_NAME   :Wright StreetVite / Electrocity
+STR_YUTONG_ZK6125CHEVPG_NAME             :Yutong ZK6125CHEVPG
+STR_NEW_ROUTEMASTER_NAME                 :New Routemaster (Borismaster)
+STR_BYD_K9_EBUS_NAME                     :BYD K9 / ebus
+STR_ALEXANDER_DENNIS_ENVIRO400H_NAME     :Alexander Dennis Enviro400H
+STR_MERCEDES_BENZ_ECITARO_NAME           :Mercedes-Benz eCitaro (concept)
+STR_SOLARIS_URBINO_18_ELECTRIC_NAME      :Solaris Urbino 18 Electric
+STR_VOLVO_7900_ELECTRIC_NAME             :Volvo 7900 Electric
+STR_VAN_HOOL_EXQUI_CITY_24_NAME          :Van Hool Exqui.City 24
+STR_PROTERRA_CATALYST_E2_NAME            :Proterra Catalyst E2
+STR_MERCEDES_BENZ_ECITARO_NAME           :Mercedes-Benz eCitaro
+STR_ALEXANDER_DENNIS_ENVIRO400EV_NAME    :Alexander Dennis Enviro400EV
+STR_IRIZAR_IE_TRAM_NAME                  :Irizar ie tram
+STR_MAN_LIONS_CITY_18_E_NAME             :MAN Lion's City 18 E
+STR_SOLARIS_URBINO_15_LE_ELECTRIC_NAME   :Solaris Urbino 15 LE Electric
+STR_YUTONG_U12_NAME                      :Yutong U12
+STR_BYD_EBUS_18M_NAME                    :BYD eBus 18m
+STR_ARRIVAL_BUS_NAME                     :Arrival Bus
+STR_DAIMLER_MOTOR_LASTWAGEN_NAME         :Daimler Motor-Lastwagen
+STR_WINTON_MOTOR_DELIVERY_NAME           :Winton Motor Delivery
+STR_PEUGEOT_TYPE_17_TRUCK_NAME           :Peugeot Type 17 Truck
+STR_BSSING_TYPE_I_NAME                   :Büssing Type I
+STR_MACK_BROTHERS_TYPE_1_NAME            :Mack Brothers Type 1
+STR_SAURER_5CV_NAME                      :Saurer 5CV
+STR_LEYLAND_Q_TYPE_VAN_NAME              :Leyland Q-type Van
+STR_FIAT_18_BL_NAME                      :Fiat 18 BL
+STR_WHITE_MODEL_GA_NAME                  :White Model GA
+STR_BENZ_3_TONNER_NAME                   :Benz 3-Tonner
+STR_AEC_Y_TYPE_NAME                      :AEC Y-type
+STR_LIBERTY_TRUCK_MODEL_B_NAME           :Liberty Truck Model B
+STR_MACK_AC_BULLDOG_NAME                 :Mack AC "Bulldog"
+STR_RENAULT_EG_NAME                      :Renault EG
+STR_LEYLAND_SQ2_NAME                     :Leyland SQ2
+STR_MAN_3ZT_NAME                         :MAN 3Zt
+STR_FORD_MODEL_TT_NAME                   :Ford Model TT
+STR_MERCEDES_BENZ_L5_NAME                :Mercedes-Benz L5
+STR_CHEVROLET_CAPITOL_1_TON_NAME         :Chevrolet Capitol 1-ton
+STR_BERLIET_GDKL_NAME                    :Berliet GDKL
+STR_BSSING_NAG_500_NAME                  :Büssing-NAG 500
+STR_FORD_MODEL_AA_NAME                   :Ford Model AA
+STR_MACK_BJ_NAME                         :Mack BJ
+STR_FIAT_621_NAME                        :Fiat 621
+STR_MERCEDES_BENZ_LO_2000_NAME           :Mercedes-Benz Lo 2000
+STR_AEC_MAMMOTH_MAJOR_NAME               :AEC Mammoth Major
+STR_INTERNATIONAL_HARVESTER_C_SERIES_NAME :International Harvester C-Series
+STR_DODGE_KC_SERIES_NAME                 :Dodge KC Series
+STR_SCAMMELL_MECHANICAL_HORSE_NAME       :Scammell Mechanical Horse
+STR_BEDFORD_WS_WT_NAME                   :Bedford WS/WT
+STR_CITRON_TYPE_23_NAME                  :Citroën Type 23
+STR_GMC_ACKWX_354_NAME                   :GMC ACKWX 354
+STR_SCANIA_VABIS_L1_NAME                 :Scania-Vabis L1
+STR_OPEL_BLITZ_3T_NAME                   :Opel Blitz 3t
+STR_STUDEBAKER_US6_NAME                  :Studebaker US6
+STR_GMC_CCKW_353_NAME                    :GMC CCKW 353
+STR_BEDFORD_OY_NAME                      :Bedford OY
+STR_CHEVROLET_G506_NAME                  :Chevrolet G506
+STR_MACK_LMSW_NAME                       :Mack LMSW
+STR_FORD_F_SERIES_NAME                   :Ford F-Series (F-1)
+STR_LEYLAND_BEAVER_NAME                  :Leyland Beaver
+STR_KENWORTH_524_NAME                    :Kenworth 524
+STR_VOLKSWAGEN_TRANSPORTER_T1_NAME       :Volkswagen Transporter T1
+STR_FODEN_FG_NAME                        :Foden FG
+STR_PETERBILT_350_NAME                   :Peterbilt 350
+STR_VOLVO_L395_TITAN_NAME                :Volvo L395 Titan
+STR_MERCEDES_BENZ_L_6600_NAME            :Mercedes-Benz L 6600
+STR_SCANIA_VABIS_L71_NAME                :Scania-Vabis L71
+STR_DAF_A1600_NAME                       :DAF A1600
+STR_FIAT_682_NAME                        :Fiat 682
+STR_INTERNATIONAL_HARVESTER_R_SERIES_NAME :International Harvester R-Series
+STR_ERF_KV_NAME                          :ERF KV
+STR_MACK_B_SERIES_NAME                   :Mack B-Series
+STR_BERLIET_TBO_NAME                     :Berliet TBO
+STR_BEDFORD_TK_NAME                      :Bedford TK
+STR_MAN_10_212_NAME                      :MAN 10.212
+STR_MERCEDES_BENZ_LP_333_NAME            :Mercedes-Benz LP 333
+STR_VOLVO_F86_NAME                       :Volvo F86
+STR_FORD_D_SERIES_NAME                   :Ford D-Series
+STR_SCANIA_LB76_NAME                     :Scania LB76
+STR_DAF_2600_NAME                        :DAF 2600
+STR_AEC_MANDATOR_TG4_NAME                :AEC Mandator TG4
+STR_FIAT_619_NAME                        :Fiat 619
+STR_MERCEDES_BENZ_LP_1620_NAME           :Mercedes-Benz LP 1620
+STR_KENWORTH_W900_NAME                   :Kenworth W900
+STR_VOLVO_F88_NAME                       :Volvo F88
+STR_PETERBILT_359_NAME                   :Peterbilt 359
+STR_SCANIA_LB140_V8_NAME                 :Scania LB140 "V8"
+STR_BERLIET_TR300_NAME                   :Berliet TR300
+STR_DAF_2800_NAME                        :DAF 2800
+STR_MERCEDES_BENZ_NG_NAME                :Mercedes-Benz NG (New Generation)
+STR_FORD_TRANSCONTINENTAL_NAME           :Ford Transcontinental
+STR_MACK_R_SERIES_NAME                   :Mack R-Series
+STR_IVECO_170_NAME                       :Iveco 170
+STR_MAN_19_321_NAME                      :MAN 19.321
+STR_FREIGHTLINER_FLC_NAME                :Freightliner FLC
+STR_ERF_B_SERIES_NAME                    :ERF B-Series
+STR_VOLVO_F10_F12_NAME                   :Volvo F10/F12
+STR_SCANIA_2_SERIES_NAME                 :Scania 2-series (142)
+STR_MERCEDES_BENZ_SK_NAME                :Mercedes-Benz SK (Schwere Klasse)
+STR_DAF_3300_3600_NAME                   :DAF 3300/3600
+STR_MAN_F90_NAME                         :MAN F90
+STR_IVECO_TURBOSTAR_NAME                 :Iveco TurboStar
+STR_FREIGHTLINER_FLD_120_NAME            :Freightliner FLD 120
+STR_KENWORTH_T600_NAME                   :Kenworth T600 (later T660)
+STR_SCANIA_3_SERIES_NAME                 :Scania 3-series (143)
+STR_RENAULT_MAGNUM_NAME                  :Renault Magnum
+STR_VOLVO_FH12_NAME                      :Volvo FH12
+STR_MERCEDES_BENZ_ACTROS_NAME            :Mercedes-Benz Actros (MP1)
+STR_DAF_95XF_NAME                        :DAF 95XF
+STR_PETERBILT_379_NAME                   :Peterbilt 379
+STR_MAN_F2000_NAME                       :MAN F2000
+STR_SCANIA_4_SERIES_NAME                 :Scania 4-series (124/144)
+STR_IVECO_EUROSTAR_EUROTECH_NAME         :Iveco EuroStar / EuroTech
+STR_VOLVO_FH16_NAME                      :Volvo FH16
+STR_INTERNATIONAL_9400I_EAGLE_NAME       :International 9400i Eagle
+STR_MERCEDES_BENZ_ACTROS_MP2_NAME        :Mercedes-Benz Actros MP2
+STR_DAF_XF95_NAME                        :DAF XF95
+STR_MAN_TGA_NAME                         :MAN TGA
+STR_SCANIA_R_SERIES_NAME                 :Scania R-series
+STR_VOLVO_FH_NAME                        :Volvo FH (2nd gen)
+STR_MERCEDES_BENZ_ACTROS_MP3_NAME        :Mercedes-Benz Actros MP3
+STR_IVECO_STRALIS_NAME                   :Iveco Stralis
+STR_KENWORTH_T680_NAME                   :Kenworth T680 (prototype)
+STR_DAF_XF105_NAME                       :DAF XF105
+STR_SCANIA_R_SERIES_NAME                 :Scania R-series (facelift)
+STR_MAN_TGX_NAME                         :MAN TGX
+STR_RENAULT_MAGNUM_T_SERIES_PREVIEW_NAME :Renault Magnum (final) / T-series preview
+STR_MERCEDES_BENZ_ACTROS_MP4_NAME        :Mercedes-Benz Actros MP4
+STR_VOLVO_FH_NAME                        :Volvo FH (3rd gen)
+STR_RENAULT_T_NAME                       :Renault T
+STR_DAF_XF_CF_NAME                       :DAF XF / CF (Euro 6)
+STR_SCANIA_S_SERIES_NAME                 :Scania S-series (next-gen)
+STR_MAN_TGX_NAME                         :MAN TGX (Euro 6c)
+STR_TESLA_SEMI_NAME                      :Tesla Semi (announced)
+STR_IVECO_S_WAY_NAME                     :Iveco S-Way
+STR_DAF_XF_XG_XG_NAME                    :DAF XF/XG/XG+ (New Generation)
+STR_VOLVO_FH_ELECTRIC_NAME               :Volvo FH Electric
+STR_MERCEDES_BENZ_EACTROS_NAME           :Mercedes-Benz eActros
+STR_SCANIA_BEV_NAME                      :Scania BEV (battery-electric)
+STR_TESLA_SEMI_NAME                      :Tesla Semi (production)
+STR_MAN_ETGX_ETGS_NAME                   :MAN eTGX / eTGS
+STR_IVECO_EWAY_HEAVY_NAME                :Iveco eWay Heavy
+STR_NIKOLA_TRE_BEV_FCEV_NAME             :Nikola Tre BEV / FCEV
+STR_HYUNDAI_XCIENT_FUEL_CELL_NAME        :Hyundai XCIENT Fuel Cell
+STR_BENZ_PATENT_MOTORWAGEN_NAME          :Benz Patent-Motorwagen
+STR_PEUGEOT_TYPE_3_NAME                  :Peugeot Type 3
+STR_DURYEA_MOTOR_WAGON_NAME              :Duryea Motor Wagon
+STR_BENZ_VELO_NAME                       :Benz Velo
+STR_DAIMLER_GRAFTON_PHAETON_NAME         :Daimler Grafton Phaeton
+STR_DE_DION_BOUTON_VIS_VIS_NAME          :De Dion-Bouton Vis-à-Vis
+STR_FIAT_4_HP_NAME                       :Fiat 4 HP
+STR_MERCEDES_35_HP_NAME                  :Mercedes 35 HP
+STR_OLDSMOBILE_CURVED_DASH_NAME          :Oldsmobile Curved Dash
+STR_FORD_MODEL_A_NAME                    :Ford Model A (1903)
+STR_ROLLS_ROYCE_10_HP_NAME               :Rolls-Royce 10 HP
+STR_ROLLS_ROYCE_SILVER_GHOST_NAME        :Rolls-Royce Silver Ghost
+STR_FORD_MODEL_T_NAME                    :Ford Model T
+STR_BUGATTI_TYPE_13_NAME                 :Bugatti Type 13
+STR_CADILLAC_MODEL_30_NAME               :Cadillac Model 30
+STR_CITRON_TYPE_A_NAME                   :Citroën Type A
+STR_AUSTIN_SEVEN_NAME                    :Austin Seven
+STR_CHRYSLER_SIX_NAME                    :Chrysler Six (B-70)
+STR_FORD_MODEL_T_NAME                    :Ford Model T (improved)
+STR_FORD_MODEL_A_NAME                    :Ford Model A (1927)
+STR_VOLVO_V_4_JAKOB_NAME                 :Volvo ÖV 4 "Jakob"
+STR_MERCEDES_BENZ_SSK_NAME               :Mercedes-Benz SSK
+STR_CADILLAC_V_16_NAME                   :Cadillac V-16
+STR_FORD_MODEL_B_V_8_NAME                :Ford Model B / V-8
+STR_CITRON_TRACTION_AVANT_NAME           :Citroën Traction Avant
+STR_CHRYSLER_AIRFLOW_NAME                :Chrysler Airflow
+STR_TOYOTA_MODEL_AA_NAME                 :Toyota Model AA
+STR_FIAT_500_TOPOLINO_NAME               :Fiat 500 "Topolino"
+STR_BMW_328_NAME                         :BMW 328
+STR_VOLKSWAGEN_BEETLE_NAME               :Volkswagen Beetle (KdF-Wagen)
+STR_JEEP_CJ_2A_NAME                      :JEEP CJ-2A
+STR_GAZ_M20_POBEDA_NAME                  :GAZ-M20 Pobeda
+STR_CITRON_2CV_NAME                      :Citroën 2CV
+STR_LAND_ROVER_SERIES_I_NAME             :Land Rover Series I
+STR_MORRIS_MINOR_NAME                    :Morris Minor
+STR_TUCKER_48_NAME                       :Tucker 48
+STR_VOLKSWAGEN_BEETLE_NAME               :Volkswagen Beetle (mass production)
+STR_CHEVROLET_BEL_AIR_NAME               :Chevrolet Bel Air (1st gen)
+STR_CHEVROLET_CORVETTE_NAME              :Chevrolet Corvette (C1)
+STR_MERCEDES_BENZ_300SL_GULLWING_NAME    :Mercedes-Benz 300SL "Gullwing"
+STR_CITRON_DS_NAME                       :Citroën DS
+STR_FIAT_500_NAME                        :Fiat 500 (Nuova)
+STR_TRABANT_P50_NAME                     :Trabant P50
+STR_BMC_MINI_NAME                        :BMC Mini
+STR_CHEVROLET_CORVAIR_NAME               :Chevrolet Corvair
+STR_JAGUAR_E_TYPE_NAME                   :Jaguar E-Type
+STR_LINCOLN_CONTINENTAL_NAME             :Lincoln Continental (4th gen)
+STR_PORSCHE_911_NAME                     :Porsche 911
+STR_FORD_MUSTANG_NAME                    :Ford Mustang
+STR_RENAULT_16_NAME                      :Renault 16
+STR_TOYOTA_COROLLA_NAME                  :Toyota Corolla
+STR_JENSEN_FF_NAME                       :Jensen FF
+STR_NSU_RO_80_NAME                       :NSU Ro 80
+STR_RANGE_ROVER_NAME                     :Range Rover (1st gen)
+STR_DATSUN_240Z_NAME                     :Datsun 240Z
+STR_RENAULT_5_NAME                       :Renault 5
+STR_VOLKSWAGEN_GOLF_MK1_NAME             :Volkswagen Golf Mk1
+STR_BMW_3_SERIES_NAME                    :BMW 3 Series (E21)
+STR_HONDA_ACCORD_NAME                    :Honda Accord (1st gen)
+STR_MERCEDES_BENZ_W123_NAME              :Mercedes-Benz W123
+STR_CHRYSLER_DODGE_OMNI_HORIZON_NAME     :Chrysler/Dodge Omni/Horizon
+STR_DELOREAN_DMC_12_NAME                 :DeLorean DMC-12
+STR_AUDI_100_NAME                        :Audi 100 (C3)
+STR_CHRYSLER_DODGE_MINIVAN_NAME          :Chrysler/Dodge Minivan (Caravan)
+STR_TOYOTA_MR2_NAME                      :Toyota MR2 (AW11)
+STR_FORD_TAURUS_NAME                     :Ford Taurus (1st gen)
+STR_MAZDA_MX_5_NAME                      :Mazda MX-5 (NA)
+STR_HONDA_NSX_NAME                       :Honda NSX
+STR_VOLVO_850_NAME                       :Volvo 850
+STR_JEEP_GRAND_CHEROKEE_NAME             :Jeep Grand Cherokee (ZJ)
+STR_MCLAREN_F1_NAME                      :McLaren F1
+STR_FORD_MONDEO_NAME                     :Ford Mondeo (1st gen)
+STR_TOYOTA_RAV4_NAME                     :Toyota RAV4 (1st gen)
+STR_TOYOTA_PRIUS_NAME                    :Toyota Prius (NHW10)
+STR_SMART_FORTWO_NAME                    :Smart Fortwo
+STR_BMW_X5_NAME                          :BMW X5 (E53)
+STR_PORSCHE_CAYENNE_NAME                 :Porsche Cayenne
+STR_BUGATTI_VEYRON_16_4_NAME             :Bugatti Veyron 16.4
+STR_TESLA_ROADSTER_NAME                  :Tesla Roadster (1st gen)
+STR_NISSAN_LEAF_NAME                     :Nissan Leaf (ZE0)
+STR_TESLA_MODEL_S_NAME                   :Tesla Model S
+STR_BMW_I3_NAME                          :BMW i3
+STR_TESLA_MODEL_X_NAME                   :Tesla Model X
+STR_TESLA_MODEL_3_NAME                   :Tesla Model 3
+STR_JAGUAR_I_PACE_NAME                   :Jaguar I-Pace
+STR_PORSCHE_TAYCAN_NAME                  :Porsche Taycan
+STR_VOLKSWAGEN_ID_3_NAME                 :Volkswagen ID.3
+STR_TOYOTA_YARIS_GR_NAME                 :Toyota Yaris GR
+STR_HYUNDAI_IONIQ_5_NAME                 :Hyundai Ioniq 5
+STR_MERCEDES_BENZ_EQS_NAME               :Mercedes-Benz EQS
+STR_BYD_SEAL_NAME                        :BYD Seal
+STR_RIMAC_NEVERA_NAME                    :Rimac Nevera
+STR_KIA_EV9_NAME                         :Kia EV9
+STR_VOLKSWAGEN_ID_7_NAME                 :Volkswagen ID.7
+STR_RENAULT_5_E_TECH_NAME                :Renault 5 E-Tech
+STR_TESLA_CYBERTRUCK_NAME                :Tesla Cybertruck
+STR_VOLKSWAGEN_ID_2ALL_NAME              :Volkswagen ID.2all
+STR_VOLTERRA_V_120_CITYPULSE_NAME        :Volterra V-120 CityPulse
+STR_MERIDIAN_M_180_METROLINK_NAME        :Meridian M-180 MetroLink
+STR_HORIZON_H_60_SHUTTLE_NAME            :Horizon H-60 Shuttle
+STR_CASCADIA_C_250_BRT_EXPRESS_NAME      :Cascadia C-250 BRT Express
+STR_ZENITH_Z_90_INTERCITY_NAME           :Zenith Z-90 InterCity
+STR_VOLTERRA_V_300_MEGAMOVER_NAME        :Volterra V-300 MegaMover
+STR_AETHER_AE_80_HYDROBUS_NAME           :Aether AE-80 HydroBus
+STR_STRATOS_S_160_SKYBRIDGE_NAME         :Stratos S-160 SkyBridge
+STR_PINNACLE_PN_45_RAPIDPOD_NAME         :Pinnacle PN-45 RapidPod
+STR_CASCADIA_C_400_SUPERLINER_NAME       :Cascadia C-400 Superliner
+STR_VELARIS_V_200_COACHELITE_NAME        :Velaris V-200 CoachElite
+STR_AURORA_AU_500_URBANSPINE_NAME        :Aurora AU-500 UrbanSpine
+STR_HALCYON_H_100_AEROCOACH_NAME         :Halcyon H-100 AeroCoach
+STR_NEXUS_NX_350_MEGAPLEX_NAME           :Nexus NX-350 MegaPlex
+STR_SOLARIS_SOL_600_CITYWORM_NAME        :Solaris Sol-600 CityWorm
+STR_QUANTUM_QT_120_HYPERBUS_NAME         :Quantum QT-120 HyperBus
+STR_TITAN_T_40_HAULMASTER_NAME           :Titan T-40 HaulMaster
+STR_APEX_A_30_DISTROMAX_NAME             :Apex A-30 DistroMax
+STR_COLOSSUS_C_60_FREIGHTKING_NAME       :Colossus C-60 FreightKing
+STR_PINNACLE_PN_20_LASTMILE_NAME         :Pinnacle PN-20 LastMile
+STR_VOLTERRA_V_50_POWERHAUL_NAME         :Volterra V-50 PowerHaul
+STR_TITAN_T_80_MEGARIG_NAME              :Titan T-80 MegaRig
+STR_MERIDIAN_M_35_COLDCHAIN_NAME         :Meridian M-35 ColdChain
+STR_APEX_A_100_CONVOYMASTER_NAME         :Apex A-100 ConvoyMaster
+STR_STRATOS_S_45_AEROFREIGHT_NAME        :Stratos S-45 AeroFreight
+STR_COLOSSUS_C_120_TERRAHAULER_NAME      :Colossus C-120 TerraHauler
+STR_HALCYON_H_50_SMARTCARGO_NAME         :Halcyon H-50 SmartCargo
+STR_NEXUS_NX_200_MEGAFREIGHT_NAME        :Nexus NX-200 MegaFreight
+STR_AURORA_AU_70_HYPERHAUL_NAME          :Aurora AU-70 HyperHaul
+STR_TITAN_T_150_CONTINENTEXPRESS_NAME    :Titan T-150 ContinentExpress
+STR_QUANTUM_QT_300_FREIGHTWORM_NAME      :Quantum QT-300 FreightWorm
+STR_COLOSSUS_C_500_TITANHAUL_NAME        :Colossus C-500 TitanHaul
+STR_VELARIS_V_5_COMET_NAME               :Velaris V-5 Comet
+STR_PINNACLE_PN_2_ZIPSTER_NAME           :Pinnacle PN-2 Zipster
+STR_AETHER_AE_7_VOYAGER_NAME             :Aether AE-7 Voyager
+STR_STRATOS_S_2_BOLT_NAME                :Stratos S-2 Bolt
+STR_MERIDIAN_M_5_GLIDE_NAME              :Meridian M-5 Glide
+STR_CASCADIA_C_4_CROSSTRAIL_NAME         :Cascadia C-4 CrossTrail
+STR_ZENITH_Z_6_HARMONY_NAME              :Zenith Z-6 Harmony
+STR_VOLTERRA_V_4_SPRINT_NAME             :Volterra V-4 Sprint
+STR_APEX_A_5_NOMAD_NAME                  :Apex A-5 Nomad
+STR_HALCYON_H_2_PHANTOM_NAME             :Halcyon H-2 Phantom
+STR_AURORA_AU_4_COCOON_NAME              :Aurora AU-4 Cocoon
+STR_NEXUS_NX_6_FAMILYMAX_NAME            :Nexus NX-6 FamilyMax
+STR_TITAN_T_5_PATHFINDER_NAME            :Titan T-5 Pathfinder
+STR_VELARIS_V_2_APEX_NAME                :Velaris V-2 Apex
+STR_PINNACLE_PN_8_GRANDTOUR_NAME         :Pinnacle PN-8 GrandTour
+STR_STRATOS_S_4_SKYRUNNER_NAME           :Stratos S-4 SkyRunner
+STR_MERIDIAN_M_1_SOLOPOD_NAME            :Meridian M-1 SoloPod
+STR_CASCADIA_C_6_HORIZON_NAME            :Cascadia C-6 Horizon
+STR_HALCYON_H_6_SERENITY_NAME            :Halcyon H-6 Serenity
+STR_NEXUS_NX_2_FLASHBOLT_NAME            :Nexus NX-2 FlashBolt
+STR_AURORA_AU_8_CRUISELINER_NAME         :Aurora AU-8 CruiseLiner
+STR_QUANTUM_QT_4_TELEPORT_NAME           :Quantum QT-4 Teleport
+STR_SOLARIS_SOL_BUS_800_NAME             :Solaris Sol-Bus 800
+STR_TITAN_T_1000_ORECARRIER_NAME         :Titan T-1000 OreCarrier
+STR_VELARIS_V_6_AURA_NAME                :Velaris V-6 Aura
+STR_APEX_A_600_CITYTRAIN_NAME            :Apex A-600 CityTrain
+STR_STRATOS_S_2_THUNDERBOLT_NAME         :Stratos S-2 Thunderbolt
+STR_NEXUS_NX_400_MEGAMOVER_NAME          :Nexus NX-400 MegaMover
+STR_HALCYON_H_10_ODYSSEY_NAME            :Halcyon H-10 Odyssey
+STR_QUANTUM_QT_1000_FREIGHTNET_NAME      :Quantum QT-1000 FreightNet
+STR_CASCADIA_C_150_EXPRESSLINE_NAME      :Cascadia C-150 ExpressLine
+STR_AURORA_AU_2_LIGHTSPEED_NAME          :Aurora AU-2 LightSpeed
+STR_SOLARIS_SOL_200_SKYBUS_NAME          :Solaris Sol-200 SkyBus
+STR_TITAN_T_2000_GLOBALHAUL_NAME         :Titan T-2000 GlobalHaul
+STR_PINNACLE_PN_4_ZENPOD_NAME            :Pinnacle PN-4 ZenPod
+STR_COLOSSUS_C_5000_LEVIATHAN_NAME       :Colossus C-5000 Leviathan
+STR_NEXUS_NX_1_WHISPER_NAME              :Nexus NX-1 Whisper
+STR_MERIDIAN_M_BUS_1000_NAME             :Meridian M-Bus 1000
+STR_VELARIS_V_1_FLICKER_NAME             :Velaris V-1 Flicker
+STR_QUANTUM_QT_X_INFINITY_NAME           :Quantum QT-X Infinity
+STR_AURORA_AU_10000_WORLDFREIGHT_NAME    :Aurora AU-10000 WorldFreight
+STR_OPEN_CHARABANC_TRAILER_NAME          :Open Charabanc Trailer
+STR_ARTICULATED_BUS_SECTION_NAME         :Articulated Bus Section
+STR_MODERN_ARTIC_SECTION_NAME            :Modern Artic Section
+STR_LOW_FLOOR_ARTIC_SECTION_NAME         :Low-Floor Artic Section
+STR_BRT_BI_ARTIC_SECTION_NAME            :BRT Bi-Artic Section
+STR_STRATOS_S_PAXPOD_NAME                :Stratos S-PaxPod
+STR_QUANTUM_QR_TRANSITPOD_NAME           :Quantum QR-TransitPod
+STR_HORSE_DRAWN_MAIL_CART_NAME           :Horse-drawn Mail Cart
+STR_POST_OFFICE_VAN_BODY_NAME            :Post Office Van Body
+STR_GPO_PARCEL_TRAILER_NAME              :GPO Parcel Trailer
+STR_ROYAL_MAIL_BOX_TRAILER_NAME          :Royal Mail Box Trailer
+STR_E_COMMERCE_PARCEL_TRAILER_NAME       :E-Commerce Parcel Trailer
+STR_NEXUS_NX_MAILPOD_NAME                :Nexus NX-MailPod
+STR_AURORA_AU_PARCELSTREAM_NAME          :Aurora AU-ParcelStream
+STR_IRON_PLATED_STRONGBOX_TRAILER_NAME   :Iron-plated Strongbox Trailer
+STR_REINFORCED_SECURITY_TRAILER_NAME     :Reinforced Security Trailer
+STR_MODERN_ARMOURED_TRAILER_NAME         :Modern Armoured Trailer
+STR_HIGH_SECURITY_VAULT_TRAILER_NAME     :High-Security Vault Trailer
+STR_TITAN_T_VAULTPOD_NAME                :Titan T-VaultPod
+STR_APEX_A_SECUREHAUL_NAME               :Apex A-SecureHaul
+STR_OPEN_SACK_TRAILER_NAME               :Open Sack Trailer
+STR_COVERED_GRAIN_TRAILER_NAME           :Covered Grain Trailer
+STR_TIPPING_GRAIN_TRAILER_NAME           :Tipping Grain Trailer
+STR_WALKING_FLOOR_GRAIN_TRAILER_NAME     :Walking-Floor Grain Trailer
+STR_SMART_GRAIN_TRAILER_NAME             :Smart Grain Trailer
+STR_VOLTERRA_VE_GRAINHAUL_NAME           :Volterra VE-GrainHaul
+STR_TITAN_T_HARVESTPOD_NAME              :Titan T-HarvestPod
+STR_OPEN_CATTLE_TRAILER_NAME             :Open Cattle Trailer
+STR_VENTILATED_STOCK_TRAILER_NAME        :Ventilated Stock Trailer
+STR_MULTI_DECK_LIVESTOCK_TRAILER_NAME    :Multi-Deck Livestock Trailer
+STR_CLIMATE_CONTROLLED_STOCK_TRAILER_NAME :Climate-Controlled Stock Trailer
+STR_WELFARE_PLUS_LIVESTOCK_TRAILER_NAME  :Welfare-Plus Livestock Trailer
+STR_MERIDIAN_M_LIVEHAUL_NAME             :Meridian M-LiveHaul
+STR_AURORA_AU_LIFEPOD_NAME               :Aurora AU-LifePod
+STR_OPEN_COAL_TRUCK_BODY_NAME            :Open Coal Truck Body
+STR_TIPPING_COAL_TRAILER_NAME            :Tipping Coal Trailer
+STR_MODERN_TIPPER_TRAILER_NAME           :Modern Tipper Trailer
+STR_AGGREGATE_TIPPER_NAME                :Aggregate Tipper (Artic)
+STR_AUTOMATED_BULK_TIPPER_NAME           :Automated Bulk Tipper
+STR_COLOSSUS_C_BULKHAUL_NAME             :Colossus C-BulkHaul
+STR_TITAN_T_MINERALPOD_NAME              :Titan T-MineralPod
+STR_HEAVY_DUTY_MINING_TRAILER_NAME       :Heavy-Duty Mining Trailer
+STR_OFF_ROAD_ORE_DUMPER_NAME             :Off-Road Ore Dumper
+STR_HEAVY_TIPPER_TRAILER_NAME            :Heavy Tipper Trailer
+STR_ULTRA_HEAVY_ORE_TRAILER_NAME         :Ultra-Heavy Ore Trailer
+STR_NEXUS_NX_OREHAUL_NAME                :Nexus NX-OreHaul
+STR_COLOSSUS_C_OREPOD_NAME               :Colossus C-OrePod
+STR_FLAT_BOLSTER_TRAILER_NAME            :Flat Bolster Trailer
+STR_LOW_LOADER_FLATBED_NAME              :Low-Loader Flatbed
+STR_CURTAINSIDE_STEEL_TRAILER_NAME       :Curtainside Steel Trailer
+STR_MODERN_COIL_CARRIER_NAME             :Modern Coil Carrier
+STR_STRATOS_S_METALHAUL_NAME             :Stratos S-MetalHaul
+STR_APEX_A_ALLOYPOD_NAME                 :Apex A-AlloyPod
+STR_RIVETED_TANK_TRAILER_NAME            :Riveted Tank Trailer
+STR_WELDED_TANK_TRAILER_NAME             :Welded Tank Trailer
+STR_MULTI_COMPARTMENT_TANKER_NAME        :Multi-Compartment Tanker
+STR_MODERN_ROAD_TANKER_NAME              :Modern Road Tanker (Artic)
+STR_SMART_TANKER_NAME                    :Smart Tanker
+STR_VOLTERRA_VE_LIQUIDMAX_NAME           :Volterra VE-LiquidMax
+STR_MERIDIAN_M_FLUIDPOD_NAME             :Meridian M-FluidPod
+STR_BOLSTER_TIMBER_TRAILER_NAME          :Bolster Timber Trailer
+STR_LOGGING_POLE_TRAILER_NAME            :Logging Pole Trailer
+STR_MODERN_TIMBER_TRAILER_NAME           :Modern Timber Trailer
+STR_SHORT_LOG_TRAILER_NAME               :Short-Log Trailer
+STR_CASCADIA_C_TIMBERHAUL_NAME           :Cascadia C-TimberHaul
+STR_COLOSSUS_C_BIOMASS_POD_NAME          :Colossus C-BioMass Pod
+STR_CANVAS_TOPPED_BOX_TRAILER_NAME       :Canvas-Topped Box Trailer
+STR_ENCLOSED_BOX_TRAILER_NAME            :Enclosed Box Trailer
+STR_LUTON_BOX_TRAILER_NAME               :Luton Box Trailer
+STR_CURTAINSIDE_ARTIC_TRAILER_NAME       :Curtainside Artic Trailer
+STR_MODERN_BOX_TRAILER_NAME              :Modern Box Trailer (Artic)
+STR_SMART_CONTAINER_TRAILER_NAME         :Smart Container Trailer
+STR_PINNACLE_PN_CARGOPOD_NAME            :Pinnacle PN-CargoPod
+STR_QUANTUM_QR_FREIGHTPOD_NAME           :Quantum QR-FreightPod
+STR_ICE_BOX_TRAILER_NAME                 :Ice-Box Trailer
+STR_INSULATED_MEAT_TRAILER_NAME          :Insulated Meat Trailer
+STR_DIESEL_REFRIGERATED_TRAILER_NAME     :Diesel Refrigerated Trailer
+STR_MODERN_REEFER_TRAILER_NAME           :Modern Reefer Trailer (Artic)
+STR_SMART_COLD_CHAIN_TRAILER_NAME        :Smart Cold-Chain Trailer
+STR_MERIDIAN_M_FRESHMAX_NAME             :Meridian M-FreshMax
+STR_AURORA_AU_BIOKEEP_NAME               :Aurora AU-BioKeep
+STR_CANVAS_COVERED_FLAT_TRAILER_NAME     :Canvas-Covered Flat Trailer
+STR_ENCLOSED_DRY_CARGO_TRAILER_NAME      :Enclosed Dry-Cargo Trailer
+STR_CURTAINSIDE_DRY_TRAILER_NAME         :Curtainside Dry Trailer
+STR_MEGA_CUBE_BOX_TRAILER_NAME           :Mega-Cube Box Trailer
+STR_PINNACLE_PN_DRYPOD_NAME              :Pinnacle PN-DryPod
+STR_HALCYON_H_MATERIALPOD_NAME           :Halcyon H-MaterialPod
+STR_VENTILATED_FRUIT_TRAILER_NAME        :Ventilated Fruit Trailer
+STR_IMPROVED_VENTILATED_TRAILER_NAME     :Improved Ventilated Trailer
+STR_REFRIGERATED_FRUIT_TRAILER_NAME      :Refrigerated Fruit Trailer
+STR_MULTI_TEMP_REEFER_TRAILER_NAME       :Multi-Temp Reefer Trailer
+STR_CASCADIA_C_TROPIFRESH_NAME           :Cascadia C-TropiFresh
+STR_SOLARIS_SOL_HARVESTPOD_NAME          :Solaris Sol-HarvestPod
+STR_OPEN_TIPPER_TRAILER_NAME             :Open Tipper Trailer
+STR_BULK_TIPPER_TRAILER_NAME             :Bulk Tipper Trailer
+STR_ROAD_TRAIN_BULK_TIPPER_NAME          :Road-Train Bulk Tipper
+STR_MODERN_BULK_TANKER_TIPPER_NAME       :Modern Bulk Tanker/Tipper
+STR_VOLTERRA_VE_BULKPOD_NAME             :Volterra VE-BulkPod
+STR_TITAN_T_BULKSTREAM_NAME              :Titan T-BulkStream
+STR_NORTH_RIVER_STEAMBOAT_NAME           :North River Steamboat (Clermont)
+STR_SS_SAVANNAH_NAME                     :SS Savannah
+STR_SS_GREAT_WESTERN_NAME                :SS Great Western
+STR_SS_SIRIUS_NAME                       :SS Sirius
+STR_SS_GREAT_BRITAIN_NAME                :SS Great Britain
+STR_RMS_ARABIA_NAME                      :RMS Arabia
+STR_SS_GREAT_EASTERN_NAME                :SS Great Eastern
+STR_SS_SCOTIA_NAME                       :SS Scotia
+STR_RMS_OCEANIC_NAME                     :RMS Oceanic (1871)
+STR_SS_BRITANNIC_NAME                    :SS Britannic (1874)
+STR_SS_ARIZONA_NAME                      :SS Arizona
+STR_SS_OREGON_NAME                       :SS Oregon
+STR_RMS_CITY_OF_PARIS_NAME               :RMS City of Paris
+STR_RMS_CAMPANIA_NAME                    :RMS Campania
+STR_SS_KAISER_WILHELM_DER_GROE_NAME      :SS Kaiser Wilhelm der Große
+STR_RMS_OCEANIC_NAME                     :RMS Oceanic (1899)
+STR_SS_CELTIC_NAME                       :SS Celtic (1901)
+STR_SS_KAISER_WILHELM_II_NAME            :SS Kaiser Wilhelm II
+STR_RMS_CARMANIA_NAME                    :RMS Carmania
+STR_RMS_LUSITANIA_NAME                   :RMS Lusitania
+STR_RMS_MAURETANIA_NAME                  :RMS Mauretania
+STR_RMS_REPUBLIC_NAME                    :RMS Republic
+STR_RMS_OLYMPIC_NAME                     :RMS Olympic
+STR_RMS_TITANIC_NAME                     :RMS Titanic
+STR_SS_IMPERATOR_NAME                    :SS Imperator
+STR_SS_VATERLAND_NAME                    :SS Vaterland
+STR_SS_BISMARCK_NAME                     :SS Bismarck (1914)
+STR_RMS_LACONIA_NAME                     :RMS Laconia
+STR_SS_COLUMBUS_NAME                     :SS Columbus
+STR_RMS_ANDES_NAME                       :RMS Andes
+STR_SS_LE_DE_FRANCE_NAME                 :SS Île de France
+STR_SS_BREMEN_NAME                       :SS Bremen
+STR_SS_EUROPA_NAME                       :SS Europa
+STR_RMS_EMPRESS_OF_BRITAIN_NAME          :RMS Empress of Britain
+STR_SS_REX_NAME                          :SS Rex
+STR_SS_CONTE_DI_SAVOIA_NAME              :SS Conte di Savoia
+STR_SS_NORMANDIE_NAME                    :SS Normandie
+STR_RMS_QUEEN_MARY_NAME                  :RMS Queen Mary
+STR_SS_NIEUW_AMSTERDAM_NAME              :SS Nieuw Amsterdam
+STR_MV_WILHELM_GUSTLOFF_NAME             :MV Wilhelm Gustloff
+STR_RMS_QUEEN_ELIZABETH_NAME             :RMS Queen Elizabeth
+STR_SS_AMERICA_NAME                      :SS America
+STR_SS_UNITED_STATES_NAME                :SS United States
+STR_SS_ANDREA_DORIA_NAME                 :SS Andrea Doria
+STR_SS_FLANDRE_NAME                      :SS Flandre
+STR_MV_STOCKHOLM_NAME                    :MV Stockholm
+STR_SS_ROTTERDAM_NAME                    :SS Rotterdam
+STR_SS_FRANCE_NAME                       :SS France
+STR_SS_CANBERRA_NAME                     :SS Canberra
+STR_MV_KUNGSHOLM_NAME                    :MV Kungsholm
+STR_RMS_QUEEN_ELIZABETH_2_NAME           :RMS Queen Elizabeth 2 (QE2)
+STR_MS_SONG_OF_NORWAY_NAME               :MS Song of Norway
+STR_TSS_MARDI_GRAS_NAME                  :TSS Mardi Gras
+STR_MS_TROPICALE_NAME                    :MS Tropicale
+STR_MS_NIEUW_AMSTERDAM_NAME              :MS Nieuw Amsterdam (1983)
+STR_MS_ROYAL_PRINCESS_NAME               :MS Royal Princess
+STR_MS_SOVEREIGN_OF_THE_SEAS_NAME        :MS Sovereign of the Seas
+STR_MS_FANTASY_NAME                      :MS Fantasy
+STR_MV_SILJA_SYMPHONY_NAME               :MV Silja Symphony
+STR_MS_MAJESTY_OF_THE_SEAS_NAME          :MS Majesty of the Seas
+STR_MS_CARNIVAL_DESTINY_NAME             :MS Carnival Destiny
+STR_MS_COSTA_VICTORIA_NAME               :MS Costa Victoria
+STR_MS_GRAND_PRINCESS_NAME               :MS Grand Princess
+STR_MS_VOYAGER_OF_THE_SEAS_NAME          :MS Voyager of the Seas
+STR_RMS_QUEEN_MARY_2_NAME                :RMS Queen Mary 2
+STR_MS_QUEEN_VICTORIA_MSC_LIRICA_NAME    :MS Queen Victoria (concept) / MSC Lirica
+STR_MS_FREEDOM_OF_THE_SEAS_NAME          :MS Freedom of the Seas
+STR_MS_OASIS_OF_THE_SEAS_NAME            :MS Oasis of the Seas
+STR_MS_ALLURE_OF_THE_SEAS_NAME           :MS Allure of the Seas
+STR_MS_NORWEGIAN_BREAKAWAY_NAME          :MS Norwegian Breakaway
+STR_MS_QUANTUM_OF_THE_SEAS_NAME          :MS Quantum of the Seas
+STR_MS_HARMONY_OF_THE_SEAS_NAME          :MS Harmony of the Seas
+STR_MS_SYMPHONY_OF_THE_SEAS_NAME         :MS Symphony of the Seas
+STR_MSC_GRANDIOSA_NAME                   :MSC Grandiosa
+STR_MS_IONA_NAME                         :MS Iona
+STR_MS_WONDER_OF_THE_SEAS_NAME           :MS Wonder of the Seas
+STR_MSC_WORLD_EUROPA_NAME                :MSC World Europa
+STR_MS_ICON_OF_THE_SEAS_NAME             :MS Icon of the Seas
+STR_MS_STAR_OF_THE_SEAS_NAME             :MS Star of the Seas
+STR_WHITBY_COLLIER_BRIG_NAME             :Whitby Collier Brig
+STR_EAST_INDIAMAN_NAME                   :East Indiaman (late era)
+STR_IRON_SAILING_BARQUE_NAME             :Iron Sailing Barque
+STR_CLIPPER_SHIP_NAME                    :Clipper Ship (e.g. Cutty Sark)
+STR_IRON_SCREW_STEAMER_NAME              :Iron Screw Steamer
+STR_SS_TRAMP_STEAMER_NAME                :SS Tramp Steamer
+STR_SS_GLCKAUF_NAME                      :SS Glückauf
+STR_SS_TURRET_STEAMER_NAME               :SS Turret Steamer
+STR_THREE_ISLAND_TRAMP_NAME              :Three-Island Tramp
+STR_SS_SUEVIC_NAME                       :SS Suevic
+STR_SS_IROQUOIS_NAME                     :SS Iroquois
+STR_SS_STANDARD_TRAMP_NAME               :SS Standard Tramp
+STR_COLLIER_COASTER_NAME                 :Collier/Coaster (wartime)
+STR_FABRICATED_STEEL_STEAMER_NAME        :Fabricated Steel Steamer (WWI emergency)
+STR_HOG_ISLANDER_NAME                    :"Hog Islander" (Design 1022)
+STR_MOTOR_VESSEL_NAME                    :Motor Vessel (early diesel)
+STR_MV_GRENA_NAME                        :MV Grena
+STR_TURBO_ELECTRIC_TANKER_NAME           :Turbo-Electric Tanker
+STR_SD14_PREDECESSOR_DESIGNS_NAME        :SD14 predecessor designs
+STR_T2_TANKER_NAME                       :T2 Tanker (prototype design)
+STR_REEFER_SHIP_NAME                     :Reefer Ship (inter-war)
+STR_LIBERTY_SHIP_NAME                    :Liberty Ship (EC2-S-C1)
+STR_VICTORY_SHIP_NAME                    :Victory Ship (VC2)
+STR_T2_TANKER_NAME                       :T2 Tanker
+STR_LST_NAME                             :LST (Landing Ship, Tank)
+STR_SHELTER_DECK_TRAMP_NAME              :Shelter-Deck Tramp
+STR_T2_SUPERTANKER_CONVERSIONS_NAME      :T2 Supertanker conversions
+STR_MV_DORINGTON_COURT_NAME              :MV Dorington Court
+STR_ORE_CARRIER_NAME                     :Ore Carrier (post-war)
+STR_SS_IDEAL_X_NAME                      :SS Ideal X (first container voyage)
+STR_NS_SAVANNAH_NAME                     :NS Savannah
+STR_MV_KOORINGA_NAME                     :MV Kooringa
+STR_SD14_NAME                            :SD14
+STR_MV_FAIRLAND_NAME                     :MV Fairland
+STR_MV_ENCOUNTER_BAY_NAME                :MV Encounter Bay
+STR_SS_MANHATTAN_NAME                    :SS Manhattan
+STR_MV_HAKONE_MARU_NAME                  :MV Hakone Maru
+STR_SS_UNIVERSE_IRELAND_NAME             :SS Universe Ireland
+STR_MV_TOKYO_BAY_NAME                    :MV Tokyo Bay
+STR_JAHRE_VIKING_NAME                    :Jahre Viking (Seawise Giant)
+STR_MV_ELBE_EXPRESS_NAME                 :MV Elbe Express
+STR_MV_FRANKFURT_EXPRESS_NAME            :MV Frankfurt Express
+STR_MV_AMERICAN_NEW_YORK_NAME            :MV American New York
+STR_MV_ACT_7_NAME                        :MV ACT 7 (4th gen)
+STR_MV_PRESIDENT_TRUMAN_NAME             :MV President Truman
+STR_MV_REGINA_MAERSK_NAME                :MV Regina Maersk
+STR_MV_SOVEREIGN_MAERSK_NAME             :MV Sovereign Maersk
+STR_CAPESIZE_BULK_CARRIER_NAME           :Capesize Bulk Carrier (1990s)
+STR_MV_SUSAN_MAERSK_NAME                 :MV Susan Maersk
+STR_SUEZMAX_TANKER_NAME                  :Suezmax Tanker (1990s standard)
+STR_VERY_LARGE_ORE_CARRIER_NAME          :Very Large Ore Carrier
+STR_MV_AXEL_MAERSK_NAME                  :MV Axel Maersk
+STR_MV_EMMA_MAERSK_NAME                  :MV Emma Maersk
+STR_MS_BERGE_STAHL_NAME                  :MS Berge Stahl
+STR_VALE_BEIJING_NAME                    :Vale Beijing
+STR_CMA_CGM_MARCO_POLO_NAME              :CMA CGM Marco Polo
+STR_MV_MAERSK_MC_KINNEY_MLLER_NAME       :MV Maersk Mc-Kinney Møller
+STR_MSC_OSCAR_NAME                       :MSC Oscar
+STR_CSCL_GLOBE_NAME                      :CSCL Globe
+STR_OOCL_HONG_KONG_NAME                  :OOCL Hong Kong
+STR_CMA_CGM_ANTOINE_DE_SAINT_EXUPRY_NAME :CMA CGM Antoine de Saint Exupéry
+STR_MSC_GLSN_NAME                        :MSC Gülsün
+STR_HMM_ALGECIRAS_NAME                   :HMM Algeciras
+STR_EVER_ACE_NAME                        :Ever Ace
+STR_MSC_IRINA_NAME                       :MSC Irina
+STR_CMA_CGM_JACQUES_SAAD_NAME            :CMA CGM Jacques Saadé
+STR_MSC_NAME                             :MSC (24,000+ TEU new-builds)
+STR_LNG_CARRIER_Q_MAX_NAME               :LNG Carrier Q-Max (Mozah class)
+STR_METHANOL_AMMONIA_DUAL_FUEL_CONTAINER_NAME :Methanol/Ammonia dual-fuel container
+STR_NARROWBOAT_NAME                      :Narrowboat
+STR_RHINE_BARGE_NAME                     :Rhine Barge (horse-drawn)
+STR_MISSISSIPPI_STEAMBOAT_NAME           :Mississippi Steamboat
+STR_PENICHE_NAME                         :Peniche
+STR_MOTOR_NARROWBOAT_NAME                :Motor Narrowboat
+STR_RHINE_PUSH_BARGE_NAME                :Rhine Push Barge
+STR_EUROPA_II_BARGE_NAME                 :Europa II Barge
+STR_JOWI_PUSH_BARGE_NAME                 :JOWI Push Barge
+STR_CONTAINER_BARGE_NAME                 :Container Barge (Rhine)
+STR_ELECTRIC_CANAL_BOAT_NAME             :Electric Canal Boat
+STR_SAILING_TRAWLER_NAME                 :Sailing Trawler
+STR_STEAM_TRAWLER_NAME                   :Steam Trawler
+STR_MOTOR_TRAWLER_NAME                   :Motor Trawler (inter-war)
+STR_FREEZER_STERN_TRAWLER_NAME           :Freezer Stern Trawler
+STR_FACTORY_TRAWLER_NAME                 :Factory Trawler (Soviet Mayak class)
+STR_MODERN_STERN_TRAWLER_NAME            :Modern Stern Trawler
+STR_SUPER_TRAWLER_NAME                   :Super Trawler
+STR_LONGLINER_NAME                       :Longliner (modern)
+STR_SR_N1_NAME                           :SR.N1
+STR_PT_20_HYDROFOIL_NAME                 :PT 20 Hydrofoil
+STR_SR_N4_MOUNTBATTEN_NAME               :SR.N4 Mountbatten
+STR_KOMETA_HYDROFOIL_NAME                :Kometa Hydrofoil
+STR_BOEING_JETFOIL_929_NAME              :Boeing Jetfoil 929
+STR_WESTAMARIN_W95_CATAMARAN_NAME        :Westamarin W95 Catamaran
+STR_INCAT_91M_WAVE_PIERCING_CATAMARAN_NAME :Incat 91m Wave Piercing Catamaran
+STR_HSC_FRANCISCO_NAME                   :HSC Francisco
+STR_STEAM_HARBOUR_TUG_NAME               :Steam Harbour Tug
+STR_DIESEL_HARBOUR_TUG_NAME              :Diesel Harbour Tug
+STR_VOITH_SCHNEIDER_TUG_NAME             :Voith Schneider Tug
+STR_ANCHOR_HANDLING_TUG_SUPPLY_NAME      :Anchor Handling Tug Supply (AHTS)
+STR_AZIMUTH_STERN_DRIVE_TUG_NAME         :Azimuth Stern Drive (ASD) Tug
+STR_ROTOR_TUG_NAME                       :Rotor Tug
+STR_ELECTRIC_HARBOUR_TUG_NAME            :Electric Harbour Tug
+STR_SS_YERMAK_NAME                       :SS Yermak
+STR_NS_LENIN_NAME                        :NS Lenin
+STR_NS_ARKTIKA_NAME                      :NS Arktika
+STR_NS_ARKTIKA_NAME                      :NS Arktika (Project 22220)
+STR_MS_SOLARIS_VOYAGER_NAME              :MS Solaris Voyager
+STR_MV_AETHER_DREAMER_NAME               :MV Aether Dreamer
+STR_HSC_AURORA_FLASH_NAME                :HSC Aurora Flash
+STR_MS_VELARIS_OCEANA_NAME               :MS Velaris Oceana
+STR_MS_ZENITH_CELESTIA_NAME              :MS Zenith Celestia
+STR_HSC_PINNACLE_DART_NAME               :HSC Pinnacle Dart
+STR_MS_CASCADIA_PACIFIC_NAME             :MS Cascadia Pacific
+STR_MV_HALCYON_SERENITY_NAME             :MV Halcyon Serenity
+STR_HSC_STRATOS_WAVERIDER_NAME           :HSC Stratos WaveRider
+STR_MS_NEXUS_HORIZON_NAME                :MS Nexus Horizon
+STR_HSC_QUANTUM_LEAP_NAME                :HSC Quantum Leap
+STR_MS_MERIDIAN_PARADISE_NAME            :MS Meridian Paradise
+STR_HSC_APEX_TSUNAMI_NAME                :HSC Apex Tsunami
+STR_MS_TITAN_UTOPIA_NAME                 :MS Titan Utopia
+STR_MV_VOLTERRA_GREENFREIGHT_NAME        :MV Volterra GreenFreight
+STR_MV_TITAN_BULKMAX_NAME                :MV Titan BulkMax
+STR_MV_APEX_AUTOSAIL_NAME                :MV Apex AutoSail
+STR_MV_COLOSSUS_MEGABOX_NAME             :MV Colossus MegaBox
+STR_MV_MERIDIAN_ARCTIC_NAME              :MV Meridian Arctic
+STR_MV_STRATOS_SOLARWIND_NAME            :MV Stratos SolarWind
+STR_MV_AURORA_DEEPMINER_NAME             :MV Aurora DeepMiner
+STR_MV_HALCYON_HYDROCARRIER_NAME         :MV Halcyon HydroCarrier
+STR_MV_NEXUS_ULTRAMAX_NAME               :MV Nexus UltraMax
+STR_MV_CASCADIA_ROBOFLEET_NAME           :MV Cascadia RoboFleet
+STR_MV_ZENITH_OCEANTRAIN_NAME            :MV Zenith OceanTrain
+STR_MV_VOLTERRA_POLAREXPRESS_NAME        :MV Volterra PolarExpress
+STR_MV_COLOSSUS_LEVIATHAN_NAME           :MV Colossus Leviathan
+STR_MV_TITAN_OCEANGRID_NAME              :MV Titan OceanGrid
+STR_MV_QUANTUM_INFINITY_NAME             :MV Quantum Infinity
+STR_MV_PINNACLE_RIVERBARGE_E_NAME        :MV Pinnacle RiverBarge E
+STR_DEEP_EXPLORER_3000_NAME              :Deep Explorer 3000
+STR_AETHER_WINDFARM_INSTALLER_NAME       :Aether WindFarm Installer
+STR_NEXUS_AQUAFARM_500_NAME              :Nexus AquaFarm 500
+STR_HALCYON_SALVAGEBOT_NAME              :Halcyon SalvageBot
+STR_STRATOS_ICE_CONVOY_LEADER_NAME       :Stratos Ice Convoy Leader
+STR_ELECTRIC_SUPER_TRAWLER_NAME          :Electric Super Trawler
+STR_APEX_OCEANCLEAN_100_NAME             :Apex OceanClean 100
+STR_TITAN_TUGFORCE_500_NAME              :Titan TugForce 500
+STR_QUANTUM_SUB_FREIGHTER_NAME           :Quantum Sub-Freighter
+STR_SOLARIS_FLOATING_PLATFORM_NAME       :Solaris Floating Platform
+STR_NEXUS_TIDALHARVESTER_NAME            :Nexus TidalHarvester
+STR_MS_AURORA_WORLDSAIL_NAME             :MS Aurora WorldSail
+STR_MV_TITAN_TERAFREIGHT_NAME            :MV Titan TeraFreight
+STR_HSC_QUANTUM_OCEANDART_NAME           :HSC Quantum OceanDart
+STR_SUBMARINE_CRUISE_LINER_NAME          :Submarine Cruise Liner
+STR_MV_COLOSSUS_PLANETHAUL_NAME          :MV Colossus PlanetHaul
+STR_MS_VELARIS_ETERNAL_NAME              :MS Velaris Eternal
+STR_HSC_APEX_HORIZON_NAME                :HSC Apex Horizon
+STR_MV_QUANTUM_SINGULARITY_NAME          :MV Quantum Singularity
+STR_PENYDARREN_LOCOMOTIVE_NAME           :Penydarren Locomotive
+STR_SALAMANCA_NAME                       :Salamanca
+STR_PUFFING_BILLY_NAME                   :Puffing Billy
+STR_LOCOMOTION_NO_1_NAME                 :Locomotion No. 1
+STR_ROCKET_NAME                          :Rocket
+STR_PLANET_NAME                          :Planet
+STR_TOM_THUMB_NAME                       :Tom Thumb
+STR_JOHN_BULL_NAME                       :John Bull
+STR_PATENTEE_NAME                        :Patentee
+STR_NORTH_STAR_NAME                      :North Star
+STR_GREAT_WESTERN_NAME                   :Great Western
+STR_JENNY_LIND_NAME                      :Jenny Lind
+STR_CRAMPTON_PATENT_NAME                 :Crampton Patent
+STR_CONSOLIDATION_NAME                   :Consolidation (2-8-0 first)
+STR_STIRLING_SINGLE_4_2_2_NAME           :Stirling Single 4-2-2
+STR_METROPOLITAN_RAILWAY_A_CLASS_NAME    :Metropolitan Railway A-class
+STR_AMERICAN_STANDARD_4_4_0_NAME         :American Standard 4-4-0
+STR_WEBB_COMPOUND_2_2_2_0_NAME           :Webb Compound 2-2-2-0
+STR_PRUSSIAN_P_4_NAME                    :Prussian P 4
+STR_CLASS_4_6_0_NAME                     :Class 4-6-0 (first)
+STR_ATLANTIC_NAME                        :Atlantic (4-4-2, first)
+STR_GWR_DEAN_SINGLE_4_2_2_NAME           :GWR Dean Single 4-2-2
+STR_NEW_YORK_CENTRAL_NO_999_NAME         :New York Central No. 999
+STR_HIGHLAND_RAILWAY_JONES_GOODS_NAME    :Highland Railway Jones Goods
+STR_PRUSSIAN_S_3_NAME                    :Prussian S 3
+STR_GWR_CITY_CLASS_NAME                  :GWR City Class
+STR_LNER_NER_ATLANTIC_NAME               :LNER/NER Atlantic (Klondyke)
+STR_PRUSSIAN_S_9_NAME                    :Prussian S 9
+STR_PRR_E6S_NAME                         :PRR E6s
+STR_GWR_STAR_CLASS_NAME                  :GWR Star Class
+STR_BAVARIAN_S_3_6_NAME                  :Bavarian S 3/6
+STR_LNWR_EXPERIMENT_GEORGE_THE_FIFTH_NAME :LNWR Experiment/George the Fifth
+STR_ALCO_4_6_2_PACIFIC_NAME              :ALCO 4-6-2 Pacific
+STR_PRUSSIAN_P_8_NAME                    :Prussian P 8
+STR_GWR_4700_CLASS_NAME                  :GWR 4700 Class
+STR_GRESLEY_A1_A3_PACIFIC_NAME           :Gresley A1/A3 Pacific
+STR_FRENCH_NORD_SUPER_PACIFIC_NAME       :French Nord Super Pacific
+STR_USRA_LIGHT_PACIFIC_NAME              :USRA Light Pacific
+STR_MALLET_2_8_8_2_NAME                  :Mallet 2-8-8-2 (USRA)
+STR_GWR_KING_CLASS_NAME                  :GWR King Class
+STR_SOUTHERN_RAILWAY_LORD_NELSON_NAME    :Southern Railway Lord Nelson
+STR_DRG_CLASS_01_NAME                    :DRG Class 01
+STR_CHAPELON_NORD_4_6_2_3_1200_NAME      :Chapelon Nord 4-6-2 3.1200
+STR_LMS_ROYAL_SCOT_NAME                  :LMS Royal Scot
+STR_LMS_PRINCESS_ROYAL_NAME              :LMS Princess Royal
+STR_GWR_CASTLE_CLASS_NAME                :GWR Castle Class
+STR_MILWAUKEE_ROAD_F7_HIAWATHA_NAME      :Milwaukee Road F7 "Hiawatha"
+STR_LNER_A4_PACIFIC_NAME                 :LNER A4 Pacific
+STR_DRG_CLASS_05_NAME                    :DRG Class 05
+STR_LMS_CORONATION_DUCHESS_NAME          :LMS Coronation/Duchess
+STR_NYC_J_3A_HUDSON_NAME                 :NYC J-3a Hudson
+STR_UP_BIG_BOY_4_8_8_4_NAME              :UP Big Boy 4-8-8-4
+STR_N_AND_W_CLASS_J_4_8_4_NAME           :N&W Class J 4-8-4
+STR_PRR_T1_DUPLEX_NAME                   :PRR T1 Duplex
+STR_UP_CHALLENGER_4_6_6_4_NAME           :UP Challenger 4-6-6-4
+STR_N_AND_W_CLASS_A_2_6_6_4_NAME         :N&W Class A 2-6-6-4
+STR_USATC_S160_CLASS_NAME                :USATC S160 Class
+STR_WD_AUSTERITY_2_8_0_NAME              :WD Austerity 2-8-0
+STR_SNCF_141R_NAME                       :SNCF 141R
+STR_LMS_BR_IVATT_CLASS_2_NAME            :LMS/BR Ivatt Class 2
+STR_CHAPELON_242A1_NAME                  :Chapelon 242A1
+STR_BR_STANDARD_CLASS_7_BRITANNIA_NAME   :BR Standard Class 7 Britannia
+STR_QJ_CLASS_NAME                        :QJ Class (前进)
+STR_BR_STANDARD_CLASS_9F_NAME            :BR Standard Class 9F
+STR_DB_CLASS_10_NAME                     :DB Class 10
+STR_DRG_CLASS_52_80_REKO_NAME            :DRG Class 52.80 Reko
+STR_DIESEL_MECHANICAL_RAILCAR_NAME       :Diesel-mechanical railcar
+STR_ALCO_GE_INGERSOLL_RAND_1000_NAME     :ALCO/GE/Ingersoll-Rand #1000
+STR_CANADIAN_NATIONAL_9000_NAME          :Canadian National 9000
+STR_FLYING_HAMBURGER_NAME                :Flying Hamburger (SVT 877)
+STR_BURLINGTON_ZEPHYR_NAME               :Burlington Zephyr (Pioneer)
+STR_GWR_AEC_RAILCAR_NAME                 :GWR AEC Railcar
+STR_EMC_E1_A_UNIT_NAME                   :EMC E1 A-unit
+STR_EMD_FT_NAME                          :EMD FT
+STR_EMD_F3_NAME                          :EMD F3
+STR_ALCO_PA_1_NAME                       :ALCO PA-1
+STR_EMD_F7_NAME                          :EMD F7
+STR_EMD_GP7_NAME                         :EMD GP7
+STR_LMS_10000_10001_BR_CLASS_D16_1_NAME  :LMS 10000/10001 → BR Class D16/1
+STR_ALCO_RS_3_NAME                       :ALCO RS-3
+STR_BR_CLASS_40_NAME                     :BR Class 40 (English Electric Type 4)
+STR_EMD_SD9_NAME                         :EMD SD9
+STR_BR_CLASS_55_DELTIC_NAME              :BR Class 55 Deltic
+STR_EMD_GP20_NAME                        :EMD GP20
+STR_BR_CLASS_47_NAME                     :BR Class 47
+STR_V200_NAME                            :V200 (DB Class 220)
+STR_ALCO_CENTURY_628_NAME                :ALCO Century 628
+STR_BR_CLASS_52_WESTERN_NAME             :BR Class 52 Western
+STR_EMD_SD40_NAME                        :EMD SD40
+STR_EMD_SD40_2_NAME                      :EMD SD40-2
+STR_BR_CLASS_50_NAME                     :BR Class 50
+STR_GE_U30C_NAME                         :GE U30C
+STR_DB_CLASS_218_NAME                    :DB Class 218
+STR_EMD_F40PH_NAME                       :EMD F40PH
+STR_BR_CLASS_56_NAME                     :BR Class 56
+STR_GE_DASH_7_NAME                       :GE Dash 7 (B36-7, C36-7)
+STR_BR_CLASS_58_NAME                     :BR Class 58
+STR_EMD_SD50_NAME                        :EMD SD50
+STR_EMD_SD60_NAME                        :EMD SD60
+STR_GE_DASH_8_NAME                       :GE Dash 8 (C39-8, Dash 8-40C)
+STR_BR_CLASS_59_NAME                     :BR Class 59
+STR_EMD_GP60_NAME                        :EMD GP60
+STR_BR_CLASS_60_NAME                     :BR Class 60
+STR_GE_AC4400CW_NAME                     :GE AC4400CW
+STR_EMD_SD70MAC_NAME                     :EMD SD70MAC
+STR_BR_CLASS_66_NAME                     :BR Class 66
+STR_GE_AC6000CW_NAME                     :GE AC6000CW
+STR_BR_CLASS_67_NAME                     :BR Class 67
+STR_EMD_SD70ACE_NAME                     :EMD SD70ACe
+STR_GE_ES44AC_NAME                       :GE ES44AC (GEVO)
+STR_VOSSLOH_STADLER_EURO_4000_NAME       :Vossloh/Stadler Euro 4000
+STR_SIEMENS_ER20_EURORUNNER_NAME         :Siemens ER20 Eurorunner
+STR_GE_ET44AC_NAME                       :GE ET44AC (Tier 4)
+STR_EMD_SD70ACE_T4_NAME                  :EMD SD70ACe-T4
+STR_STADLER_EURO_DUAL_NAME               :Stadler Euro Dual
+STR_BR_CLASS_68_NAME                     :BR Class 68
+STR_WABTEC_FLXDRIVE_NAME                 :Wabtec FLXdrive (battery hybrid)
+STR_STADLER_FLIRT_H_NAME                 :Stadler FLIRT H₂ (hydrogen)
+STR_SIEMENS_MIREO_PLUS_H_NAME            :Siemens Mireo Plus H
+STR_SIEMENS_AND_HALSKE_DEMONSTRATION_NAME :Siemens & Halske Demonstration
+STR_GROSS_LICHTERFELDE_TRAMWAY_NAME      :Gross-Lichterfelde Tramway
+STR_CITY_AND_SOUTH_LONDON_RAILWAY_NAME   :City & South London Railway
+STR_BALTIMORE_BELT_LINE_NAME             :Baltimore Belt Line (B&O)
+STR_SIEMENS_STUDIENGESELLSCHAFT_NAME     :Siemens Studiengesellschaft
+STR_AEG_DREHSTROM_TRIEBWAGEN_NAME        :AEG Drehstrom Triebwagen
+STR_NEW_YORK_CENTRAL_S_MOTOR_NAME        :New York Central S-Motor
+STR_SBB_AE_3_5_NAME                      :SBB Ae 3/5 (prototype era)
+STR_NORFOLK_AND_WESTERN_LC_1_NAME        :Norfolk & Western LC-1
+STR_SWISS_CE_6_8_CROCODILE_NAME          :Swiss Ce 6/8 "Crocodile"
+STR_MILWAUKEE_ROAD_EP_2_BIPOLAR_NAME     :Milwaukee Road EP-2 "Bipolar"
+STR_PRR_P5A_NAME                         :PRR P5a
+STR_SWISS_AE_4_7_NAME                    :Swiss Ae 4/7
+STR_ITALIAN_FS_E_626_NAME                :Italian FS E.626
+STR_FRENCH_2D2_9100_NAME                 :French 2D2 9100
+STR_PRR_GG1_NAME                         :PRR GG1
+STR_SBB_AE_8_14_NAME                     :SBB Ae 8/14
+STR_ITALIAN_FS_E_636_NAME                :Italian FS E.636
+STR_SBB_RE_4_4_I_NAME                    :SBB Re 4/4 I
+STR_FRENCH_BB_9004_NAME                  :French BB 9004
+STR_SNCF_CC_7107_NAME                    :SNCF CC 7107
+STR_SOVIET_VL22M_NAME                    :Soviet VL22m
+STR_BB_CLASS_1042_NAME                   :ÖBB Class 1042
+STR_SBB_RE_4_4_II_NAME                   :SBB Re 4/4 II
+STR_SOVIET_VL60_NAME                     :Soviet VL60
+STR_DB_CLASS_E_03_NAME                   :DB Class E 03 (later 103)
+STR_SNCF_BB_16500_NAME                   :SNCF BB 16500
+STR_SOVIET_VL80_NAME                     :Soviet VL80
+STR_DB_CLASS_111_PROTOTYPE_ERA_NAME      :DB Class 111 prototype era (E 10)
+STR_AMTRAK_GG1_E60_NAME                  :Amtrak GG1 (continued) → E60
+STR_SBB_RE_6_6_NAME                      :SBB Re 6/6
+STR_SNCF_CC_6500_NAME                    :SNCF CC 6500
+STR_SNCF_BB_15000_NAME                   :SNCF BB 15000
+STR_BR_CLASS_87_NAME                     :BR Class 87
+STR_SWEDISH_RC4_NAME                     :Swedish Rc4
+STR_SOVIET_VL85_NAME                     :Soviet VL85
+STR_SNCF_BB_7200_NAME                    :SNCF BB 7200
+STR_DB_CLASS_120_NAME                    :DB Class 120
+STR_SNCF_BB_26000_SYBIC_NAME             :SNCF BB 26000 "Sybic"
+STR_AMTRAK_AEM_7_ALP_44_NAME             :Amtrak AEM-7 → ALP-44
+STR_DB_CLASS_101_NAME                    :DB Class 101
+STR_SIEMENS_EUROSPRINTER_NAME            :Siemens EuroSprinter (ES64F)
+STR_ABB_ADTRANZ_RE_460_NAME              :ABB/Adtranz Re 460
+STR_ALSTOM_PRIMA_NAME                    :Alstom Prima (BB 27000)
+STR_SIEMENS_TAURUS_NAME                  :Siemens Taurus (ÖBB 1016/1116)
+STR_BOMBARDIER_TRAXX_F140_NAME           :Bombardier TRAXX F140
+STR_AMTRAK_ACS_64_SPRINTER_NAME          :Amtrak ACS-64 Sprinter
+STR_SIEMENS_VECTRON_NAME                 :Siemens Vectron
+STR_ALSTOM_PRIMA_II_NAME                 :Alstom Prima II
+STR_BOMBARDIER_TRAXX_AC3_LAST_MILE_NAME  :Bombardier TRAXX AC3 Last Mile
+STR_CRRC_HXD1_NAME                       :CRRC HXD1 (Harmony)
+STR_SIEMENS_VECTRON_MS_NAME              :Siemens Vectron MS
+STR_ALSTOM_TRAXX_UNIVERSAL_NAME          :Alstom Traxx Universal (MS3)
+STR_CRRC_HXD2_NAME                       :CRRC HXD2 (Shen24)
+STR_STADLER_EURO9000_NAME                :Stadler EURO9000
+STR_SIEMENS_VECTRON_DUAL_MODE_NAME       :Siemens Vectron Dual Mode (DM)
+STR_CITY_AND_SOUTH_LONDON_RAILWAY_STOCK_NAME :City & South London Railway Stock
+STR_BUDAPEST_MILLENNIUMI_FLDALATTI_NAME  :Budapest Millenniumi Földalatti
+STR_LIVERPOOL_OVERHEAD_RAILWAY_EMU_NAME  :Liverpool Overhead Railway EMU
+STR_CENTRAL_LONDON_RAILWAY_STOCK_NAME    :Central London Railway Stock
+STR_NEW_YORK_SUBWAY_IRT_COMPOSITES_NAME  :New York Subway IRT Composites
+STR_LBSCR_OVERHEAD_AC_EMU_NAME           :LBSCR Overhead AC EMU
+STR_PHILADELPHIA_BROAD_STREET_SUBWAY_NAME :Philadelphia Broad Street Subway
+STR_SOUTHERN_RAILWAY_3_SUB_NAME          :Southern Railway 3-SUB
+STR_LONDON_UNDERGROUND_1938_TUBE_STOCK_NAME :London Underground 1938 Tube Stock
+STR_DUTCH_NS_MAT_36_NAME                 :Dutch NS Mat '36
+STR_ITALIAN_FS_ETR_300_SETTEBELLO_NAME   :Italian FS ETR 300 "Settebello"
+STR_BR_SOUTHERN_REGION_4_SUB_EPB_NAME    :BR Southern Region 4-SUB/EPB
+STR_FRENCH_SNCF_RGP_X_2700_NAME          :French SNCF RGP/X 2700
+STR_ODAKYU_ROMANCE_CAR_3000_SSE_NAME     :Odakyu Romance Car 3000 SSE
+STR_FS_ETR_250_ARLECCHINO_NAME           :FS ETR 250 "Arlecchino"
+STR_SHINKANSEN_SERIES_0_NAME             :Shinkansen Series 0
+STR_JAPANESE_KINTETSU_12000_VISTA_CAR_NAME :Japanese Kintetsu 12000 Vista Car
+STR_BR_CLASS_313_PEP_STOCK_NAME          :BR Class 313 / PEP stock
+STR_BART_A_CAR_B_CAR_NAME                :BART A-car / B-car
+STR_BR_APT_E_APT_P_NAME                  :BR APT-E / APT-P
+STR_SHINKANSEN_SERIES_200_NAME           :Shinkansen Series 200
+STR_PARIS_RER_MI_79_NAME                 :Paris RER MI 79
+STR_TGV_SUD_EST_NAME                     :TGV Sud-Est (SNCF)
+STR_SHINKANSEN_SERIES_100_NAME           :Shinkansen Series 100
+STR_X_2000_NAME                          :X 2000 (SJ)
+STR_TGV_ATLANTIQUE_NAME                  :TGV Atlantique
+STR_SHINKANSEN_SERIES_300_NAME           :Shinkansen Series 300
+STR_ICE_1_NAME                           :ICE 1 (DB)
+STR_EUROSTAR_CLASS_373_NAME              :Eurostar Class 373
+STR_ETR_460_PENDOLINO_NAME               :ETR 460 Pendolino
+STR_SHINKANSEN_SERIES_500_NAME           :Shinkansen Series 500
+STR_TGV_DUPLEX_NAME                      :TGV Duplex
+STR_ICE_2_NAME                           :ICE 2 (DB)
+STR_SHINKANSEN_SERIES_700_NAME           :Shinkansen Series 700
+STR_ICE_3_NAME                           :ICE 3 (DB Class 403)
+STR_ALSTOM_AGV_NAME                      :Alstom AGV (prototype)
+STR_KTX_I_NAME                           :KTX-I (Korea Train Express)
+STR_CRH1_NAME                            :CRH1 (China Railway High-speed)
+STR_SHINKANSEN_N700_NAME                 :Shinkansen N700
+STR_TGV_POS_V150_RECORD_SET_NAME         :TGV POS / V150 record set
+STR_VELARO_E_NAME                        :Velaro E (AVE S-103)
+STR_CRH3C_NAME                           :CRH3C (Velaro CN)
+STR_CRH380A_NAME                         :CRH380A
+STR_EUROSTAR_E320_NAME                   :Eurostar e320 (Class 374)
+STR_CRH380B_D_NAME                       :CRH380B/D
+STR_SHINKANSEN_E5_H5_NAME                :Shinkansen E5/H5 (Hayabusa)
+STR_ETR_1000_FRECCIAROSSA_1000_NAME      :ETR 1000 / Frecciarossa 1000 (V300Zefiro)
+STR_TGV_DUPLEX_EURODUPLEX_NAME           :TGV Duplex EuroDuplex (2N2)
+STR_BR_CLASS_800_801_NAME                :BR Class 800/801 (AT300)
+STR_CRH400AF_NAME                        :CRH400AF (Fuxing CR400AF)
+STR_SHINKANSEN_N700S_NAME                :Shinkansen N700S
+STR_SIEMENS_VELARO_NOVO_NAME             :Siemens Velaro Novo (concept)
+STR_ALFA_X_SHINKANSEN_TEST_NAME          :ALFA-X (E956) Shinkansen test
+STR_AVELIA_HORIZON_NAME                  :Avelia Horizon (TGV M)
+STR_ICE_3NEO_NAME                        :ICE 3neo (DB Class 408)
+STR_CR450_NAME                           :CR450 (concept/prototype)
+STR_HS2_CLASS_390X_NAME                  :HS2 Class 390X (placeholder)
+STR_FLYING_HAMBURGER_NAME                :Flying Hamburger (SVT 877)
+STR_MICHELINE_NAME                       :Micheline
+STR_BUDD_RDC_NAME                        :Budd RDC (Rail Diesel Car)
+STR_GWR_AEC_RAILCAR_NAME                 :GWR AEC Railcar
+STR_LNER_TYNESIDE_DMU_EXPERIMENTAL_NAME  :LNER "Tyneside" DMU experimental
+STR_FIAT_ALN_556_NAME                    :Fiat ALn 556
+STR_VT_08_NAME                           :VT 08 (DR/DB)
+STR_BR_DERBY_LIGHTWEIGHT_NAME            :BR Derby Lightweight (Class 108/114/etc.)
+STR_BR_SWINDON_INTER_CITY_NAME           :BR Swindon Inter-City (Class 120/123)
+STR_TRANS_EUROP_EXPRESS_VT_11_5_NAME     :Trans-Europ-Express VT 11.5
+STR_SNCF_X_4300_NAME                     :SNCF X 4300 (Caravelle)
+STR_VT_624_NAME                          :VT 624 (DB Class 624)
+STR_NS_DM_65_PLAN_T_NAME                 :NS DM '65 Plan T
+STR_BR_HST_CLASS_43_NAME                 :BR HST Class 43 (InterCity 125)
+STR_BR_CLASS_141_142_PACER_NAME          :BR Class 141/142 Pacer
+STR_BR_CLASS_150_SPRINTER_NAME           :BR Class 150 Sprinter
+STR_DB_CLASS_628_NAME                    :DB Class 628
+STR_BR_CLASS_158_EXPRESS_NAME            :BR Class 158 Express
+STR_BR_CLASS_165_166_NETWORKER_TURBO_NAME :BR Class 165/166 Networker Turbo
+STR_BR_CLASS_170_TURBOSTAR_NAME          :BR Class 170 Turbostar
+STR_ALSTOM_CORADIA_LINT_27_41_NAME       :Alstom Coradia LINT 27/41
+STR_BOMBARDIER_TALENT_NAME               :Bombardier Talent
+STR_SIEMENS_DESIRO_CLASSIC_NAME          :Siemens Desiro Classic (DB Class 642)
+STR_BR_CLASS_175_CORADIA_NAME            :BR Class 175 Coradia
+STR_STADLER_GTW_2_6_NAME                 :Stadler GTW 2/6
+STR_BR_CLASS_185_DESIRO_NAME             :BR Class 185 Desiro (TransPennine)
+STR_STADLER_FLIRT_NAME                   :Stadler FLIRT (diesel version)
+STR_ALSTOM_CORADIA_LINT_54_81_NAME       :Alstom Coradia LINT 54/81
+STR_STADLER_FLIRT_AKKU_NAME              :Stadler FLIRT Akku (battery-diesel)
+STR_ALSTOM_CORADIA_ILINT_NAME            :Alstom Coradia iLint (hydrogen)
+STR_SIEMENS_MIREO_PLUS_B_NAME            :Siemens Mireo Plus B (battery)
+STR_METROPOLITAN_RAILWAY_NAME            :Metropolitan Railway (steam)
+STR_CITY_AND_SOUTH_LONDON_RAILWAY_NAME   :City & South London Railway
+STR_PARIS_MTRO_SPRAGUE_STOCK_NAME        :Paris Métro Sprague stock
+STR_NEW_YORK_IRT_COMPOSITE_NAME          :New York IRT Composite
+STR_NEW_YORK_R1_SUBWAY_CAR_NAME          :New York R1 Subway Car
+STR_MOSCOW_METRO_TYPE_A_NAME             :Moscow Metro Type-A
+STR_LONDON_UNDERGROUND_1938_STOCK_NAME   :London Underground 1938 Stock
+STR_NYC_R_10_SUBWAY_CAR_NAME             :NYC R-10 Subway Car
+STR_MONTREAL_MTRO_MR_63_NAME             :Montreal Métro MR-63
+STR_LONDON_UNDERGROUND_1967_STOCK_NAME   :London Underground 1967 Stock
+STR_BART_A_CAR_NAME                      :BART A-car
+STR_WASHINGTON_METRO_BREDA_ROHR_NAME     :Washington Metro Breda/Rohr
+STR_HONG_KONG_MTR_M_STOCK_NAME           :Hong Kong MTR M-Stock
+STR_VAL_206_NAME                         :VAL 206 (Lille)
+STR_LONDON_UNDERGROUND_1992_STOCK_NAME   :London Underground 1992 Stock
+STR_SIEMENS_INSPIRO_C20_NAME             :Siemens Inspiro (proto) / C20
+STR_ALSTOM_METROPOLIS_NAME               :Alstom Metropolis
+STR_LONDON_UNDERGROUND_S_STOCK_NAME      :London Underground S-Stock (S7/S8)
+STR_CRRC_TYPE_A_METRO_NAME               :CRRC Type-A Metro
+STR_SIEMENS_INSPIRO_NAME                 :Siemens Inspiro
+STR_LONDON_UNDERGROUND_PICCADILLY_LINE_NAME :London Underground Piccadilly Line (New Tube)
+STR_TITAN_T_9000_FREIGHTMASTER_NAME      :Titan T-9000 FreightMaster
+STR_VOLTERRA_VE_6000_GREENHAUL_NAME      :Volterra VE-6000 GreenHaul
+STR_SIEMENS_VECTRON_NEO_X_NAME           :Siemens Vectron Neo-X
+STR_COLOSSUS_C_15000_HEAVYMAX_NAME       :Colossus C-15000 HeavyMax
+STR_APEX_A_12000_TRANSCONTINENTAL_NAME   :Apex A-12000 TransContinental
+STR_MERIDIAN_M_8000_LASTMILE_NAME        :Meridian M-8000 LastMile
+STR_NEXUS_NX_20000_MEGAHAULER_NAME       :Nexus NX-20000 MegaHauler
+STR_STRATOS_S_25000_POWERUNIT_NAME       :Stratos S-25000 PowerUnit
+STR_TITAN_T_50000_CONTINENTHAULER_NAME   :Titan T-50000 ContinentHauler
+STR_QUANTUM_QR_100000_OMNIPOWER_NAME     :Quantum QR-100000 OmniPower
+STR_VELARIS_V_400_COMET_NAME             :Velaris V-400 Comet
+STR_CRH500_FUXING_ULTRA_NAME             :CRH500 Fuxing Ultra
+STR_SHINKANSEN_SERIES_ALPHA_NAME         :Shinkansen Series Alpha
+STR_ALSTOM_AVELIA_THUNDER_NAME           :Alstom Avelia Thunder
+STR_SIEMENS_VELARO_QUANTUM_NAME          :Siemens Velaro Quantum
+STR_AETHER_AE_EXPRESS_500_NAME           :Aether AE-Express 500
+STR_HALCYON_H_1000_OCEANLINK_NAME        :Halcyon H-1000 OceanLink
+STR_AURORA_AU_600_SKYARROW_NAME          :Aurora AU-600 SkyArrow
+STR_CASCADIA_C_800_NIGHTEXPRESS_NAME     :Cascadia C-800 NightExpress
+STR_NEXUS_NX_EXPRESS_700_NAME            :Nexus NX-Express 700
+STR_PINNACLE_PN_900_SUPERLINER_NAME      :Pinnacle PN-900 SuperLiner
+STR_ZENITH_Z_1200_TRANSCON_NAME          :Zenith Z-1200 TransCon
+STR_VELARIS_V_SIGMA_NAME                 :Velaris V-Sigma
+STR_QUANTUM_QR_OMEGA_NAME                :Quantum QR-Omega
+STR_STRATOS_S_200_REGIOSTAR_NAME         :Stratos S-200 RegioStar
+STR_MERIDIAN_M_120_HYDROPULSE_NAME       :Meridian M-120 HydroPulse
+STR_AURORA_AU_METRO_3000_NAME            :Aurora AU-Metro 3000
+STR_PINNACLE_PN_50_PEOPLEMOVER_NAME      :Pinnacle PN-50 PeopleMover
+STR_CASCADIA_C_500_SUBURBANMAX_NAME      :Cascadia C-500 SuburbanMax
+STR_HALCYON_H_350_INTERREGION_NAME       :Halcyon H-350 InterRegion
+STR_NEXUS_NX_METRO_5000_NAME             :Nexus NX-Metro 5000
+STR_APEX_A_100_ULTRALIGHT_NAME           :Apex A-100 UltraLight
+STR_SOLARIS_SOL_METRO_8000_NAME          :Solaris Sol-Metro 8000
+STR_TITAN_T_METRO_POD_NAME               :Titan T-Metro Pod
+STR_VOLTERRA_VE_AUTOTRAIN_300_NAME       :Volterra VE-AutoTrain 300
+STR_COLOSSUS_C_MEGATRAIN_500_NAME        :Colossus C-MegaTrain 500
+STR_APEX_A_INTERMODAL_EXPRESS_NAME       :Apex A-InterModal Express
+STR_MERIDIAN_M_COLDCHAIN_RAIL_NAME       :Meridian M-ColdChain Rail
+STR_STRATOS_S_HYPERFREIGHT_NAME          :Stratos S-HyperFreight
+STR_NEXUS_NX_OREEXPRESS_NAME             :Nexus NX-OreExpress
+STR_TITAN_T_CONTAINERPIPE_NAME           :Titan T-ContainerPipe
+STR_COLOSSUS_C_GLOBALFREIGHT_NAME        :Colossus C-GlobalFreight
+STR_VELARIS_V_MAGLEV_CITY_NAME           :Velaris V-MagLev City
+STR_AURORA_AU_SUBOCEANIC_NAME            :Aurora AU-SubOceanic
+STR_NEXUS_NX_HYPERLOOP_MAX_NAME          :Nexus NX-HyperLoop Max
+STR_TITAN_T_MEGAORE_500K_NAME            :Titan T-MegaOre 500k
+STR_QUANTUM_QR_EXPRESS_2000_NAME         :Quantum QR-Express 2000
+STR_SOLARIS_SOL_FREIGHT_GLOBAL_NAME      :Solaris Sol-Freight Global
+STR_HALCYON_H_METRO_INFINITY_NAME        :Halcyon H-Metro Infinity
+STR_CASCADIA_C_TRANSPACIFIC_NAME         :Cascadia C-TransPacific
+STR_STRATOS_S_ORBITALLINK_NAME           :Stratos S-OrbitalLink
+STR_APEX_A_CONTAINERSTREAM_NAME          :Apex A-ContainerStream
+STR_QUANTUM_QR_SINGULARITY_EXPRESS_NAME  :Quantum QR-Singularity Express
+STR_WOODEN_4_WHEEL_COACH_NAME            :Wooden 4-wheel Coach
+STR_VICTORIAN_6_WHEEL_COACH_NAME         :Victorian 6-wheel Coach
+STR_BOGIE_CLERESTORY_COACH_NAME          :Bogie Clerestory Coach
+STR_GRESLEY_TEAK_COACH_NAME              :Gresley Teak Coach
+STR_BR_MK1_COACH_NAME                    :BR Mk1 Coach
+STR_BR_MK2_COACH_NAME                    :BR Mk2 Coach
+STR_CORAIL_UIC_Z_COACH_NAME              :Corail / UIC-Z Coach
+STR_BR_MK3_MK4_COACH_NAME                :BR Mk3 / Mk4 Coach
+STR_MODERN_IC_COACH_NAME                 :Modern IC Coach
+STR_NEXT_GEN_IC_COACH_NAME               :Next-Gen IC Coach
+STR_VOLTERRA_VI_LUX_COACH_NAME           :Volterra Vi-Lux Coach
+STR_AURORA_AU_COMFORT_POD_NAME           :Aurora AU-Comfort Pod
+STR_QUANTUM_QR_TRANSITPOD_NAME           :Quantum QR-TransitPod
+STR_WOODEN_SORTING_VAN_NAME              :Wooden Sorting Van
+STR_VICTORIAN_MAIL_VAN_NAME              :Victorian Mail Van
+STR_GWR_LMS_TPO_VAN_NAME                 :GWR/LMS TPO Van
+STR_BR_MAIL_VAN_NAME                     :BR Mail Van
+STR_BR_MK1_TPO_PCV_NAME                  :BR Mk1 TPO / PCV
+STR_MODERN_MAIL_CONTAINER_VAN_NAME       :Modern Mail Container Van
+STR_AUTOMATED_PARCEL_VAN_NAME            :Automated Parcel Van
+STR_NEXUS_NX_MAILSTREAM_NAME             :Nexus NX-MailStream
+STR_QUANTUM_QR_PARCELPOD_NAME            :Quantum QR-ParcelPod
+STR_IRON_PLATED_STRONGBOX_VAN_NAME       :Iron-plated Strongbox Van
+STR_EDWARDIAN_ARMOURED_VAN_NAME          :Edwardian Armoured Van
+STR_POST_WAR_SECURITY_VAN_NAME           :Post-War Security Van
+STR_BR_BULLION_VAN_NAME                  :BR Bullion Van
+STR_MODERN_HIGH_SECURITY_VAN_NAME        :Modern High-Security Van
+STR_TITAN_T_VAULT_VAN_NAME               :Titan T-Vault Van
+STR_APEX_A_SECURETRANSIT_NAME            :Apex A-SecureTransit
+STR_QUANTUM_QR_VAULTPOD_NAME             :Quantum QR-VaultPod
+STR_OPEN_GRAIN_SACK_WAGON_NAME           :Open Grain Sack Wagon
+STR_COVERED_GRAIN_VAN_NAME               :Covered Grain Van
+STR_EARLY_HOPPER_WAGON_NAME              :Early Hopper Wagon
+STR_BR_21T_HOPPER_NAME                   :BR 21T Hopper
+STR_COVERED_HOPPER_NAME                  :Covered Hopper (100T family)
+STR_MODERN_COVERED_HOPPER_NAME           :Modern Covered Hopper
+STR_SMART_GRAIN_HOPPER_NAME              :Smart Grain Hopper
+STR_VOLTERRA_VE_GRAINMAX_NAME            :Volterra VE-GrainMax
+STR_TITAN_T_HARVESTSTREAM_NAME           :Titan T-HarvestStream
+STR_OPEN_CATTLE_TRUCK_NAME               :Open Cattle Truck
+STR_VENTILATED_CATTLE_VAN_NAME           :Ventilated Cattle Van
+STR_BOGIE_LIVESTOCK_VAN_NAME             :Bogie Livestock Van
+STR_BR_CATTLE_VAN_NAME                   :BR Cattle Van
+STR_MODERN_LIVESTOCK_CARRIER_NAME        :Modern Livestock Carrier
+STR_WELFARE_COMPLIANT_CARRIER_NAME       :Welfare-Compliant Carrier
+STR_STRATOS_S_LIVEHAUL_NAME              :Stratos S-LiveHaul
+STR_MERIDIAN_M_BIOTRANSIT_NAME           :Meridian M-BioTransit
+STR_AURORA_AU_LIFEPOD_NAME               :Aurora AU-LifePod
+STR_CHALDRON_WAGON_NAME                  :Chaldron Wagon (4-wheel)
+STR_7_PLANK_OPEN_WAGON_NAME              :7-Plank Open Wagon
+STR_12T_MINERAL_WAGON_NAME               :12T Mineral Wagon
+STR_16T_MINERAL_WAGON_NAME               :16T Mineral Wagon (RCH)
+STR_BR_21T_MINERAL_WAGON_NAME            :BR 21T Mineral Wagon
+STR_HAA_HBA_MERRY_GO_ROUND_NAME          :HAA/HBA Merry-Go-Round
+STR_HTA_BOGIE_COAL_HOPPER_NAME           :HTA Bogie Coal Hopper
+STR_MODERN_BOGIE_COAL_HOPPER_NAME        :Modern Bogie Coal Hopper
+STR_TITAN_T_BULKCARRIER_NAME             :Titan T-BulkCarrier (legacy fuel)
+STR_COLOSSUS_C_MINERALPOD_NAME           :Colossus C-MineralPod
+STR_OPEN_ORE_TIPPLER_NAME                :Open Ore Tippler
+STR_BOGIE_ORE_WAGON_NAME                 :Bogie Ore Wagon
+STR_HEAVY_ORE_HOPPER_NAME                :Heavy Ore Hopper
+STR_BR_ORE_TIPPLER_NAME                  :BR Ore Tippler
+STR_MODERN_ORE_HOPPER_NAME               :Modern Ore Hopper
+STR_HEAVY_HAUL_ORE_WAGON_NAME            :Heavy-Haul Ore Wagon
+STR_NEXUS_NX_OREHAUL_NAME                :Nexus NX-OreHaul
+STR_TITAN_T_OREPOD_NAME                  :Titan T-OrePod
+STR_FLAT_BOLSTER_WAGON_NAME              :Flat Bolster Wagon
+STR_PLATE_WAGON_NAME                     :Plate Wagon
+STR_BOGIE_BOLSTER_WAGON_NAME             :Bogie Bolster Wagon
+STR_COIL_CARRIER_NAME                    :Coil Carrier (BDA)
+STR_MODERN_STEEL_COIL_WAGON_NAME         :Modern Steel Coil Wagon
+STR_COVERED_STEEL_CARRIER_NAME           :Covered Steel Carrier
+STR_STRATOS_S_METALMAX_NAME              :Stratos S-MetalMax
+STR_APEX_A_ALLOYTRANSIT_NAME             :Apex A-AlloyTransit
+STR_WOODEN_OIL_BARREL_WAGON_NAME         :Wooden Oil Barrel Wagon
+STR_EARLY_TANK_WAGON_NAME                :Early Tank Wagon (4-wheel)
+STR_14T_TANK_WAGON_NAME                  :14T Tank Wagon
+STR_BR_35T_TANK_WAGON_NAME               :BR 35T Tank Wagon (Class A)
+STR_100T_BOGIE_TANK_WAGON_NAME           :100T Bogie Tank Wagon (TTA)
+STR_MODERN_BOGIE_TANK_WAGON_NAME         :Modern Bogie Tank Wagon (TEA)
+STR_SMART_TANK_WAGON_NAME                :Smart Tank Wagon
+STR_VOLTERRA_VE_LIQUIDMAX_NAME           :Volterra VE-LiquidMax
+STR_MERIDIAN_M_FLUIDPOD_NAME             :Meridian M-FluidPod
+STR_TIMBER_BOLSTER_TRUCK_NAME            :Timber Bolster Truck
+STR_BOGIE_TIMBER_WAGON_NAME              :Bogie Timber Wagon
+STR_STEEL_BOLSTER_WAGON_NAME             :Steel Bolster Wagon
+STR_BR_BOGIE_TIMBER_WAGON_NAME           :BR Bogie Timber Wagon
+STR_MODERN_LOG_WAGON_NAME                :Modern Log Wagon
+STR_CONTAINER_FLAT_TIMBER_NAME           :Container-Flat Timber
+STR_STRATOS_S_TIMBERHAUL_NAME            :Stratos S-TimberHaul
+STR_COLOSSUS_C_BIOMASS_POD_NAME          :Colossus C-BioMass Pod
+STR_WOODEN_BOX_VAN_NAME                  :Wooden Box Van (4-wheel)
+STR_VICTORIAN_GOODS_VAN_NAME             :Victorian Goods Van
+STR_RCH_STANDARD_VAN_NAME                :RCH Standard Van
+STR_BR_VANWIDE_NAME                      :BR Vanwide
+STR_BR_VGA_VDA_VAN_NAME                  :BR VGA/VDA Van
+STR_INTERMODAL_CONTAINER_FLAT_NAME       :Intermodal Container Flat
+STR_MODERN_INTERMODAL_NAME               :Modern Intermodal (FEA/FLA)
+STR_NEXUS_NX_CARGOFLEX_NAME              :Nexus NX-CargoFlex
+STR_PINNACLE_PN_FREIGHTPOD_NAME          :Pinnacle PN-FreightPod
+STR_QUANTUM_QR_CARGOSTREAM_NAME          :Quantum QR-CargoStream
+STR_ICE_COOLED_MEAT_VAN_NAME             :Ice-Cooled Meat Van
+STR_IMPROVED_VENTILATED_VAN_NAME         :Improved Ventilated Van
+STR_INSULATED_MEAT_VAN_NAME              :Insulated Meat Van
+STR_BR_INSULFRUIT_INSULFISH_NAME         :BR Insulfruit / Insulfish
+STR_MODERN_REFRIGERATED_VAN_NAME         :Modern Refrigerated Van
+STR_INTERMODAL_REEFER_CONTAINER_NAME     :Intermodal Reefer Container
+STR_SMART_COLD_CHAIN_WAGON_NAME          :Smart Cold-Chain Wagon
+STR_MERIDIAN_M_FRESHMAX_NAME             :Meridian M-FreshMax
+STR_AURORA_AU_BIOKEEP_NAME               :Aurora AU-BioKeep
+STR_COVERED_PAPER_VAN_NAME               :Covered Paper Van
+STR_VENTILATED_COVERED_VAN_NAME          :Ventilated Covered Van
+STR_BR_COVERED_CARGO_VAN_NAME            :BR Covered Cargo Van
+STR_MODERN_COVERED_WAGON_NAME            :Modern Covered Wagon
+STR_CONTAINERISED_PAPER_FLAT_NAME        :Containerised Paper Flat
+STR_PINNACLE_PN_DRYPOD_NAME              :Pinnacle PN-DryPod
+STR_HALCYON_H_MATERIALPOD_NAME           :Halcyon H-MaterialPod
+STR_OPEN_TROPICAL_WAGON_NAME             :Open Tropical Wagon
+STR_VENTILATED_FRUIT_VAN_NAME            :Ventilated Fruit Van
+STR_IMPROVED_TROPICAL_VAN_NAME           :Improved Tropical Van
+STR_REFRIGERATED_FRUIT_WAGON_NAME        :Refrigerated Fruit Wagon
+STR_REEFER_CONTAINER_NAME                :Reefer Container (Tropical)
+STR_CASCADIA_C_TROPIFRESH_NAME           :Cascadia C-TropiFresh
+STR_SOLARIS_SOL_HARVESTPOD_NAME          :Solaris Sol-HarvestPod
+STR_OPEN_MINERAL_WAGON_NAME              :Open Mineral Wagon
+STR_BOGIE_MINERAL_HOPPER_NAME            :Bogie Mineral Hopper
+STR_BR_MINERAL_WAGON_TANK_NAME           :BR Mineral Wagon / Tank
+STR_MODERN_BULK_HOPPER_NAME              :Modern Bulk Hopper
+STR_HEAVY_HAUL_BULK_WAGON_NAME           :Heavy-Haul Bulk Wagon
+STR_VOLTERRA_VE_BULKSTREAM_NAME          :Volterra VE-BulkStream
+STR_TITAN_T_BULKPOD_NAME                 :Titan T-BulkPod

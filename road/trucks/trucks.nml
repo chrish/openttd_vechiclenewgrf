@@ -1,0 +1,3390 @@
+/**
+ * trucks.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #512  Daimler Motor-Lastwagen (1896)                              */
+/*  Flat-bed (first production truck)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daimler_motor_lastwagen, 1511) {
+    property {
+        name:                           string(STR_DAIMLER_MOTOR_LASTWAGEN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1896, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            12;
+        speed:                          12 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #513  Winton Motor Delivery (1897)                                */
+/*  Delivery van (early American motor truck)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_winton_motor_delivery, 1512) {
+    property {
+        name:                           string(STR_WINTON_MOTOR_DELIVERY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1897, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            13;
+        speed:                          13 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #514  Peugeot Type 17 Truck (1898)                                */
+/*  Flat-bed (French early motor truck)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_peugeot_type_17_truck, 1513) {
+    property {
+        name:                           string(STR_PEUGEOT_TYPE_17_TRUCK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1898, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            13;
+        speed:                          15 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #515  Büssing Type I (1900)                                       */
+/*  Flat-bed (early German freight)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bssing_type_i, 1514) {
+    property {
+        name:                           string(STR_BSSING_TYPE_I_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1900, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            13;
+        speed:                          16 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #516  Mack Brothers Type 1 (1901)                                 */
+/*  Chain-drive (early American heavy)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mack_brothers_type_1, 1515) {
+    property {
+        name:                           string(STR_MACK_BROTHERS_TYPE_1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1901, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            13;
+        speed:                          14 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #517  Saurer 5CV (1903)                                           */
+/*  Flat-bed (Swiss, early diesel pioneer)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_saurer_5cv, 1516) {
+    property {
+        name:                           string(STR_SAURER_5CV_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1903, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            13;
+        speed:                          15 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #518  Leyland Q-type Van (1905)                                   */
+/*  Box van (early British commercial)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_q_type_van, 1517) {
+    property {
+        name:                           string(STR_LEYLAND_Q_TYPE_VAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1905, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            13;
+        speed:                          16 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #519  Fiat 18 BL (1908)                                           */
+/*  Flat-bed (Italian military/civil truck, WW1 fame)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_fiat_18_bl, 1518) {
+    property {
+        name:                           string(STR_FIAT_18_BL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1908, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            14;
+        speed:                          20 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #520  White Model GA (1910)                                       */
+/*  Flat-bed (American steam/petrol truck)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_white_model_ga, 1519) {
+    property {
+        name:                           string(STR_WHITE_MODEL_GA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1910, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            14;
+        speed:                          20 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #521  Benz 3-Tonner (1912)                                        */
+/*  Flat-bed (German standard freight)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_benz_3_tonner, 1520) {
+    property {
+        name:                           string(STR_BENZ_3_TONNER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1912, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            14;
+        speed:                          18 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #522  AEC Y-type (1914)                                           */
+/*  Flat-bed (British WW1 standard military lorry)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_y_type, 1521) {
+    property {
+        name:                           string(STR_AEC_Y_TYPE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1914, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            15;
+        speed:                          25 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #523  Liberty Truck Model B (1916)                                */
+/*  Flat-bed (standardised WW1 US military truck)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_liberty_truck_model_b, 1522) {
+    property {
+        name:                           string(STR_LIBERTY_TRUCK_MODEL_B_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1916, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            15;
+        speed:                          24 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #524  Mack AC "Bulldog" (1917)                                    */
+/*  Chain-drive (iconic WW1 heavy truck)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mack_ac_bulldog, 1523) {
+    property {
+        name:                           string(STR_MACK_AC_BULLDOG_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1917, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            15;
+        speed:                          24 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #525  Renault EG (1918)                                           */
+/*  Flat-bed (French military/post-war freight)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_renault_eg, 1524) {
+    property {
+        name:                           string(STR_RENAULT_EG_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1918, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            15;
+        speed:                          22 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #526  Leyland SQ2 (1920)                                          */
+/*  Flat-bed (post-WW1 British lorry)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_sq2, 1525) {
+    property {
+        name:                           string(STR_LEYLAND_SQ2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            16;
+        speed:                          30 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #527  MAN 3Zt (1921)                                              */
+/*  Flat-bed (early German diesel experiment)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_3zt, 1526) {
+    property {
+        name:                           string(STR_MAN_3ZT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1921, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            16;
+        speed:                          28 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #528  Ford Model TT (1923)                                        */
+/*  Flat-bed (massive global truck, very popular)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_model_tt, 1527) {
+    property {
+        name:                           string(STR_FORD_MODEL_TT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1923, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            18;
+        speed:                          40 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #529  Mercedes-Benz L5 (1924)                                     */
+/*  Flat-bed (German workhorse)                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_l5, 1528) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_L5_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1924, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            18;
+        speed:                          35 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #530  Chevrolet Capitol 1-ton (1925)                              */
+/*  Flat-bed/stake (American light truck)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_chevrolet_capitol_1_ton, 1529) {
+    property {
+        name:                           string(STR_CHEVROLET_CAPITOL_1_TON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1925, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            19;
+        speed:                          45 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #531  Berliet GDKL (1926)                                         */
+/*  Flat-bed (French heavy freight)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_berliet_gdkl, 1530) {
+    property {
+        name:                           string(STR_BERLIET_GDKL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1926, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            17;
+        speed:                          35 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #532  Büssing-NAG 500 (1927)                                      */
+/*  Flat-bed (German long-haul)                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bssing_nag_500, 1531) {
+    property {
+        name:                           string(STR_BSSING_NAG_500_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1927, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            18;
+        speed:                          40 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #533  Ford Model AA (1928)                                        */
+/*  Flat-bed/stake (successor to TT, global)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_model_aa, 1532) {
+    property {
+        name:                           string(STR_FORD_MODEL_AA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1928, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            20;
+        speed:                          50 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #534  Mack BJ (1929)                                              */
+/*  Flat-bed (American heavy-duty)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mack_bj, 1533) {
+    property {
+        name:                           string(STR_MACK_BJ_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1929, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            19;
+        speed:                          42 km/h;
+        cargo_capacity:                 7;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #535  Fiat 621 (1930)                                             */
+/*  Flat-bed (Italian standard truck)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_fiat_621, 1534) {
+    property {
+        name:                           string(STR_FIAT_621_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            19;
+        speed:                          45 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #536  Mercedes-Benz Lo 2000 (1931)                                */
+/*  Flat-bed (German forward-control, diesel)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_lo_2000, 1535) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_LO_2000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1931, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            21;
+        speed:                          55 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #537  AEC Mammoth Major (1932)                                    */
+/*  Rigid multi-axle (British heavy haulage)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_mammoth_major, 1536) {
+    property {
+        name:                           string(STR_AEC_MAMMOTH_MAJOR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1932, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            19;
+        speed:                          40 km/h;
+        cargo_capacity:                 8;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #538  International Harvester C-Series (1933)                     */
+/*  Flat-bed (American medium truck)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_international_harvester_c_series, 1537) {
+    property {
+        name:                           string(STR_INTERNATIONAL_HARVESTER_C_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1933, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            21;
+        speed:                          55 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #539  Dodge KC Series (1934)                                      */
+/*  Flat-bed (American light/medium truck)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_dodge_kc_series, 1538) {
+    property {
+        name:                           string(STR_DODGE_KC_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1934, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            21;
+        speed:                          55 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #540  Scammell Mechanical Horse (1934)                            */
+/*  Articulated tractor (British urban delivery)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scammell_mechanical_horse, 1539) {
+    property {
+        name:                           string(STR_SCAMMELL_MECHANICAL_HORSE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1934, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            17;
+        speed:                          32 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #541  Bedford WS/WT (1935)                                        */
+/*  Flat-bed (British workhorse, global)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bedford_ws_wt, 1540) {
+    property {
+        name:                           string(STR_BEDFORD_WS_WT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            21;
+        speed:                          55 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #542  Citroën Type 23 (1936)                                      */
+/*  Box van / flat-bed (French light truck)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_citron_type_23, 1541) {
+    property {
+        name:                           string(STR_CITRON_TYPE_23_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1936, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            22;
+        speed:                          60 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #543  GMC ACKWX 354 (1937)                                        */
+/*  Flat-bed (American heavy freight)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_gmc_ackwx_354, 1542) {
+    property {
+        name:                           string(STR_GMC_ACKWX_354_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1937, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            22;
+        speed:                          55 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #544  Scania-Vabis L1 (1938)                                      */
+/*  Flat-bed (Swedish heavy)                                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_vabis_l1, 1543) {
+    property {
+        name:                           string(STR_SCANIA_VABIS_L1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1938, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            20;
+        speed:                          50 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #545  Opel Blitz 3t (1939)                                        */
+/*  Flat-bed (German WW2 standard truck)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_opel_blitz_3t, 1544) {
+    property {
+        name:                           string(STR_OPEL_BLITZ_3T_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1939, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            22;
+        speed:                          60 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #546  Studebaker US6 (1940)                                       */
+/*  6x6 military (American WW2 Lend-Lease standard)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_studebaker_us6, 1545) {
+    property {
+        name:                           string(STR_STUDEBAKER_US6_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1940, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            22;
+        speed:                          60 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #547  GMC CCKW 353 (1941)                                         */
+/*  6x6 military (American "Deuce-and-a-half")                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_gmc_cckw_353, 1546) {
+    property {
+        name:                           string(STR_GMC_CCKW_353_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1941, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            21;
+        speed:                          56 km/h;
+        cargo_capacity:                 2;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #548  Bedford OY (1942)                                           */
+/*  Flat-bed (British WW2 military)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bedford_oy, 1547) {
+    property {
+        name:                           string(STR_BEDFORD_OY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1942, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            21;
+        speed:                          52 km/h;
+        cargo_capacity:                 3;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #549  Chevrolet G506 (1943)                                       */
+/*  4x4 military (American WW2 light truck)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_chevrolet_g506, 1548) {
+    property {
+        name:                           string(STR_CHEVROLET_G506_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1943, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            22;
+        speed:                          60 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #550  Mack LMSW (1944)                                            */
+/*  Heavy duty (American WW2 heavy haulage)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mack_lmsw, 1549) {
+    property {
+        name:                           string(STR_MACK_LMSW_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1944, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            21;
+        speed:                          50 km/h;
+        cargo_capacity:                 10;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #551  Ford F-Series (F-1) (1946)                                  */
+/*  Pickup / light truck (iconic American truck, first generation)     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_f_series, 1550) {
+    property {
+        name:                           string(STR_FORD_F_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1946, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            26;
+        speed:                          80 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #552  Leyland Beaver (1946)                                       */
+/*  Rigid (British post-war heavy lorry)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_leyland_beaver, 1551) {
+    property {
+        name:                           string(STR_LEYLAND_BEAVER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1946, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            21;
+        speed:                          50 km/h;
+        cargo_capacity:                 12;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #553  Kenworth 524 (1947)                                         */
+/*  Tractor-trailer (American Class 8 trucking)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_kenworth_524, 1552) {
+    property {
+        name:                           string(STR_KENWORTH_524_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1947, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            24;
+        speed:                          65 km/h;
+        cargo_capacity:                 15;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #554  Volkswagen Transporter T1 (1947)                            */
+/*  Van / flat-bed (iconic "Splitty" VW van)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volkswagen_transporter_t1, 1553) {
+    property {
+        name:                           string(STR_VOLKSWAGEN_TRANSPORTER_T1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1947, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            26;
+        speed:                          80 km/h;
+        cargo_capacity:                 1;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #555  Foden FG (1948)                                             */
+/*  Rigid / chain-drive (British heavy, steam-to-diesel transition)    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_foden_fg, 1554) {
+    property {
+        name:                           string(STR_FODEN_FG_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1948, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            20;
+        speed:                          45 km/h;
+        cargo_capacity:                 8;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #556  Peterbilt 350 (1948)                                        */
+/*  Tractor-trailer (American Class 8)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_peterbilt_350, 1555) {
+    property {
+        name:                           string(STR_PETERBILT_350_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1948, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    5;
+        running_cost_factor:            26;
+        speed:                          70 km/h;
+        cargo_capacity:                 15;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #557  Volvo L395 Titan (1949)                                     */
+/*  Rigid (Swedish heavy truck)                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_l395_titan, 1556) {
+    property {
+        name:                           string(STR_VOLVO_L395_TITAN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1949, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    4;
+        running_cost_factor:            22;
+        speed:                          55 km/h;
+        cargo_capacity:                 10;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #558  Mercedes-Benz L 6600 (1950)                                 */
+/*  Rigid (German post-war heavy)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_l_6600, 1557) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_L_6600_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            24;
+        speed:                          65 km/h;
+        cargo_capacity:                 6;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #559  Scania-Vabis L71 (1951)                                     */
+/*  Rigid (Swedish medium/heavy)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_vabis_l71, 1558) {
+    property {
+        name:                           string(STR_SCANIA_VABIS_L71_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1951, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            23;
+        speed:                          60 km/h;
+        cargo_capacity:                 7;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #560  DAF A1600 (1952)                                            */
+/*  Rigid (Dutch medium truck)                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daf_a1600, 1559) {
+    property {
+        name:                           string(STR_DAF_A1600_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1952, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    4;
+        running_cost_factor:            22;
+        speed:                          60 km/h;
+        cargo_capacity:                 5;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #561  Fiat 682 (1953)                                             */
+/*  Rigid (Italian heavy truck, post-war standard)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_fiat_682, 1560) {
+    property {
+        name:                           string(STR_FIAT_682_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1953, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            24;
+        speed:                          65 km/h;
+        cargo_capacity:                 8;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #562  International Harvester R-Series (1954)                     */
+/*  Rigid / tractor (American medium/heavy)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_international_harvester_r_series, 1561) {
+    property {
+        name:                           string(STR_INTERNATIONAL_HARVESTER_R_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1954, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            25;
+        speed:                          70 km/h;
+        cargo_capacity:                 10;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #563  ERF KV (1955)                                               */
+/*  Rigid (British heavy haulage)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_erf_kv, 1562) {
+    property {
+        name:                           string(STR_ERF_KV_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            22;
+        speed:                          55 km/h;
+        cargo_capacity:                 12;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #564  Mack B-Series (1956)                                        */
+/*  Tractor (iconic American long-nose, B61 "Thermodyne")              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mack_b_series, 1563) {
+    property {
+        name:                           string(STR_MACK_B_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1956, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            26;
+        speed:                          72 km/h;
+        cargo_capacity:                 15;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #565  Berliet TBO (1957)                                          */
+/*  Rigid (French heavy freight)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_berliet_tbo, 1564) {
+    property {
+        name:                           string(STR_BERLIET_TBO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1957, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            24;
+        speed:                          65 km/h;
+        cargo_capacity:                 10;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #566  Bedford TK (1958)                                           */
+/*  Rigid (British workhorse, global export)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_bedford_tk, 1565) {
+    property {
+        name:                           string(STR_BEDFORD_TK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1958, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            25;
+        speed:                          70 km/h;
+        cargo_capacity:                 7;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #567  MAN 10.212 (1959)                                           */
+/*  Rigid (German heavy)                                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_10_212, 1566) {
+    property {
+        name:                           string(STR_MAN_10_212_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1959, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            25;
+        speed:                          70 km/h;
+        cargo_capacity:                 10;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #568  Mercedes-Benz LP 333 (1960)                                 */
+/*  Rigid (forward-control 3-axle, German autobahn standard)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_lp_333, 1567) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_LP_333_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            26;
+        speed:                          72 km/h;
+        cargo_capacity:                 16;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #569  Volvo F86 (1961)                                            */
+/*  Rigid / tractor (Swedish forward-control cab-over)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_f86, 1568) {
+    property {
+        name:                           string(STR_VOLVO_F86_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1961, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            27;
+        speed:                          80 km/h;
+        cargo_capacity:                 12;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #570  Ford D-Series (1962)                                        */
+/*  Rigid / tractor (British/European forward-control)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_d_series, 1569) {
+    property {
+        name:                           string(STR_FORD_D_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1962, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            26;
+        speed:                          75 km/h;
+        cargo_capacity:                 10;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #571  Scania LB76 (1963)                                          */
+/*  Tractor (Swedish long-haul, V8 later)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_lb76, 1570) {
+    property {
+        name:                           string(STR_SCANIA_LB76_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1963, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    7;
+        running_cost_factor:            27;
+        speed:                          80 km/h;
+        cargo_capacity:                 14;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #572  DAF 2600 (1964)                                             */
+/*  Tractor (first Dutch tilt-cab)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daf_2600, 1571) {
+    property {
+        name:                           string(STR_DAF_2600_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1964, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            27;
+        speed:                          80 km/h;
+        cargo_capacity:                 12;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #573  AEC Mandator TG4 (1965)                                     */
+/*  Tractor (British heavy haulage, artic)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aec_mandator_tg4, 1572) {
+    property {
+        name:                           string(STR_AEC_MANDATOR_TG4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    7;
+        running_cost_factor:            26;
+        speed:                          70 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #574  Fiat 619 (1966)                                             */
+/*  Rigid / tractor (Italian heavy)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_fiat_619, 1573) {
+    property {
+        name:                           string(STR_FIAT_619_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1966, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    6;
+        running_cost_factor:            26;
+        speed:                          75 km/h;
+        cargo_capacity:                 10;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #575  Mercedes-Benz LP 1620 (1967)                                */
+/*  Rigid (German medium/heavy forward-control)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_lp_1620, 1574) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_LP_1620_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1967, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    7;
+        running_cost_factor:            27;
+        speed:                          78 km/h;
+        cargo_capacity:                 16;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #576  Kenworth W900 (1968)                                        */
+/*  Tractor (iconic American long-nose, still produced)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_kenworth_w900, 1575) {
+    property {
+        name:                           string(STR_KENWORTH_W900_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1968, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    9;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 25;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #577  Volvo F88 (1969)                                            */
+/*  Tractor (Swedish cab-over, European long-haul standard)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_f88, 1576) {
+    property {
+        name:                           string(STR_VOLVO_F88_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1969, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    7;
+        running_cost_factor:            29;
+        speed:                          85 km/h;
+        cargo_capacity:                 16;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #578  Peterbilt 359 (1969)                                        */
+/*  Tractor (American long-nose classic)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_peterbilt_359, 1577) {
+    property {
+        name:                           string(STR_PETERBILT_359_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1969, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    9;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 25;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #579  Scania LB140 "V8" (1970)                                    */
+/*  Tractor (first Scania V8, king of Scandinavia)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_lb140_v8, 1578) {
+    property {
+        name:                           string(STR_SCANIA_LB140_V8_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1970, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    9;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 18;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #580  Berliet TR300 (1971)                                        */
+/*  Tractor (French long-haul)                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_berliet_tr300, 1579) {
+    property {
+        name:                           string(STR_BERLIET_TR300_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1971, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    9;
+        running_cost_factor:            29;
+        speed:                          85 km/h;
+        cargo_capacity:                 19;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #581  DAF 2800 (1972)                                             */
+/*  Tractor (Dutch long-haul)                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daf_2800, 1580) {
+    property {
+        name:                           string(STR_DAF_2800_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1972, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    9;
+        running_cost_factor:            29;
+        speed:                          85 km/h;
+        cargo_capacity:                 18;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #582  Mercedes-Benz NG (New Generation) (1973)                    */
+/*  Tractor / rigid (German cab-over standard)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_ng, 1581) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_NG_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1973, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    9;
+        running_cost_factor:            29;
+        speed:                          85 km/h;
+        cargo_capacity:                 18;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #583  Ford Transcontinental (1974)                                */
+/*  Tractor (British/European long-haul)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_ford_transcontinental, 1582) {
+    property {
+        name:                           string(STR_FORD_TRANSCONTINENTAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1974, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #584  Mack R-Series (1975)                                        */
+/*  Tractor (American conventional, R600/R700)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mack_r_series, 1583) {
+    property {
+        name:                           string(STR_MACK_R_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          85 km/h;
+        cargo_capacity:                 25;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #585  Iveco 170 (1976)                                            */
+/*  Tractor (Italian, first Iveco-branded)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_iveco_170, 1584) {
+    property {
+        name:                           string(STR_IVECO_170_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1976, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    8;
+        running_cost_factor:            28;
+        speed:                          80 km/h;
+        cargo_capacity:                 16;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #586  MAN 19.321 (1977)                                           */
+/*  Tractor (German long-haul)                                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_19_321, 1585) {
+    property {
+        name:                           string(STR_MAN_19_321_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1977, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    9;
+        running_cost_factor:            29;
+        speed:                          85 km/h;
+        cargo_capacity:                 19;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #587  Freightliner FLC (1978)                                     */
+/*  Tractor (American cab-over long-haul)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_freightliner_flc, 1586) {
+    property {
+        name:                           string(STR_FREIGHTLINER_FLC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1978, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 25;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #588  ERF B-Series (1979)                                         */
+/*  Tractor (British heavy haulage)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_erf_b_series, 1587) {
+    property {
+        name:                           string(STR_ERF_B_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1979, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    9;
+        running_cost_factor:            29;
+        speed:                          85 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #589  Volvo F10/F12 (1980)                                        */
+/*  Tractor (European long-haul standard)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_f10_f12, 1588) {
+    property {
+        name:                           string(STR_VOLVO_F10_F12_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1980, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #590  Scania 2-series (142) (1981)                                */
+/*  Tractor (Scandinavian long-haul, V8 flagship)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_2_series, 1589) {
+    property {
+        name:                           string(STR_SCANIA_2_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1981, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #591  Mercedes-Benz SK (Schwere Klasse) (1982)                    */
+/*  Tractor / rigid (German heavy-duty)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_sk, 1590) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_SK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1982, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #592  DAF 3300/3600 (1983)                                        */
+/*  Tractor (Dutch long-haul, Space Cab option)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daf_3300_3600, 1591) {
+    property {
+        name:                           string(STR_DAF_3300_3600_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1983, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #593  MAN F90 (1984)                                              */
+/*  Tractor (German, International Truck of the Year 1987)             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_f90, 1592) {
+    property {
+        name:                           string(STR_MAN_F90_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1984, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #594  Iveco TurboStar (1985)                                      */
+/*  Tractor (Italian long-haul)                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_iveco_turbostar, 1593) {
+    property {
+        name:                           string(STR_IVECO_TURBOSTAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #595  Freightliner FLD 120 (1986)                                 */
+/*  Tractor (American conventional long-haul)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_freightliner_fld_120, 1594) {
+    property {
+        name:                           string(STR_FREIGHTLINER_FLD_120_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1986, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    12;
+        running_cost_factor:            34;
+        speed:                          105 km/h;
+        cargo_capacity:                 25;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #596  Kenworth T600 (later T660) (1987)                           */
+/*  Tractor (American aerodynamic conventional)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_kenworth_t600, 1595) {
+    property {
+        name:                           string(STR_KENWORTH_T600_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1987, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    12;
+        running_cost_factor:            34;
+        speed:                          105 km/h;
+        cargo_capacity:                 25;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #597  Scania 3-series (143) (1988)                                */
+/*  Tractor (Scandinavian flagship, Streamline)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_3_series, 1596) {
+    property {
+        name:                           string(STR_SCANIA_3_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1988, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 22;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #598  Renault Magnum (1989)                                       */
+/*  Tractor (flat-floor cab, International Truck of the Year 1991)     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_renault_magnum, 1597) {
+    property {
+        name:                           string(STR_RENAULT_MAGNUM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1989, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #599  Volvo FH12 (1990)                                           */
+/*  Tractor (European long-haul, Globetrotter cab)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_fh12, 1598) {
+    property {
+        name:                           string(STR_VOLVO_FH12_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1990, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 22;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #600  Mercedes-Benz Actros (MP1) (1991)                           */
+/*  Tractor (German flagship, International TotY 1997)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_actros, 1599) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_ACTROS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1991, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 22;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #601  DAF 95XF (1992)                                             */
+/*  Tractor (Dutch flagship, International TotY 1998)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daf_95xf, 1600) {
+    property {
+        name:                           string(STR_DAF_95XF_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1992, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 22;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #602  Peterbilt 379 (1993)                                        */
+/*  Tractor (American iconic long-nose)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_peterbilt_379, 1601) {
+    property {
+        name:                           string(STR_PETERBILT_379_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1993, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    12;
+        running_cost_factor:            34;
+        speed:                          105 km/h;
+        cargo_capacity:                 25;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #603  MAN F2000 (1994)                                            */
+/*  Tractor (German heavy-duty)                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_f2000, 1602) {
+    property {
+        name:                           string(STR_MAN_F2000_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1994, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 22;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #604  Scania 4-series (124/144) (1995)                            */
+/*  Tractor (Topline/Streamline cab)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_4_series, 1603) {
+    property {
+        name:                           string(STR_SCANIA_4_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1995, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 22;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #605  Iveco EuroStar / EuroTech (1996)                            */
+/*  Tractor (Italian long-haul)                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_iveco_eurostar_eurotech, 1604) {
+    property {
+        name:                           string(STR_IVECO_EUROSTAR_EUROTECH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1996, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 22;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #606  Volvo FH16 (1997)                                           */
+/*  Tractor (most powerful European truck, 610 hp)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_fh16, 1605) {
+    property {
+        name:                           string(STR_VOLVO_FH16_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1997, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #607  International 9400i Eagle (1998)                            */
+/*  Tractor (American aerodynamic long-haul)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_international_9400i_eagle, 1606) {
+    property {
+        name:                           string(STR_INTERNATIONAL_9400I_EAGLE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1998, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    12;
+        running_cost_factor:            34;
+        speed:                          105 km/h;
+        cargo_capacity:                 25;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #608  Mercedes-Benz Actros MP2 (1999)                             */
+/*  Tractor (updated MegaSpace cab)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_actros_mp2, 1607) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_ACTROS_MP2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1999, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #609  DAF XF95 (2000)                                             */
+/*  Tractor (Dutch flagship, Space Cab)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daf_xf95, 1608) {
+    property {
+        name:                           string(STR_DAF_XF95_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #610  MAN TGA (2001)                                              */
+/*  Tractor (German, International TotY 2001)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_tga, 1609) {
+    property {
+        name:                           string(STR_MAN_TGA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2001, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #611  Scania R-series (2002)                                      */
+/*  Tractor (Swedish flagship, Topline)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_r_series, 1610) {
+    property {
+        name:                           string(STR_SCANIA_R_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2002, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #612  Volvo FH (2nd gen) (2003)                                   */
+/*  Tractor (Globetrotter XL cab)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_fh, 1611) {
+    property {
+        name:                           string(STR_VOLVO_FH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2003, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #613  Mercedes-Benz Actros MP3 (2004)                             */
+/*  Tractor (Euro 4/5 compliant)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_actros_mp3, 1612) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_ACTROS_MP3_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2004, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #614  Iveco Stralis (2005)                                        */
+/*  Tractor (Italian long-haul)                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_iveco_stralis, 1613) {
+    property {
+        name:                           string(STR_IVECO_STRALIS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2005, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #615  Kenworth T680 (prototype) (2006)                            */
+/*  Tractor (American next-gen aero)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_kenworth_t680, 1614) {
+    property {
+        name:                           string(STR_KENWORTH_T680_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2006, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    16;
+        running_cost_factor:            34;
+        speed:                          105 km/h;
+        cargo_capacity:                 25;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #616  DAF XF105 (2007)                                            */
+/*  Tractor (International TotY 2007)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daf_xf105, 1615) {
+    property {
+        name:                           string(STR_DAF_XF105_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2007, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #617  Scania R-series (facelift) (2008)                           */
+/*  Tractor (V8 730 hp flagship)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_r_series, 1616) {
+    property {
+        name:                           string(STR_SCANIA_R_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2008, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #618  MAN TGX (2009)                                              */
+/*  Tractor (German flagship, D38 engine)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_tgx, 1617) {
+    property {
+        name:                           string(STR_MAN_TGX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2009, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #619  Renault Magnum (final) / T-series preview (2010)            */
+/*  Tractor (last Magnum, T-series coming)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_renault_magnum_t_series_preview, 1618) {
+    property {
+        name:                           string(STR_RENAULT_MAGNUM_T_SERIES_PREVIEW_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2010, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #620  Mercedes-Benz Actros MP4 (2011)                             */
+/*  Tractor (International TotY 2012, Euro 6)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_actros_mp4, 1619) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_ACTROS_MP4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2011, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #621  Volvo FH (3rd gen) (2012)                                   */
+/*  Tractor (International TotY 2014, I-Shift dual clutch)             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_fh, 1620) {
+    property {
+        name:                           string(STR_VOLVO_FH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2012, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #622  Renault T (2013)                                            */
+/*  Tractor (International TotY 2015)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_renault_t, 1621) {
+    property {
+        name:                           string(STR_RENAULT_T_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2013, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #623  DAF XF / CF (Euro 6) (2014)                                 */
+/*  Tractor (International TotY 2018 for CF/XF)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daf_xf_cf, 1622) {
+    property {
+        name:                           string(STR_DAF_XF_CF_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2014, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #624  Scania S-series (next-gen) (2015)                           */
+/*  Tractor (flat-floor cab, International TotY 2017)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_s_series, 1623) {
+    property {
+        name:                           string(STR_SCANIA_S_SERIES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #625  MAN TGX (Euro 6c) (2016)                                    */
+/*  Tractor (improved efficiency)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_tgx, 1624) {
+    property {
+        name:                           string(STR_MAN_TGX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2016, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #626  Tesla Semi (announced) (2017)                               */
+/*  Tractor (battery-electric long-haul, planned)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_tesla_semi, 1625) {
+    property {
+        name:                           string(STR_TESLA_SEMI_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2017, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    17;
+        running_cost_factor:            34;
+        speed:                          100 km/h;
+        cargo_capacity:                 36;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #627  Iveco S-Way (2018)                                          */
+/*  Tractor (Italian next-gen, natural gas option)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_iveco_s_way, 1626) {
+    property {
+        name:                           string(STR_IVECO_S_WAY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2018, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 26;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #628  DAF XF/XG/XG+ (New Generation) (2019)                       */
+/*  Tractor (International TotY 2022)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_daf_xf_xg_xg, 1627) {
+    property {
+        name:                           string(STR_DAF_XF_XG_XG_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2019, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    15;
+        running_cost_factor:            31;
+        speed:                          90 km/h;
+        cargo_capacity:                 28;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #629  Volvo FH Electric (2020)                                    */
+/*  Tractor (battery-electric European long-haul)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volvo_fh_electric, 1628) {
+    property {
+        name:                           string(STR_VOLVO_FH_ELECTRIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #630  Mercedes-Benz eActros (2021)                                */
+/*  Rigid / tractor (battery-electric distribution)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_mercedes_benz_eactros, 1629) {
+    property {
+        name:                           string(STR_MERCEDES_BENZ_EACTROS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2021, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    13;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 22;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #631  Scania BEV (battery-electric) (2022)                        */
+/*  Tractor (battery-electric Swedish long-haul)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_scania_bev, 1630) {
+    property {
+        name:                           string(STR_SCANIA_BEV_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2022, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #632  Tesla Semi (production) (2022)                              */
+/*  Tractor (battery-electric, first deliveries 2022)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_tesla_semi, 1631) {
+    property {
+        name:                           string(STR_TESLA_SEMI_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2022, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    17;
+        running_cost_factor:            34;
+        speed:                          100 km/h;
+        cargo_capacity:                 36;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #633  MAN eTGX / eTGS (2023)                                      */
+/*  Tractor (battery-electric German)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_man_etgx_etgs, 1632) {
+    property {
+        name:                           string(STR_MAN_ETGX_ETGS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2023, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #634  Iveco eWay Heavy (2024)                                     */
+/*  Tractor (battery-electric Italian)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_iveco_eway_heavy, 1633) {
+    property {
+        name:                           string(STR_IVECO_EWAY_HEAVY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2024, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 24;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #635  Nikola Tre BEV / FCEV (2025)                                */
+/*  Tractor (battery-electric / hydrogen fuel cell)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_nikola_tre_bev_fcev, 1634) {
+    property {
+        name:                           string(STR_NIKOLA_TRE_BEV_FCEV_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    15;
+        running_cost_factor:            32;
+        speed:                          95 km/h;
+        cargo_capacity:                 27;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #636  Hyundai XCIENT Fuel Cell (2025)                             */
+/*  Tractor (hydrogen fuel cell, Swiss fleet)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_hyundai_xcient_fuel_cell, 1635) {
+    property {
+        name:                           string(STR_HYUNDAI_XCIENT_FUEL_CELL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2025, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    14;
+        running_cost_factor:            30;
+        speed:                          90 km/h;
+        cargo_capacity:                 25;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #750  Titan T-40 HaulMaster (2030)                                */
+/*  Tractor (solid-state battery, 800 km range)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_titan_t_40_haulmaster, 1749) {
+    property {
+        name:                           string(STR_TITAN_T_40_HAULMASTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    22;
+        running_cost_factor:            34;
+        speed:                          100 km/h;
+        cargo_capacity:                 40;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #751  Apex A-30 DistroMax (2031)                                  */
+/*  Rigid electric (urban distribution, autonomous)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_apex_a_30_distromax, 1750) {
+    property {
+        name:                           string(STR_APEX_A_30_DISTROMAX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2031, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    19;
+        running_cost_factor:            32;
+        speed:                          95 km/h;
+        cargo_capacity:                 30;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #752  Colossus C-60 FreightKing (2032)                            */
+/*  Tractor (hydrogen fuel cell, long-haul continental)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_colossus_c_60_freightking, 1751) {
+    property {
+        name:                           string(STR_COLOSSUS_C_60_FREIGHTKING_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2032, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    26;
+        running_cost_factor:            34;
+        speed:                          90 km/h;
+        cargo_capacity:                 60;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #753  Pinnacle PN-20 LastMile (2033)                              */
+/*  Rigid autonomous (Level 5, urban delivery)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_pinnacle_pn_20_lastmile, 1752) {
+    property {
+        name:                           string(STR_PINNACLE_PN_20_LASTMILE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2033, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    15;
+        running_cost_factor:            28;
+        speed:                          80 km/h;
+        cargo_capacity:                 20;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #754  Volterra V-50 PowerHaul (2034)                              */
+/*  Tractor (overhead catenary + battery hybrid)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_volterra_v_50_powerhaul, 1753) {
+    property {
+        name:                           string(STR_VOLTERRA_V_50_POWERHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2034, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    25;
+        running_cost_factor:            35;
+        speed:                          100 km/h;
+        cargo_capacity:                 50;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #755  Titan T-80 MegaRig (2035)                                   */
+/*  Road-train tractor (2-trailer autonomous platoon)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_titan_t_80_megarig, 1754) {
+    property {
+        name:                           string(STR_TITAN_T_80_MEGARIG_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2035, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    32;
+        running_cost_factor:            37;
+        speed:                          95 km/h;
+        cargo_capacity:                 80;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #756  Meridian M-35 ColdChain (2036)                              */
+/*  Rigid refrigerated (integrated solar + battery)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_meridian_m_35_coldchain, 1755) {
+    property {
+        name:                           string(STR_MERIDIAN_M_35_COLDCHAIN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2036, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    20;
+        running_cost_factor:            32;
+        speed:                          90 km/h;
+        cargo_capacity:                 35;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #757  Apex A-100 ConvoyMaster (2037)                              */
+/*  Road-train tractor (3-trailer autonomous platoon)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_apex_a_100_convoymaster, 1756) {
+    property {
+        name:                           string(STR_APEX_A_100_CONVOYMASTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2037, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    36;
+        running_cost_factor:            38;
+        speed:                          90 km/h;
+        cargo_capacity:                 100;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #758  Stratos S-45 AeroFreight (2038)                             */
+/*  Tractor (extreme aerodynamics, 1,200 km range)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_stratos_s_45_aerofreight, 1757) {
+    property {
+        name:                           string(STR_STRATOS_S_45_AEROFREIGHT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2038, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    25;
+        running_cost_factor:            36;
+        speed:                          110 km/h;
+        cargo_capacity:                 45;
+        loading_speed:                  15;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #759  Colossus C-120 TerraHauler (2040)                           */
+/*  Road-train tractor (4-trailer platoon, mining/industry)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_colossus_c_120_terrahauler, 1758) {
+    property {
+        name:                           string(STR_COLOSSUS_C_120_TERRAHAULER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    41;
+        running_cost_factor:            39;
+        speed:                          85 km/h;
+        cargo_capacity:                 120;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #760  Halcyon H-50 SmartCargo (2042)                              */
+/*  Tractor (AI-managed load balancing, autonomous)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_halcyon_h_50_smartcargo, 1759) {
+    property {
+        name:                           string(STR_HALCYON_H_50_SMARTCARGO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2042, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    25;
+        running_cost_factor:            35;
+        speed:                          100 km/h;
+        cargo_capacity:                 50;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #761  Nexus NX-200 MegaFreight (2045)                             */
+/*  Modular road-train (8-module autonomous, dedicated lanes)          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_nexus_nx_200_megafreight, 1760) {
+    property {
+        name:                           string(STR_NEXUS_NX_200_MEGAFREIGHT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2045, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    60;
+        running_cost_factor:            46;
+        speed:                          80 km/h;
+        cargo_capacity:                 200;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #762  Aurora AU-70 HyperHaul (2048)                               */
+/*  Closed-guideway tractor (electromagnetic + battery)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_aurora_au_70_hyperhaul, 1761) {
+    property {
+        name:                           string(STR_AURORA_AU_70_HYPERHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2048, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    36;
+        running_cost_factor:            47;
+        speed:                          150 km/h;
+        cargo_capacity:                 70;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #763  Titan T-150 ContinentExpress (2050)                         */
+/*  Road-train tractor (5-trailer platoon, transcontinental)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_titan_t_150_continentexpress, 1762) {
+    property {
+        name:                           string(STR_TITAN_T_150_CONTINENTEXPRESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    50;
+        running_cost_factor:            45;
+        speed:                          100 km/h;
+        cargo_capacity:                 150;
+        loading_speed:                  19;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #764  Quantum QT-300 FreightWorm (2055)                           */
+/*  Modular road-train (12-module, dedicated freight corridor)         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_quantum_qt_300_freightworm, 1763) {
+    property {
+        name:                           string(STR_QUANTUM_QT_300_FREIGHTWORM_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2055, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    86;
+        running_cost_factor:            58;
+        speed:                          90 km/h;
+        cargo_capacity:                 300;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #765  Colossus C-500 TitanHaul (2060)                             */
+/*  Mega road-train (20-module, industrial corridor)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_ROADVEHS, item_colossus_c_500_titanhaul, 1764) {
+    property {
+        name:                           string(STR_COLOSSUS_C_500_TITANHAUL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    135;
+        running_cost_factor:            76;
+        speed:                          80 km/h;
+        cargo_capacity:                 500;
+        loading_speed:                  22;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PIECE_GOODS, CC_BULK, CC_COVERED, CC_LIQUID);
+        non_refittable_cargo_classes:   bitmask(CC_PASSENGERS);
+    }
+}

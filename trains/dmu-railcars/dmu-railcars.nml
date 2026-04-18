@@ -1,0 +1,843 @@
+/**
+ * dmu-railcars.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1372  Flying Hamburger (SVT 877) (1932)                          */
+/*  Articulated DMU (Berlin–Hamburg express)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_flying_hamburger, 2371) {
+    property {
+        name:                           string(STR_FLYING_HAMBURGER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1932, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    8;
+        running_cost_factor:            36;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          820 hp;
+        weight:                         73 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1373  Micheline (1933)                                           */
+/*  Rubber-tyred railcar (French experimental)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_micheline, 2372) {
+    property {
+        name:                           string(STR_MICHELINE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1933, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            17;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          85 hp;
+        weight:                         43 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1374  Budd RDC (Rail Diesel Car) (1934)                          */
+/*  DMU (stainless steel, widely used in North America)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_budd_rdc, 2373) {
+    property {
+        name:                           string(STR_BUDD_RDC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1934, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            29;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          550 hp;
+        weight:                         62 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1375  GWR AEC Railcar (1935)                                     */
+/*  Diesel railcar (British streamlined)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gwr_aec_railcar, 2374) {
+    property {
+        name:                           string(STR_GWR_AEC_RAILCAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            18;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          80 km/h;
+        power:                          121 hp;
+        weight:                         45 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1376  LNER "Tyneside" DMU experimental (1938)                    */
+/*  DMU (British early DMU experiment)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_lner_tyneside_dmu_experimental, 2375) {
+    property {
+        name:                           string(STR_LNER_TYNESIDE_DMU_EXPERIMENTAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1938, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            30;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          80 km/h;
+        power:                          600 hp;
+        weight:                         64 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1377  Fiat ALn 556 (1940)                                        */
+/*  Diesel railcar (Italian "Littorina")                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_fiat_aln_556, 2376) {
+    property {
+        name:                           string(STR_FIAT_ALN_556_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1940, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    3;
+        running_cost_factor:            22;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          110 km/h;
+        power:                          300 hp;
+        weight:                         52 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1378  VT 08 (DR/DB) (1950)                                       */
+/*  DMU (German post-war express, "Blue TEE")                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_vt_08, 2377) {
+    property {
+        name:                           string(STR_VT_08_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    14;
+        running_cost_factor:            42;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          1100 hp;
+        weight:                         84 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1379  BR Derby Lightweight (Class 108/114/etc.) (1955)           */
+/*  DMU (British first-generation, branch/suburban)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_derby_lightweight, 2378) {
+    property {
+        name:                           string(STR_BR_DERBY_LIGHTWEIGHT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    4;
+        running_cost_factor:            22;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          300 hp;
+        weight:                         52 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1380  BR Swindon Inter-City (Class 120/123) (1957)               */
+/*  DMU (British first-gen cross-country)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_swindon_inter_city, 2379) {
+    property {
+        name:                           string(STR_BR_SWINDON_INTER_CITY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1957, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    9;
+        running_cost_factor:            33;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          115 km/h;
+        power:                          720 hp;
+        weight:                         69 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1381  Trans-Europ-Express VT 11.5 (1960)                         */
+/*  DMU (German TEE luxury international)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_trans_europ_express_vt_11_5, 2380) {
+    property {
+        name:                           string(STR_TRANS_EUROP_EXPRESS_VT_11_5_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    28;
+        running_cost_factor:            70;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          2200 hp;
+        weight:                         128 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1382  SNCF X 4300 (Caravelle) (1962)                             */
+/*  DMU (French regional, nicknamed Caravelle)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sncf_x_4300, 2381) {
+    property {
+        name:                           string(STR_SNCF_X_4300_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1962, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    8;
+        running_cost_factor:            30;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          120 km/h;
+        power:                          600 hp;
+        weight:                         64 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1383  VT 624 (DB Class 624) (1965)                               */
+/*  DMU (German regional branch line)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_vt_624, 2382) {
+    property {
+        name:                           string(STR_VT_624_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1965, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    8;
+        running_cost_factor:            30;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          120 km/h;
+        power:                          600 hp;
+        weight:                         64 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1384  NS DM '65 Plan T (1968)                                    */
+/*  DMU (Dutch regional)                                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_ns_dm_65_plan_t, 2383) {
+    property {
+        name:                           string(STR_NS_DM_65_PLAN_T_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1968, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    8;
+        running_cost_factor:            30;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          120 km/h;
+        power:                          600 hp;
+        weight:                         64 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1385  BR HST Class 43 (InterCity 125) (1976)                     */
+/*  Diesel push-pull (British high-speed diesel, world's fastest die   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_hst_class_43, 2384) {
+    property {
+        name:                           string(STR_BR_HST_CLASS_43_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1976, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    68;
+        running_cost_factor:            128;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          200 km/h;
+        power:                          4500 hp;
+        weight:                         220 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1386  BR Class 141/142 Pacer (1981)                              */
+/*  Railbus DMU (British cheap build, Leyland bus body)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_141_142_pacer, 2385) {
+    property {
+        name:                           string(STR_BR_CLASS_141_142_PACER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1981, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    7;
+        running_cost_factor:            26;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          120 km/h;
+        power:                          460 hp;
+        weight:                         58 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1387  BR Class 150 Sprinter (1984)                               */
+/*  DMU (British second-generation regional)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_150_sprinter, 2386) {
+    property {
+        name:                           string(STR_BR_CLASS_150_SPRINTER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1984, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    9;
+        running_cost_factor:            29;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          120 km/h;
+        power:                          570 hp;
+        weight:                         63 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1388  DB Class 628 (1986)                                        */
+/*  DMU (German regional branch line)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_db_class_628, 2387) {
+    property {
+        name:                           string(STR_DB_CLASS_628_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1986, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    6;
+        running_cost_factor:            25;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          120 km/h;
+        power:                          410 hp;
+        weight:                         56 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1389  BR Class 158 Express (1989)                                */
+/*  DMU (British express regional)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_158_express, 2388) {
+    property {
+        name:                           string(STR_BR_CLASS_158_EXPRESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1989, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            32;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          145 km/h;
+        power:                          700 hp;
+        weight:                         68 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1390  BR Class 165/166 Networker Turbo (1992)                    */
+/*  DMU (British Thames Valley suburban)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_165_166_networker_turbo, 2389) {
+    property {
+        name:                           string(STR_BR_CLASS_165_166_NETWORKER_TURBO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1992, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    16;
+        running_cost_factor:            41;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          145 km/h;
+        power:                          1050 hp;
+        weight:                         82 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1391  BR Class 170 Turbostar (1995)                              */
+/*  DMU (British express regional, widespread)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_170_turbostar, 2390) {
+    property {
+        name:                           string(STR_BR_CLASS_170_TURBOSTAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1995, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    11;
+        running_cost_factor:            34;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          750 hp;
+        weight:                         70 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1392  Alstom Coradia LINT 27/41 (1997)                           */
+/*  DMU (European regional, very popular in Germany)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alstom_coradia_lint_27_41, 2391) {
+    property {
+        name:                           string(STR_ALSTOM_CORADIA_LINT_27_41_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1997, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    11;
+        running_cost_factor:            34;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          120 km/h;
+        power:                          760 hp;
+        weight:                         70 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1393  Bombardier Talent (1999)                                   */
+/*  DMU (European regional)                                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bombardier_talent, 2392) {
+    property {
+        name:                           string(STR_BOMBARDIER_TALENT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1999, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    10;
+        running_cost_factor:            32;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          670 hp;
+        weight:                         67 ton;
+        tractive_effort_coefficient:    0.30;
+        loading_speed:                  8;
+        cargo_age_period:               278;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1394  Siemens Desiro Classic (DB Class 642) (2000)               */
+/*  DMU (European regional standard)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_desiro_classic, 2393) {
+    property {
+        name:                           string(STR_SIEMENS_DESIRO_CLASSIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    13;
+        running_cost_factor:            31;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          120 km/h;
+        power:                          630 hp;
+        weight:                         65 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1395  BR Class 175 Coradia (2002)                                */
+/*  DMU (British Welsh Marches/North Wales express)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_175_coradia, 2394) {
+    property {
+        name:                           string(STR_BR_CLASS_175_CORADIA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2002, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    20;
+        running_cost_factor:            40;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          1000 hp;
+        weight:                         80 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1396  Stadler GTW 2/6 (2005)                                     */
+/*  Light DMU (Swiss modular railcar)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stadler_gtw_2_6, 2395) {
+    property {
+        name:                           string(STR_STADLER_GTW_2_6_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2005, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    10;
+        running_cost_factor:            28;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          120 km/h;
+        power:                          520 hp;
+        weight:                         61 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1397  BR Class 185 Desiro (TransPennine) (2007)                  */
+/*  DMU (British express, TransPennine)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_class_185_desiro, 2396) {
+    property {
+        name:                           string(STR_BR_CLASS_185_DESIRO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2007, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    21;
+        running_cost_factor:            41;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          1050 hp;
+        weight:                         82 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1398  Stadler FLIRT (diesel version) (2011)                      */
+/*  DMU (European regional express)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stadler_flirt, 2397) {
+    property {
+        name:                           string(STR_STADLER_FLIRT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2011, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    28;
+        running_cost_factor:            50;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          160 km/h;
+        power:                          1400 hp;
+        weight:                         96 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1399  Alstom Coradia LINT 54/81 (2014)                           */
+/*  DMU (German regional)                                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alstom_coradia_lint_54_81, 2398) {
+    property {
+        name:                           string(STR_ALSTOM_CORADIA_LINT_54_81_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2014, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    24;
+        running_cost_factor:            44;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          1180 hp;
+        weight:                         87 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1400  Stadler FLIRT Akku (battery-diesel) (2018)                 */
+/*  Battery-DMU (German battery-charging regional)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stadler_flirt_akku, 2399) {
+    property {
+        name:                           string(STR_STADLER_FLIRT_AKKU_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2018, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    28;
+        running_cost_factor:            50;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          1400 hp;
+        weight:                         96 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1401  Alstom Coradia iLint (hydrogen) (2020)                     */
+/*  Hydrogen DMU (first hydrogen passenger train, Germany)             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alstom_coradia_ilint, 2400) {
+    property {
+        name:                           string(STR_ALSTOM_CORADIA_ILINT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2020, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    11;
+        running_cost_factor:            28;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          536 hp;
+        weight:                         61 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1402  Siemens Mireo Plus B (battery) (2023)                      */
+/*  Battery-EMU (German battery-electric regional)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_siemens_mireo_plus_b, 2401) {
+    property {
+        name:                           string(STR_SIEMENS_MIREO_PLUS_B_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2023, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    24;
+        running_cost_factor:            45;
+        running_cost_base:              RUNNING_COST_DIESEL;
+        engine_class:                   ENGINE_CLASS_DIESEL;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          1200 hp;
+        weight:                         88 ton;
+        tractive_effort_coefficient:    0.35;
+        loading_speed:                  10;
+        cargo_age_period:               324;
+    }
+}

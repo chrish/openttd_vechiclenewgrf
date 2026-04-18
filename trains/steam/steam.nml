@@ -1,0 +1,1788 @@
+/**
+ * steam.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1140  Penydarren Locomotive (1804)                               */
+/*  0-4-0 (first steam railway locomotive)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_penydarren_locomotive, 2139) {
+    property {
+        name:                           string(STR_PENYDARREN_LOCOMOTIVE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1804, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            20;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          8 km/h;
+        power:                          10 hp;
+        weight:                         31 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1141  Salamanca (1812)                                           */
+/*  Rack locomotive (first commercially successful)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_salamanca, 2140) {
+    property {
+        name:                           string(STR_SALAMANCA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1812, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            20;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          6 km/h;
+        power:                          15 hp;
+        weight:                         31 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1142  Puffing Billy (1813)                                       */
+/*  0-4-0 (oldest surviving steam locomotive)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_puffing_billy, 2141) {
+    property {
+        name:                           string(STR_PUFFING_BILLY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1813, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            20;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          8 km/h;
+        power:                          15 hp;
+        weight:                         31 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1143  Locomotion No. 1 (1825)                                    */
+/*  0-4-0 (Stockton & Darlington, first public railway)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_locomotion_no_1, 2142) {
+    property {
+        name:                           string(STR_LOCOMOTION_NO_1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1825, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            21;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          13 km/h;
+        power:                          25 hp;
+        weight:                         32 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1144  Rocket (1829)                                              */
+/*  0-2-2 (Rainhill Trials winner, multitubular boiler)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_rocket, 2143) {
+    property {
+        name:                           string(STR_ROCKET_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1829, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            21;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          39 km/h;
+        power:                          25 hp;
+        weight:                         32 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1145  Planet (1830)                                              */
+/*  2-2-0 (Liverpool & Manchester Rly, inside cylinders)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_planet, 2144) {
+    property {
+        name:                           string(STR_PLANET_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1830, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            21;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          40 km/h;
+        power:                          30 hp;
+        weight:                         32 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1146  Tom Thumb (1830)                                           */
+/*  0-2-0 (first American steam loco, B&O Railroad demo)               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_tom_thumb, 2145) {
+    property {
+        name:                           string(STR_TOM_THUMB_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1830, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            20;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          29 km/h;
+        power:                          1 hp;
+        weight:                         30 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1147  John Bull (1831)                                           */
+/*  4-2-0 (Camden & Amboy, oldest operable loco in US)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_john_bull, 2146) {
+    property {
+        name:                           string(STR_JOHN_BULL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1831, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            21;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          40 km/h;
+        power:                          30 hp;
+        weight:                         32 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1148  Patentee (1833)                                            */
+/*  2-2-2 (standard British passenger type)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_patentee, 2147) {
+    property {
+        name:                           string(STR_PATENTEE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1833, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            21;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          48 km/h;
+        power:                          40 hp;
+        weight:                         32 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1149  North Star (1837)                                          */
+/*  2-2-2 (GWR broad gauge)                                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_north_star, 2148) {
+    property {
+        name:                           string(STR_NORTH_STAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1837, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            22;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          58 km/h;
+        power:                          50 hp;
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1150  Great Western (1843)                                       */
+/*  2-2-2 (GWR express broad gauge)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_great_western, 2149) {
+    property {
+        name:                           string(STR_GREAT_WESTERN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1843, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            22;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          72 km/h;
+        power:                          70 hp;
+        weight:                         34 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1151  Jenny Lind (1847)                                          */
+/*  2-2-2 (standard gauge express)                                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_jenny_lind, 2150) {
+    property {
+        name:                           string(STR_JENNY_LIND_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1847, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            22;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          72 km/h;
+        power:                          55 hp;
+        weight:                         33 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1152  Crampton Patent (1851)                                     */
+/*  4-2-0 (low-boiler express, popular in France)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_crampton_patent, 2151) {
+    property {
+        name:                           string(STR_CRAMPTON_PATENT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1851, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            23;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          90 km/h;
+        power:                          80 hp;
+        weight:                         35 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1153  Consolidation (2-8-0 first) (1855)                         */
+/*  2-8-0 (heavy freight, first 2-8-0 type)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_consolidation, 2152) {
+    property {
+        name:                           string(STR_CONSOLIDATION_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1855, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            25;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          45 km/h;
+        power:                          150 hp;
+        weight:                         39 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1154  Stirling Single 4-2-2 (1860)                               */
+/*  4-2-2 (British express, iconic single driver)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_stirling_single_4_2_2, 2153) {
+    property {
+        name:                           string(STR_STIRLING_SINGLE_4_2_2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1860, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            23;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          100 hp;
+        weight:                         36 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1155  Metropolitan Railway A-class (1863)                        */
+/*  4-4-0T (first underground railway locomotive, London)              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_metropolitan_railway_a_class, 2154) {
+    property {
+        name:                           string(STR_METROPOLITAN_RAILWAY_A_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1863, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            22;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          32 km/h;
+        power:                          70 hp;
+        weight:                         34 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1156  American Standard 4-4-0 (1868)                             */
+/*  4-4-0 (ubiquitous American "standard" type, Wild West era)         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_american_standard_4_4_0, 2155) {
+    property {
+        name:                           string(STR_AMERICAN_STANDARD_4_4_0_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1868, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            24;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          65 km/h;
+        power:                          120 hp;
+        weight:                         37 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1157  Webb Compound 2-2-2-0 (1870)                               */
+/*  2-2-2-0 (compound expansion, British experimental)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_webb_compound_2_2_2_0, 2156) {
+    property {
+        name:                           string(STR_WEBB_COMPOUND_2_2_2_0_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1870, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            25;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          90 km/h;
+        power:                          150 hp;
+        weight:                         39 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1158  Prussian P 4 (1875)                                        */
+/*  4-4-0 (Prussian express standard)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_prussian_p_4, 2157) {
+    property {
+        name:                           string(STR_PRUSSIAN_P_4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1875, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            27;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          80 km/h;
+        power:                          200 hp;
+        weight:                         42 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1159  Class 4-6-0 (first) (1880)                                 */
+/*  4-6-0 (ten-wheeler, mixed traffic first)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_class_4_6_0, 2158) {
+    property {
+        name:                           string(STR_CLASS_4_6_0_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1880, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            28;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          70 km/h;
+        power:                          250 hp;
+        weight:                         45 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1160  Atlantic (4-4-2, first) (1884)                             */
+/*  4-4-2 (Atlantic type, fast express)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_atlantic, 2159) {
+    property {
+        name:                           string(STR_ATLANTIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1884, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            30;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          300 hp;
+        weight:                         48 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1161  GWR Dean Single 4-2-2 (1890)                               */
+/*  4-2-2 (last British single-driver express)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gwr_dean_single_4_2_2, 2160) {
+    property {
+        name:                           string(STR_GWR_DEAN_SINGLE_4_2_2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1890, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    1;
+        running_cost_factor:            24;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          120 hp;
+        weight:                         37 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1162  New York Central No. 999 (1893)                            */
+/*  4-4-0 (claimed first 100 mph+ run, disputed)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_new_york_central_no_999, 2161) {
+    property {
+        name:                           string(STR_NEW_YORK_CENTRAL_NO_999_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1893, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            33;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          400 hp;
+        weight:                         54 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1163  Highland Railway Jones Goods (1895)                        */
+/*  4-6-0 (first British 4-6-0)                                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_highland_railway_jones_goods, 2162) {
+    property {
+        name:                           string(STR_HIGHLAND_RAILWAY_JONES_GOODS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1895, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            28;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          70 km/h;
+        power:                          250 hp;
+        weight:                         45 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1164  Prussian S 3 (1898)                                        */
+/*  4-4-0 (German express standard)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_prussian_s_3, 2163) {
+    property {
+        name:                           string(STR_PRUSSIAN_S_3_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1898, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    2;
+        running_cost_factor:            32;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          350 hp;
+        weight:                         51 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1165  GWR City Class (1900)                                      */
+/*  4-4-0 (City of Truro, claimed 100 mph 1904)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gwr_city_class, 2164) {
+    property {
+        name:                           string(STR_GWR_CITY_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1900, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            40;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          115 km/h;
+        power:                          600 hp;
+        weight:                         66 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1166  LNER/NER Atlantic (Klondyke) (1902)                        */
+/*  4-4-2 (British Atlantic type)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_lner_ner_atlantic, 2165) {
+    property {
+        name:                           string(STR_LNER_NER_ATLANTIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1902, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            38;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          550 hp;
+        weight:                         63 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1167  Prussian S 9 (1903)                                        */
+/*  4-4-2 (German express Atlantic)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_prussian_s_9, 2166) {
+    property {
+        name:                           string(STR_PRUSSIAN_S_9_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1903, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    3;
+        running_cost_factor:            38;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          110 km/h;
+        power:                          550 hp;
+        weight:                         63 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1168  PRR E6s (1904)                                             */
+/*  4-4-2 (American Atlantic express)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_prr_e6s, 2167) {
+    property {
+        name:                           string(STR_PRR_E6S_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1904, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            42;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          105 km/h;
+        power:                          650 hp;
+        weight:                         69 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1169  GWR Star Class (1906)                                      */
+/*  4-6-0 (four-cylinder, set British design pattern)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gwr_star_class, 2168) {
+    property {
+        name:                           string(STR_GWR_STAR_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1906, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    5;
+        running_cost_factor:            47;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          115 km/h;
+        power:                          800 hp;
+        weight:                         78 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1170  Bavarian S 3/6 (1907)                                      */
+/*  4-6-2 (German Pacific express, Bavarian blue)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_bavarian_s_3_6, 2169) {
+    property {
+        name:                           string(STR_BAVARIAN_S_3_6_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1907, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    6;
+        running_cost_factor:            53;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          120 km/h;
+        power:                          1000 hp;
+        weight:                         90 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1171  LNWR Experiment/George the Fifth (1908)                    */
+/*  4-6-0 (British four-cylinder express)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_lnwr_experiment_george_the_fifth, 2170) {
+    property {
+        name:                           string(STR_LNWR_EXPERIMENT_GEORGE_THE_FIFTH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1908, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    4;
+        running_cost_factor:            43;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          110 km/h;
+        power:                          700 hp;
+        weight:                         72 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1172  ALCO 4-6-2 Pacific (1911)                                  */
+/*  4-6-2 (American Pacific type, widespread)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_alco_4_6_2_pacific, 2171) {
+    property {
+        name:                           string(STR_ALCO_4_6_2_PACIFIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1911, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    7;
+        running_cost_factor:            60;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          1200 hp;
+        weight:                         102 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1173  Prussian P 8 (1911)                                        */
+/*  4-6-0 (most-produced German loco, 3,950+ built)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_prussian_p_8, 2172) {
+    property {
+        name:                           string(STR_PRUSSIAN_P_8_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1911, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    5;
+        running_cost_factor:            48;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          850 hp;
+        weight:                         81 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1174  GWR 4700 Class (1913)                                      */
+/*  2-8-0 (heavy freight, Churchward design)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gwr_4700_class, 2173) {
+    property {
+        name:                           string(STR_GWR_4700_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1913, 1, 1);
+        model_life:                     15;
+        vehicle_life:                   15;
+        reliability_decay:              32;
+        cost_factor:                    5;
+        running_cost_factor:            50;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          110 km/h;
+        power:                          900 hp;
+        weight:                         84 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  2;
+        cargo_age_period:               139;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1175  Gresley A1/A3 Pacific (1920)                               */
+/*  4-6-2 (Flying Scotsman 1923, LNER express)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gresley_a1_a3_pacific, 2174) {
+    property {
+        name:                           string(STR_GRESLEY_A1_A3_PACIFIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1920, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    15;
+        running_cost_factor:            70;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          1500 hp;
+        weight:                         120 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1176  French Nord Super Pacific (1921)                           */
+/*  4-6-2 (Chapelon-improved, French express)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_french_nord_super_pacific, 2175) {
+    property {
+        name:                           string(STR_FRENCH_NORD_SUPER_PACIFIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1921, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    18;
+        running_cost_factor:            80;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          1800 hp;
+        weight:                         138 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1177  USRA Light Pacific (1923)                                  */
+/*  4-6-2 (American standardised Pacific)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_usra_light_pacific, 2176) {
+    property {
+        name:                           string(STR_USRA_LIGHT_PACIFIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1923, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    18;
+        running_cost_factor:            80;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          110 km/h;
+        power:                          1800 hp;
+        weight:                         138 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1178  Mallet 2-8-8-2 (USRA) (1924)                               */
+/*  2-8-8-2 (American articulated heavy freight)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_mallet_2_8_8_2, 2177) {
+    property {
+        name:                           string(STR_MALLET_2_8_8_2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1924, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    30;
+        running_cost_factor:            120;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          55 km/h;
+        power:                          3000 hp;
+        weight:                         210 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1179  GWR King Class (1926)                                      */
+/*  4-6-0 (most powerful British 4-6-0)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gwr_king_class, 2178) {
+    property {
+        name:                           string(STR_GWR_KING_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1926, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    16;
+        running_cost_factor:            73;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          1600 hp;
+        weight:                         126 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1180  Southern Railway Lord Nelson (1927)                        */
+/*  4-6-0 (British four-cylinder express)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_southern_railway_lord_nelson, 2179) {
+    property {
+        name:                           string(STR_SOUTHERN_RAILWAY_LORD_NELSON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1927, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    15;
+        running_cost_factor:            70;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          1500 hp;
+        weight:                         120 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1181  DRG Class 01 (1927)                                        */
+/*  4-6-2 (German standard Pacific express)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_drg_class_01, 2180) {
+    property {
+        name:                           string(STR_DRG_CLASS_01_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1927, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    16;
+        running_cost_factor:            75;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          1650 hp;
+        weight:                         129 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1182  Chapelon Nord 4-6-2 3.1200 (1929)                          */
+/*  4-6-2 (Chapelon compound, most efficient steam Pacific)            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_chapelon_nord_4_6_2_3_1200, 2181) {
+    property {
+        name:                           string(STR_CHAPELON_NORD_4_6_2_3_1200_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1929, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    28;
+        running_cost_factor:            113;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          2800 hp;
+        weight:                         198 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1183  LMS Royal Scot (1930)                                      */
+/*  4-6-0 (British express)                                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_lms_royal_scot, 2182) {
+    property {
+        name:                           string(STR_LMS_ROYAL_SCOT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1930, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    16;
+        running_cost_factor:            75;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          1650 hp;
+        weight:                         129 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1184  LMS Princess Royal (1933)                                  */
+/*  4-6-2 (British large Pacific)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_lms_princess_royal, 2183) {
+    property {
+        name:                           string(STR_LMS_PRINCESS_ROYAL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1933, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    23;
+        running_cost_factor:            97;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          2300 hp;
+        weight:                         168 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1185  GWR Castle Class (1934)                                    */
+/*  4-6-0 (Cheltenham Flyer, record-breaker)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_gwr_castle_class, 2184) {
+    property {
+        name:                           string(STR_GWR_CASTLE_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1934, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    15;
+        running_cost_factor:            70;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          1500 hp;
+        weight:                         120 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1186  Milwaukee Road F7 "Hiawatha" (1934)                        */
+/*  4-4-2 (streamlined American, regularly exceeded 100 mph)           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_milwaukee_road_f7_hiawatha, 2185) {
+    property {
+        name:                           string(STR_MILWAUKEE_ROAD_F7_HIAWATHA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1934, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    30;
+        running_cost_factor:            120;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          161 km/h;
+        power:                          3000 hp;
+        weight:                         210 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1187  LNER A4 Pacific (1935)                                     */
+/*  4-6-2 (Mallard, world speed record 203 km/h, 1938)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_lner_a4_pacific, 2186) {
+    property {
+        name:                           string(STR_LNER_A4_PACIFIC_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    22;
+        running_cost_factor:            93;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          145 km/h;
+        power:                          2200 hp;
+        weight:                         162 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1188  DRG Class 05 (1935)                                        */
+/*  4-6-4 (German streamlined, 200 km/h record 1936)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_drg_class_05, 2187) {
+    property {
+        name:                           string(STR_DRG_CLASS_05_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1935, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    24;
+        running_cost_factor:            99;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          150 km/h;
+        power:                          2360 hp;
+        weight:                         172 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1189  LMS Coronation/Duchess (1937)                              */
+/*  4-6-2 (most powerful British Pacific, Duchess of Hamilton)         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_lms_coronation_duchess, 2188) {
+    property {
+        name:                           string(STR_LMS_CORONATION_DUCHESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1937, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    25;
+        running_cost_factor:            103;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          145 km/h;
+        power:                          2500 hp;
+        weight:                         180 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1190  NYC J-3a Hudson (1937)                                     */
+/*  4-6-4 (streamlined 20th Century Limited)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_nyc_j_3a_hudson, 2189) {
+    property {
+        name:                           string(STR_NYC_J_3A_HUDSON_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1937, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    38;
+        running_cost_factor:            147;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          3800 hp;
+        weight:                         258 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1191  UP Big Boy 4-8-8-4 (1938)                                  */
+/*  4-8-8-4 (largest steam loco ever, heavy freight)                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_up_big_boy_4_8_8_4, 2190) {
+    property {
+        name:                           string(STR_UP_BIG_BOY_4_8_8_4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1938, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    63;
+        running_cost_factor:            230;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          80 km/h;
+        power:                          6290 hp;
+        weight:                         407 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1192  N&W Class J 4-8-4 (1938)                                   */
+/*  4-8-4 (finest American dual-service steam)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_n_and_w_class_j_4_8_4, 2191) {
+    property {
+        name:                           string(STR_N_AND_W_CLASS_J_4_8_4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1938, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    50;
+        running_cost_factor:            187;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          110 km/h;
+        power:                          5000 hp;
+        weight:                         330 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1193  PRR T1 Duplex (1939)                                       */
+/*  4-4-4-4 (American duplex, slippery, fast)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_prr_t1_duplex, 2192) {
+    property {
+        name:                           string(STR_PRR_T1_DUPLEX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1939, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    66;
+        running_cost_factor:            238;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          6550 hp;
+        weight:                         423 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1194  UP Challenger 4-6-6-4 (1941)                               */
+/*  4-6-6-4 (American articulated, fast freight/passenger)             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_up_challenger_4_6_6_4, 2193) {
+    property {
+        name:                           string(STR_UP_CHALLENGER_4_6_6_4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1941, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    55;
+        running_cost_factor:            203;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          5500 hp;
+        weight:                         360 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1195  N&W Class A 2-6-6-4 (1941)                                 */
+/*  2-6-6-4 (American heavy articulated)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_n_and_w_class_a_2_6_6_4, 2194) {
+    property {
+        name:                           string(STR_N_AND_W_CLASS_A_2_6_6_4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1941, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    55;
+        running_cost_factor:            203;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          95 km/h;
+        power:                          5500 hp;
+        weight:                         360 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1196  USATC S160 Class (1942)                                    */
+/*  2-8-0 (WW2 standard military locomotive)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_usatc_s160_class, 2195) {
+    property {
+        name:                           string(STR_USATC_S160_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1942, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    12;
+        running_cost_factor:            60;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          65 km/h;
+        power:                          1200 hp;
+        weight:                         102 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1197  WD Austerity 2-8-0 (1943)                                  */
+/*  2-8-0 (British WW2 military austerity design)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_wd_austerity_2_8_0, 2196) {
+    property {
+        name:                           string(STR_WD_AUSTERITY_2_8_0_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1943, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    11;
+        running_cost_factor:            57;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          65 km/h;
+        power:                          1100 hp;
+        weight:                         96 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1198  SNCF 141R (1945)                                           */
+/*  2-8-2 (Lend-Lease Mikado for France, 1,340 built)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_sncf_141r, 2197) {
+    property {
+        name:                           string(STR_SNCF_141R_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1945, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    20;
+        running_cost_factor:            87;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          100 km/h;
+        power:                          2000 hp;
+        weight:                         150 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1199  LMS/BR Ivatt Class 2 (1948)                                */
+/*  2-6-0 (lightweight British branch-line)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_lms_br_ivatt_class_2, 2198) {
+    property {
+        name:                           string(STR_LMS_BR_IVATT_CLASS_2_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1948, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    6;
+        running_cost_factor:            40;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          80 km/h;
+        power:                          600 hp;
+        weight:                         66 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1200  Chapelon 242A1 (1949)                                      */
+/*  4-8-4 (most powerful European steam, rebuilt compound)             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_chapelon_242a1, 2199) {
+    property {
+        name:                           string(STR_CHAPELON_242A1_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1949, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    55;
+        running_cost_factor:            203;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          5500 hp;
+        weight:                         360 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  4;
+        cargo_age_period:               185;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1201  BR Standard Class 7 Britannia (1951)                       */
+/*  4-6-2 (British standard Pacific)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_standard_class_7_britannia, 2200) {
+    property {
+        name:                           string(STR_BR_STANDARD_CLASS_7_BRITANNIA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1951, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    25;
+        running_cost_factor:            87;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          130 km/h;
+        power:                          2000 hp;
+        weight:                         150 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1202  QJ Class (前进) (1952)                                       */
+/*  2-10-2 (Chinese standard freight, 4,700+ built, last 1988)         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_qj_class, 2201) {
+    property {
+        name:                           string(STR_QJ_CLASS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1952, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    37;
+        running_cost_factor:            119;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          80 km/h;
+        power:                          2980 hp;
+        weight:                         209 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1203  BR Standard Class 9F (1954)                                */
+/*  2-10-0 (heavy British freight, Evening Star last BR steam)         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_br_standard_class_9f, 2202) {
+    property {
+        name:                           string(STR_BR_STANDARD_CLASS_9F_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1954, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    29;
+        running_cost_factor:            98;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          90 km/h;
+        power:                          2350 hp;
+        weight:                         171 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1204  DB Class 10 (1954)                                         */
+/*  4-6-2 (last new German steam design)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_db_class_10, 2203) {
+    property {
+        name:                           string(STR_DB_CLASS_10_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1954, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    31;
+        running_cost_factor:            103;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          140 km/h;
+        power:                          2500 hp;
+        weight:                         180 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #1205  DRG Class 52.80 Reko (1956)                                */
+/*  2-10-0 (Kriegslok rebuilt, lasted to 1988)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_TRAINS, item_drg_class_52_80_reko, 2204) {
+    property {
+        name:                           string(STR_DRG_CLASS_52_80_REKO_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1956, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    20;
+        running_cost_factor:            73;
+        running_cost_base:              RUNNING_COST_STEAM;
+        engine_class:                   ENGINE_CLASS_STEAM;
+        track_type:                     RAIL;
+        speed:                          80 km/h;
+        power:                          1600 hp;
+        weight:                         126 ton;
+        tractive_effort_coefficient:    0.25;
+        loading_speed:                  5;
+        cargo_age_period:               231;
+    }
+}

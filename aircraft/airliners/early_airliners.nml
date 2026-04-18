@@ -1,0 +1,280 @@
+/**
+ * early_airliners.nml
+ *
+ * Pre-WW1 and WW1-era conversion aircraft (1914–1919).
+ * Vehicles 1–10 from the master checklist.
+ *
+ * These are all very early, small aircraft — pioneers and converted
+ * WW1 bombers pressed into civilian airliner service.
+ * All use AIRCRAFT_TYPE_SMALL (can land on any runway airport).
+ */
+
+/* ------------------------------------------------------------------ */
+/*  #1  Benoist XIV (1914)                                            */
+/*  Flying boat — first scheduled airline service. 1 pax, 105 km/h   */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_benoist_xiv, 1000) {
+    property {
+        name:                   string(STR_BENOIST_XIV_NAME);
+        climates_available:     bitmask(CLIMATE_TEMPERATE);
+        introduction_date:      date(1914, 1, 1);
+        model_life:             15;
+        vehicle_life:           15;
+        reliability_decay:      35;
+        cost_factor:            2;
+        running_cost_factor:    30;
+        aircraft_type:          AIRCRAFT_TYPE_SMALL;
+        acceleration:           18;
+        speed:                  105 km/h;
+        passenger_capacity:     1;
+        mail_capacity:          1;
+        loading_speed:          1;
+        cargo_age_period:       139;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  #2  Sikorsky Ilya Muromets (1914)                                 */
+/*  Biplane bomber used as airliner. 16 pax, 120 km/h                */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_sikorsky_ilya_muromets, 1001) {
+    property {
+        name:                   string(STR_SIKORSKY_ILYA_MUROMETS_NAME);
+        climates_available:     bitmask(CLIMATE_TEMPERATE);
+        introduction_date:      date(1914, 6, 1);
+        model_life:             15;
+        vehicle_life:           15;
+        reliability_decay:      35;
+        cost_factor:            5;
+        running_cost_factor:    42;
+        aircraft_type:          AIRCRAFT_TYPE_SMALL;
+        acceleration:           18;
+        speed:                  120 km/h;
+        passenger_capacity:     16;
+        mail_capacity:          3;
+        loading_speed:          2;
+        cargo_age_period:       139;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  #3  Zeppelin-Staaken R.VI (1917)                                  */
+/*  Giant biplane bomber, limited civil use. 18 pax, 130 km/h        */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_zeppelin_staaken_rvi, 1002) {
+    property {
+        name:                   string(STR_ZEPPELIN_STAAKEN_RVI_NAME);
+        climates_available:     bitmask(CLIMATE_TEMPERATE);
+        introduction_date:      date(1917, 6, 1);
+        model_life:             15;
+        vehicle_life:           15;
+        reliability_decay:      35;
+        cost_factor:            6;
+        running_cost_factor:    45;
+        aircraft_type:          AIRCRAFT_TYPE_SMALL;
+        acceleration:           18;
+        speed:                  130 km/h;
+        passenger_capacity:     18;
+        mail_capacity:          4;
+        loading_speed:          2;
+        cargo_age_period:       139;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  #4  Airco DH.4A (1919)                                           */
+/*  Converted WW1 bomber biplane. 2 pax, 160 km/h                   */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_airco_dh4a, 1003) {
+    property {
+        name:                   string(STR_AIRCO_DH4A_NAME);
+        climates_available:     bitmask(CLIMATE_TEMPERATE);
+        introduction_date:      date(1919, 1, 1);
+        model_life:             15;
+        vehicle_life:           15;
+        reliability_decay:      30;
+        cost_factor:            3;
+        running_cost_factor:    35;
+        aircraft_type:          AIRCRAFT_TYPE_SMALL;
+        acceleration:           20;
+        speed:                  160 km/h;
+        passenger_capacity:     2;
+        mail_capacity:          1;
+        loading_speed:          1;
+        cargo_age_period:       139;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  #5  Airco DH.9C (1919)                                           */
+/*  Converted WW1 bomber biplane. 2 pax, 155 km/h                   */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_airco_dh9c, 1004) {
+    property {
+        name:                   string(STR_AIRCO_DH9C_NAME);
+        climates_available:     bitmask(CLIMATE_TEMPERATE);
+        introduction_date:      date(1919, 3, 1);
+        model_life:             15;
+        vehicle_life:           15;
+        reliability_decay:      30;
+        cost_factor:            3;
+        running_cost_factor:    34;
+        aircraft_type:          AIRCRAFT_TYPE_SMALL;
+        acceleration:           20;
+        speed:                  155 km/h;
+        passenger_capacity:     2;
+        mail_capacity:          1;
+        loading_speed:          1;
+        cargo_age_period:       139;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  #6  Breguet 14T (1919)                                           */
+/*  Converted WW1 bomber/recon biplane. 2 pax, 155 km/h             */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_breguet_14t, 1005) {
+    property {
+        name:                   string(STR_BREGUET_14T_NAME);
+        climates_available:     bitmask(CLIMATE_TEMPERATE);
+        introduction_date:      date(1919, 4, 1);
+        model_life:             15;
+        vehicle_life:           15;
+        reliability_decay:      30;
+        cost_factor:            3;
+        running_cost_factor:    34;
+        aircraft_type:          AIRCRAFT_TYPE_SMALL;
+        acceleration:           20;
+        speed:                  155 km/h;
+        passenger_capacity:     2;
+        mail_capacity:          1;
+        loading_speed:          1;
+        cargo_age_period:       139;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  #7  Farman F.60 Goliath (1919)                                   */
+/*  WW1 bomber completed as airliner. 12 pax, 150 km/h              */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_farman_f60_goliath, 1006) {
+    property {
+        name:                   string(STR_FARMAN_F60_GOLIATH_NAME);
+        climates_available:     bitmask(CLIMATE_TEMPERATE);
+        introduction_date:      date(1919, 5, 1);
+        model_life:             18;
+        vehicle_life:           18;
+        reliability_decay:      28;
+        cost_factor:            5;
+        running_cost_factor:    40;
+        aircraft_type:          AIRCRAFT_TYPE_SMALL;
+        acceleration:           19;
+        speed:                  150 km/h;
+        passenger_capacity:     12;
+        mail_capacity:          3;
+        loading_speed:          2;
+        cargo_age_period:       139;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  #8  Handley Page Type O (1919)                                    */
+/*  Converted WW1 heavy bomber biplane. 12 pax, 140 km/h            */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_handley_page_type_o, 1007) {
+    property {
+        name:                   string(STR_HANDLEY_PAGE_TYPE_O_NAME);
+        climates_available:     bitmask(CLIMATE_TEMPERATE);
+        introduction_date:      date(1919, 6, 1);
+        model_life:             18;
+        vehicle_life:           18;
+        reliability_decay:      30;
+        cost_factor:            5;
+        running_cost_factor:    39;
+        aircraft_type:          AIRCRAFT_TYPE_SMALL;
+        acceleration:           18;
+        speed:                  140 km/h;
+        passenger_capacity:     12;
+        mail_capacity:          3;
+        loading_speed:          2;
+        cargo_age_period:       139;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  #9  Vickers Vimy Commercial (1919)                               */
+/*  Adapted WW1 bomber biplane. 10 pax, 160 km/h                    */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_vickers_vimy_commercial, 1008) {
+    property {
+        name:                   string(STR_VICKERS_VIMY_COMMERCIAL_NAME);
+        climates_available:     bitmask(CLIMATE_TEMPERATE);
+        introduction_date:      date(1919, 7, 1);
+        model_life:             18;
+        vehicle_life:           18;
+        reliability_decay:      28;
+        cost_factor:            4;
+        running_cost_factor:    38;
+        aircraft_type:          AIRCRAFT_TYPE_SMALL;
+        acceleration:           20;
+        speed:                  160 km/h;
+        passenger_capacity:     10;
+        mail_capacity:          2;
+        loading_speed:          2;
+        cargo_age_period:       139;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}
+
+/* ------------------------------------------------------------------ */
+/*  #10  Caproni Ca.48 (1919)                                        */
+/*  Converted WW1 bomber triplane. 23 pax, 130 km/h                 */
+/* ------------------------------------------------------------------ */
+
+item(FEAT_AIRCRAFT, item_caproni_ca48, 1009) {
+    property {
+        name:                   string(STR_CAPRONI_CA48_NAME);
+        climates_available:     bitmask(CLIMATE_TEMPERATE);
+        introduction_date:      date(1919, 8, 1);
+        model_life:             15;
+        vehicle_life:           15;
+        reliability_decay:      32;
+        cost_factor:            6;
+        running_cost_factor:    44;
+        aircraft_type:          AIRCRAFT_TYPE_SMALL;
+        acceleration:           18;
+        speed:                  130 km/h;
+        passenger_capacity:     23;
+        mail_capacity:          5;
+        loading_speed:          2;
+        cargo_age_period:       139;
+        refittable_cargo_classes:     bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes: bitmask();
+    }
+}

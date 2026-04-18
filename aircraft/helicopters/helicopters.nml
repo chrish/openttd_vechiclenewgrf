@@ -1,0 +1,2166 @@
+/**
+ * helicopters.nml
+ *
+ * Auto-generated NML vehicle definitions.
+ * Vehicles from the master checklist.
+ */
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #246  Focke-Wulf Fw 61 (1936)                                     */
+/*  Twin-rotor (first practical helicopter)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_focke_wulf_fw_61, 1245) {
+    property {
+        name:                           string(STR_FOCKE_WULF_FW_61_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1936, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            69;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   27;
+        speed:                          100 km/h;
+        passenger_capacity:             1;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #247  Flettner Fl 282 Kolibri (1938)                              */
+/*  Intermeshing rotors (WW2 recon)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_flettner_fl_282_kolibri, 1246) {
+    property {
+        name:                           string(STR_FLETTNER_FL_282_KOLIBRI_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1938, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            75;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   28;
+        speed:                          150 km/h;
+        passenger_capacity:             1;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #248  Vought-Sikorsky VS-300 (1940)                               */
+/*  Single main rotor (first successful US helicopter)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_vought_sikorsky_vs_300, 1247) {
+    property {
+        name:                           string(STR_VOUGHT_SIKORSKY_VS_300_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1940, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            67;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   27;
+        speed:                          80 km/h;
+        passenger_capacity:             1;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #249  Sikorsky R-4 / Hoverfly (1942)                              */
+/*  Single rotor (first mass-produced helicopter)                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_sikorsky_r_4_hoverfly, 1248) {
+    property {
+        name:                           string(STR_SIKORSKY_R_4_HOVERFLY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1942, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            70;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   27;
+        speed:                          109 km/h;
+        passenger_capacity:             2;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #250  Sikorsky R-5 / S-51 (1943)                                  */
+/*  Single rotor (utility/rescue)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_sikorsky_r_5_s_51, 1249) {
+    property {
+        name:                           string(STR_SIKORSKY_R_5_S_51_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1943, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            74;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   28;
+        speed:                          137 km/h;
+        passenger_capacity:             3;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #251  Kellett XR-8 / McCulloch MC-4 (1944)                        */
+/*  Intermeshing rotors                                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_kellett_xr_8_mcculloch_mc_4, 1250) {
+    property {
+        name:                           string(STR_KELLETT_XR_8_MCCULLOCH_MC_4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1944, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    1;
+        running_cost_factor:            72;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   27;
+        speed:                          120 km/h;
+        passenger_capacity:             2;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #252  Focke-Achgelis Fa 223 Drache (1944)                         */
+/*  Twin-rotor (WW2 transport helicopter)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_focke_achgelis_fa_223_drache, 1251) {
+    property {
+        name:                           string(STR_FOCKE_ACHGELIS_FA_223_DRACHE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1944, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            79;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   28;
+        speed:                          175 km/h;
+        passenger_capacity:             4;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #253  Bell 47 (1945)                                              */
+/*  Single rotor (first commercially certified helicopter)             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_bell_47, 1252) {
+    property {
+        name:                           string(STR_BELL_47_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1945, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            74;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   28;
+        speed:                          135 km/h;
+        passenger_capacity:             3;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #254  Bristol Sycamore (1946)                                     */
+/*  Single rotor (utility)                                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_bristol_sycamore, 1253) {
+    property {
+        name:                           string(STR_BRISTOL_SYCAMORE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1946, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            77;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   28;
+        speed:                          165 km/h;
+        passenger_capacity:             4;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #255  Piasecki HRP Rescuer "Flying Banana" (1947)                 */
+/*  Tandem rotor                                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_piasecki_hrp_rescuer_flying_banana, 1254) {
+    property {
+        name:                           string(STR_PIASECKI_HRP_RESCUER_FLYING_BANANA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1947, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            77;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   28;
+        speed:                          148 km/h;
+        passenger_capacity:             10;
+        mail_capacity:                  2;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #256  Westland-Sikorsky WS-51 Dragonfly (1948)                    */
+/*  Single rotor                                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_westland_sikorsky_ws_51_dragonfly, 1255) {
+    property {
+        name:                           string(STR_WESTLAND_SIKORSKY_WS_51_DRAGONFLY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1948, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            74;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   28;
+        speed:                          137 km/h;
+        passenger_capacity:             3;
+        mail_capacity:                  1;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #257  Sikorsky S-55 / H-19 Chickasaw (1949)                       */
+/*  Single rotor (utility/transport)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_sikorsky_s_55_h_19_chickasaw, 1256) {
+    property {
+        name:                           string(STR_SIKORSKY_S_55_H_19_CHICKASAW_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1949, 1, 1);
+        model_life:                     20;
+        vehicle_life:                   22;
+        reliability_decay:              25;
+        cost_factor:                    2;
+        running_cost_factor:            78;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   28;
+        speed:                          155 km/h;
+        passenger_capacity:             10;
+        mail_capacity:                  2;
+        loading_speed:                  2;
+        cargo_age_period:               185;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #258  Piasecki H-21 Workhorse (1950)                              */
+/*  Tandem rotor                                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_piasecki_h_21_workhorse, 1257) {
+    property {
+        name:                           string(STR_PIASECKI_H_21_WORKHORSE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1950, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    4;
+        running_cost_factor:            74;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          195 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #259  Kaman HH-43 Huskie (1951)                                   */
+/*  Intermeshing rotors (firefighting/rescue)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_kaman_hh_43_huskie, 1258) {
+    property {
+        name:                           string(STR_KAMAN_HH_43_HUSKIE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1951, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            70;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          193 km/h;
+        passenger_capacity:             4;
+        mail_capacity:                  1;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #260  Sikorsky S-56 / CH-37 Mojave (1952)                         */
+/*  Piston twin-engine (heavy-lift)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_sikorsky_s_56_ch_37_mojave, 1259) {
+    property {
+        name:                           string(STR_SIKORSKY_S_56_CH_37_MOJAVE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1952, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    4;
+        running_cost_factor:            75;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          195 km/h;
+        passenger_capacity:             26;
+        mail_capacity:                  5;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #261  Sikorsky S-58 / H-34 Choctaw (1953)                         */
+/*  Single rotor (medium transport)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_sikorsky_s_58_h_34_choctaw, 1260) {
+    property {
+        name:                           string(STR_SIKORSKY_S_58_H_34_CHOCTAW_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1953, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            72;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          180 km/h;
+        passenger_capacity:             18;
+        mail_capacity:                  4;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #262  Mil Mi-4 (1953)                                             */
+/*  Single rotor (Soviet medium transport)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_mil_mi_4, 1261) {
+    property {
+        name:                           string(STR_MIL_MI_4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1953, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            72;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          185 km/h;
+        passenger_capacity:             16;
+        mail_capacity:                  3;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #263  Sud-Ouest SO.1221 Djinn (1954)                              */
+/*  Tip-jet rotor (light utility)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_sud_ouest_so_1221_djinn, 1262) {
+    property {
+        name:                           string(STR_SUD_OUEST_SO_1221_DJINN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1954, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    1;
+        running_cost_factor:            60;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   27;
+        speed:                          100 km/h;
+        passenger_capacity:             2;
+        mail_capacity:                  1;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #264  Aérospatiale Alouette II (SE.3130) (1955)                   */
+/*  Single rotor (first turbine production helicopter)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_arospatiale_alouette_ii, 1263) {
+    property {
+        name:                           string(STR_AROSPATIALE_ALOUETTE_II_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1955, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    2;
+        running_cost_factor:            68;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   28;
+        speed:                          165 km/h;
+        passenger_capacity:             5;
+        mail_capacity:                  1;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #265  Bell 204 / UH-1 Iroquois "Huey" (1956)                      */
+/*  Single rotor (iconic utility/transport)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_bell_204_uh_1_iroquois_huey, 1264) {
+    property {
+        name:                           string(STR_BELL_204_UH_1_IROQUOIS_HUEY_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1956, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            73;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          204 km/h;
+        passenger_capacity:             14;
+        mail_capacity:                  3;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #266  Boeing Vertol CH-46 Sea Knight (1957)                       */
+/*  Tandem rotor                                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_boeing_vertol_ch_46_sea_knight, 1265) {
+    property {
+        name:                           string(STR_BOEING_VERTOL_CH_46_SEA_KNIGHT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1957, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    4;
+        running_cost_factor:            77;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          220 km/h;
+        passenger_capacity:             25;
+        mail_capacity:                  5;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #267  Mil Mi-6 (1957)                                             */
+/*  Single rotor (heavy-lift, largest at time)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_mil_mi_6, 1266) {
+    property {
+        name:                           string(STR_MIL_MI_6_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1957, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    9;
+        running_cost_factor:            93;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          250 km/h;
+        passenger_capacity:             90;
+        mail_capacity:                  18;
+        loading_speed:                  4;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #268  Aérospatiale Alouette III (SA 316) (1959)                   */
+/*  Single rotor (light utility)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_arospatiale_alouette_iii, 1267) {
+    property {
+        name:                           string(STR_AROSPATIALE_ALOUETTE_III_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1959, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            70;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          185 km/h;
+        passenger_capacity:             7;
+        mail_capacity:                  1;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #269  Sikorsky S-61 / SH-3 Sea King (1959)                        */
+/*  Single rotor (amphibious, VIP transport)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_sikorsky_s_61_sh_3_sea_king, 1268) {
+    property {
+        name:                           string(STR_SIKORSKY_S_61_SH_3_SEA_KING_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1959, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            78;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          219 km/h;
+        passenger_capacity:             30;
+        mail_capacity:                  6;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #270  Mil Mi-8 / Mi-17 (1960)                                     */
+/*  Single rotor (most produced helicopter in history)                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_mil_mi_8_mi_17, 1269) {
+    property {
+        name:                           string(STR_MIL_MI_8_MI_17_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1960, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            79;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          225 km/h;
+        passenger_capacity:             32;
+        mail_capacity:                  6;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #271  Boeing CH-47 Chinook (1961)                                 */
+/*  Tandem rotor (heavy-lift)                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_boeing_ch_47_chinook, 1270) {
+    property {
+        name:                           string(STR_BOEING_CH_47_CHINOOK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1961, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    7;
+        running_cost_factor:            87;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          259 km/h;
+        passenger_capacity:             55;
+        mail_capacity:                  11;
+        loading_speed:                  4;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #272  Augusta-Bell AB 204/205 (1962)                              */
+/*  Single rotor (licence-built Huey)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_augusta_bell_ab_204_205, 1271) {
+    property {
+        name:                           string(STR_AUGUSTA_BELL_AB_204_205_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1962, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            73;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          204 km/h;
+        passenger_capacity:             14;
+        mail_capacity:                  3;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #273  Bell 206 JetRanger (1962)                                   */
+/*  Single rotor (light turbine, most popular)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_bell_206_jetranger, 1272) {
+    property {
+        name:                           string(STR_BELL_206_JETRANGER_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1962, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            73;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          216 km/h;
+        passenger_capacity:             5;
+        mail_capacity:                  1;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #274  Sikorsky S-64 Skycrane / CH-54 Tarhe (1964)                 */
+/*  Single rotor (heavy-lift crane)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_sikorsky_s_64_skycrane_ch_54_tarhe, 1273) {
+    property {
+        name:                           string(STR_SIKORSKY_S_64_SKYCRANE_CH_54_TARHE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1964, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    5;
+        running_cost_factor:            76;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   28;
+        speed:                          169 km/h;
+        passenger_capacity:             45;
+        mail_capacity:                  9;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #275  Bell 205 / UH-1H (1966)                                     */
+/*  Single rotor (improved Huey)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_bell_205_uh_1h, 1274) {
+    property {
+        name:                           string(STR_BELL_205_UH_1H_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1966, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            73;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          204 km/h;
+        passenger_capacity:             14;
+        mail_capacity:                  3;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #276  Aérospatiale SA 330 Puma (1967)                             */
+/*  Single rotor (medium transport)                                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_arospatiale_sa_330_puma, 1275) {
+    property {
+        name:                           string(STR_AROSPATIALE_SA_330_PUMA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1967, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    4;
+        running_cost_factor:            80;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          257 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #277  MBB Bo 105 (1969)                                           */
+/*  Single rotor (light twin-engine)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_mbb_bo_105, 1276) {
+    property {
+        name:                           string(STR_MBB_BO_105_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1969, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    3;
+        running_cost_factor:            75;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          242 km/h;
+        passenger_capacity:             5;
+        mail_capacity:                  1;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #278  Westland Lynx (1969)                                        */
+/*  Single rotor (fastest helicopter record)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_westland_lynx, 1277) {
+    property {
+        name:                           string(STR_WESTLAND_LYNX_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1969, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   27;
+        reliability_decay:              20;
+        cost_factor:                    4;
+        running_cost_factor:            78;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          259 km/h;
+        passenger_capacity:             12;
+        mail_capacity:                  2;
+        loading_speed:                  3;
+        cargo_age_period:               231;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #279  Mil Mi-24 Hind (1970)                                       */
+/*  Single rotor (gunship/transport, exported widely)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_mil_mi_24_hind, 1278) {
+    property {
+        name:                           string(STR_MIL_MI_24_HIND_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1970, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    5;
+        running_cost_factor:            79;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          270 km/h;
+        passenger_capacity:             8;
+        mail_capacity:                  2;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #280  Aérospatiale SA 341/342 Gazelle (1972)                      */
+/*  Single rotor (light utility/attack)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_arospatiale_sa_341_342_gazelle, 1279) {
+    property {
+        name:                           string(STR_AROSPATIALE_SA_341_342_GAZELLE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1972, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    4;
+        running_cost_factor:            77;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          264 km/h;
+        passenger_capacity:             5;
+        mail_capacity:                  1;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #281  Aérospatiale AS 350 Écureuil / AStar (1974)                 */
+/*  Single rotor (light single-engine)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_arospatiale_as_350_cureuil_astar, 1280) {
+    property {
+        name:                           string(STR_AROSPATIALE_AS_350_CUREUIL_ASTAR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1974, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    4;
+        running_cost_factor:            75;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          235 km/h;
+        passenger_capacity:             6;
+        mail_capacity:                  1;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #282  Sikorsky S-70 / UH-60 Black Hawk (1974)                     */
+/*  Single rotor (medium utility/transport)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_sikorsky_s_70_uh_60_black_hawk, 1281) {
+    property {
+        name:                           string(STR_SIKORSKY_S_70_UH_60_BLACK_HAWK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1974, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    5;
+        running_cost_factor:            81;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          278 km/h;
+        passenger_capacity:             14;
+        mail_capacity:                  3;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #283  Mil Mi-26 (1975)                                            */
+/*  Single rotor (largest production helicopter ever)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_mil_mi_26, 1282) {
+    property {
+        name:                           string(STR_MIL_MI_26_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1975, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    11;
+        running_cost_factor:            94;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          255 km/h;
+        passenger_capacity:             90;
+        mail_capacity:                  18;
+        loading_speed:                  6;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #284  Bell 222 (1977)                                             */
+/*  Single rotor (first light twin-engine commercial)                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_bell_222, 1283) {
+    property {
+        name:                           string(STR_BELL_222_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1977, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    4;
+        running_cost_factor:            76;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          241 km/h;
+        passenger_capacity:             10;
+        mail_capacity:                  2;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #285  Aérospatiale AS 332 Super Puma (1977)                       */
+/*  Single rotor (medium-heavy offshore transport)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_arospatiale_as_332_super_puma, 1284) {
+    property {
+        name:                           string(STR_AROSPATIALE_AS_332_SUPER_PUMA_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1977, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    6;
+        running_cost_factor:            80;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          252 km/h;
+        passenger_capacity:             24;
+        mail_capacity:                  5;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #286  Sikorsky S-76 Spirit (1978)                                 */
+/*  Single rotor (corporate/offshore)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_sikorsky_s_76_spirit, 1285) {
+    property {
+        name:                           string(STR_SIKORSKY_S_76_SPIRIT_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1978, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    5;
+        running_cost_factor:            80;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          269 km/h;
+        passenger_capacity:             13;
+        mail_capacity:                  3;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #287  Agusta A109 (1979)                                          */
+/*  Single rotor (light twin, EMS/VIP)                                 */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_agusta_a109, 1286) {
+    property {
+        name:                           string(STR_AGUSTA_A109_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1979, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    5;
+        running_cost_factor:            80;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          285 km/h;
+        passenger_capacity:             8;
+        mail_capacity:                  2;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #288  MBB/Kawasaki BK 117 (1979)                                  */
+/*  Single rotor (light twin, EMS/police)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_mbb_kawasaki_bk_117, 1287) {
+    property {
+        name:                           string(STR_MBB_KAWASAKI_BK_117_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1979, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    5;
+        running_cost_factor:            77;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          248 km/h;
+        passenger_capacity:             11;
+        mail_capacity:                  2;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #289  Kamov Ka-32 (1981)                                          */
+/*  Coaxial rotors (utility/firefighting)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_kamov_ka_32, 1288) {
+    property {
+        name:                           string(STR_KAMOV_KA_32_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1981, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    5;
+        running_cost_factor:            76;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          230 km/h;
+        passenger_capacity:             16;
+        mail_capacity:                  3;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #290  Robinson R22 (1982)                                         */
+/*  Single rotor (light piston trainer)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_robinson_r22, 1289) {
+    property {
+        name:                           string(STR_ROBINSON_R22_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1982, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            68;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          177 km/h;
+        passenger_capacity:             2;
+        mail_capacity:                  1;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #291  Bell 412 (1985)                                             */
+/*  Single rotor (four-blade twin-engine)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_bell_412, 1290) {
+    property {
+        name:                           string(STR_BELL_412_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1985, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    5;
+        running_cost_factor:            76;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          230 km/h;
+        passenger_capacity:             15;
+        mail_capacity:                  3;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #292  Robinson R44 (1990)                                         */
+/*  Single rotor (light piston, best-selling)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_robinson_r44, 1291) {
+    property {
+        name:                           string(STR_ROBINSON_R44_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1990, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    3;
+        running_cost_factor:            72;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          209 km/h;
+        passenger_capacity:             4;
+        mail_capacity:                  1;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #293  Eurocopter (now Airbus) Tiger / Tigre (1991)                */
+/*  Single rotor (attack, tandem)                                      */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_eurocopter_tiger_tigre, 1292) {
+    property {
+        name:                           string(STR_EUROCOPTER_TIGER_TIGRE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1991, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    4;
+        running_cost_factor:            78;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          271 km/h;
+        passenger_capacity:             2;
+        mail_capacity:                  1;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #294  NH90 (1992)                                                 */
+/*  Single rotor (military medium transport)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_nh90, 1293) {
+    property {
+        name:                           string(STR_NH90_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1992, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    5;
+        running_cost_factor:            80;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          262 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #295  Eurocopter EC 135 (1994)                                    */
+/*  Single rotor (light twin, EMS/police)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_eurocopter_ec_135, 1294) {
+    property {
+        name:                           string(STR_EUROCOPTER_EC_135_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1994, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    4;
+        running_cost_factor:            77;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          254 km/h;
+        passenger_capacity:             8;
+        mail_capacity:                  2;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #296  AgustaWestland EH101 / AW101 Merlin (1995)                  */
+/*  Single rotor (medium/heavy naval/transport)                        */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_agustawestland_eh101_aw101_merlin, 1295) {
+    property {
+        name:                           string(STR_AGUSTAWESTLAND_EH101_AW101_MERLIN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1995, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    6;
+        running_cost_factor:            84;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          278 km/h;
+        passenger_capacity:             30;
+        mail_capacity:                  6;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #297  Bell 427 (1999)                                             */
+/*  Single rotor (light twin)                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_bell_427, 1296) {
+    property {
+        name:                           string(STR_BELL_427_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(1999, 1, 1);
+        model_life:                     28;
+        vehicle_life:                   30;
+        reliability_decay:              18;
+        cost_factor:                    4;
+        running_cost_factor:            77;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          250 km/h;
+        passenger_capacity:             8;
+        mail_capacity:                  2;
+        loading_speed:                  4;
+        cargo_age_period:               278;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #298  Robinson R66 Turbine (2000)                                 */
+/*  Single rotor (light turbine)                                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_robinson_r66_turbine, 1297) {
+    property {
+        name:                           string(STR_ROBINSON_R66_TURBINE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2000, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    5;
+        running_cost_factor:            73;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   29;
+        speed:                          222 km/h;
+        passenger_capacity:             5;
+        mail_capacity:                  1;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #299  Eurocopter EC 145 / Airbus H145 (2001)                      */
+/*  Single rotor (light twin, EMS/utility)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_eurocopter_ec_145_airbus_h145, 1298) {
+    property {
+        name:                           string(STR_EUROCOPTER_EC_145_AIRBUS_H145_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2001, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    6;
+        running_cost_factor:            77;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          246 km/h;
+        passenger_capacity:             10;
+        mail_capacity:                  2;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #300  AgustaWestland AW139 (2003)                                 */
+/*  Single rotor (medium twin, offshore/VIP)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_agustawestland_aw139, 1299) {
+    property {
+        name:                           string(STR_AGUSTAWESTLAND_AW139_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2003, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    8;
+        running_cost_factor:            84;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          306 km/h;
+        passenger_capacity:             15;
+        mail_capacity:                  3;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #301  Sikorsky S-92 (2005)                                        */
+/*  Single rotor (medium-heavy, offshore/SAR)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_sikorsky_s_92, 1300) {
+    property {
+        name:                           string(STR_SIKORSKY_S_92_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2005, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    7;
+        running_cost_factor:            80;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          256 km/h;
+        passenger_capacity:             22;
+        mail_capacity:                  4;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #302  Bell 429 (2005)                                             */
+/*  Single rotor (light twin)                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_bell_429, 1301) {
+    property {
+        name:                           string(STR_BELL_429_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2005, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    6;
+        running_cost_factor:            78;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          260 km/h;
+        passenger_capacity:             8;
+        mail_capacity:                  2;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #303  AgustaWestland AW169 (2012)                                 */
+/*  Single rotor (light-medium twin)                                   */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_agustawestland_aw169, 1302) {
+    property {
+        name:                           string(STR_AGUSTAWESTLAND_AW169_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2012, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    6;
+        running_cost_factor:            78;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          260 km/h;
+        passenger_capacity:             10;
+        mail_capacity:                  2;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #304  AgustaWestland AW189 (2014)                                 */
+/*  Single rotor (medium-heavy, offshore)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_agustawestland_aw189, 1303) {
+    property {
+        name:                           string(STR_AGUSTAWESTLAND_AW189_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2014, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    8;
+        running_cost_factor:            82;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          287 km/h;
+        passenger_capacity:             19;
+        mail_capacity:                  4;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #305  Airbus H160 (2015)                                          */
+/*  Single rotor (medium twin, next-gen)                               */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_airbus_h160, 1304) {
+    property {
+        name:                           string(STR_AIRBUS_H160_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    7;
+        running_cost_factor:            80;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          278 km/h;
+        passenger_capacity:             12;
+        mail_capacity:                  2;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #306  Bell 505 Jet Ranger X (2015)                                */
+/*  Single rotor (light single turbine)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_bell_505_jet_ranger_x, 1305) {
+    property {
+        name:                           string(STR_BELL_505_JET_RANGER_X_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2015, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    5;
+        running_cost_factor:            74;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          230 km/h;
+        passenger_capacity:             5;
+        mail_capacity:                  1;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #307  Bell 525 Relentless (2019)                                  */
+/*  Single rotor (medium/heavy, fly-by-wire)                           */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_bell_525_relentless, 1306) {
+    property {
+        name:                           string(STR_BELL_525_RELENTLESS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2019, 1, 1);
+        model_life:                     25;
+        vehicle_life:                   30;
+        reliability_decay:              16;
+        cost_factor:                    8;
+        running_cost_factor:            84;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          296 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  6;
+        cargo_age_period:               324;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #308  Airbus CityAirbus NextGen (2100)                            */
+/*  eVTOL (electric urban air mobility)                                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_airbus_cityairbus_nextgen, 1307) {
+    property {
+        name:                           string(STR_AIRBUS_CITYAIRBUS_NEXTGEN_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2100, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    4;
+        running_cost_factor:            63;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   27;
+        speed:                          120 km/h;
+        passenger_capacity:             4;
+        mail_capacity:                  1;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #309  Joby S4 (2100)                                              */
+/*  eVTOL (electric air taxi)                                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_joby_s4, 1308) {
+    property {
+        name:                           string(STR_JOBY_S4_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2100, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    9;
+        running_cost_factor:            83;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          322 km/h;
+        passenger_capacity:             5;
+        mail_capacity:                  1;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #310  Lilium Jet (2100)                                           */
+/*  eVTOL (electric regional air mobility)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_lilium_jet, 1309) {
+    property {
+        name:                           string(STR_LILIUM_JET_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2100, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    8;
+        running_cost_factor:            81;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          300 km/h;
+        passenger_capacity:             6;
+        mail_capacity:                  1;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #344  Rotorcraft RW-6 Kestrel (2030)                              */
+/*  Compound helicopter (pusher prop + rotor)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_rotorcraft_rw_6_kestrel, 1343) {
+    property {
+        name:                           string(STR_ROTORCRAFT_RW_6_KESTREL_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2030, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    8;
+        running_cost_factor:            79;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          280 km/h;
+        passenger_capacity:             6;
+        mail_capacity:                  1;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #345  Skyline SK-15 Peregrine (2031)                              */
+/*  Compound helicopter (coaxial + pusher)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_skyline_sk_15_peregrine, 1344) {
+    property {
+        name:                           string(STR_SKYLINE_SK_15_PEREGRINE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2031, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    10;
+        running_cost_factor:            84;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          310 km/h;
+        passenger_capacity:             15;
+        mail_capacity:                  3;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #346  Apex AH-4 Sparrowhawk (2032)                                */
+/*  Light single rotor (hydrogen fuel cell)                            */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_apex_ah_4_sparrowhawk, 1345) {
+    property {
+        name:                           string(STR_APEX_AH_4_SPARROWHAWK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2032, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    7;
+        running_cost_factor:            76;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   30;
+        speed:                          250 km/h;
+        passenger_capacity:             4;
+        mail_capacity:                  1;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #347  Velaris VH-8 Comet (2033)                                   */
+/*  Light twin (electric, noise-free)                                  */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_velaris_vh_8_comet, 1346) {
+    property {
+        name:                           string(STR_VELARIS_VH_8_COMET_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2033, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    8;
+        running_cost_factor:            82;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          300 km/h;
+        passenger_capacity:             8;
+        mail_capacity:                  2;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #348  Rotorcraft RW-30 Condor (2034)                              */
+/*  Heavy compound (tilt-wing + coaxial rotor)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_rotorcraft_rw_30_condor, 1347) {
+    property {
+        name:                           string(STR_ROTORCRAFT_RW_30_CONDOR_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2034, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    12;
+        running_cost_factor:            91;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   32;
+        speed:                          350 km/h;
+        passenger_capacity:             30;
+        mail_capacity:                  6;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #349  Meridian MH-60 Valkyrie (2035)                              */
+/*  Heavy-lift compound (ABC rotor + jet thrust)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_meridian_mh_60_valkyrie, 1348) {
+    property {
+        name:                           string(STR_MERIDIAN_MH_60_VALKYRIE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2035, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    16;
+        running_cost_factor:            99;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   33;
+        speed:                          380 km/h;
+        passenger_capacity:             55;
+        mail_capacity:                  11;
+        loading_speed:                  11;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #350  Skyline SK-100 Atlas (2036)                                 */
+/*  Ultra-heavy compound (triple coaxial tandem)                       */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_skyline_sk_100_atlas, 1349) {
+    property {
+        name:                           string(STR_SKYLINE_SK_100_ATLAS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2036, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    20;
+        running_cost_factor:            104;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   32;
+        speed:                          360 km/h;
+        passenger_capacity:             90;
+        mail_capacity:                  18;
+        loading_speed:                  11;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #351  Apex AH-12 Mantis (2038)                                    */
+/*  Medium twin (electric, autonomous-capable)                         */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_apex_ah_12_mantis, 1350) {
+    property {
+        name:                           string(STR_APEX_AH_12_MANTIS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2038, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    10;
+        running_cost_factor:            84;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   31;
+        speed:                          320 km/h;
+        passenger_capacity:             12;
+        mail_capacity:                  2;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #352  Condor CH-45 Hurricane (2040)                               */
+/*  High-speed compound (X-wing + pusher)                              */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_condor_ch_45_hurricane, 1351) {
+    property {
+        name:                           string(STR_CONDOR_CH_45_HURRICANE_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2040, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    15;
+        running_cost_factor:            98;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   33;
+        speed:                          400 km/h;
+        passenger_capacity:             40;
+        mail_capacity:                  8;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #353  Halcyon HH-20 Stormbird (2042)                              */
+/*  High-speed compound (stopped-rotor convertible)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_halcyon_hh_20_stormbird, 1352) {
+    property {
+        name:                           string(STR_HALCYON_HH_20_STORMBIRD_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2042, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    13;
+        running_cost_factor:            96;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   33;
+        speed:                          420 km/h;
+        passenger_capacity:             20;
+        mail_capacity:                  4;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #354  Rotorcraft RW-200 Hercules (2045)                           */
+/*  Super-heavy quad-rotor (cargo/passenger pod system)                */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_rotorcraft_rw_200_hercules, 1353) {
+    property {
+        name:                           string(STR_ROTORCRAFT_RW_200_HERCULES_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2045, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    34;
+        running_cost_factor:            125;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   32;
+        speed:                          350 km/h;
+        passenger_capacity:             200;
+        mail_capacity:                  40;
+        loading_speed:                  14;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #355  Velaris VH-25 Ghost (2048)                                  */
+/*  Medium stealth rotor (whisper-mode, autonomous)                    */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_velaris_vh_25_ghost, 1354) {
+    property {
+        name:                           string(STR_VELARIS_VH_25_GHOST_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2048, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    12;
+        running_cost_factor:            92;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   33;
+        speed:                          380 km/h;
+        passenger_capacity:             22;
+        mail_capacity:                  4;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #356  Skyline SK-50 Thunderhawk (2050)                            */
+/*  High-speed tiltrotor (jet-convertible)                             */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_skyline_sk_50_thunderhawk, 1355) {
+    property {
+        name:                           string(STR_SKYLINE_SK_50_THUNDERHAWK_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2050, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    18;
+        running_cost_factor:            105;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   34;
+        speed:                          450 km/h;
+        passenger_capacity:             50;
+        mail_capacity:                  10;
+        loading_speed:                  11;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #357  Meridian MH-15 Wraith (2055)                                */
+/*  Tilt-jet (VTOL to wing-borne, supersonic dash)                     */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_meridian_mh_15_wraith, 1356) {
+    property {
+        name:                           string(STR_MERIDIAN_MH_15_WRAITH_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2055, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    14;
+        running_cost_factor:            103;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   35;
+        speed:                          500 km/h;
+        passenger_capacity:             14;
+        mail_capacity:                  3;
+        loading_speed:                  9;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
+
+/* ────────────────────────────────────────────────────────────────── */
+/*  #358  Tempest TH-120 Colossus (2060)                              */
+/*  Super-heavy (cyclorotor drive, mega-lift)                          */
+/* ────────────────────────────────────────────────────────────────── */
+
+item(FEAT_AIRCRAFT, item_tempest_th_120_colossus, 1357) {
+    property {
+        name:                           string(STR_TEMPEST_TH_120_COLOSSUS_NAME);
+        climates_available:             bitmask(CLIMATE_TEMPERATE);
+        introduction_date:              date(2060, 1, 1);
+        model_life:                     30;
+        vehicle_life:                   40;
+        reliability_decay:              14;
+        cost_factor:                    25;
+        running_cost_factor:            114;
+        aircraft_type:                  AIRCRAFT_TYPE_HELICOPTER;
+        acceleration:                   33;
+        speed:                          400 km/h;
+        passenger_capacity:             120;
+        mail_capacity:                  24;
+        loading_speed:                  11;
+        cargo_age_period:               462;
+        refittable_cargo_classes:       bitmask(CC_PASSENGERS, CC_MAIL);
+        non_refittable_cargo_classes:   bitmask();
+    }
+}
