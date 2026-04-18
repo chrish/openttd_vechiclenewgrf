@@ -1,0 +1,62 @@
+name: Create Vehicle Graphics Issues
+
+on:
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  create-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create vehicle graphics issues
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+
+            function extractVehicles(filename) {
+              const content = fs.readFileSync(filename, 'utf8');
+              const vehicles = [];
+              for (const line of content.split('\n')) {
+                const m = line.match(/^\| (\d{4}) \| (.+?) \|/);
+                if (m) {
+                  const year = m[1];
+                  const name = m[2].trim().replace(/\*\*/g, '');
+                  vehicles.push({ year, name });
+                }
+              }
+              return vehicles;
+            }
+
+            const categories = [
+              { label: 'Airplanes',      file: 'Airplanes.md' },
+              { label: 'Road Vehicles',  file: 'Road.md'      },
+              { label: 'Ships',          file: 'Ships.md'     },
+              { label: 'Trains',         file: 'Trains.md'    },
+            ];
+
+            for (const { label, file } of categories) {
+              const vehicles = extractVehicles(file);
+
+              let body = `Track graphics work for all ${label.toLowerCase()}.\n\n`;
+              body += `Check off each vehicle once its graphics have been created:\n\n`;
+              for (const { year, name } of vehicles) {
+                body += `- [ ] ${year} – ${name}\n`;
+              }
+
+              const { data: issue } = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `Graphics needed: ${label}`,
+                body,
+                labels: ['graphics'],
+              });
+
+              console.log(`Created issue #${issue.number} for ${label}: ${issue.html_url}`);
+            }
