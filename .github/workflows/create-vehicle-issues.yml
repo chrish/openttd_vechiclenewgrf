@@ -1,6 +1,16 @@
 name: Create Vehicle Graphics Issues
 
 on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'Airplanes.md'
+      - 'Road.md'
+      - 'Ships.md'
+      - 'Trains.md'
+      - '.github/workflows/create-vehicle-issues.yml'
   workflow_dispatch:
 
 permissions:
@@ -42,6 +52,27 @@ jobs:
             ];
 
             for (const { label, file } of categories) {
+              const title = `Graphics needed: ${label}`;
+
+              // Check whether the issue already exists to avoid duplicates (paginated)
+              let duplicate = null;
+              for await (const page of github.paginate.iterator(
+                github.rest.issues.listForRepo,
+                {
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  state: 'all',
+                  per_page: 100,
+                }
+              )) {
+                duplicate = page.data.find(i => i.title === title);
+                if (duplicate) break;
+              }
+              if (duplicate) {
+                console.log(`Issue already exists for ${label}: #${duplicate.number} — skipping`);
+                continue;
+              }
+
               const vehicles = extractVehicles(file);
 
               let body = `Track graphics work for all ${label.toLowerCase()}.\n\n`;
@@ -53,7 +84,7 @@ jobs:
               const { data: issue } = await github.rest.issues.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                title: `Graphics needed: ${label}`,
+                title,
                 body,
                 labels: ['graphics'],
               });
