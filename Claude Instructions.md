@@ -100,9 +100,9 @@ item(FEAT_AIRCRAFT, item_boeing_747_100, 500) {
 |----------|-------|-------|
 | `sprite_id` | `SPRITE_ID_NEW_ROADVEH` | Required for custom graphics |
 | `speed` | 0–511 km/h | Use `km/h` suffix |
-| `power` | 0–2550 hp | Use `hp` suffix |
-| `weight` | 0–63.75 ton | Use `ton` suffix |
-| `tractive_effort_coefficient` | 0.0–1.0 | Default 0.3 |
+| `power` | 0–2550 hp | **Required.** Use `hp` suffix. Without this the vehicle will not accelerate. |
+| `weight` | 0–63.75 ton | **Required.** Use `ton` suffix. Without this the vehicle will not accelerate. |
+| `tractive_effort_coefficient` | 0.0–1.0 | **Required.** Default 0.3. Without this the vehicle will not accelerate. |
 | `running_cost_base` | `RUNNING_COST_ROADVEH` / `DIESEL` / `NONE` | |
 | `cargo_capacity` | 0–255 | Pax = 4×, mail/goods = 2× |
 | `length` | 1–8 | 8 = full length |
@@ -256,6 +256,26 @@ speed: 130 km/h;   /* train */
 speed: 48 km/h;    /* ship */
 speed: 80 km/h;    /* road vehicle */
 ```
+
+**Minimum speeds:** All vehicles must be fast enough to be usable and profitable in-game. Apply these floors:
+
+| Feature | Minimum Speed | Notes |
+|---------|--------------|-------|
+| Road vehicles | 15 km/h | Even horse-drawn buses managed ~10–15 km/h |
+| Trains | 20 km/h | Earliest steam locos were slow but not crawling |
+| Ships | 10 km/h | Sailing ships and early steamers |
+| Aircraft | 100 km/h | Even early biplanes/airships |
+
+Early-era vehicles (pre-1920) should still be reasonably fast — at least 15–25 km/h for ground vehicles. A vehicle that is too slow will never turn a profit on any route because cargo payment decays with time.
+
+### Profitability
+
+Every vehicle must be viable in normal gameplay — a player should be able to turn a profit using it on a typical route. To ensure this:
+
+- **Speed vs running cost:** Running costs must not outpace income. Slow vehicles need low running costs; fast vehicles can afford higher ones.
+- **Capacity matters:** A vehicle with very low capacity needs very low running costs to compensate.
+- **Cargo age:** Slow vehicles benefit from higher `cargo_age_period` (slower payment decay) to stay competitive.
+- **Rule of thumb:** If `running_cost_factor > speed_kmh × capacity / 20`, the vehicle is probably too expensive to operate profitably.
 
 ### Model Life and Vehicle Life
 

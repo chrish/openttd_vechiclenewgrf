@@ -1,0 +1,5 @@
+##grflangid 0x01
+
+STR_GRF_NAME                                :Milnes-Daimler Test GRF
+STR_GRF_DESC                                :Test NewGRF with custom 32bpp sprites for the Milnes-Daimler Double-Decker bus (1902).
+STR_MILNES_DAIMLER_DOUBLE_DECKER_NAME       :Milnes-Daimler Double-Decker

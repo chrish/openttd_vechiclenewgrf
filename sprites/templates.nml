@@ -1,0 +1,185 @@
+// ============================================================================
+// 32bpp Sprite Templates for Darwin Vehicle Set
+// ============================================================================
+// Standard OpenTTD vehicle sprite templates at multiple zoom levels.
+// Each vehicle has 8 directional views: N, NE, E, SE, S, SW, W, NW
+//
+// Usage:
+//   1. Create a sprite sheet PNG with vehicles laid out in rows
+//   2. Include this file in your main NML
+//   3. Use the templates in spriteset/alternative_sprites blocks
+//
+// Sprite sheets should be RGBA PNG files for 32bpp.
+// ============================================================================
+
+
+// ---------------------------------------------------------------------------
+// Core zoom-scaling template
+// ---------------------------------------------------------------------------
+// Scales sprite coordinates and offsets for a given zoom level.
+//   x, y   = position in 1x sprite sheet
+//   w, h   = size in 1x sprite sheet
+//   ox, oy = offset in 1x
+//   zoom   = zoom multiplier (1 for normal, 2 for 2x, 4 for 4x)
+//
+template tmpl_zoom(x, y, w, h, ox, oy, zoom) {
+    [x * zoom, y * zoom, w * zoom, h * zoom, ox * zoom, oy * zoom - (zoom / 2)]
+}
+
+
+// ===========================================================================
+// ROAD VEHICLES / TRAINS  (standard TTD vehicle size)
+// ===========================================================================
+// Standard 8-view sprite sizes at 1x zoom:
+//   N:   8x18  offset (-3, -10)
+//   NE: 20x19  offset (-14, -5)
+//   E:  28x15  offset (-14, -8)
+//   SE: 20x19  offset (-6, -7)
+//   S:   8x18  offset (-3, -10)
+//   SW: 20x19  offset (-14, -9)
+//   W:  28x15  offset (-14, -8)
+//   NW: 20x19  offset (-6, -7)
+//
+// Row height: 20px at 1x (enough for tallest sprite 19px + 1px padding)
+// Row width:  ~230px at 1x (all 8 views side by side with spacing)
+
+// Template for a single road/train vehicle row
+//   row  = row number in sprite sheet (0-indexed)
+//   zoom = zoom multiplier
+template tmpl_road_train(row, zoom) {
+    tmpl_zoom(  0, row * 20,  8, 18,  -3, -10, zoom)  // N
+    tmpl_zoom( 16, row * 20, 20, 19, -14,  -5, zoom)  // NE
+    tmpl_zoom( 48, row * 20, 28, 15, -14,  -8, zoom)  // E
+    tmpl_zoom( 96, row * 20, 20, 19,  -6,  -7, zoom)  // SE
+    tmpl_zoom(128, row * 20,  8, 18,  -3, -10, zoom)  // S
+    tmpl_zoom(144, row * 20, 20, 19, -14,  -9, zoom)  // SW
+    tmpl_zoom(176, row * 20, 28, 15, -14,  -8, zoom)  // W
+    tmpl_zoom(224, row * 20, 20, 19,  -6,  -7, zoom)  // NW
+}
+
+
+// ===========================================================================
+// AIRCRAFT  (larger sprites for planes)
+// ===========================================================================
+// Aircraft use larger sprites than ground vehicles.
+// These sizes accommodate medium/large aircraft.
+//
+// Standard aircraft 8-view sprite sizes at 1x zoom:
+//   N:  24x36  offset (-12, -28)
+//   NE: 36x28  offset (-28, -18)
+//   E:  48x20  offset (-24, -12)
+//   SE: 36x28  offset (-8, -18)
+//   S:  24x36  offset (-12, -28)
+//   SW: 36x28  offset (-28, -18)
+//   W:  48x20  offset (-24, -12)
+//   NW: 36x28  offset (-8, -18)
+//
+// Row height: 40px at 1x
+// Row width:  ~350px at 1x
+
+template tmpl_aircraft(row, zoom) {
+    tmpl_zoom(  0, row * 40, 24, 36, -12, -28, zoom)  // N
+    tmpl_zoom( 32, row * 40, 36, 28, -28, -18, zoom)  // NE
+    tmpl_zoom( 80, row * 40, 48, 20, -24, -12, zoom)  // E
+    tmpl_zoom(140, row * 40, 36, 28,  -8, -18, zoom)  // SE
+    tmpl_zoom(188, row * 40, 24, 36, -12, -28, zoom)  // S
+    tmpl_zoom(220, row * 40, 36, 28, -28, -18, zoom)  // SW
+    tmpl_zoom(268, row * 40, 48, 20, -24, -12, zoom)  // W
+    tmpl_zoom(328, row * 40, 36, 28,  -8, -18, zoom)  // NW
+}
+
+// Small aircraft / helicopters
+//   N:  16x24  offset (-8, -18)
+//   NE: 24x20  offset (-18, -12)
+//   E:  32x14  offset (-16, -8)
+//   SE: 24x20  offset (-6, -12)
+//   S:  16x24  offset (-8, -18)
+//   SW: 24x20  offset (-18, -12)
+//   W:  32x14  offset (-16, -8)
+//   NW: 24x20  offset (-6, -12)
+//
+// Row height: 28px at 1x
+
+template tmpl_aircraft_small(row, zoom) {
+    tmpl_zoom(  0, row * 28, 16, 24,  -8, -18, zoom)  // N
+    tmpl_zoom( 24, row * 28, 24, 20, -18, -12, zoom)  // NE
+    tmpl_zoom( 56, row * 28, 32, 14, -16,  -8, zoom)  // E
+    tmpl_zoom(100, row * 28, 24, 20,  -6, -12, zoom)  // SE
+    tmpl_zoom(132, row * 28, 16, 24,  -8, -18, zoom)  // S
+    tmpl_zoom(156, row * 28, 24, 20, -18, -12, zoom)  // SW
+    tmpl_zoom(188, row * 28, 32, 14, -16,  -8, zoom)  // W
+    tmpl_zoom(228, row * 28, 24, 20,  -6, -12, zoom)  // NW
+}
+
+
+// ===========================================================================
+// SHIPS  (wide sprites for vessels)
+// ===========================================================================
+// Ships are typically wider/longer than ground vehicles.
+//
+// Standard ship 8-view sprite sizes at 1x zoom:
+//   N:  16x32  offset (-8, -24)
+//   NE: 32x24  offset (-24, -14)
+//   E:  48x16  offset (-24, -10)
+//   SE: 32x24  offset (-8, -14)
+//   S:  16x32  offset (-8, -24)
+//   SW: 32x24  offset (-24, -14)
+//   W:  48x16  offset (-24, -10)
+//   NW: 32x24  offset (-8, -14)
+//
+// Row height: 36px at 1x
+// Row width:  ~320px at 1x
+
+template tmpl_ship(row, zoom) {
+    tmpl_zoom(  0, row * 36, 16, 32,  -8, -24, zoom)  // N
+    tmpl_zoom( 24, row * 36, 32, 24, -24, -14, zoom)  // NE
+    tmpl_zoom( 68, row * 36, 48, 16, -24, -10, zoom)  // E
+    tmpl_zoom(128, row * 36, 32, 24,  -8, -14, zoom)  // SE
+    tmpl_zoom(168, row * 36, 16, 32,  -8, -24, zoom)  // S
+    tmpl_zoom(192, row * 36, 32, 24, -24, -14, zoom)  // SW
+    tmpl_zoom(236, row * 36, 48, 16, -24, -10, zoom)  // W
+    tmpl_zoom(296, row * 36, 32, 24,  -8, -14, zoom)  // NW
+}
+
+
+// ===========================================================================
+// PURCHASE MENU SPRITES
+// ===========================================================================
+// Purchase menu sprite: single image shown in the buy vehicle window.
+// Typically the E (east-facing) view, sized to fit the purchase list.
+//
+// Standard size at 1x: 36x12, offset (-18, -6)
+
+template tmpl_purchase(x, y, zoom) {
+    tmpl_zoom(x, y, 36, 12, -18, -6, zoom)
+}
+
+
+// ===========================================================================
+// EXAMPLE USAGE
+// ===========================================================================
+// Below is a commented-out example showing how to use these templates
+// with a 32bpp sprite sheet for a road vehicle.
+//
+// // Define the spriteset using the 1x sprite sheet (acts as 8bpp fallback)
+// spriteset(my_vehicle_set, "sprites/road_1x.png") {
+//     tmpl_road_train(0, 1)  // row 0, 1x zoom
+// }
+//
+// // 32bpp at normal zoom
+// alternative_sprites(my_vehicle_set, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP,
+//                     "sprites/road_1x_32bpp.png") {
+//     tmpl_road_train(0, 1)
+// }
+//
+// // 32bpp at 4x extra zoom
+// alternative_sprites(my_vehicle_set, ZOOM_LEVEL_IN_4X, BIT_DEPTH_32BPP,
+//                     "sprites/road_4x_32bpp.png") {
+//     tmpl_road_train(0, 4)
+// }
+//
+// // Attach to vehicle
+// item(FEAT_ROADVEHS, my_vehicle, 100) {
+//     property { ... }
+//     graphics { default: my_vehicle_set; }
+// }
